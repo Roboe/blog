@@ -1,0 +1,46 @@
+$site-width: 960px
+$outline-width: $site-width * 0.9
+$content-width: $site-width * 0.8
+
+html,
+*,
+*:before,
+*:after
+  box-sizing: border-box
+
+
+html,
+body
+  font-family: sans-serif
+  margin: 0
+  line-height: 200%
+
+.site-content
+  margin-left: auto
+  margin-right: auto
+  padding: 0 1rem
+  max-width: $site-width
+
+  > *
+    margin-left: auto
+    margin-right: auto
+
+    width: 100%
+    max-width: $content-width
+
+  cite
+    text-align: right
+
+  blockquote,
+  figure,
+  div
+    max-width: $outline-width
+  blockquote,
+  figcaption
+    font-family: serif
+    padding-left: 45px
+    border-left: 5px solid
+
+  img
+    width: 100%
+    max-width: $outline-width

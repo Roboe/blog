@@ -1,0 +1,14 @@
+<div class="site-branding">
+  {% if page.url == '/' %}
+    <h1 class="site-title"><a href="{{ "/" | absolute_url }}" rel="home">{{ site.title }}</a></h1>
+  {% else %}
+    <p class="site-title"><a href="{{ "/" | absolute_url }}" rel="home">{{ site.title }}</a></p>
+  {% endif %}
+
+  <p class="site-description">{{ site.description }}</p>
+</div><!-- .site-branding -->
+
+<nav id="site-navigation" class="main-navigation">
+  <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menú principal</button>
+  <!-- manu list -->
+</nav><!-- #site-navigation -->

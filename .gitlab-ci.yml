@@ -1,0 +1,18 @@
+image: jekyll/minimal:latest
+
+variables:
+  JEKYLL_ENV: production
+
+before_script:
+  - jekyll -v
+  - gem install jekyll-seo-tag jekyll-feed jekyll-sitemap
+
+pages:
+  stage: deploy
+  script:
+    - jekyll build --source $CI_PROJECT_DIR --destination $CI_PROJECT_DIR/public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
