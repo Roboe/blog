@@ -1,0 +1,7 @@
+---
+type: 3x3x3
+name: Cubo de espejos
+brand: Shengshou
+origin: Regalo
+date: 2017-03-18
+---

@@ -53,3 +53,7 @@ social:
     - https://twitter.com/RoboePi
     - https://gitlab.com/Roboe
     - https://github.com/Roboe
+
+# Collection settings
+collections:
+  - rubiks

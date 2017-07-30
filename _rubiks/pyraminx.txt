@@ -1,0 +1,6 @@
+---
+type: Pyraminx
+name: Pyraminx
+brand: Genérico
+price: 3 €
+---

@@ -1,0 +1,5 @@
+---
+type: 1x1x1
+name: n00b's cube
+origin: Manufacturado
+---

@@ -1,0 +1,6 @@
+---
+type: 3x3x3
+name: Cubo de Rubik
+brand: Rubik's
+origin: Regalo
+---

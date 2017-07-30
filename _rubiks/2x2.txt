@@ -1,0 +1,7 @@
+---
+type: 2x2x2
+name: Cubo de bolsillo
+brand: Eastsheen
+origin: Imaginarium
+price: 6 €
+---

@@ -1,0 +1,7 @@
+---
+type: 3x3x3
+name: Llavero 3x3
+brand: HK Cube
+origen: Krubik
+price: 6 €
+---

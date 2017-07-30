@@ -1,0 +1,8 @@
+---
+type: 3x3x2
+name: Cubo dominó
+brand: QJ Magic Cube
+origin: Padis
+price: 12 €
+date: 2011-01-21
+---
