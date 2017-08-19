@@ -2,6 +2,15 @@
 layout: page
 title: Style guide
 permalink: /styleguide/
+placeholder:
+  link: https://example.com
+  image-350px: https://placehold.it/350x150
+  audio-mp3: https://simpl.info/audio/audio/audio.mp3
+  audio-ogg: https://simpl.info/audio/audio/audio.ogv
+  video-webm: https://www.html5rocks.com/en/tutorials/video/basics/devstories.webm
+  video-mp4: https://www.html5rocks.com/en/tutorials/video/basics/devstories.mp4
+  subtitles-en: https://www.html5rocks.com/en/tutorials/video/basics/devstories-en.vtt
+  iframe-allowfullscreen: https://www.youtube.com/embed/l4f9QF0SGuQ
 ---
 
 <!-- Beginning of Styleguide -->
@@ -49,7 +58,7 @@ permalink: /styleguide/
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <p>Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor.</p>
 
-<p><img alt="Placeholder Image and Some Alt Text" src="https://placehold.it/350x150" title="A title element for this placeholder image."></p>
+<p><img alt="Placeholder Image and Some Alt Text" src="{{ page.placeholder.image-350px }}" title="A title element for this placeholder image."></p>
 
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem.</p>
 
@@ -64,7 +73,7 @@ permalink: /styleguide/
 <h2 id="figure-caption">Figure-Caption</h2>
 
 <figure>
-  <img src="https://placehold.it/350x150" alt="A placeholder figure image." />
+  <img src="{{ page.placeholder.image-350px }}" alt="A placeholder figure image." />
   <figcaption>The figcaption element example</figcaption>
 </figure>
 
@@ -79,7 +88,7 @@ permalink: /styleguide/
 
 <h1 id="text-elements">Text Elements</h1>
 
-<p>The <a href="#">a element</a> and <a href="https://example.com" target="_blank">external a element</a> examples</p>
+<p>The <a href="#">a element</a> and <a href="{{ page.placeholder.link }}" target="_blank">external a element</a> examples</p>
 <p>The <abbr>abbr element</abbr> and an <abbr title="Abbreviation">abbr</abbr> element with title examples</p>
 <p>The <acronym title="A Cowboy Ran One New York Marathon">ACRONYM</acronym> element example</p>
 <p>The <b>b element</b> example</p>
@@ -207,16 +216,16 @@ for (i = 0; i < divs.length; ++i) {
 
 <h2>The Audio Element:</h2>
 <audio controls>
-  <source src="https://simpl.info/audio/audio/audio.mp3" type="audio/mp3" />
-  <source src="https://simpl.info/audio/audio/audio.ogv" type="audio/ogg" />
+  <source src="{{ page.placeholder.audio-mp3 }}" type="audio/mp3" />
+  <source src="{{ page.placeholder.audio-ogg }}" type="audio/ogg" />
   Your browser does not support the audio element.
 </audio>
 
 <h2>The Video Element:</h2>
 <video width="320" height="240" controls>
-  <source src="https://www.html5rocks.com/en/tutorials/video/basics/devstories.webm" type='video/webm;codecs="vp8, vorbis"' />
-  <source src="https://www.html5rocks.com/en/tutorials/video/basics/devstories.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
-  <track src="https://www.html5rocks.com/en/tutorials/video/basics/devstories-en.vtt" label="English subtitles" kind="subtitles" srclang="en" default />
+  <source src="{{ page.placeholder.video-webm }}" type='video/webm;codecs="vp8, vorbis"' />
+  <source src="{{ page.placeholder.video-mp4 }}" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+  <track src="{{ page.placeholder.subtitles-en }}" label="English subtitles" kind="subtitles" srclang="en" default />
   Your browser does not support the video tag.
 </video>
 
@@ -224,7 +233,7 @@ for (i = 0; i < divs.length; ++i) {
 
 <p>YouTube video (iframe):</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l4f9QF0SGuQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="{{ page.placeholder.iframe-allowfullscreen }}" frameborder="0" allowfullscreen></iframe>
 
 <hr />
 
