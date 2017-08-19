@@ -3,23 +3,23 @@ layout: page
 title: Style guide
 permalink: /styleguide/
 placeholder:
-  link: https://example.com
-  image-350px: https://placehold.it/350x150
-  audio-mp3: https://simpl.info/audio/audio/audio.mp3
-  audio-ogg: https://simpl.info/audio/audio/audio.ogv
-  video-webm: https://www.html5rocks.com/en/tutorials/video/basics/devstories.webm
-  video-mp4: https://www.html5rocks.com/en/tutorials/video/basics/devstories.mp4
-  subtitles-en: https://www.html5rocks.com/en/tutorials/video/basics/devstories-en.vtt
-  iframe-allowfullscreen: https://www.youtube.com/embed/l4f9QF0SGuQ
+  link: https://wikipedia.org
+  image-350px: https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Village_without_photo.svg/350px-Village_without_photo.svg.png
+  audio-ogg: https://upload.wikimedia.org/wikipedia/commons/0/03/Linus-linux.ogg
+  audio-mp3: ''
+  video-webm: https://static.fsf.org/nosvn/FSF30-video/FSF_30_720p.webm
+  video-mp4: ''
+  subtitles-en: https://static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.en.vtt
+  iframe-allowfullscreen: https://soyguijarro.github.io/browser-informer
 ---
 
 <!-- Beginning of Styleguide -->
 
-<h1>Poor Man's Styleguide</h1>
+<h1>Poor-But-Free Man's Styleguide</h1>
 
 <p>A quick-and-dirty frontend styleguide, designed to be copied and pasted into your CMS.</p>
 
-<strong><a href="http://poormansstyleguide.com">See the full demo at poormansstyleguide.com</a></strong>
+<strong>This styleguide is based upon Poor Man's Styleguide, but all third party content has been replaced with <a href="https://en.wikipedia.org/wiki/Free_culture_movement">free content</a> from privacy-respectful origins. <a href="http://poormansstyleguide.com">See the original at poormansstyleguide.com</a></strong>
 
 <hr />
 
@@ -216,22 +216,22 @@ for (i = 0; i < divs.length; ++i) {
 
 <h2>The Audio Element:</h2>
 <audio controls>
-  <source src="{{ page.placeholder.audio-mp3 }}" type="audio/mp3" />
   <source src="{{ page.placeholder.audio-ogg }}" type="audio/ogg" />
+  {% if page.placeholder.audio-mp3 != '' %}<source src="{{ page.placeholder.audio-mp3 }}" type="audio/mp3" />{% endif %}
   Your browser does not support the audio element.
 </audio>
 
 <h2>The Video Element:</h2>
 <video width="320" height="240" controls>
   <source src="{{ page.placeholder.video-webm }}" type='video/webm;codecs="vp8, vorbis"' />
-  <source src="{{ page.placeholder.video-mp4 }}" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+  {% if page.placeholder.video-mp4 != '' %}<source src="{{ page.placeholder.video-mp4 }}" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />{% endif %}
   <track src="{{ page.placeholder.subtitles-en }}" label="English subtitles" kind="subtitles" srclang="en" default />
   Your browser does not support the video tag.
 </video>
 
 <h2>Embedded content:</h2>
 
-<p>YouTube video (iframe):</p>
+<p>Iframe:</p>
 
 <iframe width="560" height="315" src="{{ page.placeholder.iframe-allowfullscreen }}" frameborder="0" allowfullscreen></iframe>
 
