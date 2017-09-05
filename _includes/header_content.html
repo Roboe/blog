@@ -1,14 +1,20 @@
-<div class="site-branding">
-  {% if page.url == '/' %}
-    <h1 class="site-title"><a href="{{ "/" | absolute_url }}" rel="home">{{ site.title }}</a></h1>
-  {% else %}
-    <p class="site-title"><a href="{{ "/" | absolute_url }}" rel="home">{{ site.title }}</a></p>
-  {% endif %}
+<div class="site-header--content">
+  <div class="site-branding">
+    {% if page.url == '/' %}
+    <h1 class="site-branding--title"><a href="{{ "/" | absolute_url }}" rel="home">{{ site.title }}</a></h1>
+    {% else %}
+    <p class="site-branding--title"><a href="{{ "/" | absolute_url }}" rel="home">{{ site.title }}</a></p>
+    {% endif %}
 
-  <p class="site-description">{{ site.description }}</p>
-</div><!-- .site-branding -->
+    <p class="site-branding--description">{{ site.description }}</p>
+  </div>
 
-<nav id="site-navigation" class="main-navigation">
-  <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Menú principal</button>
-  <!-- manu list -->
-</nav><!-- #site-navigation -->
+  <nav class="site-nav">
+    <label><input type="checkbox" class="site-nav--toggle"/> Menú</label>
+    <ul class="site-nav--content">
+      <li class="site-nav--entry">
+        <a href="{{ "/about/" | relative_url }}" class="site-nav--link">Quién soy</a>
+      </li>
+    </ul>
+  </nav>
+</div>

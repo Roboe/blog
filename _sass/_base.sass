@@ -9,12 +9,47 @@ html,
   box-sizing: border-box
 
 
+// Base
 html,
 body
+  font-size: 18px
   font-family: sans-serif
   margin: 0
+  padding: 0
   line-height: 200%
 
+// Generic classes
+.screen-reader-text
+  position: absolute
+
+  width: 1px
+  height: 1px
+  margin: -1px
+  border: 0
+  padding: 0
+
+  clip: rect(0 0 0 0)
+  overflow: hidden
+
+// Inheritance basis
+.horizontal-centered
+  margin-left: auto
+  margin-right: auto
+
+
+// Header
+.site-header
+  background: grey
+  padding: 1em
+
+  &--content
+    display: flex
+
+    @extend .horizontal-centered
+    width: 60em
+
+
+// Content
 .site-content
   margin-left: auto
   margin-right: auto
