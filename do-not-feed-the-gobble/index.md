@@ -11,13 +11,38 @@ Un corto estudio sobre privacidad en el ámbito tecnológico y unas pautas para 
 1. TOC
 {:toc}
 
-[bibliografía-1]: https://www.fce.com.ar/ar/libros/detalles.aspx?IDL=7117
+[bibliografía-1]: https://www.fcede.es/site/es/libros/detalles.aspx?id_libro=7333
 [autores-1]: https://es.wikipedia.org/wiki/Zygmunt_Bauman
-[bibliografía-2]: http://www.claveintelectual.com/titulos/the-forest/
+[bibliografía-2]: http://www.claveintelectual.com/titulos/el-imperio-de-la-vigilancia/
 [autores-2]: https://es.wikipedia.org/wiki/Ignacio_Ramonet
-[bibliografía-3]: https://www.thenation.com/article/snowden-exile-exclusive-interview/
-[autores-3a]: https://es.wikipedia.org/wiki/Katrina_vanden_Heuvel
-[autores-3b]: https://en.wikipedia.org/wiki/Stephen_F._Cohen
+[bibliografía-3]: https://www.planetadelibros.com/libro-vigilancia-liquida/112365
+[autores-3a]: https://es.wikipedia.org/wiki/Zygmunt_Bauman
+[autores-3b]: https://en.wikipedia.org/wiki/David_Lyon_%28sociologist%29
+[bibliografía-4]: https://www.nostarch.com/androidsecurity
+[autores-4]: https://nelenkov.blogspot.com.es/
+[bibliografía-5]: https://www.megustaleer.com/libro/el-filtro-burbuja/ES0153104
+[autores-5]: https://en.wikipedia.org/wiki/Eli_Pariser
+
+[referencia-1]: https://www.thenation.com/article/snowden-exile-exclusive-interview/
+[autores-r1a]: https://es.wikipedia.org/wiki/Katrina_vanden_Heuvel
+[autores-r1b]: https://en.wikipedia.org/wiki/Stephen_F._Cohen
+[referencia-2]: https://arstechnica.com/gadgets/2013/10/googles-iron-grip-on-android-controlling-open-source-by-any-means-necessary/
+[autores-r2]: https://arstechnica.com/author/ronamadeo/
+[referencia-3]: https://web.archive.org/web/20171108101350/https://android-developers.googleblog.com/2009/09/note-on-google-apps-for-android.html
+[referencia-4]: https://www.wired.com/2013/10/replicant/
+[autores-r4]: https://klintfinley.com/
+[referencia-5]: http://www.wbur.org/bostonomix/2017/04/04/world-wide-web-inventor-future
+[autores-r5]: http://www.wbur.org/inside/staff/asma-khalid
+[referencia-6]: http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet
+[autores-r6a]: https://dl.acm.org/author_page.cfm?id=81100478842&coll=DL&dl=ACM&trk=0
+[autores-r6b]: https://en.wikipedia.org/wiki/Vint_Cerf
+[autores-r6c]: https://en.wikipedia.org/wiki/David_D._Clark
+[autores-r6d]: https://en.wikipedia.org/wiki/Bob_Kahn
+[autores-r6e]: https://en.wikipedia.org/wiki/Leonard_Kleinrock
+[autores-r6f]: http://lynch.com/Dan_Lynch/Welcome.html
+[autores-r6g]: https://en.wikipedia.org/wiki/Jon_Postel
+[autores-r6h]: https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist)
+[autores-r6i]: https://en.wikipedia.org/wiki/Stephen_Wolff
 
 
 ## Introducción
@@ -60,7 +85,7 @@ El concepto de privacidad engloba un amplio espectro. Podemos recurrir a esta de
 
 > La privacidad es el ámbito que se supone de dominio personal, el territorio de la soberanía personal indivisa en cuyo interior uno tiene el poder completo e indivisible de decidir «qué y quién soy», y desde el cual cada uno puede intentar una y otra vez que sus decisiones sean reconocidas y respetadas.
 >
-> <cite>Zygmunt Bauman, [Daños colaterales][bibliografía-1] (2011). También en [Vigilancia líquida][bibliografía-4] (2013)</cite>
+> <cite>Zygmunt Bauman, [Daños colaterales][bibliografía-1] (2011). También en [Vigilancia líquida][bibliografía-3] (2013)</cite>
 
 Si observamos con atención esta definición, podemos ver que la privacidad está fuertemente entrelazada con la **identidad**: la privacidad es, por tanto, el ámbito en el que nos **autodefinimos**, nos **autoafirmamos** y nos **autoproyectamos** antes de salir a la esfera pública.
 
@@ -91,7 +116,7 @@ Frases como _«quien oculta algo es que tiene algo que esconder»_ pretenden imp
 
 > Cuando alguien dice: «No tengo nada que ocultar», en realidad está diciendo: «me río de mis derechos». [&hellip;] Si dejáis de defender vuestros derechos pensando: «No necesito mis derechos en este contexto», ya no se trata de derechos. Los habéis convertido en algo de lo que disfrutáis como de un privilegio revocable por el gobierno [&hellip;] Y ello reduce el perímetro de la libertad en el seno de una sociedad.
 >
-> <cite>Edward Snowden en [una entrevista de 2014][bibliografía-3] por [Katrina vanden Heuvel][autores-3a] y [Stephen F. Cohen][autores-3b], extraído de [El imperio de la vigilancia][bibliografía-2] (2016), [Ignacio Ramonet][autores-2]</cite>
+> <cite>Edward Snowden en [una entrevista de 2014][referencia-1] por [Katrina vanden Heuvel][autores-r1a] y [Stephen F. Cohen][autores-r1b], extraído de [El imperio de la vigilancia][bibliografía-2] (2016), [Ignacio Ramonet][autores-2]</cite>
 
 
 ## Efectos sociales y espionaje masivo
@@ -102,15 +127,13 @@ Google es uno de los señores feudales de su jardín vallado, que con su posici�
 ### Feudos digitales
 
 [tim-berners-lee]:https://es.wikipedia.org/wiki/Tim_Berners-Lee
-[inventor-de-la-web-preocupado]: http://www.wbur.org/bostonomix/2017/04/04/world-wide-web-inventor-future
 [internet-gatekeepers]: https://www.ericsson.com/thinkingahead/the-networked-society-blog/2011/07/12/the-internets-gatekeepers/
-[historia-de-internet]: http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet
 
 La realidad actual de Internet difiere sustancialmente de aquellas ideas que dieron origen a la Web, creada para que los investigadores científicos intercambiasen información libremente. La proliferación de servicios empresariales privados, que posibilitaron la popularización de Internet, también lo han transformado. En la actualidad, los usuarios de Internet pasan la mayor parte de su tiempo en plataformas cerradas bajo el dominio de entidades o empresas privadas, lo que convergemos en llamar [jardines vallados][wp-jardín-vallado] o silos.
 
 > [La Web] fue diseñada para ser universal. El propósito era precisamente desmantelar los silos.
 >
-> <cite>[Tim Berners-Lee][tim-berners-lee], inventor de la Web, [tras recibir el premio Turing][inventor-de-la-web-preocupado] el pasado 30 de marzo de 2017</cite>
+> <cite>[Tim Berners-Lee][tim-berners-lee], inventor de la Web, [tras recibir el premio Turing][referencia-5] el pasado 30 de marzo de 2017</cite>
 
 La totalidad de los principales **motores de búsqueda** (Google, Bing, Yahoo, Baidu, Yandex) se han convertido progresivamente en plataformas de este tipo, ofreciendo un catálogo amplio hasta el absurdo de servicios. La utilidad de los motores de búsqueda los convirtió en la puerta principal a la Web en los navegadores, y las empresas tras estos jardines vallados se consolidan como unos verdaderos [_gatekeepers_][internet-gatekeepers] o guardianes de Internet, gestionando **qué contenido mostrar en cada ocasión**. El auge de las **redes sociales** como primer contacto con Internet de los sectores de la población que con la penetración de los _teléfonos inteligentes_ ha convertido a otros jardines vallados, como Facebook o Twitter, en guardianes de Internet equiparables a los mencionados anteriormente.
 
@@ -262,3 +285,40 @@ location '/generate_204' {
 ```
 
 Ejemplo de servidor de respaldo: http://noisyfox.io/generate_204 (HTTP); https://www.noisyfox.cn/generate_204 (HTTPS)
+
+
+## Bibliografía
+
+[comment]: <> (<span style="font-variant:small-caps">Apellidos del autor</span>, Nombre del autor. _Título del libro_. Número de edición. Lugar de publicación: editorial, año. Número de páginas. (Colección; número de la colección). Notas. ISBN xxxxxxxxxx.)
+
+### Libros
+
+- [<span style="font-variant:small-caps">Bauman</span>, Zygmunt][autores-1]. [_Daños colaterales: Desigualdades sociales en la era global_][bibliografía-1]. Traducción de Lilia Mosconi. Madrid: Fondo de cultura económica (Sociología), 2011. [ISBN 978-84-375-0669-2](https://es.wikipedia.org/wiki/Especial:FuentesDeLibros?isbn=9788437506692).
+- [<span style="font-variant:small-caps">Ramonet</span>, Ignacio][autores-2]. [_El Imperio de la vigilancia_][bibliografía-1]. Traducción de Martín Sacristán. Madrid: Clave intelectual (Ensayo Social), 2015. 168 p. [ISBN 978-84-944338-2-5](https://es.wikipedia.org/wiki/Especial:FuentesDeLibros?isbn=9788494433825).
+- [<span style="font-variant:small-caps">Bauman</span>, Zygmunt][autores-3a]; [<span style="font-variant:small-caps">Lyon</span>, David][autores-3b]. [_Vigilancia líquida_][bibliografía-3]. Traducción de Alicia Capel Tatjer. Barcelona: Ediciones Paidós (Estado y Sociedad), 2013. 176 p. [ISBN 978-84-493-2926-5](https://es.wikipedia.org/wiki/Especial:FuentesDeLibros?isbn=9788449329265).
+- [<span style="font-variant:small-caps">Elenkov</span>, Nikolay][autores-4]. [_Android Security Internals: An In-Depth Guide to Android's Security Architecture_][bibliografía-4]. X: NoStarch Press, 2014. 432 p. [ISBN 978-1-59327-581-5](https://es.wikipedia.org/wiki/Especial:FuentesDeLibros?isbn=9781593275815).
+- [<span style="font-variant:small-caps">Pariser</span>, Eli][autores-5]. [_El filtro burbuja: Cómo la web decide lo que leemos y lo que pensamos_][bibliografía-5]. Taurus (Pensamiento), 2017. 256 p. [ISBN 978-84-306188-3-5](https://es.wikipedia.org/wiki/Especial:FuentesDeLibros?isbn=9788430618835).
+
+
+### Artículos
+
+- [<span style="font-variant:small-caps">Vanden Heuvel</span>, Katrina][autores-r1a] y [<span style="font-variant:small-caps">Cohen</span>, Stephen F.][autores-r1b].
+  [_Edward Snowden: A ‘Nation’ Interview_][referencia-1]. The Nation. [Publicación del 17 de noviembre de 2014](https://www.thenation.com/issue/november-17-2014/).
+- [<span style="font-variant:small-caps">Amadeo</span>, Ron][autores-r2].
+  [_Google’s iron grip on Android: Controlling open source by any means necessary_][referencia-2]. Ars Technica (Tech). 21 de octubre de 2013.
+- Google developers.
+  [_A Note on Google Apps for Android_][referencia-3]. Google Developers Blog. 25 de septiembre de 2009.
+- [<span style="font-variant:small-caps">Finley</span>, Klint][autores-r4].
+  [_The Quest to Build a Truly Free Version of Android_][referencia-4]. Wired (Business). 30 de octubre de 2013.
+- [<span style="font-variant:small-caps">Khalid</span>, Asma][autores-r5].
+  [_What The Founder Of The World Wide Web Thinks About The State Of The Web_][referencia-5]. Bostonomix. 4 de abril de 2017.
+- [<span style="font-variant:small-caps">Leiner</span>, Barry M.][autores-r6a];
+  [<span style="font-variant:small-caps">Cerf</span>, Vinton G.][autores-r6b];
+  [<span style="font-variant:small-caps">Clark</span>, David D.][autores-r6c];
+  [<span style="font-variant:small-caps">Kahn</span>, Robert E.][autores-r6d];
+  [<span style="font-variant:small-caps">Kleinrock</span>, Leonard][autores-r6e];
+  [<span style="font-variant:small-caps">Lynch</span>, Daniel C.][autores-r6f];
+  [<span style="font-variant:small-caps">Postel</span>, Jon][autores-r6g];
+  [<span style="font-variant:small-caps">Roberts</span>, Dr. Lawrence G.][autores-r6h];
+  [<span style="font-variant:small-caps">Wolff</span>, Stephen][autores-r6i].
+  [_Brief History of the Internet_][referencia-6]. Internet Society, 1997.
