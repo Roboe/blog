@@ -149,3 +149,87 @@ El control no se trata la mayoría de veces en hacer que alguien concreto haga a
 > Este es un país libre. **Nosotros** tenemos derecho a compartir **su** intimidad en un espacio público.
 >
 > Peter Ustinov
+
+## Libera tu Android
+
+Android **no es open source**, sencillamente. Tal como ya pasó con Google Chrome y el proyecto Chromium, Google anunció Android como un software libre y de código abierto, para luego distribuir un producto **comercial** y privativo. Para mí, esto fue una táctica de marketing maestra que, junto con usar Linux, atrajo la atención del sector geek y de la comunidad del código abierto.
+
+
+### Diferencias entre Android y AOSP
+
+[wp-servicios-de-google]: https://en.wikipedia.org/wiki/Google_mobile_services
+[opengapps-paquetes-de-google]: https://github.com/opengapps/opengapps/wiki/Package-Comparison
+
+Android no es solo un sistema operativo, sino un ecosistema controlado por Google. Se basa en su proyecto de software libre &mdash;este sí&mdash; llamado Android Open Source Project (AOSP), pero añade una serie de softwares propietarios. Este software no-libre adicional se llama [**Servicios móviles de Google**][wp-servicios-de-google] (GMS, por sus siglas en inglés, aunque se les llama comúnmente GApps) y consiste en [un montón de aplicaciones y librerías][opengapps-paquetes-de-google] para interactuar con los servicios en internet de Google.
+
+Esta suite incluye:
+
+- **Google Play Store**: la única tienda oficial de aplicaciones. Buena suerte buscando aplicaciones confiables fuera de esta plataforma centralizada, donde Google marca convenientemente las reglas, y a la que no puedes acceder sin create una cuenta de Google.
+- **Adaptadores de sincronización de Google**: para sincronizar contactos y calendarios con tu cuenta de Google.
+- **Servicios de localización de Google**: usados por el sistema para determinar rápidamente la ubicación por redes móviles y wifi y para la ubicación _fused_ (redes + GPS).
+- **GMail**, **Google Now/Asistente**, **Google Chrome**, **YouTube**, **Google Maps**, Google Music, Google Drive/Docs... cualquier cosa Google _Algo_.
+
+
+### Una suite para dominarlos a todos
+
+[aosp-sistema-de-permisos]: http://www.vogella.com/tutorials/AndroidPermissions/article.html
+[google-play-services-instalación-masiva]: http://forums.whirlpool.net.au/archive/1987336
+
+Uno de los principales problemas con los GMS es que están integrados con el sistema. No necesitan tu permiso explícito **para nada** (o casi nada). De hecho, el sistema confía en ellos por defecto y pueden evitar el [modelo de permisos de AOSP][aosp-sistema-de-permisos]. En el pasado, en el tercer cuatrimestre de 2012, Google Play Store [instaló forzosamente la aplicación Servicios de Google Play][google-play-services-instalación-masiva] en todos los dispositivos Android en el mundo, sin pedir permiso a nadie, sin importar qué espacio disponible tuvieras **o tu voluntad** al desinstalarlo en repetidas ocasiones, porque volvía a reincidir.
+
+Esa en concreto fue mi epifanía personal. Me di cuenta de que yo no controlaba mi propio teléfono, sino que Google lo hacía. Algo estaba **terriblemente mal** con eso, cuando había sido yo quien pagó mi teléfono, no lo alquilé ni lo tomé prestado de nadie. ¡Estaba incluso usando una ROM personalizada con acceso de superusuario!
+
+
+### No eres el administrador de tu dispositivo
+
+[wp-ingeniería-social]: https://es.wikipedia.org/wiki/Ingenier%C3%ADa_social_(seguridad_inform%C3%A1tica)
+
+Al contrario que los sistemas operativos de ordenadores, Android solo expone una cuenta normal de usuario al _poseedor_ del dispositivo, con aplicaciones privilegiadas que te permiten realizar acciones como instalar otras aplicaciones, gestionar y configurar el hardware como el wifi o el bluetooth, tomar capturas, activar una VPN, etc. La cuenta de administrador real del dispositivo (`root` en Android, porque se basa en Linux) está **bloqueada**. Necesitas _rootear_ tu dispositivo para acceder a esta cuenta, que generalmente es un proceso opaco y turbio diferente para cada modelo y versión de Android, y que anula la garantía del fabricante, excepto para marcas muy específicas.
+
+A nivel de seguridad, el modelo de no darle permisos completos al usuario es muy competente, porque pone trabas a que el usuario, por inconsciencia, ignorancia o porque [esté siendo engañado][wp-ingenería-social], se perjudique a sí mismo. Sin embargo, no proveer al usuario de un método de controlar su dispositivo con su propia voluntad lo prejuzga efectivamente como incompetente y le **deniega** la oportunidad de **aprender**. Además, que el sistema confíe por defecto en unos mediadores con intereses comerciales más allá del propio usuario somete al usuario a voluntades externas y difícilmente moderables, y lo posiciona en un estrato social inferior.
+
+
+#### Comprobación de conexión y portal cautivo
+
+[fuente-fairphone-community]: https://forum.fairphone.com/t/using-lineageos-on-the-fp2/28848/157
+[fuente-xda-developers]: https://forum.xda-developers.com/showpost.php?p=58252752&postcount=38
+
+[aosp-detección-portal-cautivo]: https://github.com/aosp-mirror/platform_frameworks_base/blob/master/services/core/java/com/android/server/connectivity/NetworkMonitor.java#L95
+[aosp-lista-variables-adb]: https://github.com/aosp-mirror/platform_frameworks_base/blob/master/core/proto/android/providers/settings.proto#L228
+[http-códigos-de-estado]: https://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP#2xx:_Peticiones_correctas
+
+Para comprobar si hay conexión con internet cuando el dispositivo se conecta a la red, [AOSP comprueba][aosp-detección-portal-cautivo] si uno de los servidores de Google en California (http://connectivitycheck.gstatic.com/generate_204) devuelve un código HTTP 204 ([No Content][http-códigos-de-estado]).
+
+Si se encuentra en una red abierta con portal cautivo, la red hijackea la petición y devuelve un código HTTP 30X para redirigir a una web propia, que se abrirá en un pequeño navegador emergente. Para no hacer conexiones a servidores de Google, se puede desactivar la comprobación ejecutando el siguiente comando mediante ADB:
+
+```
+$ adb shell settings put global captive_portal_mode 0
+```
+
+Esto, sin embargo, no te permitirá conectarte fácilmente a redes con portales cautivos, porque tendrás que abrir un navegador y replicar el comportamiento que AOSP hace automático. Si quieres mantener la comprobación, entonces puedes cambiar la dirección a la que el dispositivo hace la petición con los siquientes comandos mediante ADB (Android 7+):
+
+```
+$ adb shell settings put global captive_portal_http_url $URL
+$ adb shell settings put global captive_portal_https_url $URL
+$ adb shell settings put global captive_portal_fallback_url $URL
+```
+
+Puedes configurar tu propio servidor para que devuelva códigos HTTP 204. Para Apache con `mod_rewrite`, añade lo siguiente al fichero `.htaccess`:
+
+```
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_URI} /generate_204$
+  RewriteRule $ / [R=204]
+</IfModule>
+```
+
+Para nginx, añade esto directamente a la configuración:
+
+```
+location /generate_204 {
+  return 204;
+}
+```
+
+Ejemplo de servidor de respaldo: http://noisyfox.io/generate_204 (HTTP); https://www.noisyfox.cn/generate_204 (HTTPS)
