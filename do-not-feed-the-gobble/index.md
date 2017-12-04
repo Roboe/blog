@@ -56,13 +56,13 @@ Fuente: [De-google-ify Internet](https://degooglisons-internet.org/), un proyect
 
 ### Qué es la privacidad
 
-La privacidad es generalmente un concepto muy amplio. Podemos recurrir a esta definición por [Zygmunt Bauman][autores-1] (1925-2017), que fue el sociólogo y pensador polaco más influyente de nuestro tiempo:
+El concepto de privacidad engloba un amplio espectro. Podemos recurrir a esta definición general por [Zygmunt Bauman][autores-1] (1925-2017), sociólogo y polaco, uno de los pensadores más influyentes de nuestro tiempo:
 
-> La privacidad es el ámbito que se supone de dominio personal, el territorio de la soberanía personal indivisa en cuyo interior uno tiene el poder completo e indivisible de decidir «qué y quién soy», y desde el cual es posible lanzar y relanzar cruzadas con el fin de que se respeten y reconozcan las decisiones propias.
+> La privacidad es el ámbito que se supone de dominio personal, el territorio de la soberanía personal indivisa en cuyo interior uno tiene el poder completo e indivisible de decidir «qué y quién soy», y desde el cual cada uno puede intentar una y otra vez que sus decisiones sean reconocidas y respetadas.
 >
-><cite>Zygmunt Bauman, [Daños colaterales][bibliografía-1] (2011)</cite>
+> <cite>Zygmunt Bauman, [Daños colaterales][bibliografía-1] (2011). También en [Vigilancia líquida][bibliografía-4] (2013)</cite>
 
-Si observamos con atención esta definición, podemos ver que el concepto de privacidad está fuertemente entrelazado con el concepto de **identidad**: la privacidad es, por tanto, el ámbito en el que nos **autodefinimos**, nos **autoafirmamos** y nos **autoproyectamos** antes de salir a la esfera pública.
+Si observamos con atención esta definición, podemos ver que la privacidad está fuertemente entrelazada con la **identidad**: la privacidad es, por tanto, el ámbito en el que nos **autodefinimos**, nos **autoafirmamos** y nos **autoproyectamos** antes de salir a la esfera pública.
 
 Para proteger y mantener nuestra privacidad, debemos cuidar sus dos componentes más importantes: la **intimidad** y la **confidencialidad**.
 
@@ -85,19 +85,15 @@ Se puede ilustrar este concepto con el [panóptico][wp-panóptico]. El panóptic
 
 #### Confidencialidad
 
-La confidencialidad es la propiedad que garantiza que una información solo puede ser conocida por personas autorizadas. En resumen, es el control sobre el **acceso a una información**. Por ejemplo, una conversación entre dos o más personas.
+La confidencialidad es la propiedad que garantiza que una información solo puede ser conocida por personas autorizadas. En resumen, es el control sobre el **acceso a una información**. Etimológicamente, el término viene del latín _confidentia_ y este de _confidĕre_, confiar. La confidencialidad es **confiar** una información de carácter personal con otra parte, esperando que la trate con honradez, bajo unos términos comunes.
 
-Explicar por qué la confidencialidad es integral para la libertad es complicado sin exponer de manera amplia cómo funcionamos en sociedad, explicación que excede los límites de este documento. Recurriré a un argumento en contra de la confidencialidad, un argumento a favor y un caso real y vigente de su importancia.
+La confianza habilita un espacio independiente con otra parte en la que intercambiar visiones, dudar y formar o reforzar opiniones e ideas. Al igual que la intimidad nos permite ser individuos, la confidencialidad nos permite **ser con los demás**. Es, por tanto, una parte integral de la **libertad** en sociedad.
 
-> Quien oculta algo es que tiene algo que esconder.
-
-(implica que esconder es inherentemente malo)
+Frases como _«quien oculta algo es que tiene algo que esconder»_ pretenden implicar que esconder es inherentemente malo, cuando el principal motivo de no hacer pública una información es protegerla del escrutinio externo vigente. Además, esconder es **vital** en ocasiones: las llamadas al número **016 de atención a las mujeres maltratadas** son ocultadas del historial de los teléfonos y del registro de llamadas del operador telefónico.
 
 > Cuando alguien dice: «No tengo nada que ocultar», en realidad está diciendo: «me río de mis derechos». [&hellip;] Si dejáis de defender vuestros derechos pensando: «No necesito mis derechos en este contexto», ya no se trata de derechos. Los habéis convertido en algo de lo que disfrutáis como de un privilegio revocable por el gobierno [&hellip;] Y ello reduce el perímetro de la libertad en el seno de una sociedad.
 >
 > <cite>Edward Snowden en [una entrevista de 2014][bibliografía-3] por [Katrina vanden Heuvel][autores-3a] y [Stephen F. Cohen][autores-3b], extraído de [El imperio de la vigilancia][bibliografía-2] (2016), [Ignacio Ramonet][autores-2]</cite>
-
-Esconder es vital en ocasiones: las llamadas al número **016 de atención a las mujeres maltratadas** son ocultadas del historial de los teléfonos y del registro de llamadas del operador telefónico.
 
 
 ### Sociedad del control
