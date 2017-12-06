@@ -80,8 +80,6 @@ Se puede ilustrar este concepto con el [panóptico][wp-panóptico]. El panóptic
   <figcaption>Diseño del panopticón de <a href="https://es.wikipedia.org/wiki/Jeremy_Bentham">Jeremy Bentham</a>. <a href="https://commons.wikimedia.org/wiki/File:Panopticon.jpg">Dominio público</a>.</figcaption>
 </figure>
 
-[quizá hablar de la intimidad como método para unir personas]
-
 
 #### Confidencialidad
 
@@ -96,59 +94,73 @@ Frases como _«quien oculta algo es que tiene algo que esconder»_ pretenden imp
 > <cite>Edward Snowden en [una entrevista de 2014][bibliografía-3] por [Katrina vanden Heuvel][autores-3a] y [Stephen F. Cohen][autores-3b], extraído de [El imperio de la vigilancia][bibliografía-2] (2016), [Ignacio Ramonet][autores-2]</cite>
 
 
-### Sociedad del control
+## Efectos sociales y espionaje masivo
 
-#### De la Internet universal original a los feudos digitales
+Google es uno de los señores feudales de su jardín vallado, que con su posición privilegiada y su omnipresencia en nuestras vidas &mdash;presente en nuestros inseparables dispositivos Android, como entrada a Internet y con balizas invisibles en la totalidad de la Web&mdash; recoge información sobre nosotros y nuestro entorno y nos encierra en una burbuja de información que nos limita cognitivamente.
 
-[historia-de-internet]: http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet
-[wp-neutralidad-de-la-red]: https://es.wikipedia.org/wiki/Neutralidad_de_red
-[wp-web]: https://es.wikipedia.org/wiki/World_Wide_Web
-[wp-jardín-vallado]: https://es.wikipedia.org/wiki/Jardín_vallado_(informática)
+
+### Feudos digitales
+
+[tim-berners-lee]:https://es.wikipedia.org/wiki/Tim_Berners-Lee
+[inventor-de-la-web-preocupado]: http://www.wbur.org/bostonomix/2017/04/04/world-wide-web-inventor-future
 [internet-gatekeepers]: https://www.ericsson.com/thinkingahead/the-networked-society-blog/2011/07/12/the-internets-gatekeepers/
-[wp-en-china-censorship-search-engines]: https://en.wikipedia.org/wiki/Internet_censorship_in_China#Search_engines
-[wp-derecho-al-olvido]: https://es.wikipedia.org/wiki/Derecho_al_olvido#El_derecho_al_olvido_en_Internet
+[historia-de-internet]: http://www.internetsociety.org/internet/what-internet/history-internet/brief-history-internet
 
-Internet fue concebida en la década de 1960 sobre las ideas de ARPANet de [una red que habilitase la interacción social][historia-de-internet], pero con un ámbito global. Internet se diseñó como un entorno de red de arquitectura abierta (_open-architecture network environment_), concepto que dio como resultado una red **descentralizada** que permite la **interconexión entre distintos puntos de acceso** (protocolo TCP/IP) que no necesitan ser autorizados por ninguna autoridad central para participar. Este principio de libre participación bajo las mismas oportunidades recibe el nombre de [**neutralidad de la red**][wp-neutralidad-de-la-red] en 2003.
+La realidad actual de Internet difiere sustancialmente de aquellas ideas que dieron origen a la Web, creada para que los investigadores científicos intercambiasen información libremente. La proliferación de servicios empresariales privados, que posibilitaron la popularización de Internet, también lo han transformado. En la actualidad, los usuarios de Internet pasan la mayor parte de su tiempo en plataformas cerradas bajo el dominio de entidades o empresas privadas, lo que convergemos en llamar [jardines vallados][wp-jardín-vallado] o silos.
 
-Sobre Internet y su concepto de apertura se construyó y desarrolló en el CERN de Ginebra en 1990 la [World Wide Web][wp-web], o solo Web, un sistema de distribución de documentos de hipertexto (que ahora entendemos como páginas web). La naturaleza dinámica del contenido de la Web dio origen a los indizadores y motores de búsqueda de la Web (como Google), que permiten la **centralización** de contenido para facilitar la capacidad de descubrirlo.
+> [La Web] fue diseñada para ser universal. El propósito era precisamente desmantelar los silos.
+>
+> <cite>[Tim Berners-Lee][tim-berners-lee], inventor de la Web, [tras recibir el premio Turing][inventor-de-la-web-preocupado] el pasado 30 de marzo de 2017</cite>
 
-<<< La capacidad de descubrir contenido en una incidente Internet en las sociedades llevó la evolución de la red de redes [confidencialidad y plataformas semi-cerradas]
+La totalidad de los principales **motores de búsqueda** (Google, Bing, Yahoo, Baidu, Yandex) se han convertido progresivamente en plataformas de este tipo, ofreciendo un catálogo amplio hasta el absurdo de servicios. La utilidad de los motores de búsqueda los convirtió en la puerta principal a la Web en los navegadores, y las empresas tras estos jardines vallados se consolidan como unos verdaderos [_gatekeepers_][internet-gatekeepers] o guardianes de Internet, gestionando **qué contenido mostrar en cada ocasión**. El auge de las **redes sociales** como primer contacto con Internet de los sectores de la población que con la penetración de los _teléfonos inteligentes_ ha convertido a otros jardines vallados, como Facebook o Twitter, en guardianes de Internet equiparables a los mencionados anteriormente.
 
-[hablar sobre las comunidades de internet previas a las redes sociales]
 
-Sin embargo, la proliferación de los servicios empresariales privados por parte de Internet, que posibilitaron su universalización, también nos ha llevado a una realidad de Internet sustancialmente diferente a sus orígenes. Dentro del ecosistema de Internet se han creado plataformas cerradas donde los usuarios comparten, pensando que están en un entorno confidencial, gran parte de su información personal e íntima de manera diaria e inconscientemente automática. Estas plataformas suelen ser servicios sociales de reunión y comunicación o entornos de productividad, siempre bajo el dominio de una empresa privada, lo que convergemos en llamar [jardines vallados][wp-jardín-vallado].
+<<< TODO: Efecto «Hotel California»: https://digiday.com/marketing/navigating-hotel-california-effect-social-platforms/
 
-La totalidad de los principales motores de búsqueda (Google, Bing, Yahoo, Baidu, Yandex) se han convertido progresivamente en plataformas de este tipo, ofreciendo un catálogo amplio hasta el absurdo de servicios. Como la utilidad de los motores de búsqueda se materializó siendo la puerta principal a la Web en los navegadores, las empresas tras estos jardines vallados se consolidan como unos verdaderos [_gatekeepers_][internet-gatekeepers] o guardianes de Internet, gestionando qué contenido mostrar en cada ocasión. El auge de las redes sociales como primer contacto con Internet de ciertos sectores de la población [¿cuáles?] ha convertido a otros jardines vallados, como las plataformas sociales Facebook o Twitter, en guardianes de Internet equiparables a los mencionados anteriormente.
 
-<<< Usualmente muestran contenido relacionado con tus gustos, contrastados con los gustos que tu actividad anterior dentro de sus fronteras les marca, o promocionando sus propios servicios o aplicaciones frente a competidores de fuera de sus dominios.
-<<< [¿más que ver con la neutralidad de la red que con la privacidad?] Otras veces cumplen las normas que los órganos locales establecen, como en el caso de [la censura en China][wp-en-china-censorship-search-engines] o el [«derecho al olvido»][wp-derecho-al-olvido] de la Unión Europea, con Google como principal actor
+### Seguimiento masivo
 
-Amparados bajo la legalidad de sus países de origen, encarnan un poder que domina sobre su poco precavida base de usuarios. Estos usuarios, a cambio de gratuidad económica de esos servicios y aceptando las condiciones del servicio [¿realmente alguien los lee o es consciente de no hacerlo?], entregan todos los datos referentes a su actividad dentro de la plataforma cerrada, que en la mayoría de casos escapa al control e incluso la capacidad de exportación por parte de sus generadores, los usuarios. Se dice que los usuarios no somos los clientes de estos servicios, sino el producto, puesto que esta gran cantidad de información es analizada y posteriormente utilizada para la exposición sesgada y personalizada de publicidad de terceras empresas, los verdaderos clientes de estos jardines vallados.
-
-En este nuevo espacio social, Internet, somos esclavos de una variedad de **feudos digitales** en los que no tenemos poder efectivo de decisión ni rescisión. Sus **señores feudales** compiten activamente por nuestra atención con intrincados filtros de información basados en nuestros intereses que nos exponen exclusivamente a información y opiniones afines a las nuestras y nos desvinculan de facto así de la realidad y nos encierran psicológicamente en un espacio tremendamente conservador y reactivo al cambio.
-
-Estas características dan origen al concepto de **burbuja de filtros**, que el ciberactivista Eli Pariser define y aumenta en su libro _El filtro burbuja_ (2011). Sobre las ideas del profesor Cass Sustein de 2002, que sostienen que _«Internet fomenta la fragmentación social al alentar a la gente a organizarse en enclaves cerrados para personas similares donde todo el mundo se refuerza mutuamente en sus ideas bloqueando puntos de vista diferentes u opuestos»_, y Eli Pariser extiende el argumento sosteniendo que _«los algoritmos de tipo corporativo, usados típicamente para determinar gustos o sugerir contactos, por ejemplo, podrían tener efectos en construir alrededor de cada persona compactas burbujas de contenido, aislándonos de todo el constructo de ideas que por ser diferentes quedan fuera de nuestro alcance y de nuestra mente»_, haciéndonos efectivamente cada vez más pobres mental e ideológicamente.
-
-Google es uno de estos señores feudales de su jardín vallado, que con su omnipresencia en nuestras vidas &emdash;presente en nuestros inseparables dispositivos Android y como entrada a Internet&emdash; recoge información sobre nosotros y nuestro entorno y nos encierra en una burbuja de información que nos limita.
-
+[balizas-clandestinas-en-aplicaciones-android]: https://theintercept.com/2017/11/24/staggering-variety-of-clandestine-trackers-found-in-popular-android-apps/
 
 > **Todo clic en una web** y todo toque en un teléfono inteligente puede desencadenar una amplia variedad de procesos ocultos de compartición de datos distribuidos entre un gran número de compañías y, como resultado, **modificar las opciones disponibles para una persona**.  
 El seguimiento digital y la creación de perfiles, combinados con la personalización de contenidos, no solo se usan para monitorizar, sino también para influir en los comportamientos de las personas.
 
-El control no se trata la mayoría de veces en hacer que alguien concreto haga algo específico, sino en de **reducir las opciones** de una persona o grupo de personas para que no elijan libremente.
 
-[Quizá mencionar las _dark patterns_]
+### La burbuja de filtros
+
+[wp-cass-sustein]: https://es.wikipedia.org/wiki/Cass_Sunstein
+[wp-sesgo-de-confirmación]: https://es.wikipedia.org/wiki/Sesgo_de_confirmaci%C3%B3n
+[wp-ingeniería-social]: https://es.wikipedia.org/wiki/Ingenier%C3%ADa_social_(seguridad_inform%C3%A1tica)
+[hacking-político]: http://fusion.net/story/287086/this-is-the-scariest-sentence-you-will-ever-read-about-the-internet/
+[elecciones-españa-2016]: http://www.elmundo.es/cronica/2016/07/03/57779fc0ca4741301d8b4609.html
+
+En este espacio social, Internet, somos esclavos de una variedad de **feudos digitales** en los que no tenemos poder efectivo de decisión ni rescisión. Sus **señores feudales** compiten activamente por nuestra atención con intrincados filtros de información basados en los intereses que infieren de nuestra actividad en sus dominios. Estos filtros nos exponen **exclusivamente** a información y opiniones afines a las nuestras. Este sesgo nos desvincula de facto de la realidad y nos encierra psicológicamente en un espacio tremendamente reactivo al cambio.
+
+Ya en 2002 el profesor y abogado [Cass Sustein][wp-cass-sustein], dedicado especialmente a derechos sociales, observó:
+
+> Internet fomenta la fragmentación social al alentar a la gente a organizarse en enclaves cerrados para personas similares donde todo el mundo se refuerza mutuamente en sus ideas bloqueando puntos de vista diferentes u opuestos.
+>
+> <cite>Cass Sustein</cite>
+
+Más tarde, en 2011, [Eli Pariser][autores-5] relaciona estas ideas con los algoritmos de personalización de contenidos y acuña el término **burbuja de filtros**, que desarrolla en su libro [_El filtro burbuja_][bibliografía-5]:
+
+> Los algoritmos de tipo corporativo, usados típicamente para determinar gustos o sugerir contactos, por ejemplo, podrían tener efectos en construir alrededor de cada persona compactas burbujas de contenido, aislándonos de todo el constructo de ideas que por ser diferentes quedan fuera de nuestro alcance y de nuestra mente.
+>
+> <cite>Eli Pariser</cite>
+
+Este efecto explota nuestro [sesgo de confirmación][wp-sesgo-de-confirmación], y también favorece las condiciones en los medios de masas para el [hacking cognitivo][wp-ingeniería-social], que ya está siendo explotados por distintos **actores políticos** alrededor del mundo. Casos como los de [Latinoamérica][hacking-político] o también el de [España][elecciones-españa-2016] sirven de ilustración.
 
 
-#### El proyecto PRISM y la vigilancia masiva
+### El proyecto PRISM y la vigilancia masiva
 
 > Este es un país libre. **Nosotros** tenemos derecho a compartir **su** intimidad en un espacio público.
 >
 > Peter Ustinov
 
+
 ## Libera tu Android
 
-Android **no es open source**, sencillamente. Tal como ya pasó con Google Chrome y el proyecto Chromium, Google anunció Android como un software libre y de código abierto, para luego distribuir un producto **comercial** y privativo. Para mí, esto fue una táctica de marketing maestra que, junto con usar Linux, atrajo la atención del sector geek y de la comunidad del código abierto.
+Android **no es open source**, sencillamente. Tal como ya pasó con Google Chrome y el proyecto Chromium, Google y la Open Handset Alliance introdujeron Android como software libre y de código abierto, para luego distribuir un producto **comercial** y privativo. Una táctica de marketing maestra que, junto con usar Linux, atrajo la atención del sector geek y de la comunidad del código abierto.
 
 
 ### Diferencias entre Android y AOSP
@@ -156,33 +168,54 @@ Android **no es open source**, sencillamente. Tal como ya pasó con Google Chrom
 [wp-servicios-de-google]: https://en.wikipedia.org/wiki/Google_mobile_services
 [opengapps-paquetes-de-google]: https://github.com/opengapps/opengapps/wiki/Package-Comparison
 
-Android no es solo un sistema operativo, sino un ecosistema controlado por Google. Se basa en su proyecto de software libre &mdash;este sí&mdash; llamado Android Open Source Project (AOSP), pero añade una serie de softwares propietarios. Este software no-libre adicional se llama [**Servicios móviles de Google**][wp-servicios-de-google] (GMS, por sus siglas en inglés, aunque se les llama comúnmente GApps) y consiste en [un montón de aplicaciones y librerías][opengapps-paquetes-de-google] para interactuar con los servicios en internet de Google.
+Android no es solo un sistema operativo, sino un ecosistema controlado por Google. Se basa en su proyecto de software libre &mdash;este sí&mdash; llamado Android Open Source Project (AOSP), pero añade una suite de software propietario. Este software no-libre adicional se llama [**Servicios móviles de Google**][wp-servicios-de-google] (GMS, por sus siglas en inglés, aunque se les llama comúnmente GApps) y consiste en [un montón de aplicaciones y librerías][opengapps-paquetes-de-google] para interactuar con los servicios en internet de Google.
 
 Esta suite incluye:
 
-- **Google Play Store**: la única tienda oficial de aplicaciones. Buena suerte buscando aplicaciones confiables fuera de esta plataforma centralizada, donde Google marca convenientemente las reglas, y a la que no puedes acceder sin create una cuenta de Google.
+- **Google Play Store**: la única tienda oficial de aplicaciones. Buena suerte buscando aplicaciones confiables fuera de esta plataforma centralizada, donde Google marca convenientemente las reglas, y a la que no puedes acceder sin crearte una cuenta de Google.
 - **Adaptadores de sincronización de Google**: para sincronizar contactos y calendarios con tu cuenta de Google.
 - **Servicios de localización de Google**: usados por el sistema para determinar rápidamente la ubicación por redes móviles y wifi y para la ubicación _fused_ (redes + GPS).
-- **GMail**, **Google Now/Asistente**, **Google Chrome**, **YouTube**, **Google Maps**, Google Music, Google Drive/Docs... cualquier cosa Google _Algo_.
+- **GMail**, **Teclado de Google/GBoard**, **Google Fotos**, **Google WebView**, **Cámara de Google**, **Calculadora de Google** (!), **Contactos de Google**: _forks_ de las aplicaciones de código abierto de AOSP que son reemplazadas en dispositivos Android comerciales, en ocasiones añadiendo almacenamiento en los servidores de Google.
+- **Google Now/Asistente**, **Google Chrome**, **YouTube**, **Google Maps**, Google Music, Google Drive/Docs... cualquier cosa Google _Algo_.
+
+De hecho, la propia Google ha admitido que prácticamente [desarrolló Android para distribuir sus productos][referencia-3].
 
 
-### Una suite para dominarlos a todos
+#### Una suite para dominarlos a todos
 
 [aosp-sistema-de-permisos]: http://www.vogella.com/tutorials/AndroidPermissions/article.html
 [google-play-services-instalación-masiva]: http://forums.whirlpool.net.au/archive/1987336
-
-Uno de los principales problemas con los GMS es que están integrados con el sistema. No necesitan tu permiso explícito **para nada** (o casi nada). De hecho, el sistema confía en ellos por defecto y pueden evitar el [modelo de permisos de AOSP][aosp-sistema-de-permisos]. En el pasado, en el tercer cuatrimestre de 2012, Google Play Store [instaló forzosamente la aplicación Servicios de Google Play][google-play-services-instalación-masiva] en todos los dispositivos Android en el mundo, sin pedir permiso a nadie, sin importar qué espacio disponible tuvieras **o tu voluntad** al desinstalarlo en repetidas ocasiones, porque volvía a reincidir.
-
-Esa en concreto fue mi epifanía personal. Me di cuenta de que yo no controlaba mi propio teléfono, sino que Google lo hacía. Algo estaba **terriblemente mal** con eso, cuando había sido yo quien pagó mi teléfono, no lo alquilé ni lo tomé prestado de nadie. ¡Estaba incluso usando una ROM personalizada con acceso de superusuario!
+[wp-nokia-x]: https://es.wikipedia.org/wiki/Nokia_X_Software_Platform
+[wp-fire-os]: https://en.wikipedia.org/wiki/Fire_OS
 
 
-### No eres el administrador de tu dispositivo
+Algunas aplicaciones de los GMS están profundamente integradas en el sistema. No necesitan tu permiso explícito para casi nada porque el sistema confía en ellas por defecto. Son aplicaciones privilegiadas del sistema a las que implícitamente se les conceden los permisos declarados como `signatureOrSystem`.
+
+Precisamente esa arquitectura dual de separación entre servicios del sistema y servicios de Google hace que el ecosistema de aplicaciones Android sea, cada vez más, un jardín vallado [menos libre con cada actualización][referencia-2]. Las guías de desarrollo y el IDE de Google instan a los desarrolladores a incluir en sus aplicaciones las librerías privativas de Google que hacen de puente para estos servicios (mapas de Google incrustados, notificaciones en tiempo real, etc), cuyas funcionalidades son listadas como parte de las novedades del sistema con cada nueva versión. Estas aplicaciones están capadas o directamente no funcionan en dispositivos con sistemas basados en AOSP pero sin GMS, lo que **reduce la competencia** viable de alternativas como [Nokia X][wp-nokia-x] o Amazon [Fire OS][wp-fire-os].
+
+
+#### No eres el administrador de tu dispositivo
 
 [wp-ingeniería-social]: https://es.wikipedia.org/wiki/Ingenier%C3%ADa_social_(seguridad_inform%C3%A1tica)
 
 Al contrario que los sistemas operativos de ordenadores, Android solo expone una cuenta normal de usuario al _poseedor_ del dispositivo, con aplicaciones privilegiadas que te permiten realizar acciones como instalar otras aplicaciones, gestionar y configurar el hardware como el wifi o el bluetooth, tomar capturas, activar una VPN, etc. La cuenta de administrador real del dispositivo (`root` en Android, porque se basa en Linux) está **bloqueada**. Necesitas _rootear_ tu dispositivo para acceder a esta cuenta, que generalmente es un proceso opaco y turbio diferente para cada modelo y versión de Android, y que anula la garantía del fabricante, excepto para marcas muy específicas.
 
-A nivel de seguridad, el modelo de no darle permisos completos al usuario es muy competente, porque pone trabas a que el usuario, por inconsciencia, ignorancia o porque [esté siendo engañado][wp-ingenería-social], se perjudique a sí mismo. Sin embargo, no proveer al usuario de un método de controlar su dispositivo con su propia voluntad lo prejuzga efectivamente como incompetente y le **deniega** la oportunidad de **aprender**. Además, que el sistema confíe por defecto en unos mediadores con intereses comerciales más allá del propio usuario somete al usuario a voluntades externas y difícilmente moderables, y lo posiciona en un estrato social inferior.
+A nivel de seguridad, el modelo de no darle permisos completos al usuario es muy competente, porque pone trabas a que el usuario, por inconsciencia, ignorancia o porque [esté siendo engañado][wp-ingenería-social], se perjudique a sí mismo. Sin embargo, no proveer al usuario de un método de controlar su dispositivo con su propia voluntad lo prejuzga efectivamente como incompetente y le **deniega** la oportunidad de **aprender**. Además, lo somete a voluntades externas y difícilmente moderables, lo posiciona en un estrato social inferior y lo despoja de su propiedad en cuanto tiene la voluntad de realizar acciones que no se esperan de él.
+
+En el tercer cuatrimestre de 2012, Google Play Store [instaló forzosamente la aplicación Servicios de Google Play][google-play-services-instalación-masiva] en todos los dispositivos Android en el mundo, sin pedir permiso a nadie, sin importar qué espacio disponible tuvieras **o tu voluntad** al desinstalarlo en repetidas ocasiones, porque volvía a reincidir. Esa en concreto fue mi epifanía personal. Evidenció que yo no controlaba mi propio teléfono, sino Google. Consideré que eso estaba **terriblemente mal** cuando había sido yo quien pagó por el teléfono, no lo alquilé ni lo tomé prestado de nadie. ¡Estaba incluso usando una ROM personalizada con acceso de superusuario!
+
+
+### ROMs personalizadas y control
+
+> a sizeable amount of those surveyed weren’t using any Google Apps (mostly due to region-blocks, or privacy and ideological motivations). We will work hard to improve user experience for both types of users.
+
+https://www.lineageos.org/Summer-Survey-Results/
+
+
+
+#### Falsificando los servicios de Google
+
+https://microg.org
 
 
 #### Comprobación de conexión y portal cautivo
@@ -223,7 +256,7 @@ Puedes configurar tu propio servidor para que devuelva códigos HTTP 204. Para A
 Para nginx, añade esto directamente a la configuración:
 
 ```
-location /generate_204 {
+location '/generate_204' {
   return 204;
 }
 ```
