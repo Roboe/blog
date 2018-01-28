@@ -1,0 +1,15 @@
+// Footer
+.site-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 1em;
+
+  font-size: 1rem; // reset font size
+
+  a {
+    color: $primary-color-effects;
+    text-decoration: none;
+  }
+}

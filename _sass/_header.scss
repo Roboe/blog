@@ -1,0 +1,108 @@
+// Header
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 1em;
+
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+.site-branding {
+  &--title {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0.67em 0;
+  }
+}
+
+.site-nav {
+  // Invisible checkbox
+  &--toggle-check {
+    position: absolute;
+    opacity: 0;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  // Label style
+  &--toggle-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    z-index: 10; // Put in on top of &--content
+
+    font-size: 3rem;
+
+    cursor: pointer;
+    @include autoprefix(user-select, none);
+  }
+
+  // Hide checkbox and label (button) when not mobile
+  &--toggle-check, &--toggle-button {
+    display: unset;
+    @include breakpoint(40rem) { display: none; }
+  }
+
+  // Hide navigation links when in mobile view
+  &--content {
+    display: none;
+    @include breakpoint(40rem) { display: flex; }
+  }
+  // Navigation links style when in mobile view and enabled
+  &--toggle-check:checked ~ &--content {
+    display: flex;
+    flex-direction: column;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    @include gradient-background($black-color, $black-color-effects);
+    color: $primary-color;
+
+    .site-navlist--entry {
+      width: 100%;
+      padding: 0.5em 1em;
+      margin: 0;
+
+      &:first-child {
+        margin-top: 4rem;
+      }
+    }
+    .site-navlist--link {
+      display: block;
+      padding: 0.5em 1em;
+      color: $text-color-light;
+      @include gradient-background($primary-color, $primary-color-effects);
+    }
+  }
+  // Overlay label (button) when in mobile view and enabled
+  &--toggle-check:checked ~ &--toggle-button {
+    color: $primary-color;
+    position: fixed;
+  }
+}
+
+.site-navlist {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  flex-direction: row;
+  align-items: center;
+
+  &--entry {
+    list-style: none;
+    &:not(:first-child) { margin-left: 1em; }
+  }
+}

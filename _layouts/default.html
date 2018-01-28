@@ -1,22 +1,24 @@
 <!doctype html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang }}">
 
 {% include head.html %}
 
-<body class="site-wrapper">
+<body class="site-layout">
   <a class="skip-link screen-reader-text" href="#content">Saltar al contenido</a>
 
-  <header class="site-header">
-    {% include header_content.html %}
-  </header>
+  <div class="site-layout--header">
+    {% include header.html %}
+  </div>
 
-  <main id="content" class="site-content">
-    {{ content }}
-  </main>
+  <div class="site-layout--content">
+    <main id="content" class="site-content">
+      {{ content }}
+    </main>
+  </div>
 
-  <footer class="site-footer">
-    {% include footer_content.html %}
-  </footer>
+  <div class="site-layout--footer">
+    {% include footer.html %}
+  </div>
 </body>
 
 </html>

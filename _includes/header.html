@@ -1,0 +1,25 @@
+<header class="site-header">
+  <div class="site-header--branding site-branding">
+    {% if page.url == '/' %}
+      <h1 class="site-branding--title">
+        <a href="{{ "/" | absolute_url }}" rel="home">{{ site.title }}</a>
+      </h1>
+    {% else %}
+      <p class="site-branding--title">
+        <a href="{{ "/" | absolute_url }}" rel="home">{{ site.title }}</a>
+      </p>
+    {% endif %}
+
+    <p class="site-branding--description">{{ site.description }}</p>
+  </div>
+
+  <nav class="site-header--nav site-nav">
+    <input type="checkbox" id="toggle-navigation" class="site-nav--toggle-check" />
+    <label for="toggle-navigation" class="site-nav--toggle-button">&equiv;</label>
+    <ul class="site-nav--content site-navlist">
+      <li class="site-navlist--entry">
+        <a href="{{ "/about/" | relative_url }}" class="site-navlist--link">Quién soy</a>
+      </li>
+    </ul>
+  </nav>
+</header>

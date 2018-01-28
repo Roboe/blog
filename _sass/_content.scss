@@ -1,0 +1,68 @@
+// Content
+.site-content {
+  padding: 0 1rem;
+
+  > * {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: $content-width;
+  }
+
+  .post {
+    text-align: justify;
+  }
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    padding: 0.2em 0.2em 0.1em 0.2em;
+    margin: (-0.2em) -0.1em -0.1em -0.2em;
+
+    &:active, &:hover {
+      background-color: $primary-color-effects;
+      color: $text-color-light;
+      transition: 0.3s;
+
+      &[href*='//'] {
+        background-color: $black-color-effects;
+        color: $primary-color-effects;
+      }
+    }
+  }
+
+  cite {
+    text-align: right;
+  }
+
+  blockquote,
+  figure,
+  div,
+  pre {
+    max-width: $outline-width;
+  }
+
+  pre, code {
+    white-space: pre-wrap;
+  }
+
+  #markdown-toc,
+  blockquote,
+  figcaption {
+    font-family: serif;
+  }
+
+  #markdown-toc,
+  blockquote,
+  figcaption,
+  pre {
+    padding-left: 45px;
+    border-left: 5px solid $primary-color;
+    margin: 0.5em;
+  }
+
+  img {
+    width: 100%;
+    max-width: $outline-width;
+  }
+}
