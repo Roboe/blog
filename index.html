@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+  <article class="post">
+    <header class="post-header">
+      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {% if post.date or post.author %}
+      <p class="post-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+          {{ post.date | date: site.date_format }}
+        </time>
+        •
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author | default: site.author }}</span></span>
+      </p>
+      {% endif %}
+    </header>
+
+    <div class="post-content">
+      {{ post.excerpt | truncatewords: 60 }}
+    </div>
+
+  </article>
+{% endfor %}
