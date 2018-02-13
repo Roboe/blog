@@ -1,3 +1,15 @@
+// Inheritance basis
+.lateral-bar {
+  margin: 0;
+  padding-left: 1.25em;
+  @include breakpoint(52rem) { padding-left: 2em; }
+
+  border-left: 5px solid $primary-color;
+
+  font-family: serif;
+  font-size: 95%;
+}
+
 // Content
 .site-content {
   padding: 0 1rem;
@@ -53,19 +65,20 @@
     white-space: pre-wrap;
   }
 
-  #markdown-toc,
   blockquote,
   figcaption {
-    font-family: serif;
+    @extend .lateral-bar;
   }
 
-  #markdown-toc,
-  blockquote,
-  figcaption,
   pre {
-    padding-left: 45px;
-    border-left: 5px solid $primary-color;
-    margin: 0.5em;
+    @extend .lateral-bar;
+    font-family: unset;
+  }
+
+  #markdown-toc {
+    @extend .lateral-bar;
+    padding-left: 2.25em;
+    @include breakpoint(52rem) { padding-left: 3em; }
   }
 
   img {
