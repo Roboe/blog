@@ -30,6 +30,21 @@
     &-meta {
       color: $black-color-effects;
     }
+
+    aside {
+      margin-top: 3rem;
+      font-size: 95%;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 33%;
+
+        margin-bottom: -.25em;
+
+        border-top: 5px solid $primary-color;
+      }
+    }
   }
 
   a {
