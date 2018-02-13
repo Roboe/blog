@@ -11,10 +11,13 @@
 
   .post {
     text-align: justify;
-  }
 
-  .post-meta {
-    color: $black-color-effects;
+    &-title {
+      text-align: start;
+    }
+    &-meta {
+      color: $black-color-effects;
+    }
   }
 
   a {
