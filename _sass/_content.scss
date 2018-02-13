@@ -51,13 +51,13 @@
   a {
     color: $primary-color;
     text-decoration: none;
-    padding: 0.2em 0.2em 0.1em 0.2em;
-    margin: (-0.2em) -0.1em -0.1em -0.2em;
+    padding: .1em  .2em  .1em  .2em;
+    margin: -.1em -.1em -.1em -.2em;
 
     &:active, &:hover {
       background-color: $primary-color-effects;
       color: $text-color-light;
-      transition: 0.3s;
+      transition: .3s;
 
       &[href*='//'] {
         background-color: $black-color-effects;
