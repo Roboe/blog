@@ -27,6 +27,10 @@
     &-title {
       text-align: start;
       line-height: 1.5em;
+
+      a {
+        display: inline-block;
+      }
     }
     &-meta {
       color: $black-color-effects;
