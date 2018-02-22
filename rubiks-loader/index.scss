@@ -1,0 +1,57 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+/* Box model */
+
+.rubiks-loader {
+  *, *::before, *::after {
+   box-sizing: border-box;
+  }
+}
+
+
+/* Constants */
+
+$unit: 4px; // presentation unit: 10px
+$piece-size: 3 * $unit;
+$inter-piece-spacing: 1 * $unit;
+$cube-size: 3 * $piece-size + 4 * $inter-piece-spacing;
+
+$white:  #e2e8e7;
+$yellow: #f6c574;
+$blue:   #00aacf;
+$green:  #00b3a0;
+$red:    #fc5652;
+$orange: #fc9f39;
+
+$full-animation-duration: 1.5s;
+
+
+/* Functions */
+
+@function position-in-face($order) {
+  @return $order * $piece-size + ($order + 1) * $inter-piece-spacing;
+}
+@function distance-to-kernel($x, $y) {
+  @return
+    $piece-size/2 + -1 * $x * ($piece-size + $inter-piece-spacing)
+    $piece-size/2 + -1 * $y * ($piece-size + $inter-piece-spacing)
+    -1 * ($piece-size/2 + $piece-size + $inter-piece-spacing);
+}
+
+
+/* Inheritance basis */
+
+%space-3d {
+  width: $cube-size;
+  height: $cube-size;
+
+  position: relative;
+  perspective: $cube-size;
+}
+
+
+/* Main */
+{% include_relative _cube.scss %} //@import 'cube';
+{% include_relative _animation.scss %} // @import 'animation';

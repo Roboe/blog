@@ -1,0 +1,57 @@
+/* Main */
+
+.rubiks-loader {
+  @extend %space-3d;
+
+  .cube {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 0; // hide text
+
+    transform-style: preserve-3d;
+
+    .piece {
+      display: inline-block;
+      width: $piece-size;
+      height: $piece-size;
+
+      position: absolute;
+
+      backface-visibility: hidden;
+
+      &.row-top    { top:  position-in-face(0); }
+      &.row-center { top:  position-in-face(1); }
+      &.row-bottom { top:  position-in-face(2); }
+      &.col-left   { left: position-in-face(0); }
+      &.col-center { left: position-in-face(1); }
+      &.col-right  { left: position-in-face(2); }
+
+      &.col-left.row-top      { transform-origin: distance-to-kernel(-1, -1); }
+      &.col-center.row-top    { transform-origin: distance-to-kernel( 0, -1); }
+      &.col-right.row-top     { transform-origin: distance-to-kernel( 1, -1); }
+      &.col-left.row-center   { transform-origin: distance-to-kernel(-1,  0); }
+      &.col-center.row-center { transform-origin: distance-to-kernel( 0,  0); }
+      &.col-right.row-center  { transform-origin: distance-to-kernel( 1,  0); }
+      &.col-left.row-bottom   { transform-origin: distance-to-kernel(-1,  1); }
+      &.col-center.row-bottom { transform-origin: distance-to-kernel( 0,  1); }
+      &.col-right.row-bottom  { transform-origin: distance-to-kernel( 1,  1); }
+
+      &.yellow { background-color: $yellow; }
+      &.blue   { background-color: $blue;   }
+      &.green  { background-color: $green;  }
+      &.white  { background-color: $white;  }
+      &.red    { background-color: $red;    }
+      &.orange { background-color: $orange; }
+    }
+
+    .face {
+      &.front { }
+      &.back  { transform: rotateY(180deg); }
+      &.right { transform: rotateY( 90deg); }
+      &.left  { transform: rotateY(-90deg); }
+      &.up    { transform: rotateX( 90deg); }
+      &.down  { transform: rotateX(-90deg); }
+    }
+  }
+}
