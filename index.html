@@ -18,7 +18,7 @@ layout: default
     </header>
 
     <div class="post-content">
-      {{ post.excerpt | truncatewords: 60 }}
+      {{ post.excerpt | strip_html | truncatewords: 60 }}
     </div>
 
   </article>
