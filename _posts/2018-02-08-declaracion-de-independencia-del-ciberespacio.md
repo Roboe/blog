@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Declaración de independencia del Ciberespacio"
 author: Roboe
 ---

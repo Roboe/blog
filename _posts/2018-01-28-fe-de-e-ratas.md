@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Fe de e-ratas"
 author: Roboe
 ---
