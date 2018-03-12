@@ -43,6 +43,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+# Collection settings
+collections:
+  - rubiks
+  - retrogaming
+
 # Frontmatter defaults
 defaults:
   - # Set default layout for posts
@@ -58,6 +63,7 @@ defaults:
     values:
       layout: page
 
+
 # Social settings
 twitter:
   username: RoboePi
@@ -68,7 +74,3 @@ social:
     - https://twitter.com/RoboePi
     - https://gitlab.com/Roboe
     - https://github.com/Roboe
-
-# Collection settings
-collections:
-  - rubiks
