@@ -1,0 +1,6 @@
+---
+type: console
+name: Game Boy Advance
+brand: Nintendo
+release_eu: June 22, 2001
+---

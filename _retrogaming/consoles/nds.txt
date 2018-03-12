@@ -1,0 +1,6 @@
+---
+type: console
+name: Nintendo DS Lite
+brand: Nintendo
+release_eu: June 23, 2006
+---

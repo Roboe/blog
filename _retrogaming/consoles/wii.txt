@@ -1,0 +1,6 @@
+---
+type: console
+name: Wii
+brand: Nintendo
+release_eu: December, 2006
+---
