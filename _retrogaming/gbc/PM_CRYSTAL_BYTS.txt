@@ -1,0 +1,12 @@
+---
+platform: GBC
+title: "Pokémon Edición Cristal"
+developer: Game Freak
+publisher: Nintendo
+release_eu: September 30, 2001
+codename:
+  platform: CGB
+  title: PM_CRYSTAL
+  game: BYTS
+  region: ESP
+---
