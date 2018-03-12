@@ -1,0 +1,12 @@
+---
+platform: GB
+title: "Pokémon Edición Amarillo"
+developer: Game Freak
+publisher: Nintendo
+release_eu: June 16, 2000
+codename:
+  platform: DMG
+  title: ~
+  game: APSS
+  region: ESP
+---

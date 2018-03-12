@@ -1,0 +1,12 @@
+---
+platform: GB
+title: "Pokémon Edición Plata"
+developer: Game Freak
+publisher: Nintendo
+release_eu: April 6, 2001
+codename:
+  platform: DMG
+  title: ~
+  game: AAXS
+  region: ESP
+---
