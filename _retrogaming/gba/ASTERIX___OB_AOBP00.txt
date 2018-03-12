@@ -1,0 +1,13 @@
+---
+platform: GBA
+title: "Asterix & Obelix: Paf, ¡por Tutatis!"
+developer: Atari
+publisher: ~
+release_eu: ~
+codename:
+  platform: AGB
+  title: ASTERIX___OB
+  game: AOBP
+  revision: 00
+  region: EUU
+---

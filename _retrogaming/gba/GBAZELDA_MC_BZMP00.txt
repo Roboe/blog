@@ -1,0 +1,13 @@
+---
+platform: GBA
+title: "The Legend of Zelda: The Minish Cap"
+developer: Capcom
+publisher: Nintendo
+release_eu: November 12, 2004
+codename:
+  platform: AGB
+  title: GBAZELDA_MC
+  game: BZMP
+  revision: 00
+  region: EUR
+---

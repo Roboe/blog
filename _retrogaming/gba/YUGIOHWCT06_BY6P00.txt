@@ -1,0 +1,13 @@
+---
+platform: GBA
+title: "Yu-Gi-Oh! Ultimate Masters Edition. World Championship Tournament 2006"
+developer: Konami
+publisher: Konami
+release_eu: 2006
+codename:
+  platform: AGB
+  title: YUGIOHWCT06
+  game: BY6P
+  revision: 00
+  region: EUR
+---

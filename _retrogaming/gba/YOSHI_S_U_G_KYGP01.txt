@@ -1,0 +1,13 @@
+---
+platform: GBA
+title: "Yoshi's Universal Gravitation"
+developer: ~
+publisher: ~
+release_eu: ~
+codename:
+  platform: AGB
+  title: YOSHI'S U/G
+  game: KYGP
+  revision: 01
+  region: EUR
+---

@@ -1,0 +1,13 @@
+---
+platform: GBA
+title: "Dragon Ball Z: El legado de Goku II"
+developer: Webfoot Technologies
+publisher: Infogrames
+release_eu: August 1, 2003
+codename:
+  platform: AGB
+  title: DRAGONBALL_Z
+  game: ALFP
+  revision: 00
+  region: ESP
+---

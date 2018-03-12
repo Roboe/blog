@@ -1,0 +1,13 @@
+---
+platform: GBA
+title: "Golden Sun: La edad perdida"
+developer: Camelot Software Planning
+publisher: Nintendo
+release_eu: September 19, 2003
+codename:
+  platform: AGB
+  title: GOLDEN_SUN_B
+  game: AGFS
+  revision: 00
+  region: ESP
+---
