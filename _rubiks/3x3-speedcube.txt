@@ -1,0 +1,8 @@
+---
+type: 3x3x3
+name: MoYu Weilong GTS 2
+brand: MoYu
+origin: Lightake
+price: 12,34 €
+date: 2018-01-06
+---
