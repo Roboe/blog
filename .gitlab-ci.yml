@@ -2,17 +2,34 @@ image: jekyll/minimal:latest
 
 variables:
   JEKYLL_ENV: production
+  SOURCE: $CI_PROJECT_DIR
+  BUILD_DESTINATION: $CI_PROJECT_DIR/public
+  GIT_PUSH_URL: https://$GITLAB_USER_LOGIN:$ACCESS_TOKEN@gitlab.com/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME.git
+  GIT_PUSH_BRANCH: master:pages
 
-before_script:
-  - jekyll -v
-  - gem install jekyll-seo-tag jekyll-feed jekyll-sitemap
 
-pages:
-  stage: deploy
-  script:
-    - jekyll build --source $CI_PROJECT_DIR --destination $CI_PROJECT_DIR/public
-  artifacts:
-    paths:
-      - public
+jekyll_build:
+  stage: build
   only:
     - master
+  before_script:
+    - jekyll -v
+    - gem install jekyll-seo-tag jekyll-feed jekyll-sitemap
+  script:
+    - jekyll build --source $SOURCE --destination $BUILD_DESTINATION
+  artifacts:
+    paths:
+      - public/
+    expire_in: "1 week"
+
+git_deploy:
+  stage: deploy
+  when: on_success
+  script:
+    - cd $BUILD_DESTINATION
+    - git init
+    - git config user.name "$GITLAB_USER_NAME"
+    - git config user.email "$GITLAB_USER_EMAIL"
+    - git add --all
+    - git commit -m "Deploy $CI_COMMIT_TAG from GitLab CI"
+    - git push --force --quiet $GIT_PUSH_URL $GIT_PUSH_BRANCH > /dev/null 2>&1
