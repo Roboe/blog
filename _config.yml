@@ -15,14 +15,6 @@ author: Roboe
 email: web@virgulilla.com
 description: > # this means to ignore newlines until "baseurl:"
   Sitio web personal de Roberto M.F.
-keywords:
-  - Roboe
-  - Roberto M.F.
-  - virgulilla
-  - tech
-  - privacy
-  - retrogaming
-  - pixel-art
 
 # Public web settings
 baseurl: "" # the subpath of your site, e.g. /blog
