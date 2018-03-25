@@ -31,5 +31,15 @@ git_deploy:
     - git config user.name "$GITLAB_USER_NAME"
     - git config user.email "$GITLAB_USER_EMAIL"
     - git add --all
-    - git commit -m "Deploy $CI_COMMIT_TAG from GitLab CI"
+    - git commit -m "Deploy $CI_COMMIT_SHA"
     - git push --force --quiet $GIT_PUSH_URL $GIT_PUSH_BRANCH > /dev/null 2>&1
+
+pages:
+  stage: deploy
+  when: on_success
+  script:
+    - echo "Deploy to GitLab Pages"
+  artifacts:
+    paths:
+      - public
+    expire_in: "1 week"
