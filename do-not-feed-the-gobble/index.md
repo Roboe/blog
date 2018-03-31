@@ -8,8 +8,10 @@ author: Roboe
 
 Un corto estudio sobre privacidad en el ámbito tecnológico y unas pautas para liberar dispositivos Android y proteger nuestra navegación web.
 
-1. TOC
-{:toc}
+<nav markdown="block">
+  1. Contents
+  {:toc}
+</nav>
 
 [bibliografía-1]: https://www.fcede.es/site/es/libros/detalles.aspx?id_libro=7333
 [autores-1]: https://es.wikipedia.org/wiki/Zygmunt_Bauman
@@ -66,17 +68,17 @@ Por su alcance, posición y dominancia, se ha elegido Google como principal obje
 Google ha ido conquistando poco a poco, y desde varios flancos a la vez, nuestra navegación en Internet y en la Web. Para muchos, Google ha sido **indistinguible** de Internet por la posición privilegiada de su buscador web. Además, desde el nacimiento de Android, Google ha salido de nuestras casas y oficinas para establecerse en nuestros **bolsos y bolsillos**.  
 El objetivo de Google es estar en todos los sitios a la vez, y su negocio es conocernos lo máximo posible para ofrecernos publicidad sesgada y resultados de búsqueda personalizados.
 
-<div markdown="1">
-![Tira cómica (en inglés) sobre el conocimiento que tiene Google sobre ti porque «te posee»](google-owns-you_owlturd.jpg)
-<cite>Fuente: [Shenanigansen](http://owlturd.com/post/152110641819). [Se permite compartir](http://owlturd.com/about){:rel="license"}</cite>
-</div>
+<figure markdown="block">
+  ![Una figura con extremidades y expresión facial neutra representa a Google frente a un usuario de internet. Google dice: "Aquí tienes un anuncio que podría interesarte". El usuario reacciona, sorprendido: "¡Guau, Google! ¿Cómo has sabido que estaría interesado en eso?". Google responde, neutro: "Porque me perteneces"](google-owns-you_owlturd.jpg)
+  <figcaption markdown="span">Fuente: [Shenanigansen](http://owlturd.com/post/152110641819). [Se permite compartir](http://owlturd.com/about){:rel="license"}</figcaption>
+</figure>
 
 Al igual que Google, hay otros (pocos) grandes actores dominantes en Internet. Podríamos calificarlos como **señores feudales** que dominan con su superioridad tecnológica y económica el ciberespacio y establecen territorios con sus propias reglas, conocidos como [jardines vallados][wp-jardín-vallado]. Son los llamados **GAFAM**, acrónimo de Google, Amazon, Facebook, Apple y Microsoft.
 
-<div markdown="1">
-![Imagen con los logos de las GAFAM: Google, Amazon, Facebook, Apple y Microsoft, y un subtítulo en inglés que dice "¡amamos tus datos!"](gafam_degooglisons.png)
-Fuente: [De-google-ify Internet](https://degooglisons-internet.org/), un proyecto de [Framasoft](https://framasoft.org), una comunidad de voluntarios francófonos que promueve el software libre.
-</div>
+<figure markdown="block">
+  ![Logos de Google, Amazon, Facebook, Apple y Microsoft formando la palabra GAFAM, y un subtítulo en inglés que dice "¡amamos tus datos!"](gafam_degooglisons.png)
+  <figcaption markdown="span">Fuente: [De-google-ify Internet](https://degooglisons-internet.org/), un proyecto de [Framasoft](https://framasoft.org), una comunidad de voluntarios francófonos que promueve el software libre.</figcaption>
+</figure>
 
 
 ### Qué es la privacidad
@@ -85,7 +87,9 @@ El concepto de privacidad engloba un amplio espectro. Podemos recurrir a esta de
 
 > La privacidad es el ámbito que se supone de dominio personal, el territorio de la soberanía personal indivisa en cuyo interior uno tiene el poder completo e indivisible de decidir «qué y quién soy», y desde el cual cada uno puede intentar una y otra vez que sus decisiones sean reconocidas y respetadas.
 >
-> <cite>Zygmunt Bauman, [Daños colaterales][bibliografía-1] (2011). También en [Vigilancia líquida][bibliografía-3] (2013)</cite>
+> <footer markdown="span">
+>   <cite>Zygmunt Bauman</cite>, <cite>[Daños colaterales][bibliografía-1] (2011)</cite>. También en <cite>[Vigilancia líquida][bibliografía-3] (2013)</cite>
+> </footer>
 
 Si observamos con atención esta definición, podemos ver que la privacidad está fuertemente entrelazada con la **identidad**: la privacidad es, por tanto, el ámbito en el que nos **autodefinimos**, nos **autoafirmamos** y nos **autoproyectamos** antes de salir a la esfera pública.
 
@@ -100,9 +104,11 @@ La intimidad es el límite que se establece entre la cohabitación de lo públic
 
 Se puede ilustrar este concepto con el [panóptico][wp-panóptico]. El panóptico es un tipo de construcción carcelaria utilitarista que se desarrolló en el siglo XVIII. Se trata de una estructura circular de espacio diáfano y una torre central, en cuyo interior habita un guardián que puede ver todo el interior del edificio. Los prisioneros no saben cuándo son observados (no tienen intimidad) y se les induce un estado consciente permanente de supervisión que influye en cómo actúan. Se desarrolló como un método que permitiría el funcionamiento automático del poder con muy pocos recursos.
 
-<figure markdown="1">
+<figure markdown="block">
   ![Plano arquitectónico de un panóptico](panopticon_wikimedia.jpg)
-  <figcaption>Diseño del panopticón de <a href="https://es.wikipedia.org/wiki/Jeremy_Bentham">Jeremy Bentham</a>. <a href="https://commons.wikimedia.org/wiki/File:Panopticon.jpg">Dominio público</a>.</figcaption>
+  <figcaption markdown="span">
+    Diseño del panopticón de [Jeremy Bentham](https://es.wikipedia.org/wiki/Jeremy_Bentham). [Dominio público](https://commons.wikimedia.org/wiki/File:Panopticon.jpg).
+  </figcaption>
 </figure>
 
 
@@ -116,7 +122,9 @@ Frases como _«quien oculta algo es que tiene algo que esconder»_ pretenden imp
 
 > Cuando alguien dice: «No tengo nada que ocultar», en realidad está diciendo: «me río de mis derechos». [&hellip;] Si dejáis de defender vuestros derechos pensando: «No necesito mis derechos en este contexto», ya no se trata de derechos. Los habéis convertido en algo de lo que disfrutáis como de un privilegio revocable por el gobierno [&hellip;] Y ello reduce el perímetro de la libertad en el seno de una sociedad.
 >
-> <cite>Edward Snowden en [una entrevista de 2014][referencia-1] por [Katrina vanden Heuvel][autores-r1a] y [Stephen F. Cohen][autores-r1b], extraído de [El imperio de la vigilancia][bibliografía-2] (2016), [Ignacio Ramonet][autores-2]</cite>
+> <footer markdown="span">
+>     <cite>Edward Snowden en [una entrevista de 2014][referencia-1] por [Katrina vanden Heuvel][autores-r1a] y [Stephen F. Cohen][autores-r1b]</cite>, extraído de <cite>[El imperio de la vigilancia][bibliografía-2] (2016), [Ignacio Ramonet][autores-2]</cite>
+> </footer>
 
 
 ## Efectos sociales y espionaje masivo
@@ -133,7 +141,9 @@ La realidad actual de Internet difiere sustancialmente de aquellas ideas que die
 
 > [La Web] fue diseñada para ser universal. El propósito era precisamente desmantelar los silos.
 >
-> <cite>[Tim Berners-Lee][tim-berners-lee], inventor de la Web, [tras recibir el premio Turing][referencia-5] el pasado 30 de marzo de 2017</cite>
+> <footer markdown="block">
+>   <cite>[Tim Berners-Lee][tim-berners-lee]</cite>, inventor de la Web, [tras recibir el premio Turing][referencia-5] el pasado 30 de marzo de 2017
+> </footer>
 
 La totalidad de los principales **motores de búsqueda** (Google, Bing, Yahoo, Baidu, Yandex) se han convertido progresivamente en plataformas de este tipo, ofreciendo un catálogo amplio hasta el absurdo de servicios. La utilidad de los motores de búsqueda los convirtió en la puerta principal a la Web en los navegadores, y las empresas tras estos jardines vallados se consolidan como unos verdaderos [_gatekeepers_][internet-gatekeepers] o guardianes de Internet, gestionando **qué contenido mostrar en cada ocasión**. El auge de las **redes sociales** como primer contacto con Internet de los sectores de la población que con la penetración de los _teléfonos inteligentes_ ha convertido a otros jardines vallados, como Facebook o Twitter, en guardianes de Internet equiparables a los mencionados anteriormente.
 
@@ -163,13 +173,17 @@ Ya en 2002 el profesor y abogado [Cass Sustein][wp-cass-sustein], dedicado espec
 
 > Internet fomenta la fragmentación social al alentar a la gente a organizarse en enclaves cerrados para personas similares donde todo el mundo se refuerza mutuamente en sus ideas bloqueando puntos de vista diferentes u opuestos.
 >
-> <cite>Cass Sustein</cite>
+> <footer markdown="block>">
+>   <cite>Cass Sustein</cite>
+> </footer>
 
 Más tarde, en 2011, [Eli Pariser][autores-5] relaciona estas ideas con los algoritmos de personalización de contenidos y acuña el término **burbuja de filtros**, que desarrolla en su libro [_El filtro burbuja_][bibliografía-5]:
 
 > Los algoritmos de tipo corporativo, usados típicamente para determinar gustos o sugerir contactos, por ejemplo, podrían tener efectos en construir alrededor de cada persona compactas burbujas de contenido, aislándonos de todo el constructo de ideas que por ser diferentes quedan fuera de nuestro alcance y de nuestra mente.
 >
-> <cite>Eli Pariser</cite>
+> <footer markdown="block>">
+>   <cite>Eli Pariser</cite>
+> </footer>
 
 Este efecto explota nuestro [sesgo de confirmación][wp-sesgo-de-confirmación], y también favorece las condiciones en los medios de masas para el [hacking cognitivo][wp-ingeniería-social], que ya está siendo explotados por distintos **actores políticos** alrededor del mundo. Casos como los de [Latinoamérica][hacking-político] o también el de [España][elecciones-españa-2016] sirven de ilustración.
 
@@ -178,7 +192,9 @@ Este efecto explota nuestro [sesgo de confirmación][wp-sesgo-de-confirmación],
 
 > Este es un país libre. **Nosotros** tenemos derecho a compartir **su** intimidad en un espacio público.
 >
-> Peter Ustinov
+> <footer markdown="block>">
+>   <cite>Peter Ustinov</cite>
+> </footer>
 
 
 ## Libera tu Android
