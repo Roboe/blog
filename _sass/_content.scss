@@ -1,55 +1,8 @@
-// Inheritance basis
-.lateral-bar {
-  margin: 0;
-  padding-left: 1.25em;
-  @include breakpoint(52rem) { padding-left: 2em; }
-
-  border-left: 5px solid $primary-color;
-
-  font-family: serif;
-  font-size: 95%;
-}
-
 // Content
-.site-content {
-  padding: 0 1rem;
 
-  > * {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: $content-width;
-  }
-
-  .post {
+.content {
+  :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
     text-align: justify;
-
-    &-title {
-      text-align: start;
-      line-height: 1.5em;
-
-      a {
-        display: inline-block;
-      }
-    }
-    &-meta {
-      color: $black-color-effects;
-    }
-
-    aside {
-      margin-top: 3rem;
-      font-size: 95%;
-
-      &::before {
-        content: "";
-        display: block;
-        width: 33%;
-
-        margin-bottom: -.25em;
-
-        border-top: 5px solid $primary-color;
-      }
-    }
   }
 
   a {
@@ -70,39 +23,91 @@
     }
   }
 
-  cite {
-    text-align: right;
+
+  .content-header {
+    .content-title {
+      text-align: start;
+      line-height: 1.5em;
+
+      a {
+        display: inline-block;
+      }
+    }
+
+    .content-meta {
+      color: $black-color-effects;
+    }
   }
 
-  blockquote,
-  figure,
-  div,
-  pre {
-    max-width: $outline-width;
-  }
+  .content-body {
+    figure,
+    blockquote,
+    pre {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      @extend %lateral-strip;
+    }
 
-  pre, code {
-    white-space: pre-wrap;
-  }
+    figure figcaption,
+    blockquote,
+    pre {
+      padding-left: 1.25em;
+      @include breakpoint(52rem) { padding-left: 2em; }
+    }
 
-  blockquote,
-  figcaption {
-    @extend .lateral-bar;
-  }
+    figure p {
+      @extend %no-margin;
+    }
 
-  pre {
-    @extend .lateral-bar;
-    font-family: unset;
-  }
+    figure,
+    blockquote {
+      img,
+      video {
+        width: 100%;
+        object-fit: contain;
+      }
 
-  #markdown-toc {
-    @extend .lateral-bar;
-    padding-left: 2.25em;
-    @include breakpoint(52rem) { padding-left: 3em; }
-  }
+      figcaption,
+      footer {
+        font-style: italic;
+      }
+    }
 
-  img {
-    width: 100%;
-    max-width: $outline-width;
+
+    p {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+
+    aside {
+      font-size: 95%;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 33%;
+
+        margin-bottom: -.25em;
+
+        border-top: 5px solid $primary-color;
+      }
+    }
+
+    pre, code {
+      white-space: pre-wrap;
+    }
+
+
+    pre {
+      @extend %lateral-strip;
+      font-family: unset;
+    }
+
+    #markdown-toc {
+      @extend %lateral-strip;
+      padding-left: 2.25em;
+      @include breakpoint(52rem) { padding-left: 3em; }
+    }
   }
 }

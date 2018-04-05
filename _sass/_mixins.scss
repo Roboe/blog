@@ -1,0 +1,23 @@
+// Mixins
+@mixin breakpoint($min-width) {
+  @media (min-width: $min-width) {
+    @content;
+  }
+}
+
+@mixin reach-width($max-width) {
+  width: 100%;
+  max-width: $max-width;
+}
+
+@mixin autoprefix($property, $val){
+  -webkit-#{$property}: $val;
+     -moz-#{$property}: $val;
+      -ms-#{$property}: $val;
+          #{$property}: $val;
+}
+
+@mixin gradient-background($base-color, $color-effect) {
+  background-image: linear-gradient(170deg, $color-effect, $base-color);
+  background-color: $base-color;
+}

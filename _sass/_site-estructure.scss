@@ -1,0 +1,38 @@
+// App structure
+.site-layout {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+.site-layout--header {
+  color: $text-color-light;
+  @include gradient-background($primary-color, $primary-color-effects);
+}
+
+.site-layout--content {
+  flex-grow: 1; // Fill all available space
+}
+
+.site-layout--footer {
+  color: $text-color-light;
+  @include gradient-background($black-color, $black-color-effects);
+}
+
+
+.site-header,
+.site-footer {
+  @include reach-width(60rem);
+  @extend %horizontal-centered;
+
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+.content {
+  @include reach-width($site-width);
+  @extend %horizontal-centered;
+  padding: 0 1rem;
+  
+  overflow-wrap: break-word;
+}

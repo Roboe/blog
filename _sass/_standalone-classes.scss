@@ -1,0 +1,40 @@
+// Helper classes
+.screen-reader-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+// Inheritance basis
+%no-margin {
+  margin: 0;
+}
+%no-padding {
+  padding: 0;
+}
+%no-margin-padding {
+  @extend %no-margin;
+  @extend %no-padding;
+}
+
+%horizontal-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%lateral-strip {
+  @extend %no-margin;
+  //padding-left: 1.25em;
+  //@include breakpoint(52rem) { padding-left: 2em; }
+
+  border-left: 5px solid $primary-color;
+
+  font-family: serif;
+  font-size: 95%;
+}
