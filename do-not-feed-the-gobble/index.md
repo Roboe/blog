@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: article
 title: >
   Do not feed the <strong><span style="color:#3883fa">G</span><span style="color:#ee422e">o</span><span style="color:#ffbc00">b</span><span style="color:#3883fa">b</span><span style="color:#2da950">l</span><span style="color:#ee422e">e</span></strong>
+description: >
+  Un corto estudio sobre privacidad en el ámbito tecnológico y unas pautas para liberar dispositivos Android y proteger nuestra navegación web.
 date: 2017-08-03
 author: Roboe
 ---
-
-Un corto estudio sobre privacidad en el ámbito tecnológico y unas pautas para liberar dispositivos Android y proteger nuestra navegación web.
 
 <nav markdown="block">
   1. Contents

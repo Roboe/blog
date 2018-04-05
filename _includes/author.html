@@ -1,0 +1,5 @@
+{% assign author = include.author | default: page.author | default: site.author %}
+
+<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <span itemprop="name">{{ author }}</span>
+</span>

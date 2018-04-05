@@ -2,27 +2,6 @@
 layout: default
 ---
 
-<article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    {% if page.date or page.author %}
-    <p class="post-meta">
-      {% if page.date %}
-      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {{ page.date | date: site.date_format }}
-      </time>
-      {% endif %}
-      {% if page.date and page.author %} • {% endif %}
-      {% if page.author %}
-        <span>{{ page.author }}</span>
-      {% endif %}
-    </p>
-    {% endif %}
-  </header>
-
-  <section class="post-content">
-    {{ content }}
-  </section>
-
-</article>
+<main class="content">
+  {{ content }}
+</main>

@@ -1,0 +1,12 @@
+{% assign tag = include.tag | default: "h1" %}
+{% assign title = include.title | default: page.title %}
+{% assign url = include.url | default: page.url %}
+
+{% case tag %}
+  {% when 'h1' %}
+<h1 class="content-title" itemprop="name headline">{{ title }}</h1>
+  {% when 'h2' %}
+<h2 class="content-title" itemprop="name headline">
+  <a href="{{ url }}">{{ title }}</a>
+</h2>
+{% endcase %}
