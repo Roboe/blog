@@ -32,7 +32,9 @@
 .content {
   @include reach-width($site-width);
   @extend %horizontal-centered;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   padding: 0 1rem;
-  
+
   overflow-wrap: break-word;
 }
