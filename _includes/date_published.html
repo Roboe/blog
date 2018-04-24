@@ -1,5 +1,9 @@
 {% assign date = include.date | default: page.date %}
+{% assign day = date | date: "%-d" %}
+{% assign month_index = date | date: "%-m" | plus: 0 %}
+{% assign month = site.data.es_months[month_index] %}
+{% assign year = date | date: "%Y" %}
 
 <time datetime="{{ date | date_to_xmlschema }}" itemprop="datePublished">
-  {{ date | date: site.date_format }}
+  {{ day }} de {{ month }} del {{ year }}
 </time>
