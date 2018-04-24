@@ -10,6 +10,7 @@ Como cualquiera que lleve un tiempo metido en el mundillo de la tecnología, he 
 
 Todo empezó porque Juan Hernando (_@ciudadanob_) recomendó [la charla que no debíamos perdernos][ciudadanob-charla-que-no-te-debes-perder] en su blog (la suya, claro). Sigo su blog desde el año pasado porque comunica sincera y naturalmente temas en los que estoy realmente interesado. Y a partir de ahí descubrí que la WordCamp en realidad es un **congreso multidisciplinar** que reúne a técnicos, a diseñadores y a emprendedores y empresarios bajo el paraguas de **uno de los cinco proyectos de software libre más grandes** de la historia, [WordPress][wordpress-org], que compone el 30% de los sitios de la Web. Así que con [un programa tan variado como este][wordcamp-madrid-2018-programa], decidimos ir. Y también un poco porque daban chocolate con churros y porras.
 
+
 ## Las charlas
 
 Personalmente, destaco tres de las charlas que pude ver:
@@ -24,6 +25,18 @@ Como técnicos o personas que ofrecemos servicios por internet, tenemos la respo
 WordPress no es solo un producto. Tiene detrás toda la filosofía del software libre, tiene **una misión** detrás: la de liberar la publicación, la de democratizar la libertad de expresión. [Rocío Valdivia][rocío-valdivia] nos habló en su **_Connecting the dots: WordPress, código abierto, neutralidad en la red y privacidad_** del transfondo de WordPress, del porqué de su licencia [GPL][wp-gpl], de las comunidades, del futuro de internet si no se regana la neutralidad de la red y del papel de WordPress en la **educación digital**. Una charla esencial, como se señaló en el turno de preguntas, y que bien **podría haber sido la apertura** de la WordCamp por su amplio espectro.
 
 **Otras charlas** que no puedo dejar de mencionar: la de [Santiago Jiménez][wcm18-santiago-jiménez] sobre la restructuración de la web de [Ágora Sol Radio][ágora-sol-radio], la radio autogestionada en la que mi amiga Ester participó emitiendo [Mentes Corrientes][mentes-corrientes]; la de [Pablo Moratinos][wcm18-pablo-moratinos] sobre el ciclo de un negocio y cómo potenciarlo con presencia online, que además fue muy divertida; y la de [Ibon Azkoitia][wcm18-ibon-azkoitia] sobre gestión del tiempo, de la que saqué un par de consejos útiles para mi día a día, pero con la que discrepo a la hora de planificar cada minuto de tus días, porque el [ocio es creativo][ol-el-arte-y-la-ciencia-de-no-hacer-nada].
+
+
+## La mesa redonda
+
+Al final del día, se habló del futuro de WordPress. Como era de esperar, la discusión giró en torno a [Gutenberg][wordpress-org-gutenberg], el futuro editor visual de contenido de WordPress que ha resultado ser bastante **polémico**.
+
+La razón detrás de este nuevo editor es muy parecida a la del joven [editor visual de Wikipedia][wp-visual-editor]: para poder **llegar a un mayor público** que pueda contribuir, en el caso de Wikipedia, o publicar, en el caso de WordPress, se puede intentar solucionar la brecha tecnológica facilitando las tareas difíciles que por el momento requieren aprender a escribir en _wikimarkup_ (Wikipedia) o con _shortcodes_ o HTML (WordPress). En ambos proyectos el editor es retrocompatible y **se puede deshabilitar** temporal o permanentemente, aunque en el caso de WordPress el cambio conlleva una costosa actualización de _plugins_ y temas para ser compatibles con Gutenberg.
+
+También parece ser que algunas personas consideran que la toma de la decisión de apostar por Gutenberg como futuro de WordPress no ha sido lo suficientemente asamblearia, como podría esperarse en un proyecto de software libre, sino que, por lo que le entendí a Rocío Valdivia, ha sido tomada por los programadores actuales del _core_ (también voluntarios). La discusión **recuerda a otros casos** de proyectos comunitarios grandes en los que se toman decisiones por la supervivencia del proyecto en sí, muchas veces con influencia del marco comercial, como cuando Mozilla decidió [parar el proyecto de Firefox OS][techcrunch-firefox-os-development-stopped] (`Boot2Gecko`).
+
+Parece ser que llevará tiempo que la comunidad se reconcilie. De todas maneras, una de las grandes **ventajas del software libre** es que puedes coger el código actual y fundar un proyecto nuevo llevándote a parte de la comunidad si tienes la suficiente tracción, y que evolucionen en paralelo. En algunos casos, como con [OwnCloud][owncloud] y [NextCloud][nextcloud], uno de ellos [ganará por goleada][nextcloud-wins]. En otros casos, como con [OpenWrt][openwrt] y [LEDE][lede], los dos proyectos [se volverán a unir][openwrt-lede-merge]. En cualquiera de los casos, se necesita tiempo.
+
 
 ## Conclusión
 
@@ -69,3 +82,14 @@ Tengo que **felicitar al equipo organizativo** de la WordCamp Madrid. Aunque Wor
 [mentes-corrientes]: https://www.agorasolradio.org/podcast/mentescorrientes/ "Mentes Corrientes en Ágora Sol Radio"
 
 [ol-el-arte-y-la-ciencia-de-no-hacer-nada]: https://openlibrary.org/books/OL26419048M/El_arte_y_la_ciencia_de_no_hacer_nada "El arte y la ciencia de no hacer nada: el cerebro tiene su propio piloto automático (2013, Clave Intelectual)"
+
+[wordpress-org-gutenberg]: https://wordpress.org/gutenberg/ "Gutenberg, una nueva experiencia de publicación (en inglés)"
+[wp-visual-editor]: https://es.wikipedia.org/wiki/Wikipedia:Editor_Visual "Editor visual de Wikipedia"
+[techcrunch-firefox-os-development-stopped]: https://techcrunch.com/2015/12/08/mozilla-will-stop-developing-and-selling-firefox-os-smartphones/ "TechCrunch (en inglés): Mozilla dejará de desarrollar y vender smartphones Firefox OS"
+
+[owncloud]: https://owncloud.org "OwnCloud: tu propia nube (en inglés)"
+[nextcloud]: https://nextcloud.com "NextCloud: plataforma libre de almacenamiento y colaboración (en inglés)"
+[nextcloud-wins]: https://civihosting.com/blog/nextcloud-vs-owncloud/ "NextCloud vs OwnCloud (en inglés)"
+[openwrt]: https://openwrt.org "OpenWrt: liberación de routers (en inglés)"
+[lede]: https://lede-project.org "LEDE project (redirige a OpenWRT)"
+[openwrt-lede-merge]: https://forum.openwrt.org/viewtopic.php?id=72940 "Anuncio de la unificación de los proyectos OpenWrt y LEDE en el foro de OpenWrt (en inglés)"
