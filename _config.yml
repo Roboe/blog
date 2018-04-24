@@ -9,12 +9,12 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Virgulilla
+title: El blog de la ~virgulilla
 lang: es
 author: Roboe
 email: web@virgulilla.com
 description: > # this means to ignore newlines until "baseurl:"
-  Sitio web personal de Roberto M.F.
+  Crítica, educación y filosofía digitales. La tecnología al servicio de la humanidad.
 
 # Public web settings
 baseurl: "" # the subpath of your site, e.g. /blog
