@@ -26,10 +26,10 @@
     <!--link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet"-->
 
     <!-- CSS WebSlides -->
-    <link rel="stylesheet" type='text/css' media='all' href="{{ "webslides/css/webslides.css" | relative_url }}">
+    <link rel="stylesheet" type='text/css' media='all' href="{{ site.baseurl }}{% link /assets/webslides/css/webslides.css %}">
 
     <!-- Optional - CSS SVG Icons (Font Awesome) -->
-    <link rel="stylesheet" type='text/css' media='all' href="{{ "webslides/css/svg-icons.css" | relative_url }}">
+    <link rel="stylesheet" type='text/css' media='all' href="{{ site.baseurl }}{% link /assets/webslides/css/svg-icons.css %}">
 
     <!-- SOCIAL CARDS (ADD YOUR INFO) -->
 
@@ -39,7 +39,7 @@
     <meta property="og:title" content="{{ page.title | escape }}"> <!-- EDIT -->
     <meta property="og:description" content="{{ page.description | escape }}"> <!-- EDIT -->
     <meta property="og:updated_time" content="{{ page.date }}"> <!-- EDIT -->
-    <meta property="og:image" content="{{ "webslides/images/share-webslides.jpg" | relative_url }}"> <!-- EDIT -->
+    <meta property="og:image" content="{{ site.baseurl }}{% link /assets/webslides/images/share-webslides.jpg %}"> <!-- EDIT -->
 
     <!-- TWITTER -->
     <meta name="twitter:card" content="summary_large_image">
@@ -47,16 +47,16 @@
     <!--meta name="twitter:creator" content="@jlantunez"--> <!-- EDIT -->
     <meta name="twitter:title" content="{{ page.title | escape }}"> <!-- EDIT -->
     <meta name="twitter:description" content="{{ page.description | escape }}"> <!-- EDIT -->
-    <meta name="twitter:image" content="{{ "webslides/images/share-webslides.jpg" | relative_url }}"> <!-- EDIT -->
+    <meta name="twitter:image" content="{{ site.baseurl }}{% link /assets/webslides/images/share-webslides.jpg %}"> <!-- EDIT -->
 
     <!-- FAVICONS -->
-    <link rel="shortcut icon" sizes="16x16" href="{{ "webslides/images/favicons/favicon.png" | relative_url }}">
-    <link rel="shortcut icon" sizes="32x32" href="{{ "webslides/images/favicons/favicon-32.png" | relative_url }}">
-    <link rel="apple-touch-icon icon" sizes="76x76" href="{{ "webslides/images/favicons/favicon-76.png" | relative_url }}">
-    <link rel="apple-touch-icon icon" sizes="120x120" href="{{ "webslides/images/favicons/favicon-120.png" | relative_url }}">
-    <link rel="apple-touch-icon icon" sizes="152x152" href="{{ "webslides/images/favicons/favicon-152.png" | relative_url }}">
-    <link rel="apple-touch-icon icon" sizes="180x180" href="{{ "webslides/images/favicons/favicon-180.png" | relative_url }}">
-    <link rel="apple-touch-icon icon" sizes="192x192" href="{{ "webslides/images/favicons/favicon-192.png" | relative_url }}">
+    <link rel="shortcut icon" sizes="16x16" href="{{ site.baseurl }}{% link /assets/webslides/images/favicons/favicon.png %}">
+    <link rel="shortcut icon" sizes="32x32" href="{{ site.baseurl }}{% link /assets/webslides/images/favicons/favicon-32.png %}">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="{{ site.baseurl }}{% link /assets/webslides/images/favicons/favicon-76.png %}">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="{{ site.baseurl }}{% link /assets/webslides/images/favicons/favicon-120.png %}">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="{{ site.baseurl }}{% link /assets/webslides/images/favicons/favicon-152.png %}">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="{{ site.baseurl }}{% link /assets/webslides/images/favicons/favicon-180.png %}">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="{{ site.baseurl }}{% link /assets/webslides/images/favicons/favicon-192.png %}">
 
     <!-- Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -86,13 +86,13 @@
     </footer>  -->
 
     <!-- Required -->
-    <script src="{{ "webslides/js/webslides.js" | relative_url }}"></script>
+    <script src="{{ site.baseurl }}{% link /assets/webslides/js/webslides.js %}"></script>
     <script>
       window.ws = new WebSlides();
     </script>
 
     <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
-    <script defer src="{{ "webslides/js/svg-icons.js" | relative_url }}"></script>
+    <script defer src="{{ site.baseurl }}{% link /assets/webslides/js/svg-icons.js %}"></script>
 
   </body>
 </html>
