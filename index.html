@@ -10,9 +10,9 @@ layout: default
       {% include headline.html tag="h2" title=post.title url=post.url %}
       {% if post.date or post.author %}
       <p class="content-meta">
-        {% include date_published.html date=post.date %}
-        &bullet;
         {% include author.html author=post.author %}
+        &bullet;
+        {% include date_published.html date=post.date %}
       </p>
       {% endif %}
     </header>
