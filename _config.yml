@@ -15,6 +15,7 @@ author: Roboe
 email: web@virgulilla.com
 description: > # this means to ignore newlines until "baseurl:"
   Crítica, filosofía y alfabetización digitales. La tecnología al servicio de la humanidad.
+logo: /assets/images/logo.png
 
 # Public web settings
 baseurl: "" # the subpath of your site, e.g. /blog
