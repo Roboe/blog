@@ -24,6 +24,8 @@ jekyll_build:
 
 git_deploy:
   stage: deploy
+  only:
+    - master
   when: on_success
   script:
     - cd $BUILD_DESTINATION
