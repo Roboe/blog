@@ -1,5 +1,6 @@
 ---
 layout: article
+image: /do-not-feed-the-gobble/gafam_degooglisons.png
 title: >
   Do not feed the <strong><span style="color:#3883fa">G</span><span style="color:#ee422e">o</span><span style="color:#ffbc00">b</span><span style="color:#3883fa">b</span><span style="color:#2da950">l</span><span style="color:#ee422e">e</span></strong>
 description: >

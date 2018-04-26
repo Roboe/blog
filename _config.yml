@@ -55,6 +55,11 @@ defaults:
       type: pages
     values:
       layout: page
+  - # Set default metadata image for jekyll-seo-tag
+    scope:
+      path: ""
+    values:
+      image: /assets/images/logo.png
 
 
 # Social settings
