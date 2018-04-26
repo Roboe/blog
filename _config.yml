@@ -57,12 +57,24 @@ defaults:
 
 
 # Social settings
-twitter:
-  username: RoboePi
 
+## jekyll-seo-tag config
 social:
   name: Roberto M.F.
   links:
     - https://twitter.com/RoboePi
     - https://gitlab.com/Roboe
     - https://github.com/Roboe
+
+twitter:
+  username: RoboePi
+  link: https://twitter.com/RoboePi # not compatible with jekyll-seo-tag
+
+## Using jekyll-seo-tag format for coherence
+gitlab:
+  username: Roboe
+  link: https://gitlab.com/Roboe
+
+github:
+  username: Roboe
+  link: https://github.com/Roboe

@@ -1,7 +1,8 @@
 // Footer
 .site-footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
 
   padding: 1em;
@@ -15,5 +16,43 @@
 
   p {
     margin: 0;
+  }
+}
+
+.site-links {
+  display: flex;
+  margin-bottom: 1em;
+
+  &--item {
+    @extend %flex-center;
+    padding: 0.25em;
+
+    img {
+      width: 2em;
+      height: 2em;
+    }
+
+    &:not(:first-child) {
+      margin-left: 0.5em;
+    }
+  }
+  .icon {
+    &-feed {
+      background-color: #ff9245;
+    }
+    &-twitter {
+      background-color: #60a6fc;
+    }
+    &-gitlab {
+      background-color: #fc6d26;
+    }
+    &-github {
+      background-color: #24292e;
+
+      img {
+        margin-top: 0.25em;
+        margin-bottom: -0.25em;
+      }
+    }
   }
 }
