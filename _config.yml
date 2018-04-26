@@ -20,7 +20,7 @@ logo: /assets/images/logo.png
 # Public web settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.virgulilla.com" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: /:categories/:title/
+permalink: /:year/:month/:day/:title/
 date_format: "%Y/%m/%d"
 
 # Build settings

@@ -1,6 +1,7 @@
 ---
 title: "Declaración de independencia del Ciberespacio"
 author: Roboe
+redirect_from: /declaracion-de-independencia-del-ciberespacio/
 ---
 
 > Gobiernos del Mundo Industrial, vosotros, agotados gigantes de carne y acero, vengo del Ciberespacio, el nuevo hogar de la Mente. En nombre del futuro, os pido a vosotros del pasado que nos dejéis en paz. No sois bienvenidos entre nosotros. No tenéis ninguna soberanía sobre el lugar donde nos reunimos.

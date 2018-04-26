@@ -1,6 +1,7 @@
 ---
 title: Reseña de la WordCamp Madrid 2018
 image: /assets/posts/wordcamp-madrid-2018/foto-familia.jpg
+redirect_from: /wordcamp-madrid-2018/
 ---
 
 Con un madrugón de los que duelen, el sábado pasado asistí acompañado de mi buena amiga [Ester Legaz][ester-legaz] a la edición anual de la [WordCamp][wordcamp-madrid-2018] celebrada en Madrid, concretamente en [La Nave][la-nave], un excelente espacio del ayuntamiento.
