@@ -14,7 +14,7 @@ jekyll_build:
     - master
   before_script:
     - jekyll -v
-    - gem install jekyll-seo-tag jekyll-feed jekyll-sitemap
+    - bundle install
   script:
     - jekyll build --source $SOURCE --destination $BUILD_DESTINATION
   artifacts:

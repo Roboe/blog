@@ -31,10 +31,10 @@ kramdown:
   toc_levels: 2..6
 sass:
   style: compressed
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
-  - jekyll-sitemap
+# plugins are fetched right from Gemfile's jekyll_plugins group
+exclude: # dotfiles are excluded by default
+  - Gemfile
+  - Gemfile.lock
 
 # Collection settings
 collections:
