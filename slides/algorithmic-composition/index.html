@@ -1,0 +1,222 @@
+---
+layout: reveal.js
+title: Algorithmic Composition
+description: An introduction to computer-generated music
+reveal_stylesheet: style.css
+reveal_styleclasses:
+  - theme-font-montserrat
+  - theme-color-sand-blue
+reveal_initscript: |
+  <script>
+    Reveal.initialize({
+      width: SLConfig.deck.width,
+      height: SLConfig.deck.height,
+      margin: 0.05,
+
+      controls: true,
+      progress: true,
+      history: true,
+      mouseWheel: false,
+      showNotes: SLConfig.deck.share_notes ? 'separate-page' : false,
+      slideNumber: SLConfig.deck.slide_number,
+
+      autoSlide: SLConfig.deck.auto_slide_interval || 0,
+      autoSlideStoppable: true,
+
+      rollingLinks: false,
+      center: SLConfig.deck.center || false,
+      shuffle: SLConfig.deck.shuffle || false,
+      loop: SLConfig.deck.should_loop || false,
+      rtl: SLConfig.deck.rtl || false,
+
+      transition: SLConfig.deck.transition,
+      backgroundTransition: SLConfig.deck.background_transition,
+
+      pdfMaxPagesPerSlide: 1
+    });
+
+    if( window.hljs ) hljs.initHighlightingOnLoad();
+  </script>
+---
+			<div class="slides">
+				<section data-id="b63f9fda95c05102dd7fc45a2258be97"><div data-block-id="e8f88ac1c18b3337b6d4e0391afbb47e" class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 139px; height: auto;"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Algorithmic Composition</h1>
+</div></div>
+<div data-block-id="897c0854bd1d104722983c99f2fde6be" style="height: auto; min-width: 30px; min-height: 30px; width: 679px; left: 141px; top: 290px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p>An introduction to computer-generated music</p>
+</div></div>
+<div data-block-id="69e8f912d2fce161cfa3d89ad8930d6e" style="height: auto; min-width: 30px; min-height: 30px; width: 340px; left: 141px; top: 479px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p><strong>Roberto M.F.</strong></p>
+</div></div>
+<div data-block-id="7693c783b45fd30c1acbcd45ec2ce11e" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 541px;" data-block-type="text" class="sl-block"><div style="z-index: 14;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p><a href="http://h4ckademy.com" target="_blank"><span style="color:#000000">@h</span><span style="color:#008000">4</span><span style="color:#000000">ckademy</span></a> alumni</p>
+</div></div>
+<div data-block-id="20054a472578a91c158d724815cfbe41" style="height: auto; min-width: 30px; min-height: 30px; width: 339px; left: 481px; top: 479px;" data-block-type="text" class="sl-block"><div style="z-index: 15;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p><a href="http://twitter.com/RoboePi" target="_blank">@RoboePi</a></p>
+</div></div>
+<div data-block-id="fecd3333dba989ecd35f5fb66e24a51d" style="min-width: 4px; min-height: 4px; width: 37px; height: 37px; left: 534px; top: 480px;" data-block-type="shape" class="sl-block"><div style="z-index: 16;" data-shape-stretch="false" data-shape-fill-color="rgb(111, 168, 220)" data-shape-type="symbol-twitter" class="sl-block-content"><svg viewbox="0 3 32 26" preserveaspectratio="xMidYMid" height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><g class="shape-element" fill="rgb(111, 168, 220)"><path d="M32 6.076c-1.177 0.522-2.443 0.875-3.771 1.034 1.355-0.813 2.396-2.099 2.887-3.632-1.269 0.752-2.674 1.299-4.169 1.593-1.198-1.276-2.904-2.073-4.792-2.073-3.626 0-6.565 2.939-6.565 6.565 0 0.515 0.058 1.016 0.17 1.496-5.456-0.274-10.294-2.888-13.532-6.86-0.565 0.97-0.889 2.097-0.889 3.301 0 2.278 1.159 4.287 2.921 5.465-1.076-0.034-2.088-0.329-2.974-0.821-0.001 0.027-0.001 0.055-0.001 0.083 0 3.181 2.263 5.834 5.266 6.437-0.551 0.15-1.131 0.23-1.73 0.23-0.423 0-0.834-0.041-1.235-0.118 0.835 2.608 3.26 4.506 6.133 4.559-2.247 1.761-5.078 2.81-8.154 2.81-0.53 0-1.052-0.031-1.566-0.092 2.905 1.863 6.356 2.95 10.064 2.95 12.076 0 18.679-10.004 18.679-18.68 0-0.285-0.006-0.568-0.019-0.849 1.283-0.926 2.396-2.082 3.276-3.398z"></path></g></svg></div></div></section><section data-id="c1d8657453e038b0733f056c2d3a31b8" class="stack"><section data-id="00e15af3937ac7c182248e5e981406bf"><div data-block-id="0d2b1748166b355d8f9e12f3e9b07c00" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 140px; height: auto;"><div style="z-index: 10;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Who <span style="font-size:0.7em">(the heck)</span> am I?</h1>
+</div></div>
+<div data-block-id="ce0625c2e5efaad4172204b7619f0e41" class="sl-block" data-block-type="text" style="width: 800px; left: 79px; top: 291px; height: auto;"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Subtitle">
+<p>Almost <em>all my base is belong to</em> the music:<br>
+<strong>12 years</strong> studying music and playing the <strong>oboe</strong></p>
+</div></div>
+<div data-block-id="c8a0d3c32f578a179af1678ef1ca741c" style="height: auto; min-width: 30px; min-height: 30px; width: 693px; left: 134px; top: 398px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p>Software tinkerer and Math lover since I was born:<br>
+<strong>programmer</strong> nowadays</p>
+</div></div></section><section data-id="c820e9f2e0c2fe80091a411e54411e39"><div data-block-id="2f6983ead95e668f14e9d446fc254120" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>What's an oboe?</h1>
+</div></div>
+
+<div data-block-id="415c754294879de352959d341254c52b" style="min-width: 30px; min-height: 30px; width: 360px; height: 360px; left: 300px; top: 210px;" data-block-type="image" class="sl-block"><div style="z-index: 13;" class="sl-block-content"><img data-natural-height="470" data-natural-width="470" style="" data-lazy-loaded="" data-src="images/46-2pvbif7s..jpeg"></div></div>
+<div data-block-id="0d88c8da23d92bdbb08d5f58156fa39d" style="min-width: 30px; min-height: 30px; width: 628.817px; height: 430px; left: 166px; top: 205px;" data-block-type="image" class="sl-block"><div data-fragment-index="0" style="z-index: 14;" class="sl-block-content fragment"><img data-natural-height="465" data-natural-width="680" style="" data-lazy-loaded="" data-src="images/oboe.jpeg"></div></div></section></section><section data-id="67e32be59ad7a633b6254f096ed643cd" class="stack"><section data-id="1a554c5b1a3efacd826265fb8aab5412"><div data-block-id="6f0a3117dbd0fa1f260949ce5786f72d" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 135px; height: auto;"><div dir="ui" style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<p><strong>Returning to Algorithmic Composition...</strong><br></p>
+<h1>what is <span style="font-size:0.9em"><strong>IT</strong></span>*?</h1>
+<p><br></p>
+</div></div>
+<div data-block-id="2cfa262f40f60be4c0b3b1a7cadc6a94" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 310px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p>Is a <strong>technique</strong> for composing music</p>
+</div></div>
+<div data-block-id="6e813d19dac17038c7e2107eb2a1ba15" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 381px;" data-block-type="text" class="sl-block"><div data-fragment-index="0" style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content fragment">
+<p>that involves the use of <strong>algorithms</strong></p>
+</div></div>
+<div data-block-id="b9c029811640e776ac54b58e55c3354b" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 501px;" data-block-type="text" class="sl-block"><div data-fragment-index="1" style="z-index: 14;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content fragment">
+<p><span style="font-size:0.7em"><em>Thanks, Captain Obvious! (¬¬)</em></span></p>
+</div></div></section><section data-id="f5bcef3ce7fcbdae16d406adbc5213fd"><div data-block-id="028c324ffe9a3668083912dda185610b" class="sl-block" data-block-type="text" style="width: 720px; left: 80px; top: 140px; height: auto;"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>That's not new!</h1>
+</div></div>
+<div data-block-id="22ee827f5737ff811221af952e8bab23" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 290px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p><span style="font-size:1.0em"><span>Isorhythmic motets</span></span> from the <strong>13th century</strong> were composed this way</p>
+</div></div>
+<div data-block-id="56a644d1b843437135e704c5f064ae32" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 406px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p><strong>Medieval</strong> music composers <span><span>taught</span></span> their pupils with this technique</p>
+</div></div>
+<div data-block-id="4397fa584ff136d5356eb479fbf3141c" style="min-width: 4px; min-height: 4px; width: 80px; height: 80px; left: 760px; top: 149px;" data-block-type="shape" class="sl-block"><div style="z-index: 14;" data-shape-stretch="false" data-shape-fill-color="#000000" data-shape-type="symbol-sad" class="sl-block-content"><svg viewbox="0 0 32 32" preserveaspectratio="xMidYMid" height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><g fill="#000000" class="shape-element"><path d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zM16 3c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13zM8 10c0-1.105 0.895-2 2-2s2 0.895 2 2c0 1.105-0.895 2-2 2-1.105 0-2-0.895-2-2zM20 10c0-1.105 0.895-2 2-2s2 0.895 2 2c0 1.105-0.895 2-2 2-1.105 0-2-0.895-2-2zM9.997 24.398l-2.573-1.544c1.749-2.908 4.935-4.855 8.576-4.855 3.641 0 6.827 1.946 8.576 4.855l-2.573 1.544c-1.224-2.036-3.454-3.398-6.003-3.398-2.549 0-4.779 1.362-6.003 3.398z"></path></g></svg></div></div></section><section data-id="c32bbbe139975883ee08448ea905dd9c"><div data-block-id="310f8671705c8ba86a3a72f3e0445798" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 115px; height: auto;"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h3>Algorithms are <strong>slow</strong> to calculate</h3>
+</div></div>
+<div data-block-id="408a6e7fece5559caed59864ed8ee6a4" style="height: auto; min-width: 30px; min-height: 30px; width: 620px; left: 170px; top: 229px;" data-block-type="text" class="sl-block"><div data-fragment-index="0" style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content fragment">
+<h3>We are <strong>not</strong> on the <strong>13th century</strong>
+</h3>
+</div></div>
+<div data-block-id="94d861a59e9d134633eaaf5e0e2a2e2f" style="height: auto; min-width: 30px; min-height: 30px; width: 557px; left: 180px; top: 337px;" data-block-type="text" class="sl-block"><div data-fragment-index="1" style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content fragment">
+<h3>We now have <strong>computers!</strong>
+</h3>
+</div></div>
+<div data-block-id="3667cca081e316cd9e56d0e70dc79060" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 151px; top: 440px;" data-block-type="text" class="sl-block"><div data-fragment-index="2" style="z-index: 14;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content fragment">
+<h3>We can make <strong>Computer Music*</strong> based on algorithms</h3>
+</div></div>
+<div data-block-id="bcec1548f674bd908c160114e08b6669" style="min-width: 4px; min-height: 4px; width: 48px; height: 48px; left: 737px; top: 339px;" data-block-type="shape" class="sl-block"><div data-fragment-index="1" style="z-index: 15;" data-shape-stretch="false" data-shape-fill-color="#000000" data-shape-type="symbol-bolt" class="sl-block-content fragment"><svg viewbox="0 0 32 32" preserveaspectratio="xMidYMid" height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><g fill="#000000" class="shape-element"><path d="M32 0l-24 16 6 4-14 12 24-12-6-4z"></path></g></svg></div></div>
+<div data-block-id="f816ebafe5b0330ba84a3138eb35cdfb" style="min-width: 4px; min-height: 4px; width: 58px; height: 58px; left: 751px; top: 462px;" data-block-type="shape" class="sl-block"><div data-fragment-index="2" style="z-index: 16;" data-shape-stretch="false" data-shape-fill-color="#000000" data-shape-type="symbol-happy" class="sl-block-content fragment"><svg viewbox="0 0 32 32" preserveaspectratio="xMidYMid" height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><g fill="#000000" class="shape-element"><path d="M16 32c8.837 0 16-7.163 16-16s-7.163-16-16-16-16 7.163-16 16 7.163 16 16 16zM16 3c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13zM16 18.711c3.623 0 7.070-0.963 10-2.654-0.455 5.576-4.785 9.942-10 9.942-5.215 0-9.544-4.371-10-9.947 2.93 1.691 6.377 2.658 10 2.658zM8 11c0-1.657 0.895-3 2-3s2 1.343 2 3c0 1.657-0.895 3-2 3-1.105 0-2-1.343-2-3zM20 11c0-1.657 0.895-3 2-3s2 1.343 2 3c0 1.657-0.895 3-2 3-1.105 0-2-1.343-2-3z"></path></g></svg></div></div></section></section><section data-id="3b98a9063bcc8569ed5e004cae6da282" class="stack"><section data-id="02a43ac1b6096aa8b47f9f323d0696ab"><div data-block-id="aa78c34a6e7afa9648c108807b920f8b" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 210px; height: auto;"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h2>What type of music is produced by this technique?</h2>
+</div></div></section><section data-id="e795f37a767999ca1f7c6cd5d509fd92"><div data-block-id="d40581aa364563172ec7ce6321a000f1" class="sl-block" data-block-type="text" style="width: 410px; left: 50px; top: 154px; height: auto;"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11;">
+<h2 style="text-align: center;">Completely automatic</h2>
+</div></div>
+<div data-block-id="5c1543f52eeb21a84f314fe45815e487" class="sl-block" data-block-type="text" style="width: 351px; left: 80px; top: 328px; height: auto;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 12;">
+<p style="text-align: center;">The computer is able to make choices of <strong>its own</strong></p>
+</div></div>
+<div data-block-id="7ee5b39201259ff334992dc5d255d1a3" class="sl-block" data-block-type="text" style="width: 410px; left: 500px; top: 154px; height: auto;"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 13;">
+<h2 style="text-align:center">As a help to the composer</h2>
+</div></div>
+<div data-block-id="70a81a196a15989a0071c1c2ad4a40e9" class="sl-block" data-block-type="text" style="width: 381px; left: 515px; top: 328px; height: auto;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 14;">
+<p style="text-align: center;">The computer is a <strong>tool</strong> managed by a human</p>
+</div></div>
+<div data-block-id="64332db44bc6d5d5e7a1d4f65fe5cd21" style="min-width: 4px; min-height: 4px; width: 80px; height: 80px; left: 215px; top: 450px;" data-block-type="shape" class="sl-block"><div style="z-index: 15;" data-shape-stretch="false" data-shape-fill-color="#000000" data-shape-type="symbol-iphone" class="sl-block-content"><svg viewbox="0 0 24 32" preserveaspectratio="xMidYMid" height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><g fill="#000000" class="shape-element"><path d="M16 0h-8c-4.418 0-8 3.582-8 8v16c0 4.418 3.582 8 8 8h8c4.418 0 8-3.582 8-8v-16c0-4.418-3.582-8-8-8zM12 30.062c-1.139 0-2.062-0.922-2.062-2.062s0.924-2.062 2.062-2.062 2.062 0.922 2.062 2.062-0.923 2.062-2.062 2.062zM20 24h-16v-16c0-2.203 1.795-4 4-4h8c2.203 0 4 1.797 4 4v16z"></path></g></svg></div></div>
+<div data-block-id="c0e0aadaebb1a5f2ce1072782c0bc74d" style="min-width: 4px; min-height: 4px; width: 80px; height: 80px; left: 680px; top: 450px;" data-block-type="shape" class="sl-block"><div style="z-index: 16;" data-shape-stretch="false" data-shape-fill-color="#000000" data-shape-type="symbol-user" class="sl-block-content"><svg viewbox="0 0 24 32" preserveaspectratio="xMidYMid" height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><g fill="#000000" class="shape-element"><path d="M12 16c-6.625 0-12 5.375-12 12 0 2.211 1.789 4 4 4h16c2.211 0 4-1.789 4-4 0-6.625-5.375-12-12-12zM6 6c0-3.314 2.686-6 6-6s6 2.686 6 6c0 3.314-2.686 6-6 6-3.314 0-6-2.686-6-6z"></path></g></svg></div></div></section><section data-id="71a9ceb138073f419939a6ac32ece45c"><div data-block-id="c1215f8851d117949a83a34936f3bf47" class="sl-block" data-block-type="text" style="width: 410px; left: 50px; top: 154px; height: auto;"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 10;">
+<h2 style="text-align:center">Self-played</h2>
+</div></div>
+<div data-block-id="6ddc4a020e9cd7209bd119a23a853d54" class="sl-block" data-block-type="text" style="width: 351px; left: 80px; top: 328px; height: auto;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 11;">
+<p style="text-align:center">The computer is the one who plays its music</p>
+</div></div>
+<div data-block-id="7eed609d3724a897bae4156d5bf5b601" class="sl-block" data-block-type="text" style="width: 410px; left: 500px; top: 154px; height: auto;"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 12;">
+<h2 style="text-align:center">In sheet form</h2>
+</div></div>
+<div data-block-id="0b6833ea7bc4f8d6b7acbc3406ceea18" class="sl-block" data-block-type="text" style="width: 381px; left: 515px; top: 309px; height: auto;"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 13;">
+<p style="text-align:center">The music is played by musicians or on another form</p>
+</div></div>
+<div data-block-id="bd0b15f1ee37a0398bf6e6f54e927a67" style="width: 80px; height: 80px; left: 215px; top: 450px;" data-block-type="shape" class="sl-block"><div style="z-index: 14;" data-shape-stretch="false" data-shape-fill-color="#000000" data-shape-type="symbol-iphone" class="sl-block-content"><svg viewbox="0 0 24 32" preserveaspectratio="xMidYMid" height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><g fill="#000000" class="shape-element"><path d="M16 0h-8c-4.418 0-8 3.582-8 8v16c0 4.418 3.582 8 8 8h8c4.418 0 8-3.582 8-8v-16c0-4.418-3.582-8-8-8zM12 30.062c-1.139 0-2.062-0.922-2.062-2.062s0.924-2.062 2.062-2.062 2.062 0.922 2.062 2.062-0.923 2.062-2.062 2.062zM20 24h-16v-16c0-2.203 1.795-4 4-4h8c2.203 0 4 1.797 4 4v16z"></path></g></svg></div></div>
+<div data-block-id="e2562caa401f0c235812c22fafb03980" style="width: 80px; height: 80px; left: 600px; top: 450px;" data-block-type="shape" class="sl-block"><div style="z-index: 16;" data-shape-stretch="false" data-shape-fill-color="#000000" data-shape-type="symbol-user" class="sl-block-content"><svg viewbox="0 0 24 32" preserveaspectratio="xMidYMid" height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><g fill="#000000" class="shape-element"><path d="M12 16c-6.625 0-12 5.375-12 12 0 2.211 1.789 4 4 4h16c2.211 0 4-1.789 4-4 0-6.625-5.375-12-12-12zM6 6c0-3.314 2.686-6 6-6s6 2.686 6 6c0 3.314-2.686 6-6 6-3.314 0-6-2.686-6-6z"></path></g></svg></div></div>
+<div data-block-id="1733b0953b4005de3009fecf18928c2a" style="width: 80px; height: 80px; left: 760px; top: 450px;" data-block-type="shape" class="sl-block"><div style="z-index: 17;" data-shape-stretch="false" data-shape-fill-color="#000000" data-shape-type="symbol-iphone" class="sl-block-content"><svg viewbox="0 0 24 32" preserveaspectratio="xMidYMid" height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><g fill="#000000" class="shape-element"><path d="M16 0h-8c-4.418 0-8 3.582-8 8v16c0 4.418 3.582 8 8 8h8c4.418 0 8-3.582 8-8v-16c0-4.418-3.582-8-8-8zM12 30.062c-1.139 0-2.062-0.922-2.062-2.062s0.924-2.062 2.062-2.062 2.062 0.922 2.062 2.062-0.923 2.062-2.062 2.062zM20 24h-16v-16c0-2.203 1.795-4 4-4h8c2.203 0 4 1.797 4 4v16z"></path></g></svg></div></div></section></section><section data-id="de9f034b6c6f314acb3ef71963fe651c" class="stack"><section data-id="880cbde14187f9e94879f0caf8c8c199"><div data-block-id="e405292280bfa061459cb106f8ab7465" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 210px; height: auto;"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Physical examples</h1>
+</div></div></section><section data-id="da0f32b267a780e7cd6fc70ab372c0a0"><div data-block-id="b2e0a8a1dd021a2bdca3778869e9a48a" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 95px; height: auto;"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h3>The Well-Sequenced Synthesizer</h3>
+</div></div>
+<div data-block-id="2a3de4a693fe65dcd5295f9be088372a" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 524px;" data-block-type="text" class="sl-block"><div data-fragment-index="0" style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content fragment">
+<pre style="text-align:center">Self-played &amp; user-controlled</pre>
+</div></div>
+<div data-block-id="9ef241923fb7cfb16142460fcc9e4ada" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 146px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p><a href="http://www.thewellsequencedsynthesizer.com/" target="_blank">thewellsequencedsynthesizer.com</a></p>
+</div></div>
+<div data-block-id="d01d47db04f98622da33fcd6d3cec5c9" style="min-width: 30px; min-height: 30px; width: 360px; height: 300px; left: 300px; top: 200px;" data-block-type="iframe" class="sl-block"><div style="z-index: 14;" class="sl-block-content"><iframe data-src="https://www.youtube.com/embed/ZqCx2ZrbU1E?enablejsapi=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe></div></div></section><section data-id="289e7c01aa98206097f739f3c223f72a"><div data-block-id="5952889f269a2a5ef843002516a5b7d3" class="sl-block" data-block-type="text" style="width: 600px; left: 0px; top: 166px; height: auto;"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h2>Iamus</h2>
+</div></div>
+<div data-block-id="6947226157d17eb9a0b47e220335d122" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 0px; top: 240px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p><a href="http://www.melomicsrecords.com/index.php?page=iamus-2" target="_blank">I-am-us</a></p>
+</div></div>
+<div data-block-id="2c5663a87fc9ec621899f00c2fb1c728" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 0px; top: 314px;" data-block-type="text" class="sl-block"><div data-has-custom-html="" style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<ul>
+	<li data-fragment-index="0" class="fragment">
+	<p>352-processors supercomputer</p>
+	</li>
+	<li data-fragment-index="1" class="fragment">
+	<p>Sponsored by the University of Málaga</p>
+	</li>
+	<li data-fragment-index="2" class="fragment">
+	<p><em>Biomimetic </em>and<em> evo-devo</em></p>
+	</li>
+</ul>
+</div></div>
+<div data-block-id="5936e93eb2474cf9b61350b61f9e9054" style="min-width: 30px; min-height: 30px; width: 298.065px; height: 420px; left: 631px; top: 140px;" data-block-type="image" class="sl-block"><div style="z-index: 14;" class="sl-block-content"><img data-natural-height="465" data-natural-width="330" style="" data-lazy-loaded="" data-src="images/Iamus_330.jpg"></div></div>
+<div data-block-id="a0204d6c051a588f859b8eb3601a910d" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 0px; top: 498px;" data-block-type="text" class="sl-block"><div data-fragment-index="4" style="z-index: 15;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content fragment">
+<pre style="text-align:center">Sheet-producer &amp; automatic</pre>
+</div></div>
+<div data-block-id="ed603eb4b1e13f53429279b502ae87c1" style="min-width: 30px; min-height: 30px; width: 360px; height: 300px; left: 600px; top: 200px;" data-block-type="iframe" class="sl-block"><div data-fragment-index="3" style="z-index: 16;" class="sl-block-content fragment"><iframe data-src="https://www.youtube.com/embed/bD7l4Kg1Rt8?enablejsapi=1" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen=""></iframe></div></div></section></section><section class="stack" data-id="caa0ef3bb3d6e919cf553312786a2d5d"><section data-id="1c9f3e093c7493670ed32a3a9d8ea24e"><div data-block-id="37ba43f759164d3fb7b1e78a9ddafbe7" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 210px; height: auto;"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Software examples</h1>
+</div></div>
+<div data-block-id="fd232c6de44561a46bc9fd7b6152b595" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 311px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p>Computer Music Lab (<a href="http://computermusiclab.org" target="_blank">computermusiclab.org</a>):</p>
+
+<p><a href="http://computermusiclab.org/proyectos.en.html" target="_blank">research projects</a></p>
+</div></div>
+<div data-block-id="f8e80a0dd1e2e5cf90afc68de46cf73a" style="height: auto; min-width: 30px; min-height: 30px; width: 800px; left: 80px; top: 420px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p>Federico Guardabrazo (<a href="http://twitter.com/guardabrazo" target="_blank">@guardabrazo</a>):</p>
+
+<p><a href="https://www.linkedin.com/pulse/3-tools-electroacoustic-composition-federico-guardabrazo-vallejo" target="_blank">3 tools for electroacoustic composition</a></p>
+</div></div></section><section data-id="91bbc9a7141b0f5c143563a0478eb79c"><div data-block-id="1343e28b220fcd2e06aaaf6f23153492" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 87px; height: auto;"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h2>Fracmus</h2>
+</div></div>
+<div data-block-id="2d3b81e9051be4eef0c6d2689d01d4b8" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 560px;" data-block-type="text" class="sl-block"><div data-fragment-index="0" style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content fragment">
+<pre>Sheet-producer &amp; user-controlled</pre>
+</div></div>
+<div data-block-id="08d9904b916d4b51ce8b85e62fd6417b" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 155px;" data-block-type="text" class="sl-block"><div style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p><a href="http://www.gustavodiazjerez.com/?cat=14" target="_blank">gustavodiazjerez.com</a></p>
+</div></div>
+<div data-block-id="0c4ca137ad484cc04c38c7d2596c8f7f" style="min-width: 30px; min-height: 30px; width: 473px; height: 338.786px; left: 452px; top: 210px;" data-block-type="image" class="sl-block"><div style="z-index: 14;" class="sl-block-content"><img data-natural-height="573" data-natural-width="800" style="" data-lazy-loaded="" data-src="images/fracmus.gif"></div></div>
+<div data-block-id="cac7d534b09498b82c1ed220743d0c03" style="height: auto; min-width: 30px; min-height: 30px; width: 452px; left: 0px; top: 261px;" data-block-type="text" class="sl-block"><div style="z-index: 15;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p>Mathematical formulas</p>
+</div></div>
+<div data-block-id="60ba2cdc1c24b9e36c626f3a0c88e7a3" style="min-width: 4px; min-height: 4px; width: 70px; height: 70px; left: 191px; top: 345px;" data-block-type="shape" class="sl-block"><div style="z-index: 16;" data-shape-stretch="false" data-shape-fill-color="#000000" data-shape-type="symbol-thin-arrow-down" class="sl-block-content"><svg viewbox="4 2 24 28" preserveaspectratio="xMidYMid" height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><g fill="#000000" class="shape-element"><path d="M4.586 19.414l10 10c0.781 0.781 2.047 0.781 2.828 0l10-10c0.781-0.781 0.781-2.047 0-2.828s-2.047-0.781-2.828 0l-6.586 6.586v-19.172c0-1.105-0.895-2-2-2s-2 0.895-2 2v19.172l-6.586-6.586c-0.391-0.39-0.902-0.586-1.414-0.586s-1.024 0.195-1.414 0.586c-0.781 0.781-0.781 2.047 0 2.828z"></path></g></svg></div></div>
+<div data-block-id="c2805f9870d73d410d8297a5ef27fc98" style="height: auto; min-width: 30px; min-height: 30px; width: 452px; left: 0px; top: 471px;" data-block-type="text" class="sl-block"><div style="z-index: 17;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p>Raw music data</p>
+</div></div></section><section data-id="80f28696c15767122fdad88ed25a6fd7"><div data-block-id="51600925e4001e169282ddccafa2f05d" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 70px; height: auto;"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>DM-D</h1>
+</div></div>
+<div data-block-id="d59ac543b3273a0e9c9e20af00a5d510" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 168px;" data-block-type="text" class="sl-block"><div style="z-index: 12;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<p><a href="http://www.designingmusic.org/" target="_blank">designingmusic.org</a></p>
+</div></div>
+<div data-block-id="7f7fa962437eafff2f35b4494141736f" style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 560px;" data-block-type="text" class="sl-block"><div data-fragment-index="0" style="z-index: 13;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content fragment">
+<pre>Sheet-producer &amp; user-controlled</pre>
+
+<p>(and runs well on Linux with Wine!)</p>
+</div></div>
+<div data-block-id="a269ef72a0356cb02af347ef1869c659" style="min-width: 30px; min-height: 30px; width: 453.147px; height: 216px; left: 480px; top: 242px;" data-block-type="image" class="sl-block"><div style="z-index: 14;" class="sl-block-content"><img data-natural-height="286" data-natural-width="600" style="" data-lazy-loaded="" data-src="images/DMD.jpg"></div></div>
+<div data-block-id="612cfa0ce20424ef0a02a3feef8f049f" style="height: auto; min-width: 30px; min-height: 30px; width: 480px; left: 0px; top: 288px;" data-block-type="text" class="sl-block"><div style="z-index: 15;" data-placeholder-text="Text" data-placeholder-tag="p" class="sl-block-content">
+<ul>
+	<li>Methodology of composition</li>
+	<li>Parallels between                Music and <strong>Plastic Arts</strong>
+</li>
+</ul>
+</div></div></section></section><section data-id="1fbe4e291068ca20e13e7688b708c354"><div data-block-id="c409b37184143998e5400f42f7819bdd" class="sl-block" data-block-type="text" style="width: 800px; left: 80px; top: 210px; height: auto;"><div style="z-index: 11;" class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text">
+<h1>Thank you!</h1>
+</div></div>
+<div data-block-id="350b30ab72169b787de3245e6f5cfe58" style="min-width: 4px; min-height: 4px; width: 39px; height: 39px; left: 461px; top: 331px;" data-block-type="shape" class="sl-block"><div style="z-index: 12;" data-shape-stretch="false" data-shape-fill-color="rgb(204, 0, 0)" data-shape-type="symbol-heart-fill" class="sl-block-content"><svg viewbox="0 2 32 28" preserveaspectratio="xMidYMid" height="100%" width="100%" version="1.1" xmlns="http://www.w3.org/2000/svg"><g fill="rgb(204, 0, 0)" class="shape-element"><path d="M16 5.844c-1.613-2.266-4.129-3.844-7.113-3.844-4.903 0-8.887 3.992-8.887 8.891v0.734l16.008 18.375 15.992-18.375v-0.734c0-4.899-3.984-8.891-8.887-8.891-2.984 0-5.5 1.578-7.113 3.844z"></path></g></svg></div></div></section>
+			</div>

@@ -16,6 +16,9 @@
 
 		<link rel="stylesheet" href="{{ site.baseurl }}{% link /assets/reveal.js/css/reveal.css %}">
 		<!--link rel="stylesheet" href="css/theme/black.css" id="theme"--> <!-- default themes contain external Google Fonts shit -->
+{% if page.reveal_stylesheet %}
+		<link rel="stylesheet" href="{{ page.reveal_stylesheet }}">
+{% endif %}
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="{{ site.baseurl }}{% link /assets/reveal.js/lib/css/zenburn.css %}">
@@ -33,7 +36,7 @@
 		<script src="{{ site.baseurl }}{% link /assets/reveal.js/lib/js/html5shiv.js %}"></script>
 		<![endif]-->
 	</head>
-	<body>
+	<body class="{{ page.reveal_styleclasses | join: ' ' }}" style="width: 100%; height: 100%;">
 		<div class="reveal">
 			{{ content }}
 		</div>
