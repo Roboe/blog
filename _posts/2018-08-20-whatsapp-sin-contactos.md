@@ -8,7 +8,7 @@ Ayer me pidieron en el [foro de Fairphone](https://forum.fairphone.com/t/los-15-
 
 ## Introducción a los permisos de Android
 
-Primer, una pequeña introducción para entender esta característica y tener el modelo mental para poder utilizarla en nuestro beneficio.
+Primero, una pequeña introducción para entender esta característica y tener el modelo mental para poder utilizarla en nuestro beneficio.
 
 La _Protección de la privacidad_ (_Privacy Guard_) data de los tiempos de CyanogenMod 4.4 Kitkat. Antes de Android 6 Marshmallow no se solicitaban permisos individuales por aplicación. El usuario concedía todos los permisos que una aplicación pedía en el momento de la instalación, o no la instalaba. Así que a la inteligente gente de CyanogenMod se le ocurrió que podía interceptar las peticiones que las aplicaciones dirigían al sistema y devolver datos falsos en lugar de los datos reales. Así, en vez de la lista de tus contactos, las aplicaciones recibirían una lista de contactos válida pero vacía, o en lugar de acceso a las cámaras del dispositivo, un mensaje de estado indicando que las cámaras estaban ocupadas por otra aplicación. De esa manera, las aplicaciones no fallarían, pero tampoco conseguirían información que el usuario no quiere que tengan.
 
@@ -66,9 +66,7 @@ Así que, si ya has compartido tu lista de contactos con WhatsApp aunque sea una
 
 ## Truco pro: abrir conversaciones con nuevos números de teléfono
 
-Como se ha explicado arriba, una vez que impides que WhatsApp lea tu agenda de contactos, puedes recibir mensajes de otras personas e interactuar con las conversaciones ya abiertas, pero no puedes abrir nuevas desde la propia aplicación.
-
-Esta sección describe una solución que descubrí para abrir nuevas conversaciones por número (bueno, podrías simplemente utilizar [NoWhatOpen](https://f-droid.org/app/me.shrimadhavuk.numselapp), pero ¿qué diversión hay en eso?).
+Como se ha explicado arriba, una vez que impides que WhatsApp lea tu agenda de contactos, puedes recibir mensajes de otras personas e interactuar con las conversaciones ya abiertas, pero no puedes abrir nuevas desde la propia aplicación. Esta sección describe una solución que descubrí para abrir nuevas conversaciones por número (bueno, podrías simplemente utilizar [NoWhatOpen](https://f-droid.org/app/me.shrimadhavuk.numselapp), pero ¿qué diversión hay en eso?).
 
 Las aplicaciones pueden reaccionar a ciertos enlaces ([URL](https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme)) cuando interactúas con ellos. WhatsApp usa esto para muchas cosas; una de ellas es para esos enlaces "Compartir mediante WhatsApp" que habrás encontrado en noticias o artículos por la Web. Pero también pueden usarse para abrir una conversación con un número concreto. Cuando abres un enlace de la forma `https://api.whatsapp.com/send?phone=<prefijo_nacional><número_de_teléfono>`, WhatsApp comprobará si ese número está registrado en su servicio y **abrirá su conversación**. Sencillo.
 
