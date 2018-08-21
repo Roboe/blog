@@ -35,15 +35,15 @@ El plan: darle el permiso de «leer contactos» a WhatsApp para que nos deje en 
 
 Primero, asegúrate de tener la aplicación instalada. Después, activa Privacy Guard para la aplicación: ve a `Ajustes` → `Trust` → `Protección de la privacidad` → busca la aplicación en la lista y asegúrate de que el icono a la derecha está coloreado:
 
-![WhatsApp con Protección de la privacidad activada]({{ site.baseurl }}{{ "assets/posts/whatsapp-sin-contactos/privacy-guard-listing-whatsapp.jpg" | relative_url }})
+![WhatsApp con Protección de la privacidad activada]({{ "assets/posts/whatsapp-sin-contactos/privacy-guard-lista-whatsapp.jpg" | relative_url }})
 
 Después, mantén pulsado la entrada de WhatsApp en la lista. Te llevará a las opciones de Protección de la privacidad para la aplicación. Después busca la opción «Leer contactos», tócala y selecciona «ignorar». A partir de ahora, el sistema mandará una lista vacía de contactos a la aplicación cuando pida contactos.
 
-![Opciones de Protección de la privacidad para WhatsApp]({{ site.baseurl }}{{ "assets/posts/whatsapp-sin-contactos/privacy-guard-options-for-whatsapp.jpg" | relative_url }})
+![Opciones de Protección de la privacidad para WhatsApp]({{ "assets/posts/whatsapp-sin-contactos/privacy-guard-opciones-para-whatsapp.jpg" | relative_url }})
 
 La próxima vez que la aplicación pida leer tus contactos, concédele el permiso. No te preocupes, la Protección de la privacidad te cubre las espaldas. Este es el truco: la aplicación pensará que has compartido tu lista de contactos. Pero no lo habrás hecho, en realidad, 😏:
 
-![WhatsApp enseñando la lista vacía de contactos]({{ site.baseurl }}{{ "assets/posts/whatsapp-sin-contactos/whatsapp-showing-an-empty-contact-list.jpg" | relative_url }})
+![WhatsApp enseñando la lista vacía de contactos]({{ "assets/posts/whatsapp-sin-contactos/whatsapp-lista-de-contactos-vacia.jpg" | relative_url }})
 
 
 ## Desventajas
