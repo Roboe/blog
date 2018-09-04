@@ -1,6 +1,7 @@
 ---
 title: Instala tu propia VPN en una Raspberry Pi o en un VPS mediante PiVPN
 author: luisddm
+category: Guías
 ---
 
 _Utilizar una VPN (red virtual privada) es una buena idea para asegurar tus conexiones a internet y, en algunos casos, proteger con ello la privacidad. Pero la verdad es que puede ser algo imponente instalar una. [**Luis de Dios**][luisddm-twitter] se ha currado una completa guía de instalación con PiVPN en [su blog][luisddm-blog] que resolverá todas las dudas posibles en el proceso. Luis, a quien también conocí en [h4ckademy][h4ckademy], es un desarrollador frontend y coorganizador del [FrontFest][frontfest]. También se le puede encontrar por los [Open Source Weekends][osweekends]. Desde hace un par de años uso la misma configuración de VPN que él describe cuando me conecto a redes en las que no confío, lo que me permitió hacer [un par de mejoras][luisddm-tw-pivpn-mejoras] a la guía. Puedes encontrar la guía [aquí][luisddm-pivpn-original] o leerla a continuación. ¡Gracias por compartirla, Luis! ~{{ site.author }}_
