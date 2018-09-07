@@ -1,8 +1,0 @@
----
-type: 3x3x3
-name: Mini 3x3
-brand: Genérico
-origin: Centro comercial
-price: 1 €
-notes: Pintado a mano, traía pegatinas de Bob Esponja
----

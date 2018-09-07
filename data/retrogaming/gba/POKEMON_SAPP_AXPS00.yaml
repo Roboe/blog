@@ -1,0 +1,11 @@
+platform: GBA
+title: "Pokémon Edición Zafiro"
+developer: Game Freak
+publisher: Nintendo
+release_eu: July 25, 2003
+codename:
+  platform: AGB
+  title: POKEMON_SAPP
+  game: AXPS
+  revision: 00
+  region: ESP

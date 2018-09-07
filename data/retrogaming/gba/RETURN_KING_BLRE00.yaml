@@ -1,0 +1,11 @@
+platform: GBA
+title: "The Lord of the Rings: The Return of the King"
+developer: Griptonite Games
+publisher: EA Games
+release_eu: November 14, 2003
+codename:
+  platform: AGB
+  title: RETURN_KING
+  game: BLRP
+  revision: 00
+  region: EUR

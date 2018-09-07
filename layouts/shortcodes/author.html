@@ -1,0 +1,5 @@
+{{ if eq (.Get 0) "site" }}
+  {{- .Site.Params.author.displayName -}}
+{{ else }}
+  {{- .Page.Param "author.displayName" -}}
+{{ end }}

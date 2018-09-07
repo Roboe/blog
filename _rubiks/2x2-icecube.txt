@@ -1,8 +1,0 @@
----
-type: 2x2x2
-name: Cubo de hielo
-brand: Rubik's
-origin: Budapest, Hungría
-price: 2500 HUF (9,40 €)
-date: 2011-06-15
----

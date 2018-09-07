@@ -1,5 +1,0 @@
----
-type: 3x3x3x2
-name: Siamés 3x3
-origin: Manufacturado
----

@@ -1,6 +1,0 @@
----
-type: console
-name: Game Boy Pocket
-brand: Nintendo
-release_eu: March, 1997
----

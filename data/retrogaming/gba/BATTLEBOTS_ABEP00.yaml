@@ -1,0 +1,13 @@
+platform: GBA
+title: "Battlebots: Beyond the BattleBox"
+developer:
+  - Cave+Barn Studios
+  - Pipe Dream Interactive
+publisher: Majesco Entertainment
+release_eu: June 20, 2003
+codename:
+  platform: AGB
+  title: BATTLEBOTS
+  game: ABEP
+  revision: 00
+  region: EUR

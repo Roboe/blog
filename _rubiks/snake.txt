@@ -1,6 +1,0 @@
----
-type: Snake
-name: Serpiente de Rubik
-brand: Genérico
-origen: Regalo
----

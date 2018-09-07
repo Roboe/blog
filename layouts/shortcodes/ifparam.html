@@ -1,0 +1,4 @@
+{{ $param := .Get 0 | $.Page.Param -}}
+{{ with $param }}
+  {{ $.Inner }}
+{{ end }}

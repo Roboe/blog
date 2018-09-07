@@ -1,0 +1,4 @@
+{{ $template := .Get 1 | default "%s" -}}
+<figcaption>
+  {{ .Get 0 | printf "<cite>%s</cite>" | printf $template | markdownify | safeHTML }}
+</figcaption>

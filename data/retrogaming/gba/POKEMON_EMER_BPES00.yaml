@@ -1,0 +1,11 @@
+platform: GBA
+title: "Pokémon Edición Esmeralda"
+developer: Game Freak
+publisher: Nintendo
+release_eu: October 21, 2005
+codename:
+  platform: AGB
+  title: POKEMON_EMER
+  game: BPES
+  revision: 00
+  region: ESP
