@@ -1,0 +1,3 @@
+<div class="content-body" itemprop="articleBody">
+  {{ .Description | default .Summary | plainify | safeHTML }}{{/* safeHTML interprets HTML entities */}}
+</div>

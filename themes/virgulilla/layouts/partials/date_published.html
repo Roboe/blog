@@ -1,0 +1,5 @@
+{{ with .PublishDate -}}
+<time datetime="{{ .Format $.Site.Params.ISO8601 }}" itemprop="datePublished">
+  {{ .Day }} de {{ index $.Site.Data.months (printf "%d" .Month) }} de {{ .Year }}
+</time>
+{{- end }}

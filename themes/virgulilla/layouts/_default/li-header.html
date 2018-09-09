@@ -1,0 +1,16 @@
+<header class="content-header">
+  <h2 class="content-title" itemprop="name headline">
+    <a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a>
+  </h2>
+  {{ if .PublishDate | or (.Param "author") -}}
+  <p class="content-meta">
+    {{ if .Param "author" -}}
+      {{ partial "author.html" . }}
+    {{- end }}
+    {{ if .PublishDate | and (.Param "author") }} &bullet; {{ end }}
+    {{ if .PublishDate -}}
+      {{ partial "date_published.html" . }}
+    {{- end }}
+  </p>
+  {{- end }}
+</header>

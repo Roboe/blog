@@ -1,18 +1,16 @@
----
-layout: default
----
-
+{{ define "main" }}
 <main class="content" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="content-header">
-    {% include headline.html %}
+    {{ partial "headline.html" . }}
     <p class="content-meta">
-      Publicado el {% include date_published.html %} por {% include author.html %}
+      Publicado el {{ partial "date_published.html" . }} por {{ partial "author.html" . }}
     </p>
   </header>
 
   <div class="content-body" itemprop="articleBody">
-    {{ content }}
+    {{ .Content }}
   </div>
 
 </main>
+{{ end }}

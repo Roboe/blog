@@ -2,7 +2,7 @@
 
 .content {
   > :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
-    text-align: justify;
+    text-align: unset;
   }
 
   a {
@@ -43,21 +43,26 @@
 
   .content-body {
     figure,
-    blockquote,
     pre {
       margin-top: 3rem;
       margin-bottom: 3rem;
       @extend %lateral-strip;
     }
 
-    figure figcaption,
-    blockquote,
-    pre {
-      padding-left: 1.25em;
-      @include breakpoint(52rem) { padding-left: 2em; }
+    figure {
+      blockquote {
+        margin-bottom: 1.5em;
+      }
+      figcaption {
+        text-align: right;
+      }
     }
 
-    figure p {
+    figure > :not(blockquote),
+    > blockquote,
+    pre {
+      padding-left: 1.25rem;
+      @include breakpoint(52rem) { padding-left: 2rem; }
       @extend %no-margin;
     }
 
@@ -86,8 +91,9 @@
     }
 
 
-    aside {
+    aside, hr {
       font-size: 95%;
+      border: 0;
 
       &::before {
         content: "";
@@ -110,10 +116,21 @@
       font-family: unset;
     }
 
-    #markdown-toc {
+    #TableOfContents {
       @extend %lateral-strip;
-      padding-left: 2.25em;
-      @include breakpoint(52rem) { padding-left: 3em; }
+      padding-left: .2em;
+      @include breakpoint(52rem) { padding-left: .7em; }
+
+      > ul:first-child {
+        padding: 0;
+
+        > li {
+          list-style: none;
+        }
+      }
+      ul li {
+        list-style: decimal;
+      }
     }
   }
 }

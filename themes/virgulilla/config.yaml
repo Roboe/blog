@@ -1,0 +1,14 @@
+params:
+  image: /images/logo.png
+  favicon: /favicon.png
+  favicon_type: image/png
+  ISO8601: "2006-01-02T15:04:05-07:00"
+  home:
+    sections:
+      - posts
+  debug: "%#v" # Use it like so {{ $variable | printf $.Site.Params.debug }}
+
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: "feed"

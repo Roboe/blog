@@ -1,8 +1,0 @@
-{% assign platform = include.platform %}
-{% assign link = include.link | prepend: site.baseurl %}
-<a
-  href="{% if link != site.baseurl %}{{ link }}{% else %}{{ site[platform].link }}{% endif %}"
-  class="site-links--item icon-{{ platform }}"
-  target="_blank"
-  rel="noopener noreferrer"
-><img src="{{ site.baseurl }}/assets/images/{{ platform }}.svg"></a>

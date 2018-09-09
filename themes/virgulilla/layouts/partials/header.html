@@ -1,19 +1,19 @@
 <header class="site-header">
   <div class="site-header--branding site-branding">
-    {% if page.url == '/' %}
+    {{ if .IsHome -}}
       <h1 class="site-branding--title">
-        <a href="{{ "/" | absolute_url }}" rel="home">{{ site.title }}</a>
+        <a href="{{ "/" | absURL }}" rel="home">{{ .Site.Title }}</a>
       </h1>
-    {% else %}
+    {{ else }}
       <p class="site-branding--title">
-        <a href="{{ "/" | absolute_url }}" rel="home">{{ site.title }}</a>
+        <a href="{{ "/" | absURL }}" rel="home">{{ .Site.Title }}</a>
       </p>
-    {% endif %}
+    {{- end }}
 
-    <p class="site-branding--description">{{ site.description }}</p>
+    <p class="site-branding--description">{{ .Site.Params.description }}</p>
   </div>
 
-  {% comment %}
+  {{/*
   <nav class="site-header--nav site-nav">
     <input type="checkbox" id="toggle-navigation" class="site-nav--toggle-check" />
     <label for="toggle-navigation" class="site-nav--toggle-button">&equiv;</label>
@@ -23,5 +23,5 @@
       </li>
     </ul>
   </nav>
-  {% endcomment %}
+  */}}
 </header>

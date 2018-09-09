@@ -1,21 +1,21 @@
 <!doctype html>
-<html lang="{{ page.lang | default: site.lang }}">
+<html{{ with .Site.LanguageCode }} lang="{{ . }}"{{ end }}>
 
-{% include head.html %}
+{{ partial "head.html" . }}
 
 <body class="site-layout">
   <a class="skip-link screen-reader-text" href="#content">Saltar al contenido</a>
 
   <div class="site-layout--header">
-    {% include header.html %}
+    {{ partial "header.html" . }}
   </div>
 
   <div id="content" class="site-layout--content">
-    {{ content }}
+    {{ block "main" . }}{{ end }}
   </div>
 
   <div class="site-layout--footer">
-    {% include footer.html %}
+    {{ partial "footer.html" . }}
   </div>
 </body>
 

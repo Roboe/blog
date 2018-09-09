@@ -1,0 +1,32 @@
+{{ define "main" }}
+<main class="content" itemscope itemtype="http://schema.org/Article">
+
+  <header class="content-header">
+    {{ partial "headline.html" . }}
+    {{ if .PublishDate | or (.Param "author") }}
+    <p class="content-meta">
+      {{ if .PublishDate -}}
+        {{ partial "date_published.html" . }}
+      {{- end }}
+      {{ if .PublishDate | and (.Param "author") }} &bullet; {{ end }}
+      {{ if .Param "author" -}}
+        {{ partial "author.html" . }}
+      {{- end }}
+    </p>
+    {{- end }}
+  </header>
+
+  <div class="content-body" itemprop="articleBody">
+    {{ with .Description -}}
+      {{ partial "description.html" . }}
+    {{- end }}
+
+    {{ if .Param "toc" -}}
+    {{ .TableOfContents }}
+    {{- end }}
+
+    {{ .Content }}
+  </div>
+
+</main>
+{{ end }}

@@ -1,0 +1,31 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    {{- block "title" . -}}
+      {{ .Title | plainify }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}
+    {{- end -}}
+  </title>
+
+  {{ "<!-- start SEO -->" | safeHTML }}
+  {{ .Hugo.Generator }}
+
+  {{ "<!-- Schema.org -->" | safeHTML }}
+  {{ partial "seo/schema.html" . }}
+  {{ "<!-- OpenGraph -->" | safeHTML }}
+  {{ partial "seo/opengraph.html" . }}
+  {{ "<!-- Twitter Cards -->" | safeHTML }}
+  {{ partial "seo/twitter_cards.html" . }}
+  {{ "<!-- end SEO -->" | safeHTML }}
+
+  {{ $style := resources.Get "main.scss" | toCSS -}}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  {{ with .Param "favicon" -}}
+  <link rel="shortcut icon" href="{{ . }}"{{ with $.Param "favicon_type" }} type="{{ . }}"{{ end }}>
+  {{- end }}
+  {{ range .AlternativeOutputFormats -}}
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" title="{{ $.Site.Title }}" href="{{ .Permalink | safeURL }}">
+  {{- end }}
+</head>

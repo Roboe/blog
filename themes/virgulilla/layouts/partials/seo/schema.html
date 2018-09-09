@@ -1,0 +1,21 @@
+{{ with .Site.Social.GooglePlus }}
+<link rel="publisher" href="{{ . }}"/>
+{{ end -}}
+<meta itemprop="name" content="{{ .Title }}">
+<meta itemprop="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
+
+{{if .IsPage}}
+  {{- if not .PublishDate.IsZero }}
+<meta itemprop="datePublished" content="{{ .PublishDate.Format $.Site.Params.ISO8601 | safeHTML }}" />
+  {{- end }}
+  {{- if not .Date.IsZero }}
+<meta itemprop="dateModified" content="{{ .Date.Format $.Site.Params.ISO8601 | safeHTML }}" />
+  {{- end }}
+<meta itemprop="wordCount" content="{{ .WordCount }}">
+  {{- with .Param "image" }}
+<meta itemprop="image" content="{{ . | absURL }}">
+  {{- end }}
+
+<!-- Output all taxonomies as schema.org keywords -->
+<meta itemprop="keywords" content="{{ if .IsPage}}{{ range $index, $tag := .Params.tags }}{{ $tag }},{{ end }}{{ else }}{{ range $plural, $terms := .Site.Taxonomies }}{{ range $term, $val := $terms }}{{ printf "%s," $term }}{{ end }}{{ end }}{{ end }}" />
+{{ end }}
