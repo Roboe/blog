@@ -32,6 +32,11 @@
     <!-- Optional - CSS SVG Icons (Font Awesome) -->
     <link rel="stylesheet" type='text/css' media='all' href="{{ $path }}/css/svg-icons.css">
 
+    {{ with .Param "webslides.stylesheet" -}}
+    <!-- Custom CSS -->
+		<link rel="stylesheet" href="{{ . }}">
+		{{- end }}
+
     <!-- SOCIAL CARDS (ADD YOUR INFO) -->
 
     <!-- FACEBOOK -->

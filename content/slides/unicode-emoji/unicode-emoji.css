@@ -1,0 +1,76 @@
+* {
+  font-family: unset !important; /* this is the only way to force Twemoji loading on Firefox */
+}
+
+img {
+  /*
+  height: auto;
+  object-fit: fill;
+  */
+}
+
+del {
+  background-color: #f8e7e8;
+  font-weight: normal;
+}
+
+ins {
+  background-color: #e1f0fe; /* Firefox default */
+}
+
+q {
+  font-style: italic;
+}
+
+.memetext {
+  font-size: 5em !important;
+  line-height: 1em !important;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  -webkit-text-stroke: 2px black;
+}
+
+
+
+x-emoji {
+  font-size: xx-large;
+}
+x-emoji.joiner::before {
+  content: "\200d";
+}
+x-emoji.presentation::after {
+  content: "\fe0f";
+}
+
+ul.emoji-separator li:hover x-emoji::after {
+  /*content: " ";*/
+  content: "\200c"; /* Zero-width non-joiner */
+}
+ul.emoji-separator li:hover x-emoji[separator]::after {
+  content: attr(separator);
+}
+ul.emoji-separator li:hover x-emoji.joiner::before {
+  content: "[zwj]";
+  font-size: x-large;
+}
+ul.emoji-separator li:hover x-emoji.presentation::after {
+  content: "[v-16]";
+  font-size: x-large;
+}
+
+x-emoji.fp12::after {
+  content: "\1f3fc";
+}
+x-emoji.fp3::after {
+  content: "\1f3fc";
+}
+x-emoji.fp4::after {
+  content: "\1f3fd";
+}
+x-emoji.fp5::after {
+  content: "\1f3fe";
+}
+x-emoji.fp6::after {
+  content: "\1f3ff";
+}

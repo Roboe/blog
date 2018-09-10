@@ -1,0 +1,473 @@
+---
+title: Unicode es aburrido
+description: Un paseo por lo más aburrido de Unicode
+date: 2018-09-10
+webslides:
+  stylesheet: unicode-emoji.css
+aliases: /current
+---
+
+<section class="content-center">
+  <h1><strong>{{< param "title" >}}</strong></h1>
+  <p class="text-intro">{{< param "description" >}}</p>
+  <footer style="margin-bottom: 8em;">
+    <p>HUID MIENTRAS PODÁIS, &#x1f609;</p>
+  </footer>
+</section>
+
+
+<section class="content-center">
+  <h1>Un estándar para dominarlos&nbsp;a&nbsp;todos</h1>
+  <hr>
+  <figure>
+    <a href="https://xkcd.com/927/"><img src="xkcd-standards.png" style="height: 40vh"></a>
+  </figure>
+</section>
+
+Unicode se creo para ser el estándar supremo.
+<!-- more -->
+https://es.wikipedia.org/wiki/Unicode
+
+> Unicode is the current standard for language support in software. The most common character encoding is UTF-8, which is used by over 85% of websites as of this post. If your application supports UTF-8, then it already has the ability to interpret characters from almost any written language. For languages that don’t support natively UTF, look into functions or modules that allow you to change the default character set.
+
+<section class="fullscreen">
+  <figure>
+    <img src="unicode-org.png" alt="Captura de la sobria página de Unicode">
+  </figure>
+</section>
+
+Es tremendamente aburrido. Por favor, mirad su puñetera web. Si es que no dan ganas de leer.
+
+<section class="content-center">
+  <h1><strong>Unicode <del>es</del> <ins>era</ins> aburrido</strong></h1>
+  <p class="text-intro">Hasta que llegaron el COLOR y el SALSEO</p>
+  <x-emoji style="font-size: 20vh">&#x1f61c;</x-emoji>
+</section>
+
+Pero bueno, que os he tomado el pelo. ¡No vengo yo aquí a hablar de lo aburrido de Unicode! Vengo a hablar de la mandanga.
+
+Desde que se popularizaron, los emoji han ido haciéndose más numerosos, coloridos e inclusivos, y por tanto también más complejos. Parte de esa complejidad se asienta en características de Unicode. ¿Cuáles son y cómo llegaron los emoji a ser parte de Unicode?
+
+<section class="content-center">
+  <h1>Emoji &ne; emoticonos</h1>
+  <hr>
+  <h2 style="padding-right: 3em">&#x1f603; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ne; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =D</h2>
+  <h2 style="padding-right: 3em">&#x1f609; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &ne; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ;) &thinsp;</h2>
+  <hr>
+  <h3>¯\_(ツ)_/¯</h3>
+</section>
+
+Y un _spoiler_: no tienen nada que ver con los emoticonos, ;)
+
+emoticon = emotion + icon (emoción + icono)
+emoji = e + moji (imagen + caracteres)
+kaomoji = kao + moji (cara + caracteres)
+
+
+<section class="content-center">
+  <h1>Apple &#x1f34f; <strong>no inventó</strong> los emoji</h1>
+  <hr>
+  <p class="text-intro">Tampoco WhatsApp &#x1f4ac;</p>
+</section>
+
+Primero, una breve historia sobre los emoji, 🙂. Los emoji como tal tienen casi 20 años.
+https://eev.ee/blog/2016/04/12/apple-did-not-invent-emoji/
+
+<section class="slide-bottom">
+  <span class="background" style="background-image:url('matias-prats.jpg')"></span>
+  <div class="content-center">
+    <p class="memetext" style="margin-bottom: -1em;"
+    >Permíteme que&nbsp;insista</p>
+  </div>
+</section>
+
+
+<section>
+  <div class="wrap">
+    <img class="alignleft size-50" src="ntt-docomo-emojiset.jpg" alt="Set original de emoji en i-mode" style="image-rendering: -moz-crisp-edges;">
+    <h1>1999: NTT DoCoMo</h1>
+    <p class="text-intro">El ingeniero Shigetaka Kurita propone mandar pequeñas imágenes (12&#8239;x&#8239;12&thinsp;píxeles) en la mensajería de <a href="https://es.wikipedia.org/wiki/I-mode">i-mode</a></p>
+    <p>El <a href="https://stories.moma.org/the-original-emoji-set-has-been-added-to-the-museum-of-modern-arts-collection-c6060e141f61">set original</a> de 176 emoji de i-mode se codificó en los espacios vacíos de la codificación japonesa Shift-JIS, <a href="https://www.fileformat.info/info/emoji/docomo.htm">desde 0xF5xx a 0xF9xx</a>.</p>
+    <p>Otros operadores hicieron sus propias extensiones. KDDI, por ejemplo, incluyó aún más emoji <a href="https://www.fileformat.info/info/emoji/kddi.htm">entre 0xF3xx y 0xF4xx</a></p>
+  </div>
+</section>
+
+Los emoji datan de 1999, cuando Shigetaka Kurita, un ingeniero japonés que trabajaba en NTT&nbsp;DoCoMo, la principal operadora de telefonía de Japón, se inspiró en la iconografía de las previsiones meteorológicas, las señales de tráfico y el manga, e incluyó la posibilidad de mandar pequeñas imágenes en el sistema de mensajería de [_algo parecido a la internet móvil_][wes-i-mode]. Lo ingenioso de la idea fue que **las imágenes no eran tal**, debido al poco ancho de banda de la tecnología, sino caracteres predefinidos. Esencialmente texto, nuevas _letras_.
+
+https://unicode.org/emoji/charts/full-emoji-list.html
+
+Fueron un éxito y pronto otros operadores copiaron la idea. Por supuesto, con otros emoji y otras codificaciones incompatibles entre sí.
+
+<section>
+  <div class="wrap">
+    <img class="alignright size-50" src="gmail-emoji.png" alt="Panel de antiguos emoji en la composición de correos de GMail en 2006">
+    <h1 style="margin-top: 1em">2007: Propuesta de inclusión en Unicode</h1>
+    <p class="text-intro">Varios empleados de Google redactan un <a href="https://www.unicode.org/L2/L2007/07257-emoji-wd.html">borrador</a> para estandarizar las codificaciones e incluirlos en Unicode</p>
+    <p>Entre los autores se encuentra Mark Davis, cofundador del Unicode Consortium y actual presidente, lo que probablemente ayudó</p>
+    <p>El borrador se acepta en Unicode 6.0, octubre de 2010</p>
+  </div>
+</section>
+
+Eso es justo el problema por el que Unicode existe, así que a mediados de 2007 (!), varios empleados de Google (entre los que se encuentra un cofundador del Consorcio de Unicode, hecho que probablemente ayudó), hicieron un borrador de propuesta para añadir los emoji a Unicode.
+
+<section class="content-center">
+  <h1>2008: Apple lanza el iPhone&nbsp;3G en&nbsp;Japón &#x1f1ef;&#x1f1f5; &#x1f5fe;</h1>
+  <p>Japón: <q>Oh, Steve, you had one JOB</q> <x-emoji>&#x1f595;</x-emoji></p>
+  <hr>
+  <h2>Noviembre: Apple lanza iOS 2.2 con un teclado&nbsp;emoji para Japón</h2>
+  <p>Steve: <q>I've done my job</q> <x-emoji>&#x1f911;</x-emoji></p>
+</section>
+
+Apple lanza el iPhone en Japón en julio de 2008 y, oh, sorpresa, la gente acostumbrada a los emoji y su mierda de "web" cerrada y propietaria le dicen: «esta mierda no tiene emoji, tío». La actualización a iOS 2.2 en noviembre de ese mismo año trae consigo un teclado emoji escondido y activable por aplicaciones de terceros. Japón es un filón y Softbank está acostumbrado a tomar parte del desarrollo de teléfonos, así que sabe dónde hacer presión.
+
+https://www.theverge.com/2017/6/29/15892640/iphone-anniversary-japan-success-emoji-history
+
+<section class="content-center">
+  <h1>La solución local se globaliza &#x1f5fA;&#xfe0f;</h1>
+  <p class="text-intro">El mundo empieza a mandar emoji activando el teclado oculto</p>
+  <p>iOS 5, a finales de 2011, incluye teclado emoji por defecto a nivel global</p>
+
+  <h3>Pero, aunque al principio graciosos, los emoji no escalan</h3>
+  <ul class="description">
+    <li><x-emoji class="fp3">&#x1f44b;</x-emoji> <x-emoji>&#x1f48f;</x-emoji> <x-emoji>&#x1f46a;</x-emoji> Escasa representación racial, étnica y familiar</li>
+    <li><x-emoji>&#x1f38d;</x-emoji> <x-emoji>&#x1F4AE;</x-emoji> Barreras culturales</li>
+    <li><x-emoji>&#x1f458;</x-emoji> <x-emoji class="fp4">&#x1f483;</x-emoji> <em>Nipocentrismo</em> cultural</li>
+  </ul>
+</section>
+
+Pero la solución local no se diseñó para un ámbito global.
+
+<section class="slide-bottom">
+  <span class="background" style="background-image:url('meme-yayy.jpg')"></span>
+  <div class="content-center">
+    <p class="memetext" style="margin-bottom: -1em;">Emojify all the things!!!11</p>
+  </div>
+</section>
+
+<section class="content-center">
+  <h1>Variación 16</h1>
+  <p class="text-intro">El caracter <code>U+FE0F</code> fuerza que el caracter anterior se represente como un emoji, si existe</p>
+  <ul class="description emoji-separator">
+    <li><x-emoji class="presentation">&#x2620;</x-emoji></li>
+    <li><code>U+2620</code> SKULL AND CROSSBONES</li>
+    <li><code>U+FE0F</code> VARIATION SELECTOR-16</li>
+    <li><x-emoji>&#x1f3f4;</x-emoji></li>
+    <li><code>U+1F3F4</code> WAVING BLACK FLAG</li>
+    <li><x-emoji class="presentation">&#x1f3f3;</x-emoji></li>
+    <li><code>U+1F3F3</code> WAVING WHITE FLAG</li>
+    <li><code>U+FE0F</code> VARIATION SELECTOR-16</li>
+  </ul>
+</section>
+
+<section class="content-center">
+  <h1>Ligaduras</h1>
+  <hr>
+  <a href="http://sansbullshitsans.com/"><img src="sans-bullshit-sans.gif" alt=""></a>
+  <a href="https://commons.wikimedia.org/wiki/File:Historical_ampersand_evolution.svg?uselang=es"><img src="ampersand-evolution.svg" alt=""></a>
+</section>
+
+<section class="content-center">
+  <h2>Modificadores de tono</h2>
+  <p class="text-intro">Se basan en la escala Fitzpatrick de fototipos, que mide el color de la piel según su respuesta a la luz ultravioleta (UV)</p>
+  <ul class="description">
+    <li><x-emoji>&#x1f3fb;</x-emoji> <code>U+1F3FB</code> EMOJI MODIFIER FITZPATRICK TYPE-1-2</li>
+    <li><x-emoji>&#x1f3fc;</x-emoji> <code>U+1F3FC</code> EMOJI MODIFIER FITZPATRICK TYPE-3</li>
+    <li><x-emoji>&#x1f3fd;</x-emoji> <code>U+1F3FD</code> EMOJI MODIFIER FITZPATRICK TYPE-4</li>
+    <li><x-emoji>&#x1f3fe;</x-emoji> <code>U+1F3FE</code> EMOJI MODIFIER FITZPATRICK TYPE-5</li>
+    <li><x-emoji>&#x1f3ff;</x-emoji> <code>U+1F3FF</code> EMOJI MODIFIER FITZPATRICK TYPE-6</li>
+  </ul>
+</section>
+
+<section class="content-center">
+  <h2>Modificadores de tono</h2>
+  <p class="text-intro">La fuente emoji crea la ligadura entre el emoji y el modificador de color cuando aparecen seguidos</p>
+  <ul class="description emoji-separator">
+    <li><x-emoji>&#x270b;</x-emoji> neutro</li>
+    <li><x-emoji>&#x1f596;</x-emoji><x-emoji>&#x1f3fb;</x-emoji> piel pálida o blanca (fototipos 1 y 2)</li>
+    <li><x-emoji>&#x1f918;</x-emoji><x-emoji>&#x1f3fc;</x-emoji> piel medio blanca (fototipo 3)</li>
+    <li><x-emoji>&#x270c;&#xfe0f;</x-emoji><x-emoji>&#x1f3fd;</x-emoji> piel medio morena (fototipo 4)</li>
+    <li><x-emoji>&#x1f919;</x-emoji><x-emoji>&#x1f3fe;</x-emoji> piel morena (fototipo 5)</li>
+    <li><x-emoji>&#x270c;&#xfe0f;</x-emoji><x-emoji>&#x1f3ff;</x-emoji> piel oscura (fototipo 6)</li>
+  </ul>
+</section>
+
+<section class="content-center">
+  <h2>Banderas nacionales</h2>
+  <p class="text-intro">Ligadura de indicadores regionales,<br>desde <code>U+1F1E6</code> (🇦) hasta <code>U+1F1FF</code> (🇿)</p>
+  <ul class="description emoji-separator">
+    <li><x-emoji>&#x1f1e8;</x-emoji><x-emoji>&#x1f1e6;</x-emoji> Canadá (<code>CA</code>)</li>
+    <li><code>U+1F1E8</code> REGIONAL INDICATOR SYMBOL LETTER C</li>
+    <li><code>U+1F1E6</code> REGIONAL INDICATOR SYMBOL LETTER A</li>
+    <li><x-emoji>&#x1f1ea;</x-emoji><x-emoji>&#x1f1f8;</x-emoji> España (<code>ES</code>)</li>
+    <li><code>U+1F1EA</code> REGIONAL INDICATOR SYMBOL LETTER E</li>
+    <li><code>U+1F1F8</code> REGIONAL INDICATOR SYMBOL LETTER S</li>
+    <li>&hellip;</li>
+  </ul>
+</section>
+
+<section class="content-center">
+  <h2>Combinación</h2>
+  <p class="text-intro">Caracteres especiales que sirven para mezclarse con los anteriores, sin ligaduras</p>
+  <ul class="description emoji-separator">
+    <li><x-emoji separator="&nbsp;">n</x-emoji><x-emoji>&#x303;</x-emoji></li>
+    <li><code>U+006E</code> LATIN SMALL LETTER N</li>
+    <li><code>U+0303</code> COMBINING TILDE</li>
+  </ul>
+  <ul class="description emoji-separator">
+    <li><x-emoji class="presentation" separator="&nbsp;">1</x-emoji><x-emoji>&#x20e3;</x-emoji>
+    <li><code>U+0031</code> DIGIT ONE</li>
+    <li><code>U+FE0F</code> VARIATION SELECTOR-16</li>
+    <li><code>U+20E3</code> COMBINING ENCLOSING KEYCAP</li>
+  </ul>
+  <!--ul class="description emoji-separator">
+    <li><x-emoji class="presentation">&#x1f399;</x-emoji><x-emoji>&#x20e0;</x-emoji></li>
+    <li><code>U+1F399</code> STUDIO MICROPHONE</li>
+    <li><code>U+FE0F</code> VARIATION SELECTOR-16</li>
+    <li><code>U+20E0</code> COMBINING ENCLOSING CIRCLE BACKSLASH</li>
+  </ul-->
+  <ul class="description">
+    <li><x-emoji>&#x1f51f;</x-emoji></li>
+    <li><code>U+1F51F</code> KEYCAP TEN</li>
+  </ul>
+</section>
+
+<section class="content-center">
+  <h1>Zero-width joiner</h1>
+  <p class="text-intro">(<a href="https://unicode.org/emoji/charts/emoji-zwj-sequences.html">Secuencias ZWJ</a>)</p>
+  <p class="text-intro">El caracter ZWJ sirve para unir dos o más emojis para formar otro nuevo&hellip;</p>
+</section>
+
+<section class="content-center">
+  <h2>Secuencias ZWJ</h2>
+  <ul class="description emoji-separator">
+    <li><x-emoji>&#x1f469;</x-emoji><x-emoji class="joiner">&#x1f469;</x-emoji><x-emoji class="joiner">&#x1f466;</x-emoji><x-emoji class="joiner">&#x1f466;</x-emoji></li>
+    <li><code>U+1F469</code> WOMAN</li>
+    <li><code>U+200D</code> ZERO WIDTH JOINER</li>
+    <li><code>U+1F469</code> WOMAN</li>
+    <li><code>U+200D</code> ZERO WIDTH JOINER</li>
+    <li><code>U+1F466</code> BOY</li>
+    <li><code>U+200D</code> ZERO WIDTH JOINER</li>
+    <li><code>U+1F466</code> BOY</li>
+  </ul>
+  <ul class="description emoji-separator">
+    <li><x-emoji>&#x1f468;</x-emoji><x-emoji class="joiner">&#x1f467;</x-emoji></li>
+    <li><code>U+1F468</code> MAN</li>
+    <li><code>U+200D</code> ZERO WIDTH JOINER</li>
+    <li><code>U+1F467</code> GIRL</li>
+  </ul>
+</section>
+
+Zero Width Joiner: https://emojipedia.org/zero-width-joiner/
+
+
+<section class="aligncenter size-75">
+  <h2>Secuencias ZWJ</h2>
+  <p class="text-intro">&hellip;o para convertir un emoji u otro caracter ya existente en un modificador</p>
+  <ul class="description emoji-separator">
+    <li>
+      <x-emoji>&#x1f477;</x-emoji><x-emoji class="joiner presentation">&#x2640;</x-emoji>
+      Emoji profesión + ZWJ + símbolo de Venus/Marte (+ variador emoji)
+      <x-emoji>&#x1f46e;</x-emoji><x-emoji class="joiner presentation">&#x2642;</x-emoji>
+    </li>
+    <li>
+      <x-emoji>&#x1f469;</x-emoji><x-emoji class="joiner presentation">&#x2695;</x-emoji>
+      Emoji humano + ZWJ + emoji medicina/portátil (+ variador emoji)
+      <x-emoji>&#x1f469;</x-emoji><x-emoji>&#x1f3ff;</x-emoji><x-emoji class="joiner presentation">&#x1f4bb;</x-emoji>
+    </li>
+  </ul>
+  <ul class="description emoji-separator">
+    <li>
+      <x-emoji class="presentation">&#x1f3f3;</x-emoji><x-emoji class="joiner">&#x1f308;</x-emoji>
+      Bandera (+ variador emoji) + ZWJ + arcoiris
+    </li>
+    <li>
+      <x-emoji>&#x1f3f4;</x-emoji><x-emoji class="joiner presentation">&#x2620;</x-emoji>
+      Bandera negra + ZWJ + calavera (+ variador emoji)
+    </li>
+    <li>
+      <x-emoji>&#x1f469;</x-emoji><x-emoji class="joiner presentation">&#x2695;</x-emoji>
+      Emoji + ZWJ + emoji medicina/portátil (+ variador emoji)
+      <x-emoji>&#x1f469;</x-emoji><x-emoji>&#x1f3ff;</x-emoji><x-emoji class="joiner presentation">&#x1f4bb;</x-emoji>
+    </li>
+  </ul>
+</section>
+
+👷‍♀️
+👮‍♀️
+👩‍⚕️
+👩‍🍳
+👩🏻‍💻
+👩‍🏫
+👩🏻‍🔬
+👩‍🚀
+👩‍⚖️
+
+
+<section class="content-center">
+  <h1>El ojo de Apple</h1>
+  <p class="text-intro">En la <em>developer preview</em> de iOS 9.1, Apple coló un emoji personalizado</p>
+  <p>Resultó ser una campaña anti-bullying <em>I am a witness</em></p>
+  <ul class="description emoji-separator">
+    <li><x-emoji class="presentation">&#x1f441;</x-emoji><x-emoji class="joiner presentation">&#x1f5E8;</x-emoji></li>
+    <li><code>U+1F441</code> EYE</li>
+    <li><code>U+FE0F</code> VARIATION SELECTOR-16</li>
+    <li><code>U+200D</code> ZERO WIDTH JOINER</li>
+    <li><code>U+1F5E8</code> LEFT SPEECH BUBBLE</li>
+    <li><code>U+FE0F</code> VARIATION SELECTOR-16</li>
+  </ul>
+</section>
+
+Apple ojo anti-bullying (campaña publicitaria): http://jeremyburge.com/post/129520141524/apple-has-created-an-eye-in-speech-bubble-emoji
+
+
+<section class="content-center">
+  <h1>Los gatos de Microsoft</h1>
+  <p>Windows 10 incluye unos emoji no estándar</p>
+  <ul class="description emoji-separator">
+    <li>
+      <x-emoji>&#x1f431;</x-emoji><x-emoji>&#x1f464;</x-emoji>
+      Ninja Cat
+    </li>
+    <li>
+      <x-emoji>&#x1f431;</x-emoji><x-emoji>&#x1f3cd;</x-emoji>
+      Ninja Cat Flying
+    </li>
+    <li>
+      <x-emoji>&#x1f431;</x-emoji><x-emoji>&#x1f4bb;</x-emoji>
+      Ninja Cat at Computer
+    </li>
+    <li>
+      <x-emoji>&#x1f431;</x-emoji><x-emoji>&#x1F409;</x-emoji>
+      Ninja Cat riding T-Rex
+    </li>
+    <li>
+      <x-emoji>&#x1f431;</x-emoji><x-emoji>&#x1f453;</x-emoji>
+      Ninja Cat with Coffee
+    </li>
+    <li>
+      <x-emoji>&#x1f431;</x-emoji><x-emoji>&#x1f680;</x-emoji>
+      Ninja Cat in Space
+    </li>
+  </ul>
+</section>
+
+Windows meme "ninja cat": https://blog.emojipedia.org/ninja-cat-the-windows-only-emoji/
+
+<section class="content-center">
+  <h1>Los gatos de Microsoft</h1>
+  <img src="microsoft-ninja-cat.png" alt="">
+</section>
+
+<section class="content-center">
+  <h1>¡MUCHAS GRACIAS!</h1>
+  <p style="
+  font-size: 4em;
+  line-height: 1.5em;
+  margin: 0;"
+  >&#x1f917;</p>
+  <p class="text-intro">Ruegos, preguntas&hellip;</p>
+</section>
+
+---
+
+Lista de emojis (imágenes libres): https://commons.wikimedia.org/wiki/Emoji
+
+Lista de emojis en Unicode: https://www.unicode.org/Public/emoji/5.0/emoji-data.txt
+
+Jeroglíficos egipcio: https://en.wikipedia.org/wiki/Egyptian_Hieroglyphs_%28Unicode_block%29
+
+©
+U+00A9 COPYRIGHT SIGN
+
+
+https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
+
+## Combinando caracteres (fuente)
+
+https://eev.ee/blog/2015/09/12/dark-corners-of-unicode/
+https://en.wikipedia.org/wiki/Regional_Indicator_Symbol
+
+
+## Control Pictures
+
+https://eev.ee/blog/2015/09/12/dark-corners-of-unicode/
+
+Control Pictures is an entire block of visual representations of control characters. So if you want to indicate there’s a NUL byte, instead of writing out “NUL” or “\x00”, you can use ␀ U+2400 SYMBOL FOR NULL. I’ve actually found it fairly useful once or twice to use ␤ U+2424 SYMBOL FOR NEWLINE to display multi-line text in a way that fits in a single line!
+
+## Ruby
+
+Ruby characters are annotations used with Chinese and Japanese text to explain pronuncuation, like the tiny characters here: 日本語. Usually they’re expressed with HTML’s <ruby> tag, but outside of HTML, what are you to do? Turns out Unicode actually supports this in the form of three “interlinear annotation” characters, and you could write the above as “[U+FFF9]日本語[U+FFFA]にほんご[U+FFFB]“. They tend not to have any rendering in fonts, since they’re control characters, and Unicode actually recommends they not be exposed directly to users at all, so there are no rules for how to actually display them. But if you want to store annotated Chinese or Japanese text without pretending all text is HTML, there you go.
+
+## Byzantine Unicode bi-directional text system
+
+More well-known are U+200E LEFT-TO-RIGHT MARK and U+200F RIGHT-TO-LEFT MARK, which are part of the byzantine Unicode bi-directional text system, but among English speakers are mainly known for being able to reverse text in unsuspecting websites.
+
+## Others
+
+planetary and astrological symbols: ☿ ♀ ♁ ♂ ♃ ♄ ♅ ♆ ♇ ♈ ♉ ♊ ♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓
+chess pieces: ♔ ♕ ♖ ♗ ♘ ♙ ♚ ♛ ♜ ♝ ♞ ♟
+dice: ⚀ ⚁ ⚂ ⚃ ⚄ ⚅
+
+
+## Beware dragons
+
+### Unicode in URL
+
+https://www.theguardian.com/technology/2017/apr/19/phishing-url-trick-hackers
+
+https://dev.to/loganmeetsworld/homographs-attack--5a1p
+
+### Unicode in filenames
+
+Telegram zero-day: https://www.kaspersky.com/blog/telegram-rlo-vulnerability/21164/
+
+U+202E RIGHT TO LEFT OVERRIDE
+
+cute_kitten_gnp.js
+cute_kitten_U+202e+gnp.js
+cute_kitten_‮gnp.js
+
+### Apple's Unicode of Death
+
+Ligadura mortal: https://manishearth.github.io/blog/2018/02/15/picking-apart-the-crashing-ios-string/
+
+Out-of-memory Unicode text bomb: https://www.cultofmac.com/324043/apple-confirms-imessage-bug-is-crashing-iphones/
+
+### Bad jokes
+
+Greek question mark… https://twitter.com/benbjohnson/status/533848879423578112
+
+
+### No volverse tan locos como Chevrolet
+
+Nota de prensa anunciando un nuevo modelo: https://cdn-txweb.pressidium.com/wp-content/uploads/2015/10/Chevy-Cruze-Emoji-Press-Release.png
+
+
+<section>
+
+### Forzar representación de texto
+
+http://www.unicode.org/reports/tr51/#def_text_presentation_selector
+
+The character U+FE0E VARIATION SELECTOR-15 (VS15), used to request a text presentation for an emoji character.
+
+&#8617;
+
+&#8617;&#xfe0e;
+</section>
+
+
+
+https://www.unicode.org/reports/tr51/index.html#ZWJ_Display
+https://unicode-table.com/en/search/?q=
+https://www.calamoycran.com/ebooks-viudas-huerfanas
+
+
+Dato curioso lingüístico: aunque parezca que las palabras emoticono y emoji comparten raíz léxica, no es así: «emoticono» viene de las palabras inglesas _emotion_ y _icon_ &mdash;emoción + icono&mdash;, mientras que «emoji» viene de las palabras japonesas _e_ (絵) y _moji_ (文字) &mdash;imagen + caracter&mdash;. No, los japoneses no hablan de emociones, sino de pinturas. Y sí, puedes ver los _kanji_ japoneses gracias a Unicode, 😜.
+
+---
+
+En la redacción de este artículo se ha contribuído al artículo [_i-mode_ en la Wikipedia en Español][wes-i-mode].
+
+
+[wes-i-mode]: https://es.wikipedia.org/wiki/I-mode
