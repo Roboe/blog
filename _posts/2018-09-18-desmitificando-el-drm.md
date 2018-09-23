@@ -54,7 +54,7 @@ Además, de esto, hay ciertos casos de barreras de [accesibilidad][wes-accesibil
 La Electronic Frontier Foundation mantiene una lista de cosas que pudieron ser, pero no pueden existir por culpa del DRM: https://www.eff.org/missing-devices
 
 
-## Crackers gona crack
+## Crackers gonna crack
 
 **Quien quiera piratear, va a piratear igualmente**. Siempre existirán personas que le quiten el DRM a productos y los redistribuyan ilegalmente, a pesar de que les pongan cien mil leyes en el proceso. La piratería nunca se soluciona con este tipo de tecnologías incoherentes con su medio, sino comprendiendo el medio y aprovechando sus potencialidades. El coste mínimo de copia y la venta directa son dos ejemplos de propiedades de lo digital que pueden bajar los precios drásticamente para que comprar cultura **no sea solo un lujo para unos pocos**, y nadie se plantee piratear. Los únicos damnificados de estas medidas serán siempre los clientes, los usuarios legales. ¿Es el DRM, entonces, una medida antipiratería, o es una medida de **imparable avaricia y abuso de poder**?
 
