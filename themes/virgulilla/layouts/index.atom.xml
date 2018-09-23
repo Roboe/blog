@@ -1,0 +1,61 @@
+{{ "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">{{ .Title }}{{ if not .IsHome }} - {{ .Site.Title }}{{ end }}</title>
+  {{- with .Param "description" }}
+  <subtitle type="html">{{ . | safeHTML }}</subtitle>
+  {{- end }}
+  <updated>{{ .Site.LastChange.Format .Site.Params.ISO8601 | safeHTML }}</updated>
+  <id>{{ .Permalink }}</id>
+  {{- with .OutputFormats.Get "Atom" }}
+  <link rel="self" type="{{ .MediaType.Type | html }}" href="{{ .Permalink }}" />
+  {{- end }}
+  {{- with .OutputFormats.Get "HTML" }}
+  <link rel="alternate" type="{{ .MediaType.Type | html }}" hreflang="{{ $.Site.Language.Lang }}" href="{{ .Permalink }}" />
+  {{- end }}
+  {{- with .Site.Copyright }}
+  <rights>{{ . }}</rights>
+  {{- end }}
+  {{- with .Site.Params.author }}
+  <author>
+    {{- with .displayname }}
+    <name>{{ . }}</name>
+    {{- end }}
+    {{- with .social.website }}
+    <uri>{{ . }}</uri>
+    {{- end }}
+    {{- with .email }}
+    <email>{{ . }}</email>
+    {{- end }}
+  </author>
+  {{- end }}
+  <generator uri="https://gohugo.io/" version="{{ .Hugo.Version }}">Hugo</generator>
+  {{- range first 15 (where .Data.Pages "Type" "in" .Site.Params.home.sections) }}
+  <entry>
+    <title>{{ .Title | plainify }}</title>
+    {{- with .OutputFormats.Get "HTML" }}
+    <link rel="alternate" type="{{ .MediaType.Type | html }}" href="{{ .Permalink }}" />
+    {{- end }}
+    <id>{{ .Permalink }}</id>
+    <updated>{{ .Lastmod.Format $.Site.Params.ISO8601 | safeHTML }}</updated>
+    <published>{{ .PublishDate.Format $.Site.Params.ISO8601 | safeHTML }}</published>
+    {{- with .Param "author" }}
+    <author>
+      {{- with .displayname }}
+      <name>{{ . }}</name>
+      {{- end }}
+      {{- with .social.website }}
+      <uri>{{ . }}</uri>
+      {{- end }}
+      {{- with .email }}
+      <email>{{ . }}</email>
+      {{- end }}
+    </author>
+    {{- end }}
+    <content type="html" xml:lang="{{ .Language }}" xml:base="{{ .Permalink }}">
+      {{- "<![CDATA[" | safeHTML }}
+        {{- .Content }}
+      {{- "]]>" | safeHTML }}
+    </content>
+  </entry>
+  {{- end }}
+</feed>

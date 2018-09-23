@@ -42,6 +42,14 @@ permalinks:
 
 theme: virgulilla
 
+disableKinds:
+  - RSS
+
+outputs:
+  home:
+    - HTML
+    - Atom
+
 # Build settings
 blackfriday: # markdown processor
   smartypants: true # smart punctuation substitutions

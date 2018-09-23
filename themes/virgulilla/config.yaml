@@ -9,6 +9,13 @@ params:
   debug: "%#v" # Use it like so {{ $variable | printf $.Site.Params.debug }}
 
 outputFormats:
-  RSS:
-    mediatype: "application/rss"
+  Atom:
+    mediaType: "application/atom+xml"
     baseName: "feed"
+    isPlainText: false
+    isHTML: false
+
+mediaTypes:
+  "application/atom+xml":
+    suffixes:
+      - "xml"

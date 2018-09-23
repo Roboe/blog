@@ -11,8 +11,8 @@
         {{ partial "social_icon.html" (dict "platform" "twitter" "link" .) }}
       {{- end }}
     {{- end }}
-    {{- with .Site.RSSLink }}
-      {{ partial "social_icon.html" (dict "platform" "feed" "link" .) }}
+    {{- with (.Site.GetPage "/_index.md").OutputFormats.Get "Atom" }}
+      {{ partial "social_icon.html" (dict "platform" "feed" "link" .Permalink) }}
     {{- end }}
   </div>
   <div class="site-info">
