@@ -1,28 +1,25 @@
 variables:
-  JEKYLL_ENV: production
+  GIT_SUBMODULE_STRATEGY: recursive
   SOURCE: $CI_PROJECT_DIR
   BUILD_DESTINATION: $CI_PROJECT_DIR/public
   GIT_PUSH_URL: https://$GITLAB_USER_LOGIN:$ACCESS_TOKEN@gitlab.com/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME.git
   GIT_PUSH_BRANCH: master:pages
 
 
-jekyll_build:
-  image: jekyll/jekyll:latest
+hugo_build:
+  image: debian:buster-slim
   stage: build
   only:
     - master
   before_script:
-    - jekyll -v
-    - bundle install
+    - apt update
+    - apt install hugo -y
   script:
-    - jekyll build --source $SOURCE --destination $BUILD_DESTINATION
+    - hugo --source="$SOURCE" --destination="$BUILD_DESTINATION"
   artifacts:
     paths:
       - public/
     expire_in: 1 week
-  cache:
-    paths:
-      - /usr/local/bundle/
 
 git_deploy:
   image: alpine:latest
