@@ -1,6 +1,12 @@
 {{ "<?xml version=\"1.0\" encoding=\"utf-8\"?>" | safeHTML }}
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title type="text">{{ .Title }}{{ if not .IsHome }} - {{ .Site.Title }}{{ end }}</title>
+  <title type="text">
+    {{- if .IsHome | or (not .Title) -}}
+      {{ .Site.Title }}
+    {{- else -}}
+      {{ printf "%s - %s" .Title $.Site.Title }}
+    {{- end -}}
+  </title>
   {{- with .Param "description" }}
   <subtitle type="html">{{ . | safeHTML }}</subtitle>
   {{- end }}
