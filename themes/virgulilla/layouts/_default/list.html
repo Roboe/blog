@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{- $var := newScratch }}
+{{- if not .IsHome }}
+  {{- $var.Set "pages" .Pages.ByPublishDate.Reverse }}
+{{- else }}
+  {{- $var.Set "pages" (where .Pages.ByPublishDate.Reverse "Section" "in" .Site.Params.home.sections) }}
+{{- end }}
+<main class="content" itemscope itemtype="http://schema.org/Blog">
+  {{ if not .IsHome -}}
+  <h1>{{ .Title }}</h1>
+  {{- end }}
+  {{ range $var.Get "pages" -}}
+  <article class="content" itemscope itemtype="http://schema.org/BlogPosting">
+    {{ .Render "li-header" }}
+
+    {{ .Render "li-summary" }}
+  </article>
+  {{- end }}
+</main>
+{{ end }}
