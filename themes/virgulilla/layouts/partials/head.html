@@ -26,6 +26,11 @@
   <link rel="shortcut icon" href="{{ . }}"{{ with $.Param "favicon_type" }} type="{{ . }}"{{ end }}>
   {{- end }}
   {{ range .AlternativeOutputFormats -}}
-    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" title="{{ $.Site.Title }}" href="{{ .Permalink | safeURL }}">
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" title="{{ $.Page.Title }}{{ if not $.IsHome }} - {{ $.Site.Title }}{{ end}}" href="{{ .Permalink | safeURL }}">
+  {{- end }}
+  {{ if not .IsHome -}}
+    {{ with .Site.Home.OutputFormats.Get "Atom" -}}
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" title="{{ $.Site.Title }}" href="{{ .Permalink }}">
+    {{- end }}
   {{- end }}
 </head>
