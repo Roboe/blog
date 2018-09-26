@@ -49,6 +49,9 @@ outputs:
   home:
     - HTML
     - Atom
+  section:
+    - HTML
+    - Atom
 
 # Build settings
 blackfriday: # markdown processor
