@@ -7,6 +7,9 @@
       {{- with .github }}
         {{ partial "social_icon.html" (dict "platform" "github" "link" .) }}
       {{- end }}
+      {{- with .mastodon }}
+        {{ partial "social_icon.html" (dict "platform" "mastodon" "link" .) }}
+      {{- end }}
       {{- with .twitter }}
         {{ partial "social_icon.html" (dict "platform" "twitter" "link" .) }}
       {{- end }}

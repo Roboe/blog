@@ -24,6 +24,7 @@ params:
       gitlab: https://gitlab.com/Roboe
       github: https://github.com/Roboe
       twitter: https://twitter.com/RoboePi
+      mastodon: https://mastodon.social/@RoboePi
       #googleplus:
       #pinterest:
       #instagram:
