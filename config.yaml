@@ -58,10 +58,12 @@ outputs:
 blackfriday: # markdown processor
   smartypants: true # smart punctuation substitutions
   angledQuotes: true # render "quotes" as «quotes»
-  smartDashes: false # render -dashes- as &ndash; or &mdash;
+  fractions: false # render fractions with <sup> and <sub> tags
+  smartDashes: false # translate -dashes- as &ndash; or &mdash;
   hrefTargetBlank: true # target="black" for absolute URLs
   nofollowLinks: true # rel="nofollow" for absolute URLs
   noreferrerLinks: true # rel="noreferrer" for absolute URLs
+  plainIDAnchors: true # render headings and footnotes IDs without the document ID
 
 # Privacy Settings
 privacy:
