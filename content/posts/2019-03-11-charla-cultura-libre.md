@@ -15,7 +15,7 @@ El objetivo de la charla, de 20 minutos de duración, era contextualizar el movi
 
 Debido a la amplitud de los temas y la limitación del tiempo, la charla solo pudo dar unas pocas pinceladas de cada uno.
 
-Voy a publicar una serie de **tres artículos** a partir de este con las que ampliaré aquellos contenidos con explicaciones, fuentes y enlaces. De momento, aquí abajo dejo las [diapositivas de la charla]({{< relref "/slides/copyright-copyleft_musica-y-cultura-libre/index.md" >}}).
+Voy a publicar una serie de **tres artículos** a partir de este con los que ampliaré aquellos contenidos con explicaciones, fuentes y enlaces. De momento, aquí abajo dejo las [diapositivas de la charla]({{< relref "/slides/copyright-copyleft_musica-y-cultura-libre/index.md" >}}).
 
 
 ## Del copyright al copyleft: música y cultura libre
