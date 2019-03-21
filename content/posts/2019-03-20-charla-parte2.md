@@ -21,8 +21,8 @@ Las obras culturales libres son aquellas que pueden ser libremente estudiadas, u
 
 - La libertad de **utilizar** la obra y disfrutar los beneficios de hacerlo
 - La libertad de **estudiar** la obra y aplicar el conocimiento adquirido de ella
-- La libertad de hacer y **distribuir** copias, totales o parciales, de la información o manifestación
-- La libertad de hacer cambios y **mejorar** la obra, y de distribuir las obras derivadas
+- La libertad de hacer y **distribuír** copias, totales o parciales, de la información o manifestación
+- La libertad de hacer cambios y **mejorar** la obra, y de distribuír las obras derivadas
 
 ### Cambios éticos
 
@@ -68,12 +68,12 @@ Licenciar una obra con una licencia libre al publicarla en internet, por ejemplo
 
 Las licencias de cultura libre más reconocidas internacionalmente son las [Creative Commons](https://creativecommons.org/licenses/), comúnmente abreviadas como CC. La [organización sin ánimo de lucro](https://es.wikipedia.org/wiki/Creative_Commons) pone a disposición de cualquier persona una serie de licencias configurables por cuatro módulos. De base, las licencias CC permiten todas las libertades, y se modifican con los siguientes módulos: 
 
-- **Atribución/Reconocimiento** (BY): se debe atribuír la autoría original.
+- **Atribución/Reconocimiento** (BY): se debe indicar quién es el autor de la obra original.
 - **CompartirIgual** (SA): se deben distribuír las obras derivadas bajo los mismos términos. Este módulo corresponde con lo que se conoce como _copyleft_ y que explicaré en profundidad en el tercer y último artículo.
 - **NoComercial** (NC): se permite usar, copiar, distribuír y transmitir la obra siempre que no sea con propósitos comerciales, para lo que se debe llegar a un acuerdo al margen de esta licencia.
-- **SinObrasDerivadas** (ND): se permite copiar, distribuir y transmitir la obra, pero solo copias integrales sin cambios.
+- **SinObrasDerivadas** (ND): se permite copiar, distribuír y transmitir la obra, pero solo copias integrales sin cambios.
 
-Por ejemplo, si quisiera que una de mis obras se pueda usar para cualquier propósito —incluyendo el comercial y el de crítica—, se pueda modificar y se pueda distribuir libremente, pero siempre que me atribuyan la autoría original, entonces utilizaría una licencia CC-BY. Y si no quisiera que se utilizase para propósitos comerciales, entonces añadiría a la licencia el módulo NC, con lo que usaría una licencia CC-BY-NC.
+Por ejemplo, si quisiera que una de mis obras se pueda usar para cualquier propósito —incluyendo el comercial y el de crítica—, se pueda modificar y se pueda distribuír libremente, pero siempre que me atribuyan la autoría original, entonces utilizaría una licencia CC-BY. Y si no quisiera que se utilizase para propósitos comerciales, entonces añadiría a la licencia el módulo NC, con lo que usaría una licencia CC-BY-NC.
 
 Los módulos NoComercial y SinObrasDerivadas hacen que tu obra **no sea completamente libre** al restringir al usuario de las libertades de uso y de transformación o mejora, respectivamente. Sin embargo, Creative Commons considera que, incluso con eso, las obras licenciadas con estos términos son _más libres_ que lo que las leyes de derechos de autor imponen por defecto.
 
@@ -90,7 +90,7 @@ Además de las licencias Creative Commons, existen otras licencias igual de vál
 
 ## Música de cultura libre
 
-En el ámbito de la música, tenemos varios proyectos, alguno de ellos muy conocido, que creen en estos valores de compartición. En el terreno de las partituras tenemos varios proyectos destacados:
+En el ámbito de la música, tenemos varios proyectos, uno de ellos muy conocido, que creen en estos valores de compartición. En el terreno de las partituras tenemos varios proyectos destacados:
 
 - El [proyecto **Mutopia**](https://www.mutopiaproject.org/) es un proyecto de **colaboración abierta** que edita con calidad profesional partituras musicales de obras en dominio público con [LilyPond](http://lilypond.org/), y las distribuye en PDF, MIDI y en formato modificable con LilyPond. Es como el [proyecto Gutemberg](https://www.gutenberg.org/wiki/Main_Page), que edita libros, pero con partituras musicales.
 - El [proyecto **OpenScore**](https://openscore.cc) es parecido a Mutopia, pero utilizando [MuseScore](https://musescore.org/es) y distribuyendo el resultado en PDF, MIDI y [MusicXML](https://es.wikipedia.org/wiki/Musicxml). Este último es un [formato abierto](https://es.wikipedia.org/wiki/Formato_abierto) de datos que nos permite usar herramientas digitales para, por ejemplo: transformar fácilmente las partituras a [musicografía Braille](https://es.wikipedia.org/wiki/Musicografía_Braille) (fascinante mundo que nos reveló [Iulian Iorut Abagiu](https://jammadrid.wordpress.com/quienes-somos/) en su ponencia _Música y discapacidad visual_), ejecutar [análisis masivos y automatizados](http://web.mit.edu/music21/) con software o experimentar con [visualizaciones artisticas de la música](https://c82.net/offthestaff/).  
@@ -108,11 +108,11 @@ En cuanto a grabaciones y materiales educativos, estos son algunos ejemplos:
 
 No nos podemos olvidar de que los creadores también tienen que comer. Al fomentar la distribución pública frente a una mercantilización y lucro perjudicial para la cultura, el movimiento de la cultura libre promueve indirectamente que los **modelos económicos cambien**. Uno de las maneras más viables de financiación compatibles con la cultura libre y que durante los últimos años está popularizándose es **el micromecenazgo**. Se trata de donaciones periódicas flexibles que el público puede establecer como apoyo y retribución al trabajo continuado del creador[^mecenas]. Algunas plataformas conocidas para ello son:
 
-- [Patreon](https://www.patreon.com/): la más conocida de todas. Muchos [youtubers](https://es.wikipedia.org/wiki/Youtuber) conocidos la utilizan.  La plataforma se lleva un 5% de comisión por transacción. 
+- [Patreon](https://www.patreon.com/): la más conocida de todas. Muchos [youtubers](https://es.wikipedia.org/wiki/Youtuber) notorios la utilizan. La plataforma se lleva un 5% de comisión por transacción. 
 - [Liberapay](https://liberapay.com/): la más libre de todas. Es un proyecto de software libre, no se lleva **ninguna comisión** de las donaciones y se financia a través de su propia plataforma.
 - Para grupos, existen opciones como [OpenCollective](https://opencollective.com/), entre otras. La plataforma se lleva entre el 5 y el 10% de comisión por transacción.
 
-Esta _nueva_ forma de financiación simplemente **actualiza modelos** antiguos (como el del «adicto al honor» recogido en las leyes de educación españolas, como nos explicaron Regina Artero e Inés Donoso en su ponencia _Recorrido histórico de la educación musical desde 1831 hasta 2011_) a las **posibilidades tecnológicas** de hoy en día.
+Esta _nueva_ forma de financiación simplemente **actualiza modelos** antiguos (como el del «adicto al honor» recogido en las antiguas leyes españolas de educación musical, como nos explicaron Regina Artero e Inés Donoso en su ponencia _Recorrido histórico de la educación musical desde 1831 hasta 2011_) a las **posibilidades tecnológicas** de hoy en día.
 
 Ninguna de estas opciones cancela la posibilidad de otras actividades económicas en paralelo, como pueden ser conciertos, exposiciones, álbumes en CD, financiación en plataformas de streaming o la venta de _merchandising_. El objetivo es **liberar la música**, y las herramientas están a disposición de quien quiera utilizarlas.
 
