@@ -11,11 +11,11 @@ pdf: "copyright-copyleft_musica-y-cultura-libre.pdf"
   allowfullscreen
   style="display: block; width: 100%; min-height: 22em; border: 0"
 ></iframe>
-Descárgalas [en este enlace]({{< param "pdf" >}}).
+[Descárgalas en PDF en este enlace]({{< param "pdf" >}}).
 
 {{< param "description" >}}
 
-Publiqué las notas de la charla en tres artículos en este blog:
+Publiqué las notas de esta [charla que di en el RCSMM]({{< relref "2019-03-11-charla-cultura-libre.md" >}}) en tres artículos en este blog:
 
 - Los derechos de autor históricamente y según la legislación española vigente. Puedes [leerlo aquí]({{< relref "2019-03-19-charla-parte1.md" >}} "Del copyright al copyleft, parte 1: derechos de autor").
 - La cultura libre: qué es, cómo practicarla (licencias), qué proyectos musicales existen y cómo financiarla. Puedes [leerlo aquí]({{< relref "2019-03-21-charla-parte2.md" >}} "Del copyright al copyleft, parte 2: cultura libre y licencias").
