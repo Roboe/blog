@@ -8,7 +8,7 @@ Este es el último de los tres artículos que amplian las notas de la charla [«
 
 ## Software libre y copyleft
 
-El software libre es el software que respeta la libertad de los usuarios y la comunidad y permite ejecutar, copiar, distribuir, estudiar, modificar y mejorar el software. Es decir, el software libre —a pesar de la ambigüedad en inglés, _free software_— habla de libertad en el sentido de **«libertad de expresión»**, no de precio como en «barra libre».
+El software libre es el software que respeta la libertad de los usuarios y la comunidad y permite ejecutar, copiar, distribuir, estudiar, modificar y mejorar el software. Es decir, el software libre —a pesar de la ambigüedad en inglés, _free software_&mdash; habla de libertad en el sentido de **«libertad de expresión»**, no de precio como en «barra libre».
 
 El movimiento del software libre **sirvió como fundamento** del movimiento de la cultura libre, más genérico, que surgió después y englobó al software libre por su naturaleza de bien inmaterial. Por eso, no sorprende que las [cuatro libertades](https://www.gnu.org/philosophy/free-sw.es.html) en las que se fundamenta el software libre nos sean ya conocidas, porque son las originales:
 
@@ -99,7 +99,7 @@ Crucemos los dedos para que mañana se decida en el Parlamento Europeo que las l
 
 [^stallman]: [Stallman, Richard M.](https://es.wikipedia.org/wiki/Richard_Stallman). [_Software libre para una sociedad libre_](https://traficantes.net/libros/software-libre-para-una-sociedad-libre). Introducción de [Lawrence Lessig](https://es.wikipedia.org/wiki/Lawrence_Lessig). Traducción de Jaron Rowan, Diego Sanz Paratcha y Laura Trinidad. Madrid: Traficantes de Sueños (Mapas), 2004. ISBN: [978-84-933555-1-7](https://es.wikipedia.org/wiki/Especial:FuentesDeLibros?isbn=9788493355517)
 
-[^bauman]: [^bauman]: [Bauman, Zygmunt](https://es.wikipedia.org/wiki/Zygmunt_Bauman). [_La cultura como praxis_](https://www.planetadelibros.com/libro-la-cultura-como-praxis/19155). Traducción de Albert Roca Álvarez. Ediciones Paidós (Studio), 2002. ISBN: [978-84-493-1184-0](https://es.wikipedia.org/wiki/Especial:FuentesDeLibros?isbn=9788449311840).
+[^bauman]: [Bauman, Zygmunt](https://es.wikipedia.org/wiki/Zygmunt_Bauman). [_La cultura como praxis_](https://www.planetadelibros.com/libro-la-cultura-como-praxis/19155). Traducción de Albert Roca Álvarez. Ediciones Paidós (Studio), 2002. ISBN: [978-84-493-1184-0](https://es.wikipedia.org/wiki/Especial:FuentesDeLibros?isbn=9788449311840).
 
 [^himanen]: [Himanen, Pekka](https://es.wikipedia.org/wiki/Pekka_Himanen). [_La ética del hacker y el espíritu de la era de la información_](https://es.wikipedia.org/wiki/La_ética_del_hacker_y_el_espíritu_de_la_era_de_la_información). Prólogo de [Linus Torvalds](https://es.wikipedia.org/wiki/Linus_Torvalds) y epílogo de [Manuel Castells](https://es.wikipedia.org/wiki/Manuel_Castells). Traducción de Ferran Meler Ortí. Barcelona: Ediciones Destino (Imago mundi), 2002. ISBN: [978-84-233-3637-1](https://es.wikipedia.org/wiki/Especial:FuentesDeLibros?isbn=9788423336371)
 
