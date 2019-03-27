@@ -22,7 +22,7 @@ La segunda libertad corresponde con el valor de **transparencia**: al tener el c
 
 {{% figure %}}
 
-<video controls width="100%">
+<video controls crossorigin="anonymous" width="100%">
   <source src="https://static.fsf.org/nosvn/FSF30-video/FSF_30_720p.webm" type="video/webm">
   <track default label="Español"
     kind="subtitles" srclang="es"
