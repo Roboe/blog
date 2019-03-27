@@ -2,6 +2,7 @@
 title: "Del copyright al copyleft, parte 3: software libre y copyleft"
 date: 2019-03-11
 publishDate: 2019-03-25
+lastmod: 2019-03-27
 ---
 
 Este es el último de los tres artículos que amplian las notas de la charla [«Del copyright al copyleft: música y cultura libre»]({{< relref "2019-03-11-charla-cultura-libre.md" >}}) que tuve la oportunidad de impartir en el Real Conservatorio Superior de Música de Madrid.
@@ -90,7 +91,7 @@ El **artículo 13** (originalmente, ahora artículo 17), sobre el filtrado de co
   
 Muchos grupos de cultura digital están en contra de estos dos artículos, como [Wikipedia](https://wikimediafoundation.org/2019/02/28/we-do-not-support-the-eu-copyright-directive-in-its-current-form-heres-why-you-shouldnt-either/), [X-Net](https://xnet-x.net/actua-contra-art11-y-art13-recta-final-directiva-copyright/) y la [Plataforma en Defensa de la Libertad de Información](http://copyright.libertadinformacion.cc/). Los consideran **abusivos y dañinos** para el ecosistema cultural y la libertad de expresión en internet. Y a ti también te afectan.
 
-Crucemos los dedos para que mañana se decida en el Parlamento Europeo que las leyes de derechos de autor **no sigan siendo una excusa para coartar** la libertad de expresión y la creatividad. Solo deberían juzgar los jueces, no máquinas proclives al error. Y solo se puede jugar a vivir _online_ cuando se hace libremente. 
+Crucemos los dedos para que mañana se decida en el Parlamento Europeo que las leyes de derechos de autor **no sigan siendo una excusa para coartar** la libertad de expresión y la creatividad. Solo deberían juzgar los jueces, no máquinas proclives al error. Y solo se puede jugar a vivir _online_ cuando se hace libremente. **Actualización:** desafortunadamente, [hay malas noticias para internet](https://xnet-x.net/aprobacion-directiva-copyright-no-llames-censura-llamalo-derechos-autor/).
 
 
 ~{{< author >}}
