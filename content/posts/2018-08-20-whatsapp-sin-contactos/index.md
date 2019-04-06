@@ -24,7 +24,7 @@ Lineage OS es el sucesor de CyanogenMod, un sistema operativo Android alternativ
 
 WhatsApp, una aplicación de mensajería centralizada, de código cerrado, comprada por Facebook que incluso los defensores de la privacidad nos vemos obligados a utilizar en muchos casos (_gracias_, [efecto red](https://es.wikipedia.org/wiki/Efecto_de_red), 😒). Como muchos de vosotros sabéis, esta aplicación utiliza los números de teléfono como identificadores de usuario, así que no tienes que compartir tu dirección `privacidadeslibertad@servicio.com` con alguien, _solamente_ tu número, y la aplicación construye la dirección `<prefijo_nacional><número_teléfono>@s.whatsapp.net` de forma transparente (yo diría opaca).
 
-El tema: la aplicación lee periódicamente **tu lista de contactos** y la guarda en sus servidores (la mal llamada «nube») para construir la sublista de personas que puedes contactar mediante su servicio. Natuarlmente, pide el permiso de «leer contactos», y si se lo deniegas, se niega a funcionar. Pero el truco aquí es que **puedes recibir perfectamente mensajes de otras personas** sin ningún problema (la gente cuyo número no tienes guardado puede mensajearte si tienen el tuyo). ¡Privacy Guard al rescate!
+El tema: la aplicación lee periódicamente **tu lista de contactos** y la guarda en sus servidores (la mal llamada «nube») para construir la sublista de personas que puedes contactar mediante su servicio. Naturalmente, pide el permiso de «leer contactos», y si se lo deniegas, se niega a funcionar. Pero el truco aquí es que **puedes recibir perfectamente mensajes de otras personas** sin ningún problema (la gente cuyo número no tienes guardado puede mensajearte si tienen el tuyo). ¡Privacy Guard al rescate!
 
 
 **Resumen:** WhatsApp se niega a funcionar si le deniegas el permiso de «leer contactos». Nada impide a la aplicación recibir mensajes de otras personas ni a ti interactuar con la conversación cuando eso pasa, solo la propia reacción de la aplicación, enfurruñada, cuando le deniegas el permiso.
@@ -49,7 +49,7 @@ La próxima vez que la aplicación pida leer tus contactos, concédele el permis
 
 ## Desventajas
 
-A partir de ahora, no verás los nombres de las personas en las conversaciones tal y como los tienes guardados en la agenda, sino solo sus números. Evita exponer tu lista de chats o una conversación abierta a cámaras u ojos ajenospara respetar la privacidad de tus contactos. **La privacidad se construye sobre la confianza**, y como cualquier otro enlace humano, es una **responsabilidad compartida**. Yo suelo utilizar [ObscuraCam](https://f-droid.org/app/org.witness.sscphase1) del Guardian Project cuando tengo que compartir algún pantallazo con datos personales (como mi lista de aplicaciones en los pantallazos de arriba).
+A partir de ahora, no verás los nombres de las personas en las conversaciones tal y como los tienes guardados en la agenda, sino solo sus números. Evita exponer tu lista de chats o una conversación abierta a cámaras u ojos ajenos para respetar la privacidad de tus contactos. **La privacidad se construye sobre la confianza**, y como cualquier otro enlace humano, es una **responsabilidad compartida**. Yo suelo utilizar [ObscuraCam](https://f-droid.org/app/org.witness.sscphase1) del Guardian Project cuando tengo que compartir algún pantallazo con datos personales (como mi lista de aplicaciones en los pantallazos de arriba).
 
 WhatsApp no listará tus contactos, por lo que no podrás abrir nuevas conversaciones. Si sigues leyendo, abajo encontrarás varias maneras de hacerlo.
 
