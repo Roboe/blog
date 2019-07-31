@@ -21,7 +21,7 @@ Pero en esta edición creo que **hemos conseguido un objetivo** que nos planteam
 
 ## Las charlas
 
-Así pues, el sábado, como ya viene siendo costumbre, arrancamos con las charlas, que describo brevemente a continuación:
+Así pues, el sábado, como ya viene siendo costumbre, arrancamos con las charlas, que describo reducidamente a continuación:
 
 1. **Jesús** nos presentó una breve [historia de la música electrónica](http://techno.org/electronic-music-guide/) para introducirnos de lleno en los distintos géneros de la música _techno_.
 2. [**Said Atrahouch**](https://github.com/Afsoon) nos hizo una introducción a la lengua árabe, con todas sus &mdash;para nosotros&mdash; extravagantes reglas de concordancia y su rico mundo de dialectos.
