@@ -1,0 +1,22 @@
+Telepresencia con vehículos no tripulados de radio control
+
+¿Qué es un dron y qué no lo es?
+
+(Hombros de gigantes)
+Radio comunicación FCC vs EU-LBT
+Emisora, Tx, OpenTx
+
+Cuadricópteros: MultiWii, GPS, VTX
+Motores brushed y brushless
+Partes: Rx, Fc, ESCs, VTX, cámara, motores, buzzer, blackbox, GPS, sonar, lidar, motion flow
+Invertir polaridad o turtle mode
+Roll, yaw, pitch
+Modos de vuelo angle, horizon, acro
+Programación en Lua
+Diversity
+Radio circular polarizada
+Televisión foto, fotogrametria, Kinect
+Telepresencia
+Recuerdopresencia (Días extraños, 1995)
+
+Como los pioneros de la aviación, pero sin matarse
