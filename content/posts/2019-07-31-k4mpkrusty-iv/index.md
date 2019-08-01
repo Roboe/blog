@@ -39,7 +39,7 @@ Tras el descanso de mediodía para disfrutar de la estupenda paella de Fernando,
 11. **Luis** nos habló del arte de la improvisación, de cómo se aprende y ensaya la espontaneidad y de los fundamentos universales de la narrativa.
 12. [**Ramón Guijarro**](soyguijarro.com) mandó al carajo la pirámide alimentaria de los 80 para presentarnos el [plato de Harvard](https://www.hsph.harvard.edu/nutritionsource/healthy-eating-plate/translations/spanish/), nos informó sobre la importancia del descanso, de disfrutar la luz natural del día y del movimiento y el ejercicio cotidiano para la salud física y mental.
 13. En mi turno, hablé de [la cultura, los derechos de autor y el _retrogaming_]({{< relref preservation-digital-culture >}}) para terminar contando la historia real de cómo se preservó la voz artificial de un afamado físico gracias a un emulador de _software_ libre.
-14. **Isra** nos condenó a los programadores a una pronta extinción por los avances de las interfaces para usuarios legos y, con ello, refutó la necesidad de los ingenieros 10x.
+14. [**Israel Gutiérrez**](israelgutierrez.es) nos condenó a los programadores a una pronta extinción por los avances de las interfaces para usuarios legos y, con ello, refutó la necesidad de los ingenieros 10x.
 15. Y, por último, **Álex** cerró el día compartiendo el aprendizaje personal y laboral que ha adquirido de su experiencia arrancando y trabajando en un estudio de diseño durante los dos últimos años.
 
 Por supuesto, no ha habido solo charlas en este fin de semana. Pero la barbacoa, los chapuzones, las partidas al [Secret Hitler](https://www.secrethitler.com/) y las serenatas de ocarina no se pueden describir, ;)
