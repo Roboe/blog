@@ -1,6 +1,7 @@
 ---
 title: Colección de juegos retro
 layout: retrogaming # TODO
+draft: true
 ---
 
 {% assign platforms = site.retrogaming | where: "type", "console" %}
