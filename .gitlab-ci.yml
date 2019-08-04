@@ -7,13 +7,10 @@ variables:
 
 
 hugo_build:
-  image: debian:buster-slim
+  image: registry.gitlab.com/pages/hugo/hugo_extended:latest
   stage: build
   only:
     - master
-  before_script:
-    - apt update
-    - apt install hugo -y
   script:
     - hugo --source="$SOURCE" --destination="$BUILD_DESTINATION"
   artifacts:
