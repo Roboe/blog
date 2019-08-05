@@ -1,5 +1,5 @@
 ---
-title: Necesitamos alfabetización digital
+title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 categories:
  - ensayos

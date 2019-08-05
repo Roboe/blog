@@ -1,0 +1,30 @@
+---
+layout: webslides
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+---
+
+<section class="slide">
+  <span class="background" style="background-image: url('[fondo].jpg')"></span>
+  <span class="background-right-top" style="background-image: url('k4mpkrusty-logo.png'); background-size: 175px; margin-top: 15px;"></span>
+  <div class="wrap content-center">
+    <h1><strong>{{< param "title" >}}</strong></h1>
+    <p class="text-intro"><strong>{{< param "description" >}}</strong></p>
+  </div>
+  <footer>
+    <div class="wrap">
+      <p class="alignleft">
+        Foto de <a href="" rel="noopener noreferrer">[fotógrafo]</a> en <a href="https://unsplash.com/" rel="noopener noreferrer">Unsplash</a>
+      </p>
+    </div>
+  </footer>
+</section>
+
+
+
+<section>
+  <span class="background-right-top" style="background-image: url('k4mpkrusty-logo.png'); background-size: 175px; margin-top: 15px;"></span>
+  <div class="wrap">
+    <h1 class="text-landing">¡Muchas gracias!</h1>
+  </div>
+</section>
