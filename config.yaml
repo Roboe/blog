@@ -63,6 +63,7 @@ outputs:
     - Atom
 
 # Build settings
+footnoteReturnLinkContents: "↩"
 blackfriday: # markdown processor
   smartypants: true # smart punctuation substitutions
   angledQuotes: true # render "quotes" as «quotes»
