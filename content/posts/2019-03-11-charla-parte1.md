@@ -1,6 +1,5 @@
 ---
 title: "Del copyright al copyleft, parte 1: derechos de autor"
-date: 2019-03-11
 publishDate: 2019-03-19
 ---
 
@@ -48,7 +47,7 @@ Como se señala en el informe de COMMUNIA sobre [_Copyright and Education in Eur
 Estos derechos _«durarán toda la vida del autor y **setenta años después de su muerte** o declaración de fallecimiento»_ (art. 26), periodo tras el cual las obras pasarán a formar parte del [dominio público](https://es.wikipedia.org/wiki/Dominio_púlico) (art. 41), que es la forma jurídica que adquieren los [bienes del procomún](https://es.wikipedia.org/wiki/Bien_comunal). Los derechos de autor son los únicos derechos de propiedad que expiran con el tiempo, porque el objeto principal de estos derechos, aunque ahora vueltos por la práctica mercantil, es el **beneficio del público**.[^bravo-ibidem]
 
 
-En el [próximo artículo]({{< relref "2019-03-21-charla-parte2.md" >}}) se explica qué es la cultura libre, cómo practicarla, qué proyectos musicales de cultura libre existen y cómo se puede financiar.
+En el [próximo artículo]({{< relref "2019-03-11-charla-parte2.md" >}}) se explica qué es la cultura libre, cómo practicarla, qué proyectos musicales de cultura libre existen y cómo se puede financiar.
 
 
 ~{{< author >}}

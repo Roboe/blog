@@ -1,7 +1,6 @@
 ---
 title: Desmitificando la antipiratería del DRM
 slug: desmitificando-el-drm
-date: 2018-09-18
 category: Educación digital
 ---
 

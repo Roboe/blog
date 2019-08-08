@@ -1,6 +1,5 @@
 ---
 title: Necesitamos alfabetización digital
-date: 2018-07-24
 categories: ensayos
 ---
 

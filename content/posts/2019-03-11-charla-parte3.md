@@ -1,6 +1,5 @@
 ---
 title: "Del copyright al copyleft, parte 3: software libre y copyleft"
-date: 2019-03-11
 publishDate: 2019-03-25
 lastmod: 2019-03-27
 ---
@@ -58,7 +57,7 @@ El _copyleft_ es una cláusula extra, originalmente de licencias de software lib
 
 Surge como un **ingenioso _hack_**, un uso imprevisto, de los propios derechos de autor: se usa un derecho exclusivo de autor para evitar que una obra se cierre al público. Las licencias con _copyleft_ ya se plantearon como un catalizador de la **viralidad** para contenidos en internet, porque permiten que una obra cultural alcance una gran difusión aprovechando las capacidades de la red en todo su potencial.
 
-El _copyleft_ para obras que no son completas no es siempre deseable para obras creativas. El proyecto FreePats, un banco de sonidos instrumentales libres que [se mencionó en el artículo anterior]({{< relref "2019-03-21-charla-parte2.md" >}}), no admite contenido con _copyleft_ por ser [contraproducente](http://freepats.zenvoid.org/unsuitable-licenses.html#Copyleft): obligaría a que la obra final fuera libre, aunque los sonidos originales sean solo una parte.
+El _copyleft_ para obras que no son completas no es siempre deseable para obras creativas. El proyecto FreePats, un banco de sonidos instrumentales libres que [se mencionó en el artículo anterior]({{< relref "2019-03-11-charla-parte2.md" >}}), no admite contenido con _copyleft_ por ser [contraproducente](http://freepats.zenvoid.org/unsuitable-licenses.html#Copyleft): obligaría a que la obra final fuera libre, aunque los sonidos originales sean solo una parte.
 
 
 ## Software musical libre

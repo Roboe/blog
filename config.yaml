@@ -41,6 +41,14 @@ permalinks:
   posts: /:year/:month/:day/:slug/
   articles: /:slug/
 
+frontmatter:
+  date:
+    - :filename
+    - :default
+  publishDate:
+    - :default
+    - :filename
+
 theme: virgulilla
 
 disableKinds:

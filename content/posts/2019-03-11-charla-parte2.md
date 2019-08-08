@@ -1,6 +1,5 @@
 ---
 title: "Del copyright al copyleft, parte 2: cultura libre y licencias"
-date: 2019-03-11
 publishDate: 2019-03-21
 ---
 
@@ -59,7 +58,7 @@ Y, segundo, a la [escasez artificial](https://es.wikipedia.org/wiki/Escasez_arti
 
 ## Practicar cultura libre
 
-Si los autores no expresan lo contrario, sus obras están protegidas por las leyes sobre [derechos de autor]({{< relref "2019-03-19-charla-parte1.md" >}}) existentes, que ya vimos que son restrictivas por defecto. Para especificar unos términos distintos de uso de una obra se debe adjuntar un texto legal que los establezca cuando se publique. Este texto se conoce como **licencia**, y en él se pueden hacer efectivas las libertades de la cultura libre mencionadas anteriormente. Existen multitud de licencias libres para este propósito ya preparadas para su uso.
+Si los autores no expresan lo contrario, sus obras están protegidas por las leyes sobre [derechos de autor]({{< relref "2019-03-11-charla-parte1.md" >}}) existentes, que ya vimos que son restrictivas por defecto. Para especificar unos términos distintos de uso de una obra se debe adjuntar un texto legal que los establezca cuando se publique. Este texto se conoce como **licencia**, y en él se pueden hacer efectivas las libertades de la cultura libre mencionadas anteriormente. Existen multitud de licencias libres para este propósito ya preparadas para su uso.
 
 Licenciar una obra con una licencia libre al publicarla en internet, por ejemplo, no te impide volver a licenciarla más tarde bajo unos términos distintos[^copyleft-guia]; por ejemplo, pordemos negociar unos términos económicos distintos con una distribuidora. Tampoco evita que otras personas nos acusen de plagio, así que es recomendable registrar nuestra obra como propia en los órganos habilitados para ello, como el [Registro de la propiedad intelectual](https://www.culturaydeporte.gob.es/cultura-mecd/areas-cultura/propiedadintelectual/registro-de-la-propiedad-intelectual.html) en España[^copyleft-guia-ibid]. 
 

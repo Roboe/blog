@@ -1,6 +1,5 @@
 ---
 title: "Fe de e-ratas"
-date: 2018-01-28
 aliases: /fe-de-e-ratas/
 ---
 

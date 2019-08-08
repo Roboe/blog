@@ -1,6 +1,5 @@
 ---
 title: "Charla «Del copyright al copyleft: música y cultura libre»"
-date: 2019-03-11
 publishDate: 2019-03-18
 ---
 
