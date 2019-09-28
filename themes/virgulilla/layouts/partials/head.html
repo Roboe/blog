@@ -10,7 +10,7 @@
   </title>
 
   {{ "<!-- start SEO -->" | safeHTML }}
-  {{ .Hugo.Generator }}
+  {{ hugo.Generator }}
 
   {{ "<!-- Schema.org -->" | safeHTML }}
   {{ partial "seo/schema.html" . }}

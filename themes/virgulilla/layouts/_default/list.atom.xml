@@ -34,7 +34,7 @@
     {{- end }}
   </author>
   {{- end }}
-  <generator uri="https://gohugo.io/" version="{{ .Hugo.Version }}">Hugo</generator>
+  <generator uri="https://gohugo.io/" version="{{ hugo.Version }}">Hugo</generator>
   {{- range first 15 (where .Data.Pages "Type" "in" .Site.Params.home.sections) }}
   <entry>
     <title>{{ .Title | plainify }}</title>
