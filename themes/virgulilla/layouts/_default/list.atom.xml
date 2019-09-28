@@ -35,7 +35,11 @@
   </author>
   {{- end }}
   <generator uri="https://gohugo.io/" version="{{ hugo.Version }}">Hugo</generator>
-  {{- range first 15 (where .Data.Pages "Type" "in" .Site.Params.home.sections) }}
+  {{- $regularPages := .RegularPages }}
+  {{- if .IsHome }}
+    {{- $regularPages = (where .Site.RegularPages "Section" "in" .Site.Params.home.sections) }}
+  {{- end -}}
+  {{- range first 15 $regularPages }}
   <entry>
     <title>{{ .Title | plainify }}</title>
     {{- with .OutputFormats.Get "HTML" }}
