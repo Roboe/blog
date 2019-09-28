@@ -12,6 +12,7 @@ hugo_build:
   only:
     - master
   script:
+    - hugo version
     - hugo --source="$SOURCE" --destination="$BUILD_DESTINATION"
   artifacts:
     paths:
