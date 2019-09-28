@@ -65,6 +65,12 @@ outputs:
     - HTML
     - Atom
 
+# Taxonomies
+taxonomies:
+  tag: tags
+  category: categories
+  author: authors
+
 # Build settings
 markup:
   defaultMarkdownHandler: goldmark
