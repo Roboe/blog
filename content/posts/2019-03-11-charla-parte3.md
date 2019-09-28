@@ -20,25 +20,27 @@ El movimiento del software libre **sirvió como fundamento** del movimiento de l
 
 La segunda libertad corresponde con el valor de **transparencia**: al tener el código fuente disponible, cualquiera capaz de leerlo puede asegurarse de que los programas hacen efectivamente lo que dicen, igual que un abogado puede leer las alegaciones de un litigio, aprender de los argumentos y reutilizarlos[^stallman], o un compositor analiza otras obras e integrando sus discursos contribuye al avance de la cultura[^bauman]. En este sentido, el software libre es una herramienta genuína de **formación, colaboración y construcción social** (como concluyó Cristian Sandu en su ponencia _Implicaciones educativas para el fomento del desarrollo adolescente_, la libertad en la decisión de qué aprender, el valor de la colaboración y la alfabetización mediática son grandes aliados en la educación de adolescentes).
 
-{{% figure %}}
+<figure>
+  <figure></figure>
 
-<video controls crossorigin="anonymous" width="100%">
-  <source src="https://static.fsf.org/nosvn/FSF30-video/FSF_30_720p.webm" type="video/webm">
-  <track default label="Español"
-    kind="subtitles" srclang="es"
-    src="https://static.fsf.org/nosvn/FSF30-video/captions/FSF_30_es.vtt"
-  >
-  <track label="English"
-    kind="subtitles" srclang="en"
-    src="https://static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.en.vtt"
-  >
+  <video controls crossorigin="anonymous" width="100%">
+    <source src="https://static.fsf.org/nosvn/FSF30-video/FSF_30_720p.webm" type="video/webm">
+    <track default label="Español"
+      kind="subtitles" srclang="es"
+      src="https://static.fsf.org/nosvn/FSF30-video/captions/FSF_30_es.vtt"
+    >
+    <track label="English"
+      kind="subtitles" srclang="en"
+      src="https://static.fsf.org/nosvn/FSF30-video/captions/FSF_30_720p.en.vtt"
+    >
+    ¡Ups! Parece que tu navegador no puede reproducir vídeos embebidos, :(
+  </video>
 
-  ¡Ups! Parece que tu navegador no puede reproducir vídeos embebidos, :(
-</video>
+  <figcaption>
+    Vídeo <a href="https://www.fsf.org/blogs/community/user-liberation-watch-and-share-our-new-video" rel="nofollow noreferrer" target="_blank"><em>User liberation</em></a> (en inglés, «liberación de usuarios») de la Free Software Foundation. Licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" rel="nofollow noreferrer" target="_blank">CC-BY-SA 4.0 Internacional</a>.
+  </figcaption>
 
-<figcaption>Vídeo <a href="https://www.fsf.org/blogs/community/user-liberation-watch-and-share-our-new-video" rel="nofollow noreferrer" target="_blank"><em>User liberation</em></a> (en inglés, «liberación de usuarios») de la Free Software Foundation. Licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" rel="nofollow noreferrer" target="_blank">CC-BY-SA 4.0 Internacional</a>.</figcaption>
-
-{{% /figure %}}
+</figure>
 
 ### Ética hacker
 

@@ -27,13 +27,15 @@ Las obras culturales libres son aquellas que pueden ser libremente estudiadas, u
 
 El movimiento de la cultura libre supone un cambio de paradigma frente a la industrialización de la cultura. El advenimiento de la [Web 2.0](https://es.wikipedia.org/wiki/Web_2.0) terminó de asentar las bases participativas originarias de internet[^brief-internet] convirtiendo la colaboración y la interacción entre los usuarios en el centro de la experiencia. Hoy en día, **compartir** en el ciberespacio es una parte inseparable de nuestras vidas. La difusión de la información ahora tiene coste cero y compartirla no te priva del beneficio del bien porque no es un bien material.
 
-{{% figure %}}
+<figure>
+  <figure></figure>
 
-> Quien recibe una idea de mí, recibe instrucción sin disminuir la mía; igual que quien enciende su vela con la mía, recibe luz sin que yo quede a oscuras.
+  > Quien recibe una idea de mí, recibe instrucción sin disminuir la mía; igual que quien enciende su vela con la mía, recibe luz sin que yo quede a oscuras.
 
-<cite>Thomas Jefferson</cite>
-
-{{% /figure %}}
+  <footer>
+    <cite>Thomas Jefferson</cite>
+  </footer>
+</figure>
 
 Así, vemos iniciativas como [CopyHeart](http://copyheart.org) que argumenta que no se copia lo que no es bello y que, por tanto, **copiar es un acto de amor** por la obra. Cualquier autor quiere que su obra se ame. Incluso Clementi, después de que Mozart copiase un tema de su sonata de piano op. 24 nº 2 para el _singspiel_ [La flauta mágica](https://es.wikipedia.org/wiki/La_flauta_mágica), reconoció el genio de Mozart[^benito]. La creatividad se concibe como un producto de **inteligencia colaborativa**, no exclusivamente individual (ninguna persona concreta inventó la [tonalidad](https://es.wikipedia.org/wiki/Tonalidad_(música))). Por eso, en la mayoría de obras libres no solo se permite la copia sino que se **incentiva la transformación** (en el taller _Introducción al Orff-Schulwerk_ de la Asociación Orff España se comentó que Carl Orff planteó los materiales musicales de sus libros para ser desarrollados y adaptados por los profesores y pedagogos).
 
@@ -41,13 +43,15 @@ Frente al «todos los derechos reservados» de los derechos de autor, la cultura
 
 ### Crítica
 
-{{% figure %}}
+<figure>
+  <figure></figure>
 
-> Vuestras obsoletas industrias de la información se perpetuarán proponiendo leyes, en América y cualquier otro lugar, que aleguen poseer la palabra misma en todo el mundo. Estas leyes declarán las ideas como un producto industrial más, no más respetable que el cemento. En nuestro mundo, cualquier cosa que pueda crear la mente humana puede ser reproducido y distribuído sin fin y sin coste alguno. El intercambio global de ideas ya no requiere de vuestras fábricas.
+  > Vuestras obsoletas industrias de la información se perpetuarán proponiendo leyes, en América y cualquier otro lugar, que aleguen poseer la palabra misma en todo el mundo. Estas leyes declarán las ideas como un producto industrial más, no más respetable que el cemento. En nuestro mundo, cualquier cosa que pueda crear la mente humana puede ser reproducido y distribuído sin fin y sin coste alguno. El intercambio global de ideas ya no requiere de vuestras fábricas.
 
-<cite>[Declaración de independencia del ciberespacio (1996)]({{< relref "2018-02-08-declaracion-de-independencia-del-ciberespacio.md" >}})</cite>, John Perry Barlow
-
-{{% /figure %}}
+  <footer>
+    <cite>[Declaración de independencia del ciberespacio (1996)]({{< relref "2018-02-08-declaracion-de-independencia-del-ciberespacio.md" >}})</cite>, John Perry Barlow
+  </footer>
+</figure>
 
 La cultura libre apunta con el dedo principalmente a dos prácticas que considera que han reformado los derechos de autor en beneficio de una visión mercantilista de la cultura y, por extensión, en perjuicio de la creatividad y la sociedad en su conjunto.
 

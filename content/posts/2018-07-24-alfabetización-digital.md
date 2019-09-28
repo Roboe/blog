@@ -3,25 +3,29 @@ title: Necesitamos alfabetización digital
 categories: ensayos
 ---
 
-{{% figure %}}
-En un festival de arte en Brooklyn, la artista Risa Puno, en su instalación interactiva, vendió galletas de una manera un tanto diferente. Los clientes las obtuvieron [a cambio de datos privados][risa-puno-pec-formulario] como su dirección y lugar de nacimiento, el nombre de su primera mascota o su mejor amigo de la infancia, los últimos dígitos de su número de la seguridad social, una fotografía sacada en el momento o sus huellas dactilares. Algunos participantes preguntaron por el uso que se haría de sus datos, a lo que la artista respondió dirigiéndoles a las condiciones del servicio, la letra pequeña de la cara trasera del formulario. **¿Aceptamos usar nuestra privacidad como moneda de cambio?**, viene a preguntarse la artista [con su experimento][risa-puno-please-enable-cookies].
-(Copublicación entre [Propublica][propublica-data-trade-for-cookies] y [Mashable][mashable-data-for-cookies])
+<figure>
+  <figure></figure>
+
+  En un festival de arte en Brooklyn, la artista Risa Puno, en su instalación interactiva, vendió galletas de una manera un tanto diferente. Los clientes las obtuvieron [a cambio de datos privados][risa-puno-pec-formulario] como su dirección y lugar de nacimiento, el nombre de su primera mascota o su mejor amigo de la infancia, los últimos dígitos de su número de la seguridad social, una fotografía sacada en el momento o sus huellas dactilares. Algunos participantes preguntaron por el uso que se haría de sus datos, a lo que la artista respondió dirigiéndoles a las condiciones del servicio, la letra pequeña de la cara trasera del formulario. **¿Aceptamos usar nuestra privacidad como moneda de cambio?**, viene a preguntarse la artista [con su experimento][risa-puno-please-enable-cookies].
+  (Copublicación entre [Propublica][propublica-data-trade-for-cookies] y [Mashable][mashable-data-for-cookies])
+</figure>
 
 [risa-puno-please-enable-cookies]: https://www.risapuno.com/please-enable-cookies/ "Resumen del experimento Please Enable Cookies de Risa Puno (en inglés)"
 [risa-puno-pec-formulario]: https://www.risapuno.com/s/PEC_form2.pdf "Formulario que los clientes rellenaron en el experimento de Risa Puno (en inglés)"
 [propublica-data-trade-for-cookies]: https://www.propublica.org/article/how-much-of-your-data-would-you-trade-for-a-free-cookie "Artículo en Propublica sobre el experimento de Risa Puno (en inglés)"
 [mashable-data-for-cookies]: https://mashable.com/2014/10/01/data-for-cookies/ "Artículo en Mashable sobre el experimento de Risa Puno (en inglés)"
-{{% /figure %}}
 
 
-{{% figure %}}
-Shawn Buckles, un estudiante holandés, puso en marcha una web con un sistema de apuestas para organizar una subasta un tanto diferente. Los postores pagaban por [el _pack_ completo de sus datos][shawn-buckles-data-for-sale], que incluían sus viajes en tren, su calendario personal, «sus pensamientos», sus conversaciones en línea y por correo electrónico, sus preferencias comerciales y su historial de internet. The Next Web compró los datos por 350&nbsp;€. Algunos de sus amigos amenazaron con no volver a mandarle correos, por violar su privacidad al compartirlos.
+<figure>
+  <figure></figure>
+
+  Shawn Buckles, un estudiante holandés, puso en marcha una web con un sistema de apuestas para organizar una subasta un tanto diferente. Los postores pagaban por [el _pack_ completo de sus datos][shawn-buckles-data-for-sale], que incluían sus viajes en tren, su calendario personal, «sus pensamientos», sus conversaciones en línea y por correo electrónico, sus preferencias comerciales y su historial de internet. The Next Web compró los datos por 350&nbsp;€. Algunos de sus amigos amenazaron con no volver a mandarle correos, por violar su privacidad al compartirlos.
 **¿Puedo retomar el control de mis datos y explotarlos yo mismo?**, viene a preguntarse Shawn [con su experimento][shawn-buckles-data-for-sale]. (Artículo en [Wired][wired-data-soul-sold-for-350e])
+</figure>
 
 [shawn-buckles-data-for-sale]: http://shawnbuckles.nl/dataforsale/ "SE VENDEN datos personales, subasta de Shawn Buckles (en inglés)"
 [shawn-buckles-privacy-pamphlet]: http://shawnbuckles.nl/privacypamphlet/ "Panfleto sobre privacidad de Shawn Buckles (en inglés)"
 [wired-data-soul-sold-for-350e]: https://www.wired.co.uk/article/shawn-buckles-is-worth-350-euros "Artículo en Wired sobre el experimento de Shawn Buckles (en inglés)"
-{{% /figure %}}
 
 
 Estos dos episodios evidencian una de las transformaciones sociales que la popularización y comercialización de internet ha traído consigo. Una de las muchas caras ocultas de internet es que **no tenemos el control** de la ingente cantidad de datos que generamos diariamente. Infravaloramos lo que eso supone cada vez que firmamos descuidadamente términos y condiciones de webs o aplicaciones móviles de inocente aspecto. Concedemos así el permiso para recolectar datos y el **derecho de explotarlos**, como si de una materia prima se tratase. Sin embargo, la mayoría de gente se siente incómoda al echar un vistazo a la información de su [cuenta de Facebook][facebook-download-info] o de [Google][google-dashboard].

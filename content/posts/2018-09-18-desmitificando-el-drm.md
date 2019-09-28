@@ -14,14 +14,15 @@ El discurso que rodea a esta medida tecnológica se apoya en que, con ella, es p
 El DRM es una medida [defectuosa por diseño][fsf-dbd] que limita artificialmente el concepto de **propiedad** y, por si fuera poco, también tiene como [víctimas _colaterales_ derechos][wes-drm-cons] o prácticas que teníamos asumidas, ya sea tecnológicamente o con sus inseparables compañeras legales. El DRM rompe el concepto de transacción y compra de propiedad de un producto digital. Aunque lo _compras_, **nunca será tuyo**, porque no podrás hacer lo que quieras con él. Cuando compras un producto con DRM, **en realidad no estás adquiriendo el producto**, sino una licencia exclusiva para utilizarlo de la manera en que el vendedor &mdash;y solo él&mdash; quiera que lo uses:
 
 
-{{% figure %}}
+<figure>
+  <figure></figure>
+
   > A este respecto, Javier Jiménez dejó la comparación más divertida del Simposio: nos recordó la obra de Umberto Eco _El nombre de la rosa_, y dijo que el veneno con el que el venerable monje untaba las páginas del libro de Aristóteles que no quería que fuese leído por nadie, era la versión medieval del DRM.
 
-  {{% cite
-    "[Apuntes sobre el libro digital](http://librodenotas.com/textosdelcuervo/17200/apuntes-sobre-el-libro-digital)"
-    "%s, en Libro de Notas"
-  %}}
-{{% /figure %}}
+  <figcaption>
+    [Apuntes sobre el libro digital](http://librodenotas.com/textosdelcuervo/17200/apuntes-sobre-el-libro-digital), en Libro de Notas
+  </figcaption>
+</figure>
 
 
 En algunos aspectos se parece a otras medidas como el [**canon digital**][wes-canon-digital], ese impuesto que se graba en soportes digitales (CD, DVD, etc.) solo _por si acaso_ se te ocurre usarlo para copiar otro disco. Las compañías se empeñan (y se empeñarán siempre) en que [«cualquier cosa que le permita al cliente hacer más con sus productos _debe_ ser ilegal»][eff-save-itunes]. Así que, al igual que en el pasado ripear un CD original y pasar las pistas a tu reproductor MP3 no les cabía en la cabeza, hoy por hoy, comprar un libro electrónico en un Amazon Kindle y traspasarlo a otro lector electrónico de otra marca como Kobo en el futuro, tampoco les cabe. _No vaya a ser_ que lo piratees.
@@ -62,14 +63,15 @@ La Electronic Frontier Foundation mantiene una lista de cosas que pudieron ser, 
 
 **Quien quiera piratear, va a piratear igualmente**. Siempre existirán personas que le quiten el DRM a productos y los redistribuyan ilegalmente, a pesar de que les pongan cien mil leyes en el proceso. La piratería nunca se soluciona con este tipo de tecnologías incoherentes con su medio, sino comprendiendo el medio y aprovechando sus potencialidades. El coste mínimo de copia y la venta directa son dos ejemplos de propiedades de lo digital que pueden bajar los precios drásticamente para que comprar cultura **no sea solo un lujo para unos pocos**, y nadie se plantee piratear. Los únicos damnificados de estas medidas serán siempre los clientes, los usuarios legales. ¿Es el DRM, entonces, una medida antipiratería, o es una medida de **imparable avaricia y abuso de poder**?
 
-{{% figure %}}
+<figure>
+  <figure></figure>
+
   > Si resulta posible licenciar todo aspecto de uso (a través de sistemas infalibles creados con código), ningún aspecto de uso tendrá la protección del [uso legítimo](https://es.wikipedia.org/wiki/Fair_use).
 
-  {{% cite
-    "[El código y otras leyes del ciberespacio](https://es.wikipedia.org/wiki/El_c%C3%B3digo_y_otras_leyes_del_ciberespacio)"
-    "Lawrence Lessig en %s"
-  %}}
-{{% /figure %}}
+  <figcaption>
+    Lawrence Lessig en [El código y otras leyes del ciberespacio](https://es.wikipedia.org/wiki/El_c%C3%B3digo_y_otras_leyes_del_ciberespacio)
+  </figcaption>
+</figure>
 
 ¡Feliz día internacional contra el DRM!
 
