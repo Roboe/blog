@@ -15,3 +15,5 @@ Posible solución elegante con CSS Grid (_auto-placement algorithm_):
   grid-auto-flow: column;
 }
 ```
+
+HUGO: shuffle stickers on each execution: https://gohugo.io/functions/shuffle/
