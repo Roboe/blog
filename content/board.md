@@ -1,7 +1,6 @@
 ---
 title: Tablón
 layout: board # TODO
-draft: true
 ---
 
 Tapa de portátil digital. Tablón con pegatinas de proyectos, páginas, software, movimientos, etc. (no exclusivamente técnicos). Idea tomada de [la sección lateral Campañas de la página del _podcast_ ](https://autodefensainformatica.radioalmaina.org/#media_image-5) al verla en un móvil.
