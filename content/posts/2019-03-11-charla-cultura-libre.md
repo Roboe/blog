@@ -25,6 +25,10 @@ Voy a publicar una serie de **tres artículos** a partir de este con los que amp
   allowfullscreen
   style="display: block; width: 100%; min-height: 22em; border: 0"
 ></iframe>
-<noscript>[Descargar las diapositivas en PDF]({{< relref "copyright-copyleft_musica-y-cultura-libre" >}}/copyright-copyleft_musica-y-cultura-libre.pdf).</noscript>
+<noscript>
+
+[Descargar las diapositivas en PDF]({{< relref "copyright-copyleft_musica-y-cultura-libre" >}}/copyright-copyleft_musica-y-cultura-libre.pdf).
+
+</noscript>
 
 ~{{< author >}}

@@ -9,14 +9,15 @@ pdf: "copyright-copyleft_musica-y-cultura-libre.pdf"
 
 {{< param "description" >}}
 
-<object
-  type="application/pdf"
-  data="{{< param "pdf" >}}"
+
+<object type="application/pdf"
+  data="{{< param pdf >}}"
   title="PDF de la presentación «Del copyright al copyleft: música y cultura libre»"
-  style="display: flex; width: 100%; height: 22em; justify-content: center; flex-direction: column;"
->
-  <img src="slide1.jpg" alt="Diapositiva portada" width="100%" />
-  [Descarga las diapositivas en PDF desde este enlace.]({{< param "pdf" >}})
+  style="display: flex; width: 100%; height: 22em; justify-content: center; flex-direction: column;">
+
+<img src="slide1.jpg" alt="Diapositiva portada" width="100%" />
+[Descarga las diapositivas en PDF desde este enlace.]({{< param "pdf" >}})
+
 </object>
 
 Publiqué las notas de esta [charla que di en el RCSMM]({{< relref "2019-03-11-charla-cultura-libre.md" >}}) en tres artículos en este blog:

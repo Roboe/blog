@@ -30,9 +30,9 @@ _Utilizar una VPN (red virtual privada) es una buena idea para asegurar tus cone
 Si has llegado hasta aquí, probablemente sepas [qué es una VPN](https://www.bestvpn.com/guides/what-is-vpn-beginners-guide/) y para qué la necesitas. Pero si no, no te preocupes: vamos a empezar con una pequeña introducción explicando qué es esto, para qué la queremos y qué herramientas utilizaremos. Posteriormente explicaremos cómo configurar nuestra [Raspberry](https://www.raspberrypi.org/) y nuestro router (o en su defecto un VPS), instalaremos PiVPN, y finalmente configuraremos un par de dispositivos para hacer uso de nuestra nueva VPN.
 
 <figure>
-  <figure></figure>
 
-  ![Modelo de Raspberry Pi con cuatro puertos USB](raspberry-pi.jpg)
+![Modelo de Raspberry Pi con cuatro puertos USB](raspberry-pi.jpg)
+
 </figure>
 
 
@@ -60,9 +60,9 @@ Es una herramienta de software libre que **habilita conexiones cifradas punto a 
 #### ¿Qué es PiVPN?
 
 <div style="float: right">
-  <div></div>
 
-  ![](pivpn_logo.png)
+![](pivpn_logo.png)
+
 </div>
 
 Es un asistente que nos permite **instalar y configurar rápida y fácilmente una VPN usando [OpenVPN](https://openvpn.net/)**. Provee una interfaz basada en [_ncurses_](https://en.wikipedia.org/wiki/Ncurses) que nos facilitará enormemente la vida y nos permitirá configurar todo en remoto mediante una sesión SSH.
@@ -131,11 +131,11 @@ En nuestro caso mapearemos el puerto **UDP/1194**, que es el que usará OpenVPN 
 Podemos establecer esta configuración mediante la interfaz web o accediendo por SSH y [editando un archivo](https://wiki.openwrt.org/doc/howto/port.forwarding).
 
 <figure>
-  <figure></figure>
 
-  ![](openwrt-port-forwards.png)
+![](openwrt-port-forwards.png)
 
-  <figcaption>Esta configuración se encuentra en Network > Firewall > Port Forwards si usamos OpenWRT.</figcaption>
+<figcaption>Esta configuración se encuentra en Network > Firewall > Port Forwards si usamos OpenWRT.</figcaption>
+
 </figure>
 
 Por último hay que configurar el acceso externo. En una conexión doméstica es muy probable que **nuestro ISP haya otorgado al router una IP pública dinámica** que cambie cuando lo reiniciamos o de forma periódica. En este caso tendremos que hacer uso de algún **servicio de DDNS (Dynamic DNS).** En nuestro caso voy a recomendar [freemyip.com,](https://freemyip.com) tanto por facilidad de uso como por su privacidad (se hace en dos pasos y no requiere crear una cuenta de usuario).
@@ -143,11 +143,11 @@ Por último hay que configurar el acceso externo. En una conexión doméstica es
 Para que funcione, **deberemos** [**informarle de forma periódica y automática**](https://freemyip.com/help) **de cuál es nuestra IP pública**, normalmente mediante una petición HTTP GET. De este modo podremos seguir accediendo desde el exterior mediante un dominio de forma transparente, sin importarnos los posibles cambios. Este _polling_ lo podremos hacer desde la Raspberry, añadiendo el comando al _cron_ mediante `crontab -e`. Otra opción es que lo haga el propio router. Los que funcionan con OpenWRT permiten hacer esto mismo también desde la interfaz web.
 
 <figure>
-  <figure></figure>
 
-  ![](openwrt-scheduled-tasks.png)
+![](openwrt-scheduled-tasks.png)
 
-  <figcaption>Configuración del crontab en System > Scheduled Tasks</figcaption>
+<figcaption>Configuración del crontab en System > Scheduled Tasks</figcaption>
+
 </figure>
 
 Si tuviéramos un dominio propio, o un subdominio, podemos usarlo redirigiéndolo al dominio que hemos obtenido en el DDNS mediante un [registro de tipo CNAME](https://en.wikipedia.org/wiki/CNAME_record).
@@ -203,11 +203,11 @@ También podemos efectuar la configuración importando el archivo desde la inter
 Instalamos la aplicación [OpenVPN Connect](https://play.google.com/store/apps/details?id=net.openvpn.openvpn). Importamos el archivo _ovpn_ desde la app, introducimos la contraseña con la que lo generamos anteriormente, y nuestro móvil pasará a estar conectado a través de la VPN. Podemos verificarlo si aparece un icono de llave en la barra superior.
 
 <figure>
-  <figure></figure>
 
-  ![](whats-my-ip.jpg)
+![](whats-my-ip.jpg)
 
-  <figcaption>Desde Android, saliendo a internet por algún punto de Francia (usando la VPN en el VPS)</figcaption>
+<figcaption>Desde Android, saliendo a internet por algún punto de Francia (usando la VPN en el VPS)</figcaption>
+
 </figure>
 
 

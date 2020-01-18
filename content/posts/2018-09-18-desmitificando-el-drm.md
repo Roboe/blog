@@ -15,13 +15,15 @@ El DRM es una medida [defectuosa por diseño][fsf-dbd] que limita artificialment
 
 
 <figure>
-  <figure></figure>
 
-  > A este respecto, Javier Jiménez dejó la comparación más divertida del Simposio: nos recordó la obra de Umberto Eco _El nombre de la rosa_, y dijo que el veneno con el que el venerable monje untaba las páginas del libro de Aristóteles que no quería que fuese leído por nadie, era la versión medieval del DRM.
+> A este respecto, Javier Jiménez dejó la comparación más divertida del Simposio: nos recordó la obra de Umberto Eco _El nombre de la rosa_, y dijo que el veneno con el que el venerable monje untaba las páginas del libro de Aristóteles que no quería que fuese leído por nadie, era la versión medieval del DRM.
 
-  <figcaption>
-    [Apuntes sobre el libro digital](http://librodenotas.com/textosdelcuervo/17200/apuntes-sobre-el-libro-digital), en Libro de Notas
-  </figcaption>
+<figcaption>
+
+[Apuntes sobre el libro digital](http://librodenotas.com/textosdelcuervo/17200/apuntes-sobre-el-libro-digital), en Libro de Notas
+
+</figcaption>
+
 </figure>
 
 
@@ -64,13 +66,15 @@ La Electronic Frontier Foundation mantiene una lista de cosas que pudieron ser, 
 **Quien quiera piratear, va a piratear igualmente**. Siempre existirán personas que le quiten el DRM a productos y los redistribuyan ilegalmente, a pesar de que les pongan cien mil leyes en el proceso. La piratería nunca se soluciona con este tipo de tecnologías incoherentes con su medio, sino comprendiendo el medio y aprovechando sus potencialidades. El coste mínimo de copia y la venta directa son dos ejemplos de propiedades de lo digital que pueden bajar los precios drásticamente para que comprar cultura **no sea solo un lujo para unos pocos**, y nadie se plantee piratear. Los únicos damnificados de estas medidas serán siempre los clientes, los usuarios legales. ¿Es el DRM, entonces, una medida antipiratería, o es una medida de **imparable avaricia y abuso de poder**?
 
 <figure>
-  <figure></figure>
 
-  > Si resulta posible licenciar todo aspecto de uso (a través de sistemas infalibles creados con código), ningún aspecto de uso tendrá la protección del [uso legítimo](https://es.wikipedia.org/wiki/Fair_use).
+> Si resulta posible licenciar todo aspecto de uso (a través de sistemas infalibles creados con código), ningún aspecto de uso tendrá la protección del [uso legítimo](https://es.wikipedia.org/wiki/Fair_use).
 
-  <figcaption>
-    Lawrence Lessig en [El código y otras leyes del ciberespacio](https://es.wikipedia.org/wiki/El_c%C3%B3digo_y_otras_leyes_del_ciberespacio)
-  </figcaption>
+<figcaption>
+  
+Lawrence Lessig en [El código y otras leyes del ciberespacio](https://es.wikipedia.org/wiki/El_c%C3%B3digo_y_otras_leyes_del_ciberespacio)
+
+</figcaption>
+
 </figure>
 
 ¡Feliz día internacional contra el DRM!

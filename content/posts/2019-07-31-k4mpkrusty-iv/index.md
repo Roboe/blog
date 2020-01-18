@@ -9,9 +9,11 @@ El fin de semana pasado, la comunidad de [h4ckademy](http://h4ckademy.com) nos r
 
 <!--more-->
 
-<figure style="border: 0">
-  <img src="k4mpkrusty-logo.png" alt="Logo del K4mpamento Krusty" style="height: 300px">
-</figure>
+<div style="text-align: center">
+
+![Logo del K4mpamento Krusty](k4mpkrusty-logo.png)
+
+</div>
 
 ## El k4mpamento
 
