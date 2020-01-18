@@ -63,16 +63,25 @@ outputs:
     - Atom
 
 # Build settings
-footnoteReturnLinkContents: "↩"
-blackfriday: # markdown processor
-  smartypants: true # smart punctuation substitutions
-  angledQuotes: true # render "quotes" as «quotes»
-  fractions: false # render fractions with <sup> and <sub> tags
-  smartDashes: false # translate -dashes- as &ndash; or &mdash;
-  hrefTargetBlank: true # target="black" for absolute URLs
-  nofollowLinks: true # rel="nofollow" for absolute URLs
-  noreferrerLinks: true # rel="noreferrer" for absolute URLs
-  plainIDAnchors: true # render headings and footnotes IDs without the document ID
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true # smart punctuation substitutions
+    parser:
+      attribute: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: true # render raw HTML
+      xHTML: false
 
 # Privacy Settings
 privacy:
