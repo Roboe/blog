@@ -19,6 +19,8 @@ A quick-and-dirty frontend styleguide, designed to be copied and pasted into you
 
 **This styleguide is based upon Poor Man's Styleguide, but all third party content has been replaced with [free content](https://en.wikipedia.org/wiki/Free_culture_movement) from privacy-respectful origins. [See the original at poormansstyleguide.com](http://poormansstyleguide.com)**
 
+**An additional [GitHub Flavored Markdown Tables section](#gfm-tables) has been added too.**
+
 ---
 
 # Headings
@@ -227,6 +229,15 @@ Definition Term 2
     </tr>
   </tfoot>
 </table>
+
+## <abbr title="GitHub Flavored Markdown">GFM</abbr> Tables {#gfm-tables}
+
+| Table Header 1 | Table Header 2 | Table Header 3 |
+| -------------: | :------------: | :------------- |
+| Division 1 | Division 2 | Division 3 |
+| Division 1 |            |            |
+|            | Division 2 |            |
+|            |            | Division 3 |
 
 ---
 
