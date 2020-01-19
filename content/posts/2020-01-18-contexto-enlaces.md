@@ -44,7 +44,7 @@ Llevo escribiendo el contexto de los enlaces que comparto unos meses en mis comu
 
 Además de todo lo dicho arriba, creo que escribir contextos es un buen ejercicio de síntesis para la mente. En ese sentido, me recuerda a la extracción de ideas de los comentarios de texto de la asignatura de Filosofía en Bachillerato. Pero también me hace consciente de por qué comparto y llego a otras personas.
 
-Inicié este blog con varios propósitos, como asentar mis propias ideas y solidificar cierto conocimiento, opiniones y vivencias, y para entrenar mis habilidades comunicativas. Escribir contextos es una magnífica manera de preparar el terrerno antes de sentarme a un ordenador.
+Inicié este blog con varios propósitos, como asentar mis propias ideas y solidificar cierto conocimiento, opiniones y vivencias, y para entrenar mis habilidades comunicativas. Escribir contextos es una magnífica manera de preparar el terreno antes de sentarme a un ordenador.
 
 
 ~{{< author >}}
