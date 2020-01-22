@@ -40,7 +40,7 @@ La idea ni es mía ni es nueva. La he recordado de [_The Garden and the Stream: 
 
 ## La cortesía de la red
 
-Llevo escribiendo el contexto de los enlaces que comparto unos meses en mis comunicaciones personales. También creo que [era parte](https://es.wikipedia.org/wiki/Netiqueta) de aquella antigua, asíncrona, tranquila e idealizada Web que algunos conocimos participando en foros y que quizá quieren continuar, de cierta manera, plataformas como Menéame y Reddit.
+Llevo escribiendo el contexto de los enlaces que comparto unos meses en mis comunicaciones personales. También creo que [era parte](https://es.wikipedia.org/wiki/Netiqueta) de aquella antigua, asíncrona, tranquila e idealizada Web que algunos conocimos participando en foros y que quizá quieren continuar, de cierta manera, plataformas centralizadas y privativas como Menéame y Reddit, o plataformas libres y descentralizadas como [Mastodon](https://joinmastodon.org/) y [Pleroma](https://pleroma.social/).
 
 Además de todo lo dicho arriba, creo que escribir contextos es un buen ejercicio de síntesis para la mente. En ese sentido, me recuerda a la extracción de ideas de los comentarios de texto de la asignatura de Filosofía en Bachillerato. Pero también me hace consciente de por qué comparto y llego a otras personas.
 
