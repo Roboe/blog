@@ -52,6 +52,7 @@ frontmatter:
 theme:
   - virgulilla
   - webslides
+  - revealjs
 
 disableKinds:
   - RSS
