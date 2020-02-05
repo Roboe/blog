@@ -49,7 +49,9 @@ frontmatter:
     - :default
     - :filename
 
-theme: virgulilla
+theme:
+  - virgulilla
+  - webslides
 
 disableKinds:
   - RSS
