@@ -1,0 +1,12 @@
+{{ $isAbsolute := (urls.Parse .Destination).Scheme -}}
+{{ $url := .Destination -}}
+{{ if not $isAbsolute -}}
+  {{ with .Page.Resources.GetMatch .Destination -}}
+    {{ $url = .RelPermalink -}}
+  {{ end -}}
+  {{ $url = absURL $url -}}
+{{ end -}}
+<img src="{{ $url | safeURL }}"
+{{- with .Text }} alt="{{ . }}"{{ end -}}
+{{- with .Title}} title="{{ . }}"{{ end -}}
+>
