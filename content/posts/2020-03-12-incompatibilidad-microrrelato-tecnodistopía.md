@@ -1,7 +1,7 @@
 ---
 title: "Incompatibilidad (microrrelato)"
 date: 2020-03-12
-description: "Microrrelato de estética ciberpunk."
+description: "Microrrelato ambientado en un futuro tecnodistópico cercano."
 license: CC-BY 4.0
 ---
 
