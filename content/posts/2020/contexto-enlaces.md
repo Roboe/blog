@@ -1,14 +1,16 @@
 ---
 title: "Contextualiza en la era de la vertiginosidad"
-date: 2019-09-19
-publishdate: 2020-01-18
+draftDate: 2019-09-19
+date: 2020-01-18
 categories:
- - ensayos
+  - ensayos
+aliases:
+  - /2020/01/18/contexto-enlaces/
 ---
 
 Hoy en día utilizamos herramientas de mensajería instantánea a todas horas. En la llamada era de la información, somos consumidores habituales &mdash;constantes, diría&mdash; de fragmentos de información que llegan a nosotros sin que lo solicitemos.
 
-Es bueno recordar que las herramientas de comunicación móviles se inventaron para la urgencia, pero que las utilizamos para [lo más mundano y corriente]({{< relref "2018-07-24-alfabetización-digital.md" >}}). Y la urgencia no es la mejor compañera ni del razonamiento ni de la memoria, como el visionario Michael Ende resume en estas maravillosas frases:
+Es bueno recordar que las herramientas de comunicación móviles se inventaron para la urgencia, pero que las utilizamos para [lo más mundano y corriente]({{< relref alfabetización-digital >}}). Y la urgencia no es la mejor compañera ni del razonamiento ni de la memoria, como el visionario Michael Ende resume en estas maravillosas frases:
 
 <figure>
 

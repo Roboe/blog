@@ -1,6 +1,10 @@
 ---
 title: Necesitamos alfabetización digital
+date: 2018-07-24
 categories: ensayos
+aliases:
+  - /alfabetización-digital/
+  - /2018/07/24/alfabetización-digital/
 ---
 
 <figure>

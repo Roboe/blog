@@ -1,12 +1,14 @@
 ---
 title: "Nación Lumpen #18"
-slug: nl18-tinfoil
+date: 2018-07-28
 categories: reseñas
 audio: https://api.spreaker.com/download/episode/15346691/nl18_tinfoil_exported.mp3
 podcast:
   notes: http://www.nacionlumpen.com/podcast/2018/07/28/NL18_tinfoil.html
   spreaker: https://www.spreaker.com/user/nacionlumpen/nl18-tinfoil
   itunes: https://itunes.apple.com/es/podcast/nacion-lumpen/id1023465004?l=en&mt=2
+aliases:
+  - /2018/07/28/nl18-tinfoil/
 ---
 
 Hace unos días tuve la oportunidad de participar en un episodio de [Nación&nbsp;Lumpen][nación-lumpen], el podcast que hacen [Sebastián&nbsp;Ortega][sebas-ortega] y [Álvaro&nbsp;Castellanos][álvaro-castellanos]. Estos dos «irreductibles programadores» se reúnen virtualmente cada tanto para charlar sobre temas que van desde lo técnico hasta lo humano, la mayoría de veces de las dos cosas a la vez.

@@ -1,9 +1,12 @@
 ---
 title: "Del copyright al copyleft, parte 2: cultura libre y licencias"
-publishDate: 2019-03-21
+draftDate: 2019-03-11
+date: 2019-03-21
+aliases:
+  - /2019/03/11/charla-parte2/
 ---
 
-Este es el segundo de los tres artículos que amplian las notas de la charla [«Del copyright al copyleft: música y cultura libre»]({{< relref "2019-03-11-charla-cultura-libre.md" >}}) que tuve la oportunidad de impartir en el Real Conservatorio Superior de Música de Madrid.
+Este es el segundo de los tres artículos que amplian las notas de la charla [«Del copyright al copyleft: música y cultura libre»]({{< relref charla-cultura-libre >}}) que tuve la oportunidad de impartir en el Real Conservatorio Superior de Música de Madrid.
 
 
 ## Cultura libre
@@ -49,7 +52,7 @@ Frente al «todos los derechos reservados» de los derechos de autor, la cultura
 
 <footer>
 
-<cite>[Declaración de independencia del ciberespacio (1996)]({{< relref "2018-02-08-declaracion-de-independencia-del-ciberespacio.md" >}})</cite>, John Perry Barlow
+<cite>[Declaración de independencia del ciberespacio (1996)]({{< relref declaracion-de-independencia-del-ciberespacio >}})</cite>, John Perry Barlow
 
 </footer>
 
@@ -59,12 +62,12 @@ La cultura libre apunta con el dedo principalmente a dos prácticas que consider
 
 Primero, al [capitalismo cognitivo](https://es.wikipedia.org/wiki/Capitalismo_cognitivo), que son las prácticas económicas de mercado[^bauman] que consiguen **imponer límites jurídicos** a la copia, imitación o el aprendizaje de bienes inmateriales[^moglen]. Un ejemplo recurrente es el [_lobbying_](https://es.wikipedia.org/wiki/Lobby) que ejerció _The Walt Disney Company_ en Estados Unidos para [retrasar la entrada en el dominio público de Mickey Mouse](https://es.gizmodo.com/el-dia-que-disney-manipulo-el-copyright-para-que-mickey-1745463045), cuando la mayoría de la producción filmográfica de Walt Disney está **basada en historias del dominio público**, e incluso [_Steamboat Willie_](https://es.wikipedia.org/wiki/Steamboat_Willie), el primer corto donde debutaron Mickey y Minnie Mouse, era una parodia del largometraje [_Steamboat Bill Jr._](https://es.wikipedia.org/wiki/Steamboat_Bill_Jr.), estrenado ese mismo año. También, como ejemplo anecdótico, la ópera [El perfecto americano](https://en.wikipedia.org/wiki/The_Perfect_American) de Philip Glass, que reflexiona sobre la multifacética identidad de Disney, se estrenó en España en 2013 sin utilizar ningún dibujo animado de la firma porque [«hubiera sido muy costoso»](https://www.lavanguardia.com/musica/20130117/54360958509/rea-opera-walt-disney.html). 
 
-Y, segundo, a la [escasez artificial](https://es.wikipedia.org/wiki/Escasez_artificial). En una era donde la naturaleza del dato tiene la cualidad de **multiplicarse a coste cero**, el valor económico es exclusivamente fruto de las limitaciones impuestas. Es decir, en un sistema capitalista, un bien se juzga eficiente solo cuando es rentable. Por lo tanto, la única manera de vender cultura es [convirtiéndola artificialmente en escasa]({{< relref "2018-09-18-desmitificando-el-drm.md" >}}) para poder obtener a cambio un valor económico.
+Y, segundo, a la [escasez artificial](https://es.wikipedia.org/wiki/Escasez_artificial). En una era donde la naturaleza del dato tiene la cualidad de **multiplicarse a coste cero**, el valor económico es exclusivamente fruto de las limitaciones impuestas. Es decir, en un sistema capitalista, un bien se juzga eficiente solo cuando es rentable. Por lo tanto, la única manera de vender cultura es [convirtiéndola artificialmente en escasa]({{< relref desmitificando-el-drm >}}) para poder obtener a cambio un valor económico.
 
 
 ## Practicar cultura libre
 
-Si los autores no expresan lo contrario, sus obras están protegidas por las leyes sobre [derechos de autor]({{< relref "2019-03-11-charla-parte1.md" >}}) existentes, que ya vimos que son restrictivas por defecto. Para especificar unos términos distintos de uso de una obra se debe adjuntar un texto legal que los establezca cuando se publique. Este texto se conoce como **licencia**, y en él se pueden hacer efectivas las libertades de la cultura libre mencionadas anteriormente. Existen multitud de licencias libres para este propósito ya preparadas para su uso.
+Si los autores no expresan lo contrario, sus obras están protegidas por las leyes sobre [derechos de autor]({{< relref charla-parte-1 >}}) existentes, que ya vimos que son restrictivas por defecto. Para especificar unos términos distintos de uso de una obra se debe adjuntar un texto legal que los establezca cuando se publique. Este texto se conoce como **licencia**, y en él se pueden hacer efectivas las libertades de la cultura libre mencionadas anteriormente. Existen multitud de licencias libres para este propósito ya preparadas para su uso.
 
 Licenciar una obra con una licencia libre al publicarla en internet, por ejemplo, no te impide volver a licenciarla más tarde bajo unos términos distintos[^copyleft-guia]; por ejemplo, pordemos negociar unos términos económicos distintos con una distribuidora. Tampoco evita que otras personas nos acusen de plagio, así que es recomendable registrar nuestra obra como propia en los órganos habilitados para ello, como el [Registro de la propiedad intelectual](https://www.culturaydeporte.gob.es/cultura-mecd/areas-cultura/propiedadintelectual/registro-de-la-propiedad-intelectual.html) en España[^copyleft-guia-ibid]. 
 

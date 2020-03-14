@@ -1,6 +1,9 @@
 ---
 title: "Declaración de independencia del Ciberespacio"
-aliases: /declaracion-de-independencia-del-ciberespacio/
+date: 2018-02-08
+aliases:
+  - /declaracion-de-independencia-del-ciberespacio/
+  - /2018/02/08/declaracion-de-independencia-del-ciberespacio/
 ---
 
 <figure>

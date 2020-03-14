@@ -1,7 +1,9 @@
 ---
 title: Desmitificando la antipiratería del DRM
-slug: desmitificando-el-drm
-category: Educación digital
+date: 2018-09-18
+categories: Educación digital
+aliases:
+  /2018/09/18/desmitificando-el-drm/
 ---
 
 Hoy es el [día mundial contra el DRM][fsf-dbd-idad], siglas de «Digital Rights Management» (en español, [«gestión de derechos digitales»][wes-drm]), en referencia a la propiedad intelectual. El DRM es una **medida limitante y constrictiva para productos y bienes digitales**, y como tal, levanta muchas controversias y contradicciones. Intentaré aquí hacer un resumen sobre qué es, cuáles son sus ventajas, desventajas y mitos.

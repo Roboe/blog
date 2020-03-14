@@ -1,6 +1,9 @@
 ---
 title: "Fe de e-ratas"
-aliases: /fe-de-e-ratas/
+date: 2018-01-28
+aliases:
+  - /fe-de-e-ratas/
+  - /2018/01/28/fe-de-e-ratas/
 ---
 
 Algunas personas me han hecho notar que para ser un firme defensor del [software libre](https://www.gnu.org/philosophy/free-sw.es.html) y, más allá, del [conocimiento libre y abierto](https://es.wikipedia.org/wiki/Contenido_libre), no comparto demasiado contenido en el ámbito público. Si bien es cierto que todo el software que realizo lo [publico](https://gitlab.com/Roboe) inmediatamente, es verdad que soy más que software y también reconozco que me gusta más tratar de tú a tú. Esta entrada es mi **fe de e-ratas** personal para solucionar esta pequeña incoherencia.

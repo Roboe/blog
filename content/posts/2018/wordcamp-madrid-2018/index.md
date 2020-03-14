@@ -2,7 +2,9 @@
 title: Reseña de la WordCamp Madrid 2018
 date: 2018-04-24
 image: foto-familia.jpg
-aliases: /wordcamp-madrid-2018/
+aliases: 
+  - /wordcamp-madrid-2018/
+  - /2018/04/24/wordcamp-madrid-2018/
 categories: reseñas
 ---
 

@@ -1,9 +1,12 @@
 ---
 title: "Del copyright al copyleft, parte 1: derechos de autor"
-publishDate: 2019-03-19
+draftDate: 2019-03-11
+date: 2019-03-19
+aliases:
+  - /2019/03/11/charla-parte1/
 ---
 
-Este es el primero de los tres artículos que amplian las notas de la charla [«Del copyright al copyleft: música y cultura libre»]({{< relref "2019-03-11-charla-cultura-libre.md" >}}) que tuve la oportunidad de impartir en el Real Conservatorio Superior de Música de Madrid.
+Este es el primero de los tres artículos que amplian las notas de la charla [«Del copyright al copyleft: música y cultura libre»]({{< relref charla-cultura-libre >}}) que tuve la oportunidad de impartir en el Real Conservatorio Superior de Música de Madrid.
 
 
 ## Derechos de autor
@@ -33,7 +36,7 @@ estrictamente doméstico»_.
 - **Distribución** (art. 19): _«la puesta a disposición del público del original o de las copias de la obra, en un soporte tangible, mediante su venta, alquiler, préstamo o de cualquier otra forma»_.
 - **Transformación** (art. 21): cualquier modificación _«de la que se derive una obra diferente»_. La modificación _«comprende su traducción, adaptación y cualquier otra modificación en su forma»_.
 
-Una interpretación del derecho de reproducción considera que cualquier soporte de grabación digital _podría utilizarse_ en perjuicio económico de los autores, razón en la que se fundamenta el artículo 25, más conocido como [canon digital](https://es.wikipedia.org/wiki/Canon_digital#El_canon_digital_en_países_de_habla_hispana), que graba con un impuesto las compras de dispositivos de almacenamiento (desde CDs, pasando por grabadoras digitales y hasta teléfonos móviles), solo por si acaso se te ocurre utilizarlo con esos fines. Este artículo también habla de los sistemas de [DRM]({{< relref "2018-09-18-desmitificando-el-drm.md" >}}).
+Una interpretación del derecho de reproducción considera que cualquier soporte de grabación digital _podría utilizarse_ en perjuicio económico de los autores, razón en la que se fundamenta el artículo 25, más conocido como [canon digital](https://es.wikipedia.org/wiki/Canon_digital#El_canon_digital_en_países_de_habla_hispana), que graba con un impuesto las compras de dispositivos de almacenamiento (desde CDs, pasando por grabadoras digitales y hasta teléfonos móviles), solo por si acaso se te ocurre utilizarlo con esos fines. Este artículo también habla de los sistemas de [DRM]({{< relref desmitificando-el-drm >}}).
 
 ### Exenciones
 
@@ -47,7 +50,7 @@ Como se señala en el informe de COMMUNIA sobre [_Copyright and Education in Eur
 Estos derechos _«durarán toda la vida del autor y **setenta años después de su muerte** o declaración de fallecimiento»_ (art. 26), periodo tras el cual las obras pasarán a formar parte del [dominio público](https://es.wikipedia.org/wiki/Dominio_púlico) (art. 41), que es la forma jurídica que adquieren los [bienes del procomún](https://es.wikipedia.org/wiki/Bien_comunal). Los derechos de autor son los únicos derechos de propiedad que expiran con el tiempo, porque el objeto principal de estos derechos, aunque ahora vueltos por la práctica mercantil, es el **beneficio del público**.[^bravo-ibidem]
 
 
-En el [próximo artículo]({{< relref "2019-03-11-charla-parte2.md" >}}) se explica qué es la cultura libre, cómo practicarla, qué proyectos musicales de cultura libre existen y cómo se puede financiar.
+En el [próximo artículo]({{< relref charla-parte-2 >}}) se explica qué es la cultura libre, cómo practicarla, qué proyectos musicales de cultura libre existen y cómo se puede financiar.
 
 
 ~{{< author >}}

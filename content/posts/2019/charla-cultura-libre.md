@@ -1,6 +1,9 @@
 ---
 title: "Charla «Del copyright al copyleft: música y cultura libre»"
-publishDate: 2019-03-18
+draftDate: 2019-03-11
+date: 2019-03-18
+aliases:
+  - /2019/03/11/charla-cultura-libre/
 ---
 
 El lunes pasado tuve la oportunidad de participar como ponente en el [I Ciclo de Conferencias para Estudiantes de Música](https://web.archive.org/web/20190311211504/https://i-ciclo-de-conferencias-de-estudiantes-del-rcsmm4.webnode.es/proyectos/) en el Real Conservatorio Superior de Música de Madrid, que organizan los propios alumnos de Pedagogía y que estaba abierto a todas las especialidades musicales.

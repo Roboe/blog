@@ -1,8 +1,10 @@
 ---
 title: "K4mpKrusty 2019: Ⅳ edición, Pedrezuela"
-image: k4mpkrusty-thumbnail.png
 date: 2019-07-31
+image: k4mpkrusty-thumbnail.png
 categories: reseñas
+aliases:
+  - /2019/07/31/k4mpkrusty-iv/
 ---
 
 El fin de semana pasado, la comunidad de [h4ckademy](http://h4ckademy.com) nos reunimos en una casa rural en Pedrezuela, Madrid. ¿La premisa? Compartir conocimiento y experiencias personales en forma de una **conferencia privada e informal** en la que todos participamos con una intervención de 25 minutos.
@@ -29,7 +31,7 @@ Así pues, el sábado, como ya viene siendo costumbre, arrancamos con las charla
 2. [**Said Atrahouch**](https://github.com/Afsoon) nos hizo una introducción a la lengua árabe, con todas sus &mdash;para nosotros&mdash; extravagantes reglas de concordancia y su rico mundo de dialectos.
 3. [**Daniel Baena**](https://twitter.com/dani_baena) nos dijo que [estamos todos locos](daniel-baena_you-re-all-crazy_2019.pptx) &mdash;sin excluírse&mdash; y nos instruyó en lo que significa la salud mental. Según la <abbr title="Organización Mundial de la Salud">OMS</abbr>, el 9% de los adultos en España sufre alguna enfermedad mental y un 15% los sufrirá en su vida.
 4. **Fernando** nos trajo la charla más singular, sobre cómo crear un estilo de peinado personalizado según la morfología de nuestro rostro, y nos presentó la técnica psicomorfológica del visagismo. Acurrucado a sus pies, su fiel perro Sultán.
-5. **Elena** inauguró los temas [tinfoilistas]({{< relref 2018-07-28-nl18-tinfoil >}}) describiendo cómo está diseñado el sistema operativo [QubesOS](https://www.qubes-os.org/) y enseñándonos a usar sus [_qubos_](https://www.qubes-os.org/doc/disposablevm/) con cabeza.
+5. **Elena** inauguró los temas [tinfoilistas]({{< relref nl18-tinfoil >}}) describiendo cómo está diseñado el sistema operativo [QubesOS](https://www.qubes-os.org/) y enseñándonos a usar sus [_qubos_](https://www.qubes-os.org/doc/disposablevm/) con cabeza.
 6. **Paula** volcó todos los mitos existentes sobre las <abbr title="Organización No Gubernamental">ONG</abbr> y los fue rebatiendo uno a uno. Es peligroso, contraproducente e injusto [juzgar por sus ovejas negras](https://falacias.escepticos.es/index.php/generalizacion-apresurada/) a todas estas organizaciones. 
 7. Y **James** nos habló del muy tinfoilista diseño de cárceles panópticas, de por qué le da tanto mal rollo la Comisaría General de Extranjería y Fronteras de Aluche y de cómo encontramos estos principios de diseño en las redes sociales. 
 

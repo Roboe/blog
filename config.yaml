@@ -38,16 +38,8 @@ timezone: Europe/Madrid
 defaultContentLanguage: es
 
 permalinks:
-  posts: /:year/:month/:day/:slug/
-  articles: /:slug/
-
-frontmatter:
-  date:
-    - :filename
-    - :default
-  publishDate:
-    - :default
-    - :filename
+  posts: /:year/:filename/
+  articles: /:filename/
 
 theme:
   - virgulilla

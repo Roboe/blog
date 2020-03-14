@@ -1,10 +1,13 @@
 ---
 title: "Del copyright al copyleft, parte 3: software libre y copyleft"
-publishDate: 2019-03-25
+draftDate: 2019-03-11
+date: 2019-03-25
 lastmod: 2019-03-27
+aliases:
+  - /2019/03/11/chara-parte3/
 ---
 
-Este es el último de los tres artículos que amplian las notas de la charla [«Del copyright al copyleft: música y cultura libre»]({{< relref "2019-03-11-charla-cultura-libre.md" >}}) que tuve la oportunidad de impartir en el Real Conservatorio Superior de Música de Madrid.
+Este es el último de los tres artículos que amplian las notas de la charla [«Del copyright al copyleft: música y cultura libre»]({{< relref charla-cultura-libre >}}) que tuve la oportunidad de impartir en el Real Conservatorio Superior de Música de Madrid.
 
 ## Software libre y copyleft
 
@@ -60,7 +63,7 @@ El _copyleft_ es una cláusula extra, originalmente de licencias de software lib
 
 Surge como un **ingenioso _hack_**, un uso imprevisto, de los propios derechos de autor: se usa un derecho exclusivo de autor para evitar que una obra se cierre al público. Las licencias con _copyleft_ ya se plantearon como un catalizador de la **viralidad** para contenidos en internet, porque permiten que una obra cultural alcance una gran difusión aprovechando las capacidades de la red en todo su potencial.
 
-El _copyleft_ para obras que no son completas no es siempre deseable para obras creativas. El proyecto FreePats, un banco de sonidos instrumentales libres que [se mencionó en el artículo anterior]({{< relref "2019-03-11-charla-parte2.md" >}}), no admite contenido con _copyleft_ por ser [contraproducente](http://freepats.zenvoid.org/unsuitable-licenses.html#Copyleft): obligaría a que la obra final fuera libre, aunque los sonidos originales sean solo una parte.
+El _copyleft_ para obras que no son completas no es siempre deseable para obras creativas. El proyecto FreePats, un banco de sonidos instrumentales libres que [se mencionó en el artículo anterior]({{< relref charla-parte-2 >}}), no admite contenido con _copyleft_ por ser [contraproducente](http://freepats.zenvoid.org/unsuitable-licenses.html#Copyleft): obligaría a que la obra final fuera libre, aunque los sonidos originales sean solo una parte.
 
 
 ## Software musical libre
