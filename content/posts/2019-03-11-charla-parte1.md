@@ -1,5 +1,7 @@
 ---
 title: "Del copyright al copyleft, parte 1: derechos de autor"
+authors:
+  - roboe
 publishDate: 2019-03-19
 ---
 

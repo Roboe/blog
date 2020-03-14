@@ -1,5 +1,7 @@
 ---
 title: "Charla «Del copyright al copyleft: música y cultura libre»"
+authors:
+  - roboe
 publishDate: 2019-03-18
 ---
 

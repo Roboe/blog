@@ -1,5 +1,7 @@
 ---
 title: Cómo evitar que WhatsApp lea nuestros contactos en Lineage OS
+authors:
+  - roboe
 date: 2018-08-20
 categories: guías
 ---

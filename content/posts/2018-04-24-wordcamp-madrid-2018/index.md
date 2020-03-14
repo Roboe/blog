@@ -1,5 +1,7 @@
 ---
 title: Reseña de la WordCamp Madrid 2018
+authors:
+  - roboe
 date: 2018-04-24
 image: foto-familia.jpg
 aliases: /wordcamp-madrid-2018/

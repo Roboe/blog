@@ -1,5 +1,7 @@
 ---
 title: "Fe de e-ratas"
+authors:
+  - roboe
 aliases: /fe-de-e-ratas/
 ---
 

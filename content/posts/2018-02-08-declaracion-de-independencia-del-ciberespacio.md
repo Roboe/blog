@@ -1,5 +1,7 @@
 ---
 title: "Declaración de independencia del Ciberespacio"
+authors:
+  - roboe
 aliases: /declaracion-de-independencia-del-ciberespacio/
 ---
 

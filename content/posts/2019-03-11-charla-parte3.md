@@ -1,5 +1,7 @@
 ---
 title: "Del copyright al copyleft, parte 3: software libre y copyleft"
+authors:
+  - roboe
 publishDate: 2019-03-25
 lastmod: 2019-03-27
 ---

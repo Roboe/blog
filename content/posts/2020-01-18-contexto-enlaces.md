@@ -1,5 +1,7 @@
 ---
 title: "Contextualiza en la era de la vertiginosidad"
+authors:
+  - roboe
 date: 2019-09-19
 publishdate: 2020-01-18
 categories:

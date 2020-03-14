@@ -1,5 +1,7 @@
 ---
 title: Necesitamos alfabetización digital
+authors:
+  - roboe
 categories: ensayos
 ---
 

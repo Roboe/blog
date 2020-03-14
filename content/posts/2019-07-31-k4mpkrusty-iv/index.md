@@ -1,5 +1,7 @@
 ---
 title: "K4mpKrusty 2019: Ⅳ edición, Pedrezuela"
+authors:
+  - roboe
 image: k4mpkrusty-thumbnail.png
 date: 2019-07-31
 categories: reseñas

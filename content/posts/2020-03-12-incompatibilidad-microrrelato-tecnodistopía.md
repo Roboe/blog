@@ -1,5 +1,7 @@
 ---
 title: "Incompatibilidad (microrrelato)"
+authors:
+  - roboe
 date: 2020-03-12
 description: "Microrrelato ambientado en un futuro tecnodistópico cercano."
 license: CC-BY 4.0

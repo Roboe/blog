@@ -1,5 +1,7 @@
 ---
 title: "Del copyright al copyleft, parte 2: cultura libre y licencias"
+authors:
+  - roboe
 publishDate: 2019-03-21
 ---
 

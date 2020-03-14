@@ -1,5 +1,7 @@
 ---
 title: Desmitificando la antipiratería del DRM
+authors:
+  - roboe
 slug: desmitificando-el-drm
 category: Educación digital
 ---
