@@ -1,13 +1,5 @@
 ---
 title: Instala tu propia VPN en una Raspberry Pi o en un VPS mediante PiVPN
-author:
-  displayName: LuisDDM
-  firstName: Luis
-  lastName: de Dios
-  social:
-    website: https://medium.com/@luisddm/
-    github: https://github.com/luisddm
-    twitter: https://twitter.com/luisddm_
 date: 2018-09-04
 categories: guías
 ---
