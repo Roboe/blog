@@ -10,6 +10,8 @@ author:
     twitter: https://twitter.com/luisddm_
 date: 2018-09-04
 categories: guías
+description: >
+  Utilizar una VPN (red virtual privada) es una buena idea para asegurar las conexiones a internet y proteger la privacidad. Pero la verdad es que puede ser algo imponente instalar una. Luis de Dios nos resuelve todas las dudas.
 aliases:
   - /2018/09/04/luisddm-pivpn
 ---

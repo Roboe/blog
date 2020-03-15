@@ -1,7 +1,8 @@
 ---
 title: "Incompatibilidad (microrrelato)"
 date: 2020-03-12
-description: "Microrrelato ambientado en un futuro tecnodistópico cercano."
+description: >
+  Microrrelato ambientado en un hipotético futuro tecnodistópico, próximo y familiar.
 license: CC-BY 4.0
 aliases:
   - /2020/03/12/incompatibilidad-microrrelato-tecnodistopía/

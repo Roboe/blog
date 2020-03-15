@@ -2,6 +2,8 @@
 title: "Del copyright al copyleft, parte 1: derechos de autor"
 draftDate: 2019-03-11
 date: 2019-03-19
+description: >
+  Origen, trasfondo y regulación actual de los derechos de autor. Exenciones y el dominio público. Primera parte de mi charla «Del copyright al copyleft».
 aliases:
   - /2019/03/11/charla-parte1/
 ---

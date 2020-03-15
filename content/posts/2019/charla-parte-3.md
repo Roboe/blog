@@ -3,6 +3,8 @@ title: "Del copyright al copyleft, parte 3: software libre y copyleft"
 draftDate: 2019-03-11
 date: 2019-03-25
 lastmod: 2019-03-27
+description: >
+  Introducción al software libre: descripción, la ética hacker y la cláusula de «copyleft». Software musical libre. Tercera y última parte de mi charla «Del copyright al copyleft».
 aliases:
   - /2019/03/11/chara-parte3/
 ---

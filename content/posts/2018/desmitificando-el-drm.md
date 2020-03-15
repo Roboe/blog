@@ -1,7 +1,9 @@
 ---
 title: Desmitificando la antipiratería del DRM
 date: 2018-09-18
-categories: Educación digital
+categories: alfabetización
+description: >
+  ¿Qué es el DRM? La mayoría de consumidores de bienes digitales no conoce los entresijos de esta tecnología o siquiera su existencia. En el día mundial contra el DRM, trato de hacer un resumen sobre esta medida limitante y controvertida.
 aliases:
   /2018/09/18/desmitificando-el-drm/
 ---

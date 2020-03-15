@@ -2,6 +2,8 @@
 title: Necesitamos alfabetización digital
 date: 2018-07-24
 categories: ensayos
+description: >
+  Firmamos diariamente términos y condiciones y compartimos información privada con descuido, concediendo así derechos de explotación de nuestra identidad a organizaciones opacas. Necesitamos reflexionar este balance.
 aliases:
   - /alfabetización-digital/
   - /2018/07/24/alfabetización-digital/

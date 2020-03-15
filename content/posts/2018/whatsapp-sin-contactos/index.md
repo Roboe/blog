@@ -1,9 +1,11 @@
 ---
 title: Cómo evitar que WhatsApp lea nuestros contactos en Lineage OS
 date: 2018-08-20
+categories: guías
+description: >
+  El efecto red nos impide escapar de usar ciertas aplicaciones opacas, pero no tenemos por qué ceder ante sus inocentes prescripciones. Traduzco una guía aquí originada tras una pregunta que me dirigieron en el foro de Fairphone.
 aliases:
   - /2018/08/20/whatsapp-sin-contactos/
-categories: guías
 ---
 
 Ayer me pidieron en el [foro de Fairphone](https://forum.fairphone.com/t/los-15-1-trust-privacy-guard-grant-contacts-permission-but-pass-empty-contacts-list/42339) que desarrollase un comentario que hice sobre cómo utilizo algunas aplicaciones privativas, cerradas y, normalmente, [glotonas](https://en.wikipedia.org/wiki/Surveillance_capitalism) con respecto a tu información personal. Afortunadamente solo utilizo un puñado de ellas, pero [cualquier protección es poca]({{< relref nl18-tinfoil >}}).

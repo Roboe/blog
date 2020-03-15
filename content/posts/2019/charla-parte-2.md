@@ -2,6 +2,8 @@
 title: "Del copyright al copyleft, parte 2: cultura libre y licencias"
 draftDate: 2019-03-11
 date: 2019-03-21
+description: >
+  Introducción a la cultura libre: descripción, cambios éticos y licencias. Ejemplos de música libre y remuneración. Segunda parte de mi charla «Del copyright al copyleft».
 aliases:
   - /2019/03/11/charla-parte2/
 ---

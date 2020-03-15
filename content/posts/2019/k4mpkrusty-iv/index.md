@@ -3,6 +3,8 @@ title: "K4mpKrusty 2019: Ⅳ edición, Pedrezuela"
 date: 2019-07-31
 image: k4mpkrusty-thumbnail.png
 categories: reseñas
+description: >
+  La reseña de una reunión de amigos en una casa rural para compartir conocimiento y experiencia en forma de una conferencia privada: cultura, salud, estética, privacidad, sociología... ¡Una auténtica pasada!
 aliases:
   - /2019/07/31/k4mpkrusty-iv/
 ---

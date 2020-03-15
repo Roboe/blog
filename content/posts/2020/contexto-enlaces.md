@@ -4,6 +4,8 @@ draftDate: 2019-09-19
 date: 2020-01-18
 categories:
   - ensayos
+description: >
+  En la era de la información, somos consumidores habituales de fragmentos de información instantáneos, pero no solicitados ni urgentes. Como emisores de medios sociales, podemos contribuír a una comunicación de mayor calidad.
 aliases:
   - /2020/01/18/contexto-enlaces/
 ---

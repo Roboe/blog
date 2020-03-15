@@ -2,6 +2,8 @@
 title: "Nación Lumpen #18"
 date: 2018-07-28
 categories: reseñas
+description: >
+  Los considerados conductores de Nación Lumpen me invitaron a su podcast, junto con Carlos Fenollosa, a hablar sobre privacidad, autodefensa digital y temas relacionados como los medios y la política. Una delicia de conversación.
 audio: https://api.spreaker.com/download/episode/15346691/nl18_tinfoil_exported.mp3
 podcast:
   notes: http://www.nacionlumpen.com/podcast/2018/07/28/NL18_tinfoil.html

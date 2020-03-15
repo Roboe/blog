@@ -1,6 +1,8 @@
 ---
 title: "Fe de e-ratas"
 date: 2018-01-28
+description: >
+  Comienzo la empresa de este blog con una disculpa y en actitud de compartir reflexiones y humildes ensayos instructivos en español sobre esta era digital.
 aliases:
   - /fe-de-e-ratas/
   - /2018/01/28/fe-de-e-ratas/

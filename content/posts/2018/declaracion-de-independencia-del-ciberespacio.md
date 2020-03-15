@@ -1,6 +1,8 @@
 ---
 title: "Declaración de independencia del Ciberespacio"
 date: 2018-02-08
+description: >
+  El 8 de febrero de 1996, John Perry Barlow escribió esta declaración frente a las incipientes intromisiones en la soberanía de internet de varios países y lobbies. Un día después de su muerte, esta traducción es mi tributo.
 aliases:
   - /declaracion-de-independencia-del-ciberespacio/
   - /2018/02/08/declaracion-de-independencia-del-ciberespacio/
@@ -36,7 +38,7 @@ aliases:
 >
 > Vuestras obsoletas industrias de la información se perpetuarán proponiendo leyes, en América y cualquier otro lugar, que aleguen poseer la palabra misma en todo el mundo. Estas leyes declarán las ideas como un producto industrial más, no más respetable que el cemento. En nuestro mundo, cualquier cosa que pueda crear la mente humana puede ser reproducido y distribuído sin fin y sin coste alguno. El intercambio global de ideas ya no requiere de vuestras fábricas.
 >
-> Estas medidas cada vez más hostiles y coloniales nos colocan en la mismo situación en la que estuvieron aquellos amantes de la libertad y la autodeterminación que tuvieron que denegar las autoridades de poderes lejanos e ignorantes. Debemos declarar nuestros yo virtuales inmunes a vuestra soberanía, aunque sigamos consintiendo vuestra disciplina sobre nuestros cuerpos. Nos propagaremos por todo el planeta para que nadie pueda detener nuestras ideas.
+> Estas medidas cada vez más hostiles y coloniales nos colocan en la misma situación en la que estuvieron aquellos amantes de la libertad y la autodeterminación que tuvieron que denegar las autoridades de poderes lejanos e ignorantes. Debemos declarar nuestros yo virtuales inmunes a vuestra soberanía, aunque sigamos consintiendo vuestra disciplina sobre nuestros cuerpos. Nos propagaremos por todo el planeta para que nadie pueda detener nuestras ideas.
 >
 > Crearemos una civilización de la Mente en el Ciberespacio. Que sea más humana y justa que el mundo que vuestros gobiernos hayan creado jamás.
 

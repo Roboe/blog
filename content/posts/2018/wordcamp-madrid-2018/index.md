@@ -2,10 +2,12 @@
 title: Reseña de la WordCamp Madrid 2018
 date: 2018-04-24
 image: foto-familia.jpg
+categories: reseñas
+description: >
+  Una conferencia sobre el software libre Wordpress, en un espacio del ayuntamiento, acompañado de mi buena amiga Ester. ¿Qué podía salir mal?
 aliases: 
   - /wordcamp-madrid-2018/
   - /2018/04/24/wordcamp-madrid-2018/
-categories: reseñas
 ---
 
 Con un madrugón de los que duelen, el sábado pasado asistí acompañado de mi buena amiga [Ester Legaz][ester-legaz] a la edición anual de la [WordCamp][wordcamp-madrid-2018] celebrada en Madrid, concretamente en [La Nave][la-nave], un excelente espacio del ayuntamiento.
