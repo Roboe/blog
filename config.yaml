@@ -58,6 +58,7 @@ outputs:
     - Atom
 
 # Build settings
+summaryLength: 35
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:
