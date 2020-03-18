@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 {{ $path := "/revealjs" | relURL -}}
 <html>
 	<head>
@@ -8,21 +8,19 @@
 		<title>{{ .Title | htmlEscape }}</title>
 
 		<meta name="description" content="{{ .Description }}">
-		<meta name="author" content="{{ .Author }}">
 
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
+		<link rel="stylesheet" href="{{ $path }}/css/reset.css">
 		<link rel="stylesheet" href="{{ $path }}/css/reveal.css">
-		<!--link rel="stylesheet" href="css/theme/black.css" id="theme"--> <!-- default themes contain external Google Fonts shit -->
-		{{ with .Param "reveal.stylesheet" -}}
+{{- with .Param "reveal.stylesheet" }}
 		<link rel="stylesheet" href="{{ . }}">
-		{{- end }}
+{{ else }}
+		<!-- default themes contain external Google Fonts shit
+		<link rel="stylesheet" href="{{ $path }}/css/theme/black.css">
+		-->
+{{- end }}
 
 		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="{{ $path }}/lib/css/zenburn.css">
+		<link rel="stylesheet" href="{{ $path }}/lib/css/monokai.css">
 
 		<!-- Printing and PDF exports -->
 		<script>
@@ -32,35 +30,31 @@
 			link.href = window.location.search.match( /print-pdf/gi ) ? '{{ $path }}/css/print/pdf.css' : '{{ $path }}/css/print/paper.css';
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
-
-		<!--[if lt IE 9]>
-		<script src="{{ $path }}/lib/js/html5shiv.js"></script>
-		<![endif]-->
 	</head>
-	<body class="{{ delimit (.Param "reveal.styleclasses") ' ' }}" style="width: 100%; height: 100%;">
+	<body class="{{ delimit (.Param "reveal.styleclasses") ' ' }}">
 		<div class="reveal">
 			{{ .Content }}
 		</div>
 
-		<script src="{{ $path }}/lib/js/head.min.js"></script>
 		<script src="{{ $path }}/js/reveal.js"></script>
 
-		{{ with .Param "reveal.initscript" -}}
-			{{ . | safeHTML }}
-		{{ else }}
+{{- with .Param "reveal.initscript" }}
+		{{ . | safeHTML }}
+{{ else }}
 		<script>
 			// More info about config & dependencies:
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				hash: true,
 				dependencies: [
 					{ src: '{{ $path }}/plugin/markdown/marked.js' },
 					{ src: '{{ $path }}/plugin/markdown/markdown.js' },
-					{ src: '{{ $path }}/plugin/notes/notes.js', async: true },
-					{ src: '{{ $path }}/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+					{ src: '{{ $path }}/plugin/highlight/highlight.js' },
+					{ src: '{{ $path }}/plugin/notes/notes.js', async: true }
 				]
 			});
 		</script>
-		{{- end }}
+{{- end }}
 	</body>
 </html>
