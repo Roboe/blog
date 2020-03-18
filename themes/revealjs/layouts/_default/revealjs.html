@@ -46,7 +46,7 @@
 		<script src="{{ $path }}/js/reveal.js"></script>
 
 		{{ if "reveal.initscript" -}}
-			{{ .Param "reveal.initscript" }}
+			{{ .Param "reveal.initscript" | safeHTML }}
 		{{ else }}
 		<script>
 			// More info about config & dependencies:
