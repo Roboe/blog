@@ -45,8 +45,8 @@
 		<script src="{{ $path }}/lib/js/head.min.js"></script>
 		<script src="{{ $path }}/js/reveal.js"></script>
 
-		{{ if "reveal.initscript" -}}
-			{{ .Param "reveal.initscript" | safeHTML }}
+		{{ with .Param "reveal.initscript" -}}
+			{{ . | safeHTML }}
 		{{ else }}
 		<script>
 			// More info about config & dependencies:
