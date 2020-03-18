@@ -6,6 +6,10 @@ resources:
     src: fsfe_public-money-public-code.jpg
     params:
       url: https://publiccode.eu/es/
+  - name: Campaña Defective by Design
+    src: fsf_defective-by-design.png
+    params:
+      url: https://www.defectivebydesign.org/
   - name: Podcast Autodefensa informática
     src: autodefensa_informática.jpg
     params:
