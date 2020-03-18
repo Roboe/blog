@@ -11,28 +11,28 @@ reveal:
   initscript: |
     <script>
       Reveal.initialize({
-        width: SLConfig.deck.width,
-        height: SLConfig.deck.height,
+        width: 1280,
+        height: 720,
         margin: 0.05,
 
         controls: true,
         progress: true,
         history: true,
         mouseWheel: false,
-        showNotes: SLConfig.deck.share_notes ? 'separate-page' : false,
-        slideNumber: SLConfig.deck.slide_number,
+        showNotes: 'separate-page', // || false
+        slideNumber: false,
 
-        autoSlide: SLConfig.deck.auto_slide_interval || 0,
+        autoSlide: 0,
         autoSlideStoppable: true,
 
         rollingLinks: false,
-        center: SLConfig.deck.center || false,
-        shuffle: SLConfig.deck.shuffle || false,
-        loop: SLConfig.deck.should_loop || false,
-        rtl: SLConfig.deck.rtl || false,
+        center: false,
+        shuffle: false,
+        loop: false,
+        rtl: false,
 
-        transition: SLConfig.deck.transition,
-        backgroundTransition: SLConfig.deck.background_transition,
+        transition: "none",
+        backgroundTransition: "slide",
 
         pdfMaxPagesPerSlide: 1
       });
