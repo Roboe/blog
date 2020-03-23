@@ -1,0 +1,1811 @@
+---
+layout: revealjs
+date: 2019-09-25
+title: Barajando git
+subtitle: Merging y rebasing
+summary: >
+  Explicación de las diferentes estrategias de mezcla de código con git (merge y rebase) con una baraja de cartas imantadas.
+  Impartida en privado para el equipo de desarrolladores de Ezzing en Madrid, en conjunto con mi compañera de equipo Fiorella.
+  (Copia importada de slides.com)
+reveal:
+  stylesheet: style.css
+  styleclasses:
+    - theme-font-opensans
+    - theme-color-sand-blue
+  initscript: |
+    <script src="./slconfig.js"></script>
+    <script src="./reveal-init.js"></script>
+---
+
+<div class="slides">
+  <section class="stack" data-id="541c8d3ac3e9cef6cba91cf88c5435b3">
+    <section data-id="365dd0fe3447f2565c29438f0367753c">
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="width: 753px; left: 82px; top: 271px; height: auto;"
+        data-block-id="02be24509b27b0ac205470bc5b47ab0c"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="h1"
+          data-placeholder-text="Title Text"
+          style="z-index: 10;"
+        >
+          <h1>Barajando</h1>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 38px;
+          height: 32px;
+          left: 538px;
+          top: 275px;
+        "
+        data-block-id="bd2e2af2b2780cf6fbce4e0e8c698e3f"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="460"
+            data-natural-height="380"
+            data-lazy-loaded=""
+            data-src="./media/Git-Logo-1788C.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+        "
+        data-block-id="8a32caedb9f010b6a44012e57689a70d"
+      >
+        <div class="sl-block-content" style="z-index: 12;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 600px;
+          left: 181px;
+          top: 390px;
+        "
+        data-block-id="8bdf0ce61a8d489cb9b3221af1e3324b"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 13;"
+        >
+          <p><em>Merging</em> y <em>rebasing</em></p>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 600px;
+          left: 180px;
+          top: 631px;
+        "
+        data-block-id="2306a46853fa33dbfc1f46d459d8835e"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 14;"
+        >
+          <p>
+            <span
+              style="font-size: 0.7em; color: rgb(43, 21, 96);"
+            >Roberto</span>
+            <span
+              style="font-size: 0.7em; color: rgb(82, 188, 52);"
+            >y Fiorella</span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section data-id="ed83f521c5f19fd6a558e3534ed433de">
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="50c6ff4f477d8cf4a151eb2f6c31ff55"
+      >
+        <div class="sl-block-content" style="z-index: 10;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 219px;
+          height: 42px;
+          left: 372px;
+          top: 383px;
+        "
+        data-block-id="401e8ee4355d0ce3cb2ca092b4eaef0b"
+      >
+        <div class="sl-block-content" style="z-index: 12;">
+          <img
+            style=""
+            data-natural-width="219"
+            data-natural-height="42"
+            data-lazy-loaded=""
+            data-src="./media/ezzing-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="width: 365px; left: 292px; top: 276px; height: auto;"
+        data-block-id="661067990c548a2d69d7b0dadab3ef5e"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="h1"
+          data-placeholder-text="Title Text"
+          style="z-index: 13"
+        >
+          <h2>
+            ¡Hola, <span style="color: rgb(82, 188, 52);">#solar</span>Believers<span style="color: #000000;">!</span>
+          </h2>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section class="stack" data-id="273468d014d674c4371b56ccba056538">
+    <section data-id="ba6a80bda23cb426cb0af7056c733fe5">
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="width: 732px; left: 114px; top: 277px; height: auto;"
+        data-block-id="5be6f0112441d33da88bd20efdd49e2a"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="h1"
+          data-placeholder-text="Title Text"
+          style="z-index: 11;"
+        >
+          <h2>Anatomía de un commit</h2>
+        </div>
+      </div>
+
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="39333f9c84dd0faf00af89e108082b56"
+      >
+        <div class="sl-block-content" style="z-index: 12;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 600px;
+          left: 180px;
+          top: 388px;
+        "
+        data-block-id="7e32eb31a49e3bbe847fcf73ce4d1020"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 13;"
+        >
+          <pre style="text-align: center;">
+  $ git show &lt;commit&gt; --parents</pre
+          >
+        </div>
+      </div>
+    </section>
+    <section
+      data-id="cefa58d50e3ccc41da738c18bc160071"
+      data-background-color="#2a2a2a"
+    >
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="105f9b043da9520b9ec8eb65f244f5e8"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 322px;
+          left: 120px;
+          top: 29px;
+        "
+        data-block-id="70302738bdb5c4c343722c9a40b5bbc7"
+      >
+        <div
+          class="sl-block-content fragment"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 12;"
+          data-fragment-index="0"
+        >
+          <p>
+            <span style="color: #ffffff;"
+              >Hash del commit (id)<br />
+              <strong>↓</strong></span
+            >
+          </p>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 246px;
+          left: 429px;
+          top: 129px;
+        "
+        data-block-id="ea9069de44e96850fdc94f94328da30b"
+      >
+        <div
+          class="sl-block-content fragment"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 14;"
+          data-fragment-index="1"
+        >
+          <p style="text-align: left;">
+            <span style="color: #ffffff;">⇇ Autor y fecha</span>
+          </p>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 377px;
+          left: 500px;
+          top: 175px;
+        "
+        data-block-id="479b9895d1248f5466e5832f8844e377"
+      >
+        <div
+          class="sl-block-content fragment"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 15;"
+          data-fragment-index="2"
+        >
+          <p style="text-align: left;">
+            <span style="color: #ffffff;">↙ Descripción del commit</span>
+          </p>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 500px;
+          left: 341px;
+          top: 467px;
+        "
+        data-block-id="c61f8b5afafd7a46cab93385c00f0bde"
+      >
+        <div
+          class="sl-block-content fragment"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 16;"
+          data-fragment-index="3"
+        >
+          <p>
+            <span style="color: #ffffff;"
+              >↙ Parche de cambios en los ficheros</span
+            >
+          </p>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 945px;
+          height: 663px;
+          left: 8px;
+          top: 107px;
+        "
+        data-block-id="2d09dd9916a4aaf9383a4fd2ed577c4d"
+      >
+        <div class="sl-block-content" style="z-index: 10;">
+          <img
+            style="left: 0px; top: -18px; width: 960px; height: 797px;"
+            data-natural-width="964"
+            data-natural-height="800"
+            data-crop-x="0"
+            data-crop-y="0.022585"
+            data-crop-width="0.984375"
+            data-crop-height="0.83187"
+            data-lazy-loaded=""
+            data-src="./media/git-show--parents.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 322px;
+          left: 525px;
+          top: 29px;
+        "
+        data-block-id="fdbed4a37b0236e04bdcb6f5791973d5"
+      >
+        <div
+          class="sl-block-content fragment"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 17;"
+          data-fragment-index="4"
+        >
+          <p>
+            <strong
+              ><span style="color: #ffffff;">Commit antecesor </span
+              ><span style="color: #ffd700;">/!\</span><br />
+              <span style="color: #ffffff;">↓</span></strong
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+    <section data-id="0e48768649ff3d94d936c7ae67d98b29">
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="14afb95ea575efe4f1f82fe3c5020f92"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 600px;
+          left: 180px;
+          top: 184px;
+        "
+        data-block-id="95304c8ae3a5bcf25d0c5c8a65382784"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 12;"
+        >
+          <h2>Cada <em>commit</em> es</h2>
+
+          <h2><strong>hijo directo</strong></h2>
+
+          <h2>de otro</h2>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 600px;
+          left: 180px;
+          top: 477px;
+        "
+        data-block-id="26ef7517791ff0a69ec3dad0c82539b9"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 13;"
+        >
+          <p>(En raras ocasiones, de más de uno)</p>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section class="stack" data-id="fa1ea220c9988999e12f2b0d63265648">
+    <section data-id="cdc66dd80c809af17f0e9f7a806dc19d">
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="width: 806px; left: 77px; top: 325px; height: auto;"
+        data-block-id="1354390fe222c9200135774d9c7d4946"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="h1"
+          data-placeholder-text="Title Text"
+          style="z-index: 10;"
+        >
+          <pre
+            style="text-align: center;"
+          ><span style="font-size:1.4em">$ git merge</span></pre>
+        </div>
+      </div>
+
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="ae48fa6b10f2ecf70a3cc7ffd8d3675a"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+    </section>
+    <section data-id="3735b3801f7faf4ce198abff1492030a">
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="b49d30bc9b17f5c3a4433e09facb4e0e"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 960px;
+          height: 550px;
+          left: 0px;
+          top: 75px;
+        "
+        data-block-id="80de77546c6e3f33829329d86fe1438a"
+      >
+        <div class="sl-block-content" style="z-index: 12;">
+          <img
+            style=""
+            data-natural-width="800"
+            data-natural-height="458"
+            data-lazy-loaded=""
+            data-src="./media/git-merge-schema.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 115px;
+          height: 70px;
+          left: 316px;
+          top: 315px;
+        "
+        data-block-id="48c137d2aedb29866d9d5a4cbc76a199"
+      >
+        <div
+          class="sl-block-content fragment"
+          style="z-index: 13;"
+          data-fragment-index="0"
+        >
+          <img
+            style=""
+            data-natural-width="754"
+            data-natural-height="457"
+            data-lazy-loaded=""
+            data-src="./media/hay-stack-transparent.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 115px;
+          height: 70px;
+          left: 427px;
+          top: 315px;
+        "
+        data-block-id="84a8f77985646faad1afbfe8e6e619db"
+      >
+        <div
+          class="sl-block-content fragment"
+          style="z-index: 14;"
+          data-fragment-index="0"
+        >
+          <img
+            style=""
+            data-natural-width="754"
+            data-natural-height="457"
+            data-lazy-loaded=""
+            data-src="./media/hay-stack-transparent.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 111px;
+          height: 67px;
+          left: 320px;
+          top: 414px;
+        "
+        data-block-id="5f25e84d0755c953a23ff2eb590097da"
+      >
+        <div
+          class="sl-block-content fragment"
+          style="z-index: 15;"
+          data-fragment-index="1"
+        >
+          <img
+            style=""
+            data-natural-width="754"
+            data-natural-height="457"
+            data-lazy-loaded=""
+            data-src="./media/hay-stack-transparent.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 115px;
+          height: 70px;
+          left: 427px;
+          top: 414px;
+        "
+        data-block-id="bca67f9a26ff7ff375711e48dedf67ec"
+      >
+        <div
+          class="sl-block-content fragment"
+          style="z-index: 16;"
+          data-fragment-index="1"
+        >
+          <img
+            style=""
+            data-natural-width="754"
+            data-natural-height="457"
+            data-lazy-loaded=""
+            data-src="./media/hay-stack-transparent.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 111px;
+          height: 67px;
+          left: 542px;
+          top: 414px;
+        "
+        data-block-id="9e77d29e9a25ae46b3bf7cb6106fc7ba"
+      >
+        <div
+          class="sl-block-content fragment"
+          style="z-index: 17;"
+          data-fragment-index="1"
+        >
+          <img
+            style=""
+            data-natural-width="754"
+            data-natural-height="457"
+            data-lazy-loaded=""
+            data-src="./media/hay-stack-transparent.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 211px;
+          height: 128px;
+          left: 669px;
+          top: 287px;
+        "
+        data-block-id="dca343e65e3c2c8864afa3c33016799a"
+      >
+        <div
+          class="sl-block-style"
+          style="z-index: 18; transform: rotate(360deg);"
+        >
+          <div
+            class="sl-block-content fragment"
+            style="z-index: 18;"
+            data-fragment-index="2"
+          >
+            <img
+              style=""
+              data-natural-width="754"
+              data-natural-height="457"
+              data-lazy-loaded=""
+              data-src="./media/hay-stack-transparent.png"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section data-id="1640a94d556a815327bcc2d4f4ae6c7d">
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="f8f9ffd8eaaecea7b9f952a761897bff"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 960px;
+          height: 538px;
+          left: 0px;
+          top: 81px;
+        "
+        data-block-id="6d76ae52ebc808bbc5cc0b6fa738a4a3"
+      >
+        <div class="sl-block-content" style="z-index: 12;">
+          <img
+            style=""
+            data-natural-width="400"
+            data-natural-height="224"
+            data-lazy-loaded=""
+            alt="Dos ejércitos avanzan hasta encontrarse en el centro de la pantalla, provocando el caos. Sobretítulo: GIT MERGE."
+            data-src="./media/cFkiFMDg3iFoI.gif"
+          />
+        </div>
+      </div>
+    </section>
+    <section data-id="2f8b5ce778b687d8002e6eccb2e1efde">
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="4ac506c71c8f893485731f2103c8e794"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 553px;
+          height: 700px;
+          left: 204px;
+          top: 0px;
+        "
+        data-block-id="dedc2307552902671365f921b39536a2"
+      >
+        <div class="sl-block-content" style="z-index: 12;">
+          <img
+            style=""
+            data-natural-width="433"
+            data-natural-height="548"
+            data-lazy-loaded=""
+            alt="No siempre tengo conflictos al mergear. Pero cuando los tengo, no tengo ni idea de cómo resolverlos."
+            data-src="./media/git-merge-conflicts.jpg"
+          />
+        </div>
+      </div>
+    </section>
+    <section
+      data-id="cc2a806532648386964a2bc94bd6155e"
+      data-background-color="#2a2a2a"
+    >
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="f137af71474667921d8566d37614efa6"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 800px;
+          height: 511px;
+          left: 80px;
+          top: 95px;
+        "
+        data-block-id="3b42184496babb8e718be548e3de3159"
+      >
+        <a
+          class="sl-block-content"
+          style="z-index: 12;"
+          href="https://support.gitkraken.com/working-with-repositories/branching-and-merging/#gitkraken-merge-tool"
+          target="_blank"
+          ><img
+            style=""
+            data-natural-width="800"
+            data-natural-height="511"
+            data-lazy-loaded=""
+            data-src="./media/gitkkkraken-merge.png"
+        /></a>
+      </div>
+    </section>
+  </section>
+  <section class="stack" data-id="169b294f988d053db25dd9b7167138b9">
+    <section data-id="d4b4fdf0bcb9dbc56d80628a99b347b4">
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="width: 806px; left: 77px; top: 325px; height: auto;"
+        data-block-id="df3d1debd2eb9a24dd925d787c494206"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="h1"
+          data-placeholder-text="Title Text"
+          style="z-index: 10;"
+        >
+          <pre
+            style="text-align: center;"
+          ><span style="font-size:1.4em">$ git rebase</span></pre>
+        </div>
+      </div>
+
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="6c0ce263c912272f5577d67427335159"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+    </section>
+    <section data-id="265019b73538ea83c71977c29c2983ae">
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="858e838fe279b19391d0df956b229014"
+      >
+        <div class="sl-block-content" style="z-index: 10;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 960px;
+          height: 653px;
+          left: 0px;
+          top: 24px;
+        "
+        data-block-id="555f0a6c21d004f1fb7cda9e851dfb04"
+      >
+        <div
+          class="sl-block-content"
+          style="z-index: 11;"
+          data-inline-svg="false"
+        >
+          <img
+            style=""
+            data-natural-width="800"
+            data-natural-height="544"
+            data-lazy-loaded=""
+            data-src="./media/git-rebase-schema.svg"
+          />
+        </div>
+      </div>
+    </section>
+    <section data-id="b3a01167e3e8581ef6a62bf88737b08d">
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="98f879799cf4c25988b54d4fb39af7a0"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 960px;
+          height: 502px;
+          left: 0px;
+          top: 99px;
+        "
+        data-block-id="d6ef84a423f07ea8fc1aa62d8384cd03"
+      >
+        <div class="sl-block-content" style="z-index: 12;">
+          <img
+            style=""
+            data-natural-width="480"
+            data-natural-height="251"
+            data-lazy-loaded=""
+            alt="Coche de Regreso al futuro en el momento en que viaja en el tiempo."
+            data-src="./media/xsF1FSDbjguis.gif"
+          />
+        </div>
+      </div>
+    </section>
+    <section data-id="112ca4382a020164aab73aaf973d82b9">
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="c80646d3217277202d6b442e465a542a"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 600px;
+          left: 180px;
+          top: 278px;
+        "
+        data-block-id="64d3528ea3e616d638a507317b266e23"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 12;"
+        >
+          <h2>Demo</h2>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 600px;
+          left: 180px;
+          top: 383px;
+        "
+        data-block-id="c35490dbc1b77f91190a9cfc3f35c25f"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 13;"
+        >
+          <p>Resolución de conflictos uno a uno</p>
+        </div>
+      </div>
+    </section>
+    <section
+      data-id="dce0bae284cee03757285542906576e0"
+      data-background-color="#2a2a2a"
+    >
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="be03fa303d6618cca5a0ff81a094d874"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="height: auto; width: 600px; left: 180px; top: 331px;"
+        data-block-id="f94c5ccb40ccdcea8ddedd4f9676cbeb"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 12;"
+        >
+          <p>Git K-k-kraken error 💩</p>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          min-width: 4px;
+          min-height: 4px;
+          width: 806px;
+          height: 372px;
+          left: 77px;
+          top: 164px;
+        "
+        data-block-id="e3efa7522edff947a6b403b8780f6fec"
+      >
+        <a
+          class="sl-block-content"
+          style="z-index: 13;"
+          href="https://support.gitkraken.com/working-with-repositories/branching-and-merging/#rebasing"
+          target="_blank"
+          ><img
+            style=""
+            data-natural-width="892"
+            data-natural-height="412"
+            data-lazy-loaded=""
+            data-src="./media/gitkkkraken-rebase.jpg"
+        /></a>
+      </div>
+    </section>
+  </section>
+  <section class="stack" data-id="9de79d6f6655fabbcda949c2aaf8b13a">
+    <section data-id="060e47233c9217dc6f1ece06a694599a">
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="46059a1c2e062e6fe8eea9458b7a00a7"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 600px;
+          left: 180px;
+          top: 313px;
+        "
+        data-block-id="0b68629b18ac892233e2912e7db8df5d"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 12;"
+        >
+          <h2>Cuándo utilizar <em>rebase</em></h2>
+        </div>
+      </div>
+    </section>
+    <section data-id="dd94cefdcfd6a1cb60a7aece09f09da1">
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="6182fad6034fe6d34a4fe690f6af8ea0"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="height: auto; width: 600px; left: 180px; top: 243px;"
+        data-block-id="3183174b80fa0e1850ded91648eea190"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 12;"
+        >
+          <h2>Antes de abrir una PR, utiliza <em>rebase</em></h2>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 600px;
+          left: 180px;
+          top: 418px;
+        "
+        data-block-id="1685507bc0ad8f72a6ea742a9226c33a"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 13;"
+        >
+          <p>El <em>merge</em> de la PR será limpio (<em>fast-forward</em>)</p>
+        </div>
+      </div>
+    </section>
+    <section data-id="605ba9279b361980a634a3ac5e6fbccb">
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="a4d6fd01151b27564b8c76dff77c03b5"
+      >
+        <div class="sl-block-content" style="z-index: 10;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="height: auto; width: 640px; left: 160px; top: 243px;"
+        data-block-id="1e7d18b37d598cfdd6dfd7f0e32831f0"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 11;"
+        >
+          <h2>
+            Antes de utilizar <em>rebase</em>, haz <em>push</em> a BitBucket
+          </h2>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="height: auto; width: 723px; left: 119px; top: 418px;"
+        data-block-id="3acd6d64b45a7ad5ac16afefd6e51cab"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 12;"
+        >
+          <p>Haz el <em>rebase</em> en local y prueba que todo funciona</p>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section class="stack" data-id="54e973fe0ed16b6bc03ee8c404ab89fa">
+    <section data-id="e9ecc9a2b52b547ab633901925a1a3ba">
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="3903432221444ae67cc33614faa69741"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 600px;
+          left: 180px;
+          top: 313px;
+        "
+        data-block-id="9508fe772bd3734f286d3ee7885f1de4"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 12;"
+        >
+          <h2>Consejos finales</h2>
+        </div>
+      </div>
+    </section>
+    <section data-id="7d10f7070f20eb6b12d43f02821016e1">
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="5322e3adad1804ea317907831add306b"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="height: auto; width: 680px; left: 140px; top: 364px;"
+        data-block-id="510d6a5fd396d2566d5031d12415f9d5"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 12;"
+        >
+          <p>Haz un <em>fetch --all</em> antes de utilizar rebase</p>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 640px;
+          left: 160px;
+          top: 204px;
+        "
+        data-block-id="37a1ff7974161e5693599894f373a6d4"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 13;"
+        >
+          <h2>Utiliza <em>rebase</em> encima de una rama remota</h2>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 600px;
+          left: 180px;
+          top: 425px;
+        "
+        data-block-id="700365ed2ab0192422346195e9ceba99"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 14;"
+        >
+          <pre>
+  $ git fetch --all 
+  $ git rebase origin/development
+  </pre
+          >
+        </div>
+      </div>
+    </section>
+    <section data-id="a28c4bc715b9fba136b473347330b671">
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="29200381f0c1c52a9f7e905627fd5926"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="height: auto; width: 800px; left: 80px; top: 223px;"
+        data-block-id="84d89f7c9747a10699930c64f0ad157b"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 12;"
+        >
+          <h2>No utilices <em>rebase</em> en ramas que no te pertenecen</h2>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 640px;
+          left: 160px;
+          top: 399px;
+        "
+        data-block-id="410d37f175b5c0b43afbe4afae2071d8"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 13;"
+        >
+          <p>
+            <em>Rebase</em> es un comando avanzado.<br />
+            Un <em>rebase</em> pertinente <strong>sobrescribe</strong> el
+            historial.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section data-id="3b14111b4f7f066dc332a61852d67884">
+      <div
+        class="sl-block"
+        data-block-type="image"
+        style="
+          width: 53px;
+          height: 53px;
+          left: 880px;
+          top: 17px;
+          min-width: 4px;
+          min-height: 4px;
+        "
+        data-block-id="1f9270a3697732446dd80f32dbf7dbcc"
+      >
+        <div class="sl-block-content" style="z-index: 11;">
+          <img
+            style=""
+            data-natural-width="383"
+            data-natural-height="383"
+            data-lazy-loaded=""
+            data-src="./media/git-logo.png"
+          />
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="height: auto; width: 725px; left: 118px; top: 179px;"
+        data-block-id="9b84f000866b2a8473c341f938536cd7"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 12;"
+          dir="ui"
+        >
+          <h2>
+            <em>Rebase</em> no te ayuda si tus <em>commits</em> son confusos
+          </h2>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="height: auto; width: 640px; left: 158px; top: 355px;"
+        data-block-id="8f11d81d833cf0d704f76e7d50c6b568"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 13;"
+        >
+          <p>
+            Deberías tratar de no escribir commits «WIP»<br />
+            <a href="https://chris.beams.io/posts/git-commit/" target="_blank"
+              >https://chris.beams.io/posts/git-commit/</a
+            >
+          </p>
+        </div>
+      </div>
+      <div
+        class="sl-block"
+        data-block-type="text"
+        style="
+          height: auto;
+          min-width: 30px;
+          min-height: 30px;
+          width: 600px;
+          left: 158px;
+          top: 444px;
+        "
+        data-block-id="4abb6ad3af80600682ce72c04b99c08f"
+      >
+        <div
+          class="sl-block-content"
+          data-placeholder-tag="p"
+          data-placeholder-text="Text"
+          style="z-index: 14;"
+        >
+          <p style="text-align: center;">
+            git <em>revert</em>, <em>blame</em> y <em>log</em> serán más útiles
+            y las PR se revisarán mejor
+          </p>
+        </div>
+      </div>
+    </section>
+  </section>
+  <section data-id="757861caaed7e516985d78879c01a71a">
+    <div
+      class="sl-block"
+      data-block-type="image"
+      style="
+        width: 53px;
+        height: 53px;
+        left: 880px;
+        top: 17px;
+        min-width: 4px;
+        min-height: 4px;
+      "
+      data-block-id="b28cdd4bae7c92060b64e7e763a875c5"
+    >
+      <div class="sl-block-content" style="z-index: 11;">
+        <img
+          style=""
+          data-natural-width="383"
+          data-natural-height="383"
+          data-lazy-loaded=""
+          data-src="./media/git-logo.png"
+        />
+      </div>
+    </div>
+
+    <div
+      class="sl-block"
+      data-block-type="text"
+      style="width: 218px; left: 371px; top: 344px; height: auto;"
+      data-block-id="5b4f73e320d3a03b81efcfcea3933db3"
+    >
+      <div
+        class="sl-block-content"
+        data-placeholder-tag="h1"
+        data-placeholder-text="Title Text"
+        style="z-index: 12; color: rgb(82, 188, 52);"
+      >
+        <h1>🤷</h1>
+      </div>
+    </div>
+    <div
+      class="sl-block"
+      data-block-type="text"
+      style="width: 236px; left: 362px; top: 259px; height: auto;"
+      data-block-id="376473dea190b17cef1869daf0a9bf6c"
+    >
+      <div
+        class="sl-block-content"
+        data-placeholder-tag="h1"
+        data-placeholder-text="Title Text"
+        style="z-index: 13; color: rgb(0, 0, 0);"
+      >
+        <h2>¿Dudas?</h2>
+      </div>
+    </div>
+  </section>
+  <section data-id="0e8d49b0bcd448d6a67f5403a654aa98">
+    <div
+      class="sl-block"
+      data-block-type="image"
+      style="
+        width: 53px;
+        height: 53px;
+        left: 880px;
+        top: 17px;
+        min-width: 4px;
+        min-height: 4px;
+      "
+      data-block-id="5e6e6505ce20d1ac1fdb6430c82b0e5b"
+    >
+      <div class="sl-block-content" style="z-index: 11;">
+        <img
+          style=""
+          data-natural-width="383"
+          data-natural-height="383"
+          data-lazy-loaded=""
+          data-src="./media/git-logo.png"
+        />
+      </div>
+    </div>
+    <div
+      class="sl-block"
+      data-block-type="text"
+      style="width: 400px; left: 278px; top: 307px; height: auto;"
+      data-block-id="8328484affebcff3da4e9ea63e37d185"
+    >
+      <div
+        class="sl-block-content"
+        data-placeholder-tag="h1"
+        data-placeholder-text="Title Text"
+        style="z-index: 13; color: rgb(43, 21, 96);"
+      >
+        <h2><span style="color: #000000;">¡</span>Muchas
+        <span style="color: rgb(82, 188, 52);">gracias</span><span style="color: #000000;">!</span></h2>
+      </div>
+    </div>
+    <div
+      class="sl-block"
+      data-block-type="image"
+      style="
+        min-width: 4px;
+        min-height: 4px;
+        width: 500px;
+        height: 283px;
+        left: 230px;
+        top: 209px;
+      "
+      data-block-id="7bc3645598f278bf899c59e8aecd300f"
+    >
+      <div
+        class="sl-block-content fragment"
+        style="z-index: 14;"
+        data-fragment-index="0"
+      >
+        <img
+          style=""
+          data-natural-width="500"
+          data-natural-height="283"
+          data-lazy-loaded=""
+          data-src="./media/15BuyagtKucHm.gif"
+        />
+      </div>
+    </div>
+  </section>
+</div>
