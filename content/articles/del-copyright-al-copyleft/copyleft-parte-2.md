@@ -4,6 +4,7 @@ draftDate: 2019-03-11
 date: 2019-03-21
 description: >
   Introducción a la cultura libre: descripción, cambios éticos y licencias. Ejemplos de música libre y remuneración. Segunda parte de mi charla «Del copyright al copyleft».
+toc: true
 aliases:
   - /2019/03/11/charla-parte2/
 ---
@@ -69,7 +70,7 @@ Y, segundo, a la [escasez artificial](https://es.wikipedia.org/wiki/Escasez_arti
 
 ## Practicar cultura libre
 
-Si los autores no expresan lo contrario, sus obras están protegidas por las leyes sobre [derechos de autor]({{< relref charla-parte-1 >}}) existentes, que ya vimos que son restrictivas por defecto. Para especificar unos términos distintos de uso de una obra se debe adjuntar un texto legal que los establezca cuando se publique. Este texto se conoce como **licencia**, y en él se pueden hacer efectivas las libertades de la cultura libre mencionadas anteriormente. Existen multitud de licencias libres para este propósito ya preparadas para su uso.
+Si los autores no expresan lo contrario, sus obras están protegidas por las leyes sobre [derechos de autor]({{< relref copyleft-parte-1 >}}) existentes, que ya vimos que son restrictivas por defecto. Para especificar unos términos distintos de uso de una obra se debe adjuntar un texto legal que los establezca cuando se publique. Este texto se conoce como **licencia**, y en él se pueden hacer efectivas las libertades de la cultura libre mencionadas anteriormente. Existen multitud de licencias libres para este propósito ya preparadas para su uso.
 
 Licenciar una obra con una licencia libre al publicarla en internet, por ejemplo, no te impide volver a licenciarla más tarde bajo unos términos distintos[^copyleft-guia]; por ejemplo, pordemos negociar unos términos económicos distintos con una distribuidora. Tampoco evita que otras personas nos acusen de plagio, así que es recomendable registrar nuestra obra como propia en los órganos habilitados para ello, como el [Registro de la propiedad intelectual](https://www.culturaydeporte.gob.es/cultura-mecd/areas-cultura/propiedadintelectual/registro-de-la-propiedad-intelectual.html) en España[^copyleft-guia-ibid]. 
 
@@ -126,7 +127,7 @@ Esta _nueva_ forma de financiación simplemente **actualiza modelos** antiguos (
 
 Ninguna de estas opciones cancela la posibilidad de otras actividades económicas en paralelo, como pueden ser conciertos, exposiciones, álbumes en CD, financiación en plataformas de streaming o la venta de _merchandising_. El objetivo es **liberar la música**, y las herramientas están a disposición de quien quiera utilizarlas.
 
-En el tercer y último artículo de la serie se expondrán las raíces éticas del movimiento de la cultura libre, que se nutre del software libre, y se profundizará en el _copyleft_, una cláusula adicional y opcional para las obras libres.
+En el [tercer y último artículo de la serie]({{< relref copyleft-parte-3 >}}) se exponen las raíces éticas del movimiento de la cultura libre, que se nutre del software libre, y se profundiza en el _copyleft_, una cláusula adicional y opcional para las obras libres.
 
 
 ~{{< author >}}

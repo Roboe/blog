@@ -5,6 +5,7 @@ date: 2019-03-25
 lastmod: 2019-03-27
 description: >
   Introducción al software libre: descripción, la ética hacker y la cláusula de «copyleft». Software musical libre. Tercera y última parte de mi charla «Del copyright al copyleft».
+toc: true
 aliases:
   - /2019/03/11/chara-parte3/
 ---
@@ -14,6 +15,8 @@ Este es el último de los tres artículos que amplian las notas de la charla [«
 ## Software libre y copyleft
 
 El software libre es el software que respeta la libertad de los usuarios y la comunidad y permite ejecutar, copiar, distribuir, estudiar, modificar y mejorar el software. Es decir, el software libre —a pesar de la ambigüedad en inglés, _free software_&mdash; habla de libertad en el sentido de **«libertad de expresión»**, no de precio como en «barra libre».
+
+### Las libertades del software
 
 El movimiento del software libre **sirvió como fundamento** del movimiento de la cultura libre, más genérico, que surgió después y englobó al software libre por su naturaleza de bien inmaterial. Por eso, no sorprende que las [cuatro libertades](https://www.gnu.org/philosophy/free-sw.es.html) en las que se fundamenta el software libre nos sean ya conocidas, porque son las originales:
 
@@ -59,13 +62,13 @@ Hackear es, [como explica ingeniosamente](https://www.youtube.com/watch?v=tnBmjc
 Conceptualmente, la ética hacker se remonta a la [ética científica del Renacimiento](https://es.wikipedia.org/wiki/Renacimiento#Ciencia), que partiendo de un modelo interdisciplinar y colaborativo llevó a la [revolución científica](https://es.wikipedia.org/wiki/Revolución_científica), base de la ciencia clásica. La ciencia se basa en la idea de un **proceso abierto y autodepurador** de errores. Históricamente, además, es una prolongación de la _synusia_ de la Academia de Platon, que consideraba que la verdad era el resultado de un proceso de aproximación a través del **diálogo crítico**[^himanen-ibíd].
 
 
-## Copyleft
+### Copyleft
 
 El _copyleft_ es una cláusula extra, originalmente de licencias de software libre (como la [GNU GPL](https://www.gnu.org/licenses/copyleft.es.html "GNU: ¿Qué es el copyleft?") —_GNU General Public License_), pero ahora ampliado a otras licencias de cultura libre (como las Creative Commons con el módulo CompartirIgual, o la Free Art License). Una licencia con _copyleft_ permite que una obra se modifique, pero siempre y cuando las obras derivadas se distribuyan **bajo los mismos términos que la obra original**. Es decir, es una cláusula de reciprocidad: yo creo esta obra y se la entrego libre al público; así que tú, si la usas o la modificas, también debes entregarla libre al público.
 
 Surge como un **ingenioso _hack_**, un uso imprevisto, de los propios derechos de autor: se usa un derecho exclusivo de autor para evitar que una obra se cierre al público. Las licencias con _copyleft_ ya se plantearon como un catalizador de la **viralidad** para contenidos en internet, porque permiten que una obra cultural alcance una gran difusión aprovechando las capacidades de la red en todo su potencial.
 
-El _copyleft_ para obras que no son completas no es siempre deseable para obras creativas. El proyecto FreePats, un banco de sonidos instrumentales libres que [se mencionó en el artículo anterior]({{< relref charla-parte-2 >}}), no admite contenido con _copyleft_ por ser [contraproducente](http://freepats.zenvoid.org/unsuitable-licenses.html#Copyleft): obligaría a que la obra final fuera libre, aunque los sonidos originales sean solo una parte.
+El _copyleft_ para obras que no son completas no es siempre deseable para obras creativas. El proyecto FreePats, un banco de sonidos instrumentales libres que [se mencionó en el artículo anterior]({{< relref copyleft-parte-2 >}}), no admite contenido con _copyleft_ por ser [contraproducente](http://freepats.zenvoid.org/unsuitable-licenses.html#Copyleft): obligaría a que la obra final fuera libre, aunque los sonidos originales sean solo una parte.
 
 
 ## Software musical libre

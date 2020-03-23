@@ -4,6 +4,7 @@ draftDate: 2019-03-11
 date: 2019-03-19
 description: >
   Origen, trasfondo y regulación actual de los derechos de autor. Exenciones y el dominio público. Primera parte de mi charla «Del copyright al copyleft».
+toc: true
 aliases:
   - /2019/03/11/charla-parte1/
 ---
@@ -52,7 +53,7 @@ Como se señala en el informe de COMMUNIA sobre [_Copyright and Education in Eur
 Estos derechos _«durarán toda la vida del autor y **setenta años después de su muerte** o declaración de fallecimiento»_ (art. 26), periodo tras el cual las obras pasarán a formar parte del [dominio público](https://es.wikipedia.org/wiki/Dominio_púlico) (art. 41), que es la forma jurídica que adquieren los [bienes del procomún](https://es.wikipedia.org/wiki/Bien_comunal). Los derechos de autor son los únicos derechos de propiedad que expiran con el tiempo, porque el objeto principal de estos derechos, aunque ahora vueltos por la práctica mercantil, es el **beneficio del público**.[^bravo-ibidem]
 
 
-En el [próximo artículo]({{< relref charla-parte-2 >}}) se explica qué es la cultura libre, cómo practicarla, qué proyectos musicales de cultura libre existen y cómo se puede financiar.
+En el [próximo artículo]({{< relref copyleft-parte-2 >}}) se explica qué es la cultura libre, cómo practicarla, qué proyectos musicales de cultura libre existen y cómo se puede financiar.
 
 
 ~{{< author >}}
