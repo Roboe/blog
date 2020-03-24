@@ -36,7 +36,7 @@
   {{- end }}
   <generator uri="https://gohugo.io/" version="{{ hugo.Version }}">Hugo</generator>
   {{- $regularPages := .RegularPages }}
-  {{- if .IsHome }}
+  {{- if .IsHome | and .Site.Params.home.sections }}
     {{- $regularPages = (where .Site.RegularPages "Section" "in" .Site.Params.home.sections) }}
   {{- end -}}
   {{- range first 15 $regularPages }}
