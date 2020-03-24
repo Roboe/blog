@@ -23,15 +23,7 @@
   {{- end }}
   {{- with .Site.Params.author }}
   <author>
-    {{- with .displayname }}
-    <name>{{ . }}</name>
-    {{- end }}
-    {{- with .social.website }}
-    <uri>{{ . }}</uri>
-    {{- end }}
-    {{- with .email }}
-    <email>{{ . }}</email>
-    {{- end }}
+    {{ partial "author.atom.xml" . }}
   </author>
   {{- end }}
   <generator uri="https://gohugo.io/" version="{{ hugo.Version }}">Hugo</generator>
@@ -50,15 +42,7 @@
     <published>{{ partial "iso8601.atom.xml" .PublishDate }}</published>
     {{- with .Param "author" }}
     <author>
-      {{- with .displayname }}
-      <name>{{ . }}</name>
-      {{- end }}
-      {{- with .social.website }}
-      <uri>{{ . }}</uri>
-      {{- end }}
-      {{- with .email }}
-      <email>{{ . }}</email>
-      {{- end }}
+      {{ partial "author.atom.xml" . }}
     </author>
     {{- end }}
     <content type="html" xml:lang="{{ .Language }}" xml:base="{{ .Permalink }}">

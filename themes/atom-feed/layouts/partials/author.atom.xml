@@ -1,0 +1,9 @@
+{{ with .displayname -}}
+<name>{{ . }}</name>
+{{- end }}
+{{ with .social.website -}}
+<uri>{{ . }}</uri>
+{{- end }}
+{{ with .email -}}
+<email>{{ . }}</email>
+{{- end }}
