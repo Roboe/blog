@@ -10,7 +10,7 @@
   {{- with .Param "description" }}
   <subtitle type="html">{{ . | safeHTML }}</subtitle>
   {{- end }}
-  <updated>{{ .Site.LastChange.Format .Site.Params.ISO8601 | safeHTML }}</updated>
+  <updated>{{ partial "iso8601.atom.xml" .Site.LastChange }}</updated>
   <id>{{ .Permalink }}</id>
   {{- with .OutputFormats.Get "Atom" }}
   <link rel="self" type="{{ .MediaType.Type | html }}" href="{{ .Permalink }}" />
@@ -46,8 +46,8 @@
     <link rel="alternate" type="{{ .MediaType.Type | html }}" href="{{ .Permalink }}" />
     {{- end }}
     <id>{{ .Permalink }}</id>
-    <updated>{{ .Lastmod.Format $.Site.Params.ISO8601 | safeHTML }}</updated>
-    <published>{{ .PublishDate.Format $.Site.Params.ISO8601 | safeHTML }}</published>
+    <updated>{{ partial "iso8601.atom.xml" .Lastmod }}</updated>
+    <published>{{ partial "iso8601.atom.xml" .PublishDate }}</published>
     {{- with .Param "author" }}
     <author>
       {{- with .displayname }}
