@@ -21,3 +21,5 @@ description: >
 > ¡Gracias y nos vemos! 🕴️
 
 </figure>
+
+~{{< author >}}
