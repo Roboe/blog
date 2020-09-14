@@ -18,7 +18,7 @@ No hubiera podido tomar esta decisión vital si no hubiera tenido referentes de 
 
 Por una parte, están las personas que directamente decidieron borrarse de esta red:
 - Mi íntima amiga E. decidió salir hace unos seis años, poco antes de entrar en la universidad y en contacto con muchos distintos grupos de personas. Su experiencia fue más leve, aunque igualmente liberadora.
-- N. lo hizo hace cinco años; sin embargo, sintió un fuerte [síndrome FOMO](https://es.wikipedia.org/wiki/Síndrome_FOMO) que hoy siente orgullo de haber superado.
+- [Nico Alt](https://nico.dorfbrunnen.eu) lo hizo hace cinco años; sin embargo, sintió un fuerte [síndrome FOMO](https://es.wikipedia.org/wiki/Síndrome_FOMO) que hoy siente orgullo de haber superado. Nico optó por mensajería descentralizada como XMPP, Matrix y Briar. Ahora [es desarrollador oficial](https://nico.dorfbrunnen.eu/tags/briar/) de la maravillosa aplicación [Briar](https://briarproject.org/).
 - El o la desarrolladora de aplicaciones Webierta, que en su página expone cómo envió su último mensaje y sus razones de soberanía tecnológica. Recomiendo leerlo, porque en un corto texto hace una comparación certera entre las redes de mensajería y la red de móvil y expone un modelo de comunicación similar al correo-e: https://webierta.github.io/
 
 
