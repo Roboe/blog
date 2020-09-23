@@ -36,7 +36,7 @@ Por último, la lectura del último libro de la artista Jenny Odell ha sido reve
 El resultado de la desconexión
 ---
 
-En pocas palabras, **todo ha sido positivo**. Inmediatamente después de mi desconexión, un par de docenas de personas se pusieron en contacto conmigo mediante correos-e, llamadas, SMS (!) o dándose de alta en Signal (afortunadamente, solo unos pocos). Esos mensajes llenos de aprobación, de cariño, de compresión y de respeto por mi decisión me hicieron sentir muy dichoso y orgulloso del paso que había conseguido dar y de tener personas así tan cerca. Dejaré aquí un par de citas:
+En pocas palabras, **todo ha sido positivo**. Inmediatamente después de mi desconexión, un par de docenas de personas se pusieron en contacto conmigo mediante correos-e, llamadas, SMS (!) o dándose de alta en Signal (afortunadamente, solo unos pocos). Esos mensajes llenos de aprobación, de cariño, de comprensión y de respeto por mi decisión me hicieron sentir muy dichoso y orgulloso del paso que había conseguido dar y de tener personas así tan cerca. Dejaré aquí un par de citas:
 
 <figure>
 
