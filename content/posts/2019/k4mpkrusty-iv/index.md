@@ -35,7 +35,7 @@ Así pues, el sábado, como ya viene siendo costumbre, arrancamos con las charla
 4. **Fernando** nos trajo la charla más singular, sobre cómo crear un estilo de peinado personalizado según la morfología de nuestro rostro, y nos presentó la técnica psicomorfológica del visagismo. Acurrucado a sus pies, su fiel perro Sultán.
 5. **Elena** inauguró los temas [tinfoilistas]({{< relref nl18-tinfoil >}}) describiendo cómo está diseñado el sistema operativo [QubesOS](https://www.qubes-os.org/) y enseñándonos a usar sus [_qubos_](https://www.qubes-os.org/doc/disposablevm/) con cabeza.
 6. **Paula** volcó todos los mitos existentes sobre las <abbr title="Organización No Gubernamental">ONG</abbr> y los fue rebatiendo uno a uno. Es peligroso, contraproducente e injusto [juzgar por sus ovejas negras](https://falacias.escepticos.es/index.php/generalizacion-apresurada/) a todas estas organizaciones. 
-7. Y **James** nos habló del muy tinfoilista diseño de cárceles panópticas, de por qué le da tanto mal rollo la Comisaría General de Extranjería y Fronteras de Aluche y de cómo encontramos estos principios de diseño en las redes sociales. 
+7. Y [**James Heda Weng**](https://twitter.com/jameshedaweng) nos habló del muy tinfoilista diseño de cárceles panópticas, de por qué le da tanto mal rollo la Comisaría General de Extranjería y Fronteras de Aluche y de cómo encontramos estos principios de diseño en las redes sociales.
 
 Tras el descanso de mediodía para disfrutar de la estupenda paella de Fernando, continuamos con el resto de intervenciones:
 
