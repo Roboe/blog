@@ -50,7 +50,7 @@ Tras un descanso de 15 minutos para airearnos de la inmersión de la telepresenc
 
 La charla de Álvaro dio paso de manera orgánica a una muy **agradable cháchara** y profundización sobre los temas que habíamos tratado desde la mañana y otros tangenciales que surgieron a partir de ellos, además de algunas actualizaciones personales, como en cualquier reunión de amigos. Debido a esto, decidimos aplazar la sesión lúdica planeada a otro día.
 
-Mención especial a Agus y Luis que, a pesar de apuntaron inicialmente, finalmente no pudieron unirse por diversas circunstancias.
+Mención especial a Agus y Luis, que se enrolaron al principio pero finalmente no pudieron unirse por diversas circunstancias.
 
 El formato reducido de charlas resultó muy gratificante. De hecho, convenimos en proponer acortar el tiempo de las charlas de las próximas ediciones para hacerlas más dinámicas y favorecer la conversación. Aunque con el anuncio de un nuevo estado de alarma en España esta misma mañana, es posible que el próximo también tenga que ser virtual.
 
