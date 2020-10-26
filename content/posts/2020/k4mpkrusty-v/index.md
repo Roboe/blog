@@ -62,4 +62,4 @@ En cualquier caso, esta experiencia nos demuestra que podremos hacerlo en cualqu
 
 
 
-[^criatura-siglo-xxi]: Si Titivillus era el duendecillo que introducía errores en los libros de los escribas y las imprentas, y los gremlins, las criaturas que saboteaban la maquinaria y los aviones durante la Segunda Guerra Mundial (no las horrendas criaturas de la película homónima), ¿cómo se llama la criatura que se mete en las videoconferencias para hacer fallar la conexión, la cámara o el micrófono? 🤔
+[^criatura-siglo-xxi]: Si los errores en los códices de los escribas los introducía el duendecillo [Titivillus](https://es.wikipedia.org/wiki/Titivillus) y los aviones durante la Segunda Guerra Mundial los saboteaban los folclóricos [gremlins](https://es.wikipedia.org/wiki/Gremlin) (que no son las horrendas criaturas de la película homónima), ¿cuál es la criatura que se mete en las videoconferencias y hace fallar la conexión, la cámara o el micrófono? 🤔
