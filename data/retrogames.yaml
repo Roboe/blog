@@ -1,0 +1,292 @@
+- platform: gb
+  title: "Mega Man: Dr. Wily's Revenge"
+  developer: Minakuchi Engineering
+  publisher: Nintendo
+  release_eu: July 20, 1992
+  codename:
+    platform: DMG
+    title: ~
+    game: RW
+    region: EUR
+- platform: gb
+  title: "Street Fighter II"
+  developer: Capcom
+  publisher: Capcom
+  release_eu: September, 1995
+  codename:
+    platform: DMG
+    title: ~
+    game: ASFP
+    region: EUR
+- platform: gb
+  title: "Pokémon Blue Version"
+  developer: Game Freak
+  publisher: Nintendo
+  release_eu: September 30, 1998
+  codename:
+    platform: DMG
+    title: ~
+    game: APEE
+    region: USA
+- platform: gb
+  title: "Pokémon Edición Rojo"
+  developer: Game Freak
+  publisher: Nintendo
+  release_eu: October 5, 1999
+  codename:
+    platform: DMG
+    title: ~
+    game: APAS
+    region: ESP
+- platform: gbc
+  title: "Wario Land 3"
+  developer: Nintendo R&D1
+  publisher: Nintendo
+  release_eu: April 14, 2000
+  codename:
+    platform: CGB
+    title: WARIOLAND3
+    game: AW8A
+    region: EUR
+- platform: gb
+  title: "Pokémon Edición Amarillo"
+  developer: Game Freak
+  publisher: Nintendo
+  release_eu: June 16, 2000
+  codename:
+    platform: DMG
+    title: ~
+    game: APSS
+    region: ESP
+- platform: gb
+  title: "Pokémon Edición Oro"
+  developer: Game Freak
+  publisher: Nintendo
+  release_eu: April 6, 2001
+  codename:
+    platform: DMG
+    title: ~
+    game: AAUS
+    region: ESP
+- platform: GB
+  title: "Pokémon Edición Plata"
+  developer: Game Freak
+  publisher: Nintendo
+  release_eu: April 6, 2001
+  codename:
+    platform: DMG
+    title: ~
+    game: AAXS
+    region: ESP
+- platform: gbc
+  title: "Pokémon Edición Cristal"
+  developer: Game Freak
+  publisher: Nintendo
+  release_eu: September 30, 2001
+  codename:
+    platform: CGB
+    title: PM_CRYSTAL
+    game: BYTS
+    region: ESP
+- platform: gba
+  title: "Mega Man Battle Network"
+  developer: Capcom Production Studio 2
+  publisher: Capcom
+  release_eu: November 30, 2001
+  codename:
+    platform: AGB
+    title: MEGAMANEXEBN
+    game: AREP
+    revision: 00
+    region: EUR
+- platform: gba
+  title: "Wario Land 4"
+  developer: Nintendo R&D1
+  publisher: Nintendo
+  release_eu: November 16, 2001
+  codename:
+    platform: AGB
+    title: WARIOLANDE
+    game: AWAE
+    revision: 00
+    region: EUR
+- platform: gba
+  title: "Golden Sun"
+  developer: Camelot Software Planning
+  publisher: Nintendo
+  release_eu: February 22, 2002
+  codename:
+    platform: AGB
+    title: GOLDEN_SUN_A
+    game: AGSS
+    revision: 00
+    region: ESP
+- platform: gba
+  title: "Crash Bandicoot XS"
+  developer: Vicarious Visions
+  publisher: Universal Interactive
+  release_eu: March 15, 2002
+  codename:
+    platform: AGB
+    title: CRASH
+    game: ACQP
+    revision: 00
+    region: UKV
+- platform: gba
+  title: "Battlebots: Beyond the BattleBox"
+  developer:
+    - Cave+Barn Studios
+    - Pipe Dream Interactive
+  publisher: Majesco Entertainment
+  release_eu: June 20, 2003
+  codename:
+    platform: AGB
+    title: BATTLEBOTS
+    game: ABEP
+    revision: 00
+    region: EUR
+- platform: gba
+  title: "Pokémon Edición Zafiro"
+  developer: Game Freak
+  publisher: Nintendo
+  release_eu: July 25, 2003
+  codename:
+    platform: AGB
+    title: POKEMON_SAPP
+    game: AXPS
+    revision: 00
+    region: ESP
+- platform: gba
+  title: "Dragon Ball Z: El legado de Goku II"
+  developer: Webfoot Technologies
+  publisher: Infogrames
+  release_eu: August 1, 2003
+  codename:
+    platform: AGB
+    title: DRAGONBALL_Z
+    game: ALFP
+    revision: 00
+    region: ESP
+- platform: gba
+  title: "Golden Sun: La edad perdida"
+  developer: Camelot Software Planning
+  publisher: Nintendo
+  release_eu: September 19, 2003
+  codename:
+    platform: AGB
+    title: GOLDEN_SUN_B
+    game: AGFS
+    revision: 00
+    region: ESP
+- platform: gba
+  title: "The Lord of the Rings: The Return of the King"
+  developer: Griptonite Games
+  publisher: EA Games
+  release_eu: November 14, 2003
+  codename:
+    platform: AGB
+    title: RETURN_KING
+    game: BLRP
+    revision: 00
+    region: EUR
+- platform: gba
+  title: "Pokémon Edición Rojo Fuego"
+  developer: Game Freak
+  publisher: Nintendo
+  release_eu: October 1, 2004
+  codename:
+    platform: AGB
+    title: POKEMON_FIRE
+    game: BPRS
+    revision: 00
+    region: ESP
+- platform: gba
+  title: "Pokémon Edición Verde Hoja"
+  developer: Game Freak
+  publisher: Nintendo
+  release_eu: October 1, 2004
+  codename:
+    platform: AGB
+    title: POKEMON_LEAF
+    game: BPGS
+    revision: 00
+    region: ESP
+- platform: gba
+  title: "The Legend of Zelda: The Minish Cap"
+  developer: Capcom
+  publisher: Nintendo
+  release_eu: November 12, 2004
+  codename:
+    platform: AGB
+    title: gbaZELDA_MC
+    game: BZMP
+    revision: 00
+    region: EUR
+- platform: gba
+  title: "Dragon Ball: Advanced Adventure"
+  gamecode: BDVP00
+  developer: Dimps
+  publisher: Bandai
+  release_eu: June 17, 2005
+  codename:
+    platform: AGB
+    title: DRAGONBALLAA
+    game: BDVP
+    revision: 00
+    region: EUR
+- platform: gba
+  title: "Pokémon Edición Esmeralda"
+  developer: Game Freak
+  publisher: Nintendo
+  release_eu: October 21, 2005
+  codename:
+    platform: AGB
+    title: POKEMON_EMER
+    game: BPES
+    revision: 00
+    region: ESP
+- platform: gba
+  title: "Yu-Gi-Oh! Ultimate Masters Edition. World Championship Tournament 2006"
+  developer: Konami
+  publisher: Konami
+  release_eu: 2006
+  codename:
+    platform: AGB
+    title: YUGIOHWCT06
+    game: BY6P
+    revision: 00
+    region: EUR
+- platform: gba
+  title: "Yoshi's Universal Gravitation"
+  developer: ~
+  publisher: ~
+  release_eu: ~
+  codename:
+    platform: AGB
+    title: YOSHI'S U/G
+    game: KYGP
+    revision: 01
+    region: EUR
+
+- platform: gba
+  title: "Asterix & Obelix: Paf, ¡por Tutatis!"
+  developer: Atari
+  publisher: ~
+  release_eu: ~
+  codename:
+    platform: AGB
+    title: ASTERIX___OB
+    game: AOBP
+    revision: 00
+    region: EUU
+- platform: gba
+  title: "Disney's Treasure Planet"
+  developer: ~
+  publisher: Ubisoft
+  release_eu: ~
+  codename:
+    platform: AGB
+    title: DIS_T_PLANET
+    game: AZQP
+    revision: 00
+    region: EUR

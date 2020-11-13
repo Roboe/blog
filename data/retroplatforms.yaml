@@ -1,0 +1,20 @@
+- platform: snes
+  name: Super NES
+  brand: Nintendo
+  release_eu: June, 1992
+- platform: gb
+  name: Game Boy Pocket
+  brand: Nintendo
+  release_eu: March, 1997
+- platform: gba
+  name: Game Boy Advance
+  brand: Nintendo
+  release_eu: June 22, 2001
+- platform: nds
+  name: Nintendo DS Lite
+  brand: Nintendo
+  release_eu: June 23, 2006
+- platform: wii
+  name: Wii
+  brand: Nintendo
+  release_eu: December, 2006
