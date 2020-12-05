@@ -10,7 +10,7 @@ description: >
 
 Ayer fue el [Día internacional contra el DRM][dbd-idad-2020], esa medida abusiva y defectuosa por diseño que limita nuestros bienes digitales a ser meros alquileres efímeros y es responsable de [otras infamias que ya desarrollé en este mismo blog]({{< relref desmitificando-el-drm >}}) hace dos años. Este año la campaña se centró en los servicios de televisión de pago como Netflix y el resto de plataformas del ramo.
 
-Sin embargo, no soy consumidor de ese tipo de contenido, así que no sabría qué aportar. Lo que sí soy es un amante de la lectura, así que quiero compartir, aunque sea un día más tarde, mi lista de tiendas o repositorios donde **adquirir libros electrónicos en español** y en el formato `ePub`. Para otros contenidos, hay varios recursos disponibles.[^otros-sin-drm]
+Sin embargo, no soy consumidor de ese tipo de contenido, así que no sabría qué aportar. Lo que sí soy es un amante de la lectura, así que quiero compartir, aunque sea un día más tarde, mi lista de tiendas o repositorios donde **adquirir libros electrónicos en español**, principalmente en el formato `ePub`. Para otros contenidos, hay varios recursos disponibles.[^otros-sin-drm]
 
 También intercalaré alguna recomendación personal de lecturas, **sin ningún tipo de enlace de afiliación**.
 
@@ -68,6 +68,7 @@ La valenciana [Ediciones Babylon][babylon] apuesta por **obras originales** en d
 Aunque la tienda en línea de la Casa del libro y sus lectores electrónicos fomentan los libros con DRM, su editorial para autores noveles Ediciones Tagus cuenta con un [sello editorial][tagus-sin-drm] con **algunos** libros en ePub sin DRM. Ten cautela y comprueba siempre antes de adquirir un ejemplar que el texto «EPUB sin DRM» figura en alguna parte de la ficha.
 
 
+
 Libros gratis sin DRM
 ---
 
@@ -80,7 +81,7 @@ Por la naturaleza de Internet y gracias también al dominio público &mdash;la [
 
 [Ganso y Pulpo][ganso-y-pulpo] es un precioso y pulcro proyecto editorial independiente sin ánimo de lucro que **da esplendor al dominio público** español y reedita en `ePub` literatura difícil de encontrar (por descatalogación, olvido o poca difusión). La mayoría de sus títulos son relatos y folletines recogidos de la hemeroteca española.
 
-Recomiendo uno de los fantásticos relatos, [_El guardagujas_](https://gansoypulpo.com/autor/ortega-munilla/nb0107-el-guardagujas/), de José Ortega Munilla, padre de José Ortega y Gasset. Me absorbió desde los primeros párrafos y la historia me resultó sobrecogedora. Dejo una cita imperecedera, de esas aplicables a muchos asuntos, también al que nos atañe en esta entrada de hoy:
+Recomiendo uno de los fantásticos relatos cortos, [_El guardagujas_](https://gansoypulpo.com/autor/ortega-munilla/nb0107-el-guardagujas/), de José Ortega Munilla, padre de José Ortega y Gasset. Me absorbió desde los primeros párrafos y la historia me resultó sobrecogedora. Dejo una cita imperecedera, de esas aplicables a muchos asuntos, también al que nos atañe en esta entrada de hoy:
 
 <figure>
 
@@ -95,7 +96,7 @@ Recomiendo uno de los fantásticos relatos, [_El guardagujas_](https://gansoypul
 [openlibra-porqué]: https://openlibra.com/es/page/about
 [openlibra-donar]: https://openlibra.com/es/page/make-a-donation
 
-[OpenLibra][openlibra] es un proyecto personal de Carlos Benítez. Se trata de un catálogo de libros, novelas, ensayos y manuales **de difusión libre**, todos bajo licencias de cultura libre. Especializado en programación e informática, también tiene un interesante fondo de filosofía, novelas, cómics, música y educación, por ejemplo.
+[OpenLibra][openlibra] es un proyecto personal de Carlos Benítez. Se trata de un catálogo de libros, novelas, ensayos y manuales **de difusión libre**, todos bajo licencias de cultura libre. La mayoría, si no todos, están en formato `PDF`, pero he considerado relevante incluírlos en esta lista por el tipo de contenido. Especializado en programación e informática, también tiene un interesante fondo de filosofía, novelas, cómics, música y educación, por ejemplo.
 
 Aunque puedes descargar todos los títulos de manera gratuíta, si te lo puedes permitir, dona para mantener la infraestructura nada barata y su firme compromiso de no publicidad.
 
@@ -114,9 +115,9 @@ En Elejandría cuentan, por ejemplo, con la primera novela de Sherlock Holmes, [
 [gutenberg]: https://www.gutenberg.org/
 [gutenberg-spanish-catalogue]: https://www.gutenberg.org/browse/languages/es
 
-El [proyecto Gutenberg][gutenberg] se dedica a digitalizar libros de **dominio público** en varios lenguajes. La fundación del proyecto data de antes de la creación de Internet. Aunque la página no está en español, tiene un amplio [catálogo de obras en castellano][gutenberg-spanish-catalogue].
+El [proyecto Gutenberg][gutenberg] se dedica a digitalizar libros de **dominio público** en varios lenguajes. La fundación del proyecto data de antes de la creación de Internet, y quizá es un proyecto visionario que supo que la tecnología digital sería la próxima revolución editorial después de la imprenta de Gutenberg. La página no está en español, pero cuenta con un amplio [catálogo de obras en castellano][gutenberg-spanish-catalogue].
 
-Aunque no se trata de una lectura en español, una de mis últimas lecturas del proyecto Gutenberg ha sido el relato corto [_In the Year 2889_](http://www.gutenberg.org/ebooks/19362), aparentemente escrito por Michel Verne sobre ideas de su padre Jules Verne. Se trata de una ristra de previsiones de inventos, muchos de los cuales ya se han conseguido (¿te suena el _telefoto_? ¿Has tenido algún encuentro _fonotelefótico_? Suena a tiempos de la COVID) y otros que, afortunadamente, solo se han conseguido mediante metáforas del _marketing_, como los anuncios proyectados en las nubes.
+No se trata de una lectura en español, pero una de mis últimas lecturas del proyecto Gutenberg ha sido el relato [_In the Year 2889_](http://www.gutenberg.org/ebooks/19362), aparentemente escrito por Michel Verne sobre ideas de su padre Jules Verne. Se trata de una ristra de previsiones de inventos, muchos de los cuales ya se han conseguido (¿te suena el _telefoto_? ¿Has tenido algún encuentro _fonotelefótico_? Suena a tiempos de la COVID) y otros que, afortunadamente, solo se han conseguido mediante metáforas del _marketing_, como los anuncios proyectados en las nubes.
 
 
 ### Editorial CSIC (CSIC)
@@ -143,6 +144,7 @@ En otros idiomas y otros recursos
 La guía de la campaña _Defective by Design_ de la _Free Software Foundation_ también tiene un [apartado dedicado a la literatura sin DRM][dbd-guide-literature] donde, además, incluye plataformas de autopublicación, cómics y novelas gráficas.
 
 
+
 Menciones especiales
 ---
 
@@ -156,6 +158,7 @@ El mundo editorial es difícil y no todos los proyectos salen adelante. Aunque e
 - A [Librosinlibro][librosinlibro-quienes], que aparentemente fue la primera agrupación de editoriales que tomó la decisión de vender libros sin DRM. Lleva sin actividad desde mayo de 2015, según las capturas web de The Wayback Machine.
 - A la madrileña Fata Libelli, editorial de literatura fantástica y ciencia ficción y blog sobre literatura de género. [Cerró a finales de 2017][fata-libelli-cierra-distribución].
 - A Sinerrata, editorial con enfoque en la novela negra. También [cerró a finales de 2017][sinerrata-se-despide].
+
 
 
 ¡Por la preservación eterna de la lectura!
