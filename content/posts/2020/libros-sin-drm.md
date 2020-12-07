@@ -165,7 +165,7 @@ En otros idiomas y otros recursos
 
 [Smashwords][smashwords] es una plataforma de autopublicación con títulos en una gran variedad de idiomas, también en español. Lo apunto aquí y no en su sección propia porque su página no tiene la capacidad de filtrar por idioma.
 
-[Humble Book Bundle][humble-book-bundle] es una serie de paquetes de libros de Humble Bundle, una tienda peculiar con un modelo parcialmente benéfico. Cuentan con al menos dos _bundles_ o lotes de libros activos por los que puedes pagar lo que quieras (mínimo 1 €) y ajustar qué porcentaje de ese monto se dona a la ONG seleccionada para el caso. Los libros son solo en inglés y centrados en diversas temáticas: desde manuales técnicos de seguridad informática, pasando por libros de juegos de rolo RPG, finanzas hasta activismo feminista o LGTB.
+[Humble Book Bundle][humble-book-bundle] es una serie de paquetes de libros de Humble Bundle, una tienda peculiar con un modelo parcialmente benéfico. Cuentan con al menos dos _bundles_ o lotes de libros activos por los que puedes pagar lo que quieras (mínimo 1 €) y ajustar qué porcentaje de ese monto se dona a la ONG seleccionada para el caso. Los libros son solo en inglés y centrados en diversas temáticas: desde manuales técnicos de seguridad informática, pasando por libros de juegos de rol o RPG, finanzas hasta activismo feminista o LGTB.
 
 La guía de la campaña _Defective by Design_ de la _Free Software Foundation_ también tiene un [apartado dedicado a la literatura sin DRM][dbd-guide-literature] donde, además, incluye plataformas de autopublicación, cómics y novelas gráficas.
 
