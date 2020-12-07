@@ -61,6 +61,16 @@ La valenciana [Ediciones Babylon][babylon] apuesta por **obras originales** en d
 [Triskel Ediciones][triskel] es una refrescante editorial independiente que presume de [respetar tanto al lector como al escritor][triskel-sobre] y ofrece **nuevos títulos** sin DRM de ciencia ficción y fantasía (colección Átropos), narrativa (colección Cloto) y escritos de índole social (colección Láquesis), además de una interesante labor de recuperación de **obras ya descatalogadas**. Los precios de los libros electrónicos no superan los 4 €.
 
 
+### Leanpub
+
+[leanpub]: https://leanpub.com/
+[leanpub-spa]: https://leanpub.com/bookstore?type=book&language=spa
+[lean-publishing]: https://leanpub.com/lean/read
+[cathedral-and-bazaar]: http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html
+
+[Leanpub][leanpub] es una plataforma de autopublicación que adapta la tradición de [«publica precozmente, publica frecuentemente y escucha a tus clientes»][cathedral-and-bazaar] del _software_ abierto a la publicación de manuales de programación y desarrollo informático, a lo que llaman [_lean publishing_][lean-publishing]. Su catálogo reluce con los títulos en inglés, pero tienen [gran variedad en español][leanpub-spa], también. Los precios cuentan con cierta flexibilidad acorde a su modelo iterativo: es ajustable por el cliente, con precio recomendado y un precio mínimo (a veces, gratis).
+
+
 ### Ediciones Tagus (Casa del libro)
 
 [tagus-sin-drm]: https://www.casadellibro.com/selloEditorial
@@ -88,6 +98,16 @@ Recomiendo uno de los fantásticos relatos cortos, [_El guardagujas_](https://ga
 > También tiene la civilización sus esclavos. A las servidumbres de la tiranía han sucedido las servidumbres de la libertad.
 
 </figure>
+
+
+### BOE
+
+[boe]: https://www.boe.es/
+[eur-lex]: https://eur-lex.europa.eu/
+
+La [Agencia Estatal Boletín Oficial del Estado][boe] español publica todas las leyes, normas, códigos y otros documentos oficiales en `ePub` sin DRM en su web, además de en `PDF`. Es una diferencia con respecto a su hermano mayor europeo, [EUR-Lex][eur-lex], donde solo se publica en `PDF` y `HTML` (aunque también sin DRM).
+
+Una enriquecedora lectura, por todo el trasfondo histórico, son las siete páginas del preámbulo de la [Ley orgánica de protección de datos personales y garantía de derechos digitales (LOPD-gdd)](https://www.boe.es/eli/es/lo/2018/12/05/3/con).
 
 
 ### OpenLibra
@@ -138,8 +158,14 @@ En otros idiomas y otros recursos
 [libreture]: https://www.libreture.com/
 [libreture-list]: https://www.libreture.com/bookshops/
 [dbd-guide-literature]: https://www.defectivebydesign.org/guide/ebooks
+[smashwords]: https://www.smashwords.com/
+[humble-book-bundle]: https://www.humblebundle.com/books/
 
-[Libreture][libreture] es una interesante plataforma donde puedes alojar tus libros sin DRM. Además, mantiene una [lista actualizada de librerías, editoriales y autores][libreture-list] que venden libros electrónicos sin DRM. Aunque la mayoría son en inglés y en otros idiomas, merece la pena echarle un vistazo cada vez que quieras adquirir un nuevo libro, porque es completísima.
+[Libreture][libreture] es una interesante plataforma y comunidad donde puedes alojar tus libros sin DRM. Además, mantiene una [lista actualizada de librerías, editoriales y autores][libreture-list] que venden libros electrónicos sin DRM. Aunque la mayoría son en inglés y en otros idiomas, merece la pena echarle un vistazo cada vez que quieras adquirir un nuevo libro, porque es completísima. Gracias a esta lista, supe que la editorial de [_How to Do Nothing: Resisting the Attention Economy_](https://www.mhpbooks.com/books/how-to-do-nothing/) publica sin DRM, aunque no lo explicite en su web, así que lo adquirí.
+
+[Smashwords][smashwords] es una plataforma de autopublicación con títulos en una gran variedad de idiomas, también en español. Lo apunto aquí y no en su sección propia porque su página no tiene la capacidad de filtrar por idioma.
+
+[Humble Book Bundle][humble-book-bundle] es una serie de paquetes de libros de Humble Bundle, una tienda peculiar con un modelo parcialmente benéfico. Cuentan con al menos dos _bundles_ o lotes de libros activos por los que puedes pagar lo que quieras (mínimo 1 €) y ajustar qué porcentaje de ese monto se dona a la ONG seleccionada para el caso. Los libros son solo en inglés y centrados en diversas temáticas: desde manuales técnicos de seguridad informática, pasando por libros de juegos de rolo RPG, finanzas hasta activismo feminista o LGTB.
 
 La guía de la campaña _Defective by Design_ de la _Free Software Foundation_ también tiene un [apartado dedicado a la literatura sin DRM][dbd-guide-literature] donde, además, incluye plataformas de autopublicación, cómics y novelas gráficas.
 
