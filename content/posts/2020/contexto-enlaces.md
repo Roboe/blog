@@ -8,6 +8,8 @@ description: >
   En la era de la información, somos consumidores habituales de fragmentos de información instantáneos, pero no solicitados ni urgentes. Como emisores de medios sociales, podemos contribuír a una comunicación de mayor calidad.
 aliases:
   - /2020/01/18/contexto-enlaces/
+reposts:
+  mastodon: https://mastodon.social/@RoboePi/103538726223628963
 ---
 
 Hoy en día utilizamos herramientas de mensajería instantánea a todas horas. En la llamada era de la información, somos consumidores habituales &mdash;constantes, diría&mdash; de fragmentos de información que llegan a nosotros sin que lo solicitemos.

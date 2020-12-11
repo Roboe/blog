@@ -5,6 +5,10 @@
     {{ partial "headline.html" . }}
     <p class="content-meta">
       Publicado el {{ partial "date_published.html" . }} por {{ partial "author.html" . }}
+      {{ with .Param "reposts" -}}
+      &middot;
+      <a href="{{ .mastodon }}" target="_blank" rel="noopener noreferrer">Coméntalo en el fediverso</a>
+      {{- end }}
     </p>
   </header>
 

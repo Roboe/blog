@@ -6,6 +6,8 @@ categories:
  - reseñas
 description: >
   Profundizo en algunas ideas de mi último mensaje y cuento las consecuencias observables de mi decisión hasta hoy, día en que se cumplen dos semanas de mi salida de la plataforma de chat de Facebook.
+reposts:
+  mastodon: https://mastodon.social/@RoboePi/104862054541794895
 ---
 
 Hoy se cumplen dos semanas de mi [salida de WhatsApp]({{< relref último-whatsapp >}}). El mensaje que mandé a mis contactos tuvo que tener la extensión justa, para no parecer un arrebato irreflexivo ni tampoco una disertación insolícita. Aprovecho esta entrada para ahondar un poco más en los precedentes y las ideas del último mensaje y relatar mi experiencia personal desde la desconexión.

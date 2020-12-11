@@ -4,6 +4,8 @@ draftDate: 2017-08-19
 date: 2020-12-05
 description: >
   Con motivo del día internacional contra el DRM, detallo una lista de tiendas donde adquirir libros digitales que puedas poseer de verdad, tanto de pago como gratuítos, con un par de recomendaciones personales.
+reposts:
+  mastodon: https://mastodon.social/web/statuses/105330000204246935
 ---
 
 [dbd-idad-2020]: https://www.defectivebydesign.org/dayagainstdrm

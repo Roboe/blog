@@ -7,6 +7,8 @@ description: >
   La reseña de una reunión de amigos en una casa rural para compartir conocimiento y experiencia en forma de una conferencia privada: cultura, salud, estética, privacidad, sociología... ¡Una auténtica pasada!
 aliases:
   - /2019/07/31/k4mpkrusty-iv/
+reposts:
+  mastodon: https://mastodon.social/@RoboePi/102546152551466410
 ---
 
 El fin de semana pasado, la comunidad de [h4ckademy](http://h4ckademy.com) nos reunimos en una casa rural en Pedrezuela, Madrid. ¿La premisa? Compartir conocimiento y experiencias personales en forma de una **conferencia privada e informal** en la que todos participamos con una intervención de 25 minutos.

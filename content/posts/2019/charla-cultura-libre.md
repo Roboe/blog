@@ -6,6 +6,8 @@ description: >
   Participé como ponente en el I Ciclo de Conferencias para Estudiantes de Música en el Real Conservatorio Superior de Música de Madrid, donde hablé de la cultura libre y de cómo practicar y disfrutar de una música libre.
 aliases:
   - /2019/03/11/charla-cultura-libre/
+reposts:
+  mastodon: https://mastodon.social/@RoboePi/101779557555824189
 ---
 
 El lunes pasado tuve la oportunidad de participar como ponente en el [I Ciclo de Conferencias para Estudiantes de Música](https://web.archive.org/web/20190311211504/https://i-ciclo-de-conferencias-de-estudiantes-del-rcsmm4.webnode.es/proyectos/) en el Real Conservatorio Superior de Música de Madrid, que organizan los propios alumnos de Pedagogía y que estaba abierto a todas las especialidades musicales.

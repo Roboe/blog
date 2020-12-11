@@ -6,6 +6,8 @@ image: k4mpkrusty-thumbnail.png
 categories: reseñas
 description: >
   La reseña de una conferencia privada entre amigos para compartir conocimiento y experiencia: gastronomía, comunicación, filosofía, estética del arte, sociología, tecnología, ergonomía... ¡No se nos acaba el fuelle! Esta vez, en formato virtual.
+reposts:
+  mastodon: https://mastodon.social/@RoboePi/105101445310041139
 ---
 
 ¡Lo volvimos a hacer! Pese a las vicisitudes sanitarias que atraviesa el mundo en estos momentos, el fin de semana pasado, la comunidad de [h4ckademy](http://h4ckademy.com) nos volvimos a reunir en [nuestro particular y aproximadamente anual K4mpamento Krusty]({{< relref "k4mpkrusty-iv" >}}), una conferencia privada e informal para compartir conocimiento y experiencias personales. Solo que con la _pequeña_ diferencia de que, esta vez, no compartimos el espacio físico.

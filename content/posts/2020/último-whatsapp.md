@@ -6,6 +6,8 @@ categories:
   - reseñas
 description: >
   El simple acto de decidir salir de la aplicación de mensajería instantánea más utilizada de occidente, de código cerrado y propiedad de Facebook, conlleva unas consecuencias y compromisos que asumo y expongo en mi último mensaje de WhatsApp.
+reposts:
+  mastodon: https://mastodon.social/@RoboePi/104783731410280346
 ---
 
 <figure>

@@ -6,6 +6,8 @@ description: >
 license: CC-BY 4.0
 aliases:
   - /2020/03/12/incompatibilidad-microrrelato-tecnodistopía/
+reposts:
+  mastodon: https://mastodon.social/@RoboePi/103812644085193911
 ---
 
 Ayer me peleé con mi hermana.
