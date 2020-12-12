@@ -60,7 +60,7 @@ La valenciana [Ediciones Babylon][babylon] apuesta por **obras originales** en d
 [triskel]: http://triskelediciones.es/
 [triskel-sobre]: http://triskelediciones.es/quienes-somos.html
 
-[Triskel Ediciones][triskel] es una refrescante editorial independiente que presume de [respetar tanto al lector como al escritor][triskel-sobre] y ofrece **nuevos títulos** sin DRM de ciencia ficción y fantasía (colección Átropos), narrativa (colección Cloto) y escritos de índole social (colección Láquesis), además de una interesante labor de recuperación de **obras ya descatalogadas**. Los precios de los libros electrónicos no superan los 4 €.
+[Triskel Ediciones][triskel] es una refrescante editorial independiente sevillana que presume de [respetar tanto al lector como al escritor][triskel-sobre] y ofrece **nuevos títulos** sin DRM de ciencia ficción y fantasía (colección Átropos), narrativa (colección Cloto) y escritos de índole social (colección Láquesis), además de una interesante labor de recuperación de **obras ya descatalogadas**. Los precios de los libros electrónicos no superan los 4 €.
 
 
 ### Leanpub
@@ -91,7 +91,7 @@ Por la naturaleza de Internet y gracias también al dominio público &mdash;la [
 
 [ganso-y-pulpo]: http://gansoypulpo.com/
 
-[Ganso y Pulpo][ganso-y-pulpo] es un precioso y pulcro proyecto editorial independiente sin ánimo de lucro que **da esplendor al dominio público** español y reedita en `ePub` literatura difícil de encontrar (por descatalogación, olvido o poca difusión). La mayoría de sus títulos son relatos y folletines recogidos de la hemeroteca española.
+[Ganso y Pulpo][ganso-y-pulpo] es un precioso y pulcro proyecto editorial barcelonés, independiente y sin ánimo de lucro, que **da esplendor al dominio público** español y reedita en `ePub` literatura difícil de encontrar (por descatalogación, olvido o poca difusión). La mayoría de sus títulos son relatos y folletines recogidos de la hemeroteca española.
 
 Recomiendo uno de los fantásticos relatos cortos, [_El guardagujas_](https://gansoypulpo.com/autor/ortega-munilla/nb0107-el-guardagujas/), de José Ortega Munilla, padre de José Ortega y Gasset. Me absorbió desde los primeros párrafos y la historia me resultó sobrecogedora. Dejo una cita imperecedera, de esas aplicables a muchos asuntos, también al que nos atañe en esta entrada de hoy:
 
@@ -185,7 +185,7 @@ El mundo editorial es difícil y no todos los proyectos salen adelante. Aunque e
 
 - A [Librosinlibro][librosinlibro-quienes], que aparentemente fue la primera agrupación de editoriales que tomó la decisión de vender libros sin DRM. Lleva sin actividad desde mayo de 2015, según las capturas web de The Wayback Machine.
 - A la madrileña Fata Libelli, editorial de literatura fantástica y ciencia ficción y blog sobre literatura de género. [Cerró a finales de 2017][fata-libelli-cierra-distribución].
-- A Sinerrata, editorial con enfoque en la novela negra. También [cerró a finales de 2017][sinerrata-se-despide].
+- A Sinerrata, editorial exclusivamente digital con enfoque en la novela negra. También [cerró a finales de 2017][sinerrata-se-despide].
 
 
 
