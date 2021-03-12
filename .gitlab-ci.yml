@@ -35,3 +35,16 @@ git_deploy:
     - git add --all
     - git commit -m "Deploy $CI_COMMIT_SHA"
     - git push --force --quiet $GIT_PUSH_URL $GIT_PUSH_BRANCH > /dev/null 2>&1
+
+pages:
+  image: alpine:latest
+  stage: deploy
+  only:
+    - master
+  when: on_success
+  script:
+    - echo 'Mirroring to GitLab Pages'
+  artifacts:
+    paths:
+      - public/
+    expire_in: 30 minutes
