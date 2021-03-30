@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Instala tu propia VPN en una Raspberry Pi o en un VPS mediante PiVPN &middot; El blog de la ~virgulilla</title>
+
+  <!-- start SEO -->
+  <meta name="generator" content="Hugo 0.82.0" />
+
+  <!-- Schema.org -->
+  <meta itemprop="name" content="Instala tu propia VPN en una Raspberry Pi o en un VPS mediante PiVPN">
+<meta itemprop="description" content="Utilizar una VPN (red virtual privada) es una buena idea para asegurar las conexiones a internet y proteger la privacidad. Pero la verdad es que puede ser algo imponente instalar una. Luis de Dios nos resuelve todas las dudas.
+">
+
+
+<meta itemprop="datePublished" content="2018-09-04T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-09-04T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="2417">
+<meta itemprop="image" content="https://blog.virgulilla.com/images/logo.png">
+
+
+<meta itemprop="keywords" content="" />
+
+
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Instala tu propia VPN en una Raspberry Pi o en un VPS mediante PiVPN" />
+<meta property="og:description" content="Utilizar una VPN (red virtual privada) es una buena idea para asegurar las conexiones a internet y proteger la privacidad. Pero la verdad es que puede ser algo imponente instalar una. Luis de Dios nos resuelve todas las dudas.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.virgulilla.com/2018/luisddm-pivpn/" />
+<meta property="og:image" content="https://blog.virgulilla.com/images/logo.png" />
+<meta property="article:published_time" content="2018-09-04T00:00:00&#43;00:00"/>
+  <meta property="article:modified_time" content="2018-09-04T00:00:00&#43;00:00"/>
+
+
+<meta property="og:locale" content="es" />
+<meta property="og:site_name" content="El blog de la ~virgulilla" />
+
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://blog.virgulilla.com/images/logo.png"/>
+
+<meta name="twitter:title" content="Instala tu propia VPN en una Raspberry Pi o en un VPS mediante PiVPN"/>
+<meta name="twitter:description" content="Utilizar una VPN (red virtual privada) es una buena idea para asegurar las conexiones a internet y proteger la privacidad. Pero la verdad es que puede ser algo imponente instalar una. Luis de Dios nos resuelve todas las dudas.
+"/>
+
+  <!-- end SEO -->
+
+  <link rel="stylesheet" href="/main.css">
+  <link rel="shortcut icon" href="/favicon.png" type="image/png">
+  
+  <link rel="alternate" type="application/atom&#43;xml" title="El blog de la ~virgulilla" href="https://blog.virgulilla.com/feed.xml">
+</head>
+
+
+<body class="site-layout">
+  <a class="skip-link screen-reader-text" href="#content">Saltar al contenido</a>
+
+  <div class="site-layout--header">
+    <header class="site-header">
+  <div class="site-header--branding site-branding">
+    
+      <p class="site-branding--title">
+        <a href="https://blog.virgulilla.com/" rel="home">El blog de la ~virgulilla</a>
+      </p>
+
+    <p class="site-branding--description">Crítica, filosofía y alfabetización digitales. La tecnología al servicio de la humanidad.</p>
+  </div>
+
+  
+</header>
+
+  </div>
+
+  <div id="content" class="site-layout--content">
+    
+<main class="content" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="content-header">
+    <h1 class="content-title" itemprop="name headline">
+  Instala tu propia VPN en una Raspberry Pi o en un VPS mediante PiVPN
+</h1>
+
+    <p class="content-meta">
+      Publicado el <time datetime="2018-09-04T00:00:00&#43;00:00" itemprop="datePublished">
+  4 de septiembre de 2018
+</time>
+ por <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <span itemprop="name">LuisDDM</span>
+</span>
+
+      
+    </p>
+  </header>
+
+  <div class="content-body" itemprop="articleBody">
+    <p><em>Utilizar una VPN (red virtual privada) es una buena idea para asegurar tus conexiones a internet y, en algunos casos, proteger con ello la privacidad. Pero la verdad es que puede ser algo imponente instalar una. <a href="https://twitter.com/luisddm_" title="luisδμ (@luisddm_) en Twitter" target="_blank" rel="nofollow noreferrer"><strong>Luis de Dios</strong></a> se ha currado una completa guía de instalación con PiVPN en <a href="https://medium.com/@luisddm/" title="luisδμ - Medium" target="_blank" rel="nofollow noreferrer">su blog</a> que resolverá todas las dudas posibles en el proceso. Luis, a quien también conocí en <a href="https://www.h4ckademy.com/" target="_blank" rel="nofollow noreferrer">h4ckademy</a>, es un desarrollador frontend y coorganizador del <a href="https://frontfest.es/" target="_blank" rel="nofollow noreferrer">FrontFest</a>. También se le puede encontrar por los <a href="https://osweekends.com/" target="_blank" rel="nofollow noreferrer">Open Source Weekends</a>. Desde hace un par de años uso la misma configuración de VPN que él describe cuando me conecto a redes en las que no confío, lo que me permitió hacer <a href="https://twitter.com/luisddm_/status/1034729455552483330" target="_blank" rel="nofollow noreferrer">un par de mejoras</a> a la guía. Puedes encontrar la guía <a href="https://medium.com/@luisddm/instala-tu-propia-vpn-en-una-raspberry-pi-o-en-un-vps-mediante-pivpn-e27bfd6ccf8a" title="Instala tu propia VPN en una Raspberry Pi o en un VPS mediante PiVPN" target="_blank" rel="nofollow noreferrer">aquí</a> o leerla a continuación. ¡Gracias por compartirla, Luis! ~Roboe
+</em></p>
+<h2 id="hahahugoshortcode-s1-hbhb">Instala tu propia VPN en una Raspberry Pi o en un VPS mediante PiVPN
+</h2>
+<p>Si has llegado hasta aquí, probablemente sepas <a href="https://www.bestvpn.com/guides/what-is-vpn-beginners-guide/" target="_blank" rel="nofollow noreferrer">qué es una VPN</a> y para qué la necesitas. Pero si no, no te preocupes: vamos a empezar con una pequeña introducción explicando qué es esto, para qué la queremos y qué herramientas utilizaremos. Posteriormente explicaremos cómo configurar nuestra <a href="https://www.raspberrypi.org/" target="_blank" rel="nofollow noreferrer">Raspberry</a> y nuestro router (o en su defecto un VPS), instalaremos PiVPN, y finalmente configuraremos un par de dispositivos para hacer uso de nuestra nueva VPN.</p>
+<figure>
+<p><img src="https://blog.virgulilla.com/2018/luisddm-pivpn/raspberry-pi.jpg" alt="Modelo de Raspberry Pi con cuatro puertos USB">
+</p>
+</figure>
+<h4 id="qué-es-una-vpn">¿Qué es una VPN?</h4>
+<p>Básicamente <strong>es un túnel cifrado a través del cual podemos conectarnos a otra máquina, que a su vez será la salga a internet</strong> de forma convencional y lleve a cabo nuestras peticiones de red. Es una forma de acceder a internet <strong>ocultando el tráfico</strong> a los nodos intermedios a través de los que se establece el túnel. Solamente podrán ver un flujo de bits cifrado.</p>
+<p>Algunos de los casos de uso más habituales son:</p>
+<ul>
+<li><strong>Acceder a internet libremente</strong> desde lugares del mundo donde haya censura. Aunque ojo, porque algunos ISPs son capaces de identificar y bloquear VPNs aunque no puedan leer los datos que se están intercambiando.</li>
+<li><strong>Ocultar la información de navegación</strong> a los nodos intermedios, incluidos los del ISP. Pero cuidado, porque aunque todos los nodos por los que pase el túnel no puedan acceder al tráfico, el nodo por el que salimos a internet sí que va a poder verlo. <strong>Una VPN provee privacidad, pero no anonimato</strong>.</li>
+<li><strong>Ocultar nuestros datos en redes potencialmente inseguras</strong>, como por ejemplo redes inalámbricas abiertas al público, en las que de otro modo se puede esnifar fácilmente nuestro tráfico de red.</li>
+<li><strong>Conectarnos a una red local privada remota</strong> (por ejemplo, de nuestra empresa o nuestra casa) a la que no podemos acceder físicamente. Con una VPN podríamos acceder a los recursos de esa red de forma segura y salir a internet desde allí.</li>
+</ul>
+<p>Hay decenas de <a href="https://www.bestvpn.com/best-vpn-services/" target="_blank" rel="nofollow noreferrer"><strong>servicios que ofrecen VPNs por unos pocos euros</strong></a> al mes, o incluso de forma gratuita con ciertas limitaciones. Contratándolos podemos salir a internet por casi cualquier parte del mundo, pero tendremos que confiar en ellos (es decir, asumir que su infraestructura es realmente segura, que no actúan de mala fe y que no se aprovechan de los datos a los que tienen acceso) y además acatar sus restricciones.</p>
+<p>Si tenemos una conexión a internet doméstica en la que confiamos, podemos instalar nuestra VPN local. De este modo podremos salir a internet desde nuestra casa aunque estemos en cualquier otra parte del mundo.</p>
+<h4 id="qué-es-openvpn">¿Qué es OpenVPN?</h4>
+<p>Es una herramienta de software libre que <strong>habilita conexiones cifradas punto a punto</strong>, es decir, el túnel del que hemos hablado previamente. También soporta validación de usuarios remotos, de modo que sea necesario tener una cuenta con unas credenciales de acceso y no pueda usarla cualquiera.</p>
+<h4 id="qué-es-pivpn">¿Qué es PiVPN?</h4>
+<div style="float: right">
+<p><img src="https://blog.virgulilla.com/2018/luisddm-pivpn/pivpn_logo.png">
+</p>
+</div>
+<p>Es un asistente que nos permite <strong>instalar y configurar rápida y fácilmente una VPN usando <a href="https://openvpn.net/" target="_blank" rel="nofollow noreferrer">OpenVPN</a></strong>. Provee una interfaz basada en <a href="https://en.wikipedia.org/wiki/Ncurses" target="_blank" rel="nofollow noreferrer"><em>ncurses</em></a> que nos facilitará enormemente la vida y nos permitirá configurar todo en remoto mediante una sesión SSH.</p>
+<p><a href="http://www.pivpn.io/" target="_blank" rel="nofollow noreferrer"><strong>PiVPN</strong></a> <strong>está diseñado para sistemas operativos</strong> <a href="https://www.debian.org/" target="_blank" rel="nofollow noreferrer"><strong>Debian GNU/Linux</strong></a><strong>, y particularmente para</strong> <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="nofollow noreferrer"><strong>Raspbian</strong></a><strong>.</strong> Lo cual no significa que no sea posible instalar una VPN en otro tipo de sistemas, por ejemplo de tipo Arch, Slackware, RPM, etc., pero no lo podremos hacer con la facilidad que nos da PiVPN, porque deberíamos o bien modificar su código, o bien usar otras alternativas menos amigables, como configurar OpenVPN a mano tras instalarlo con el gestor de paquetes correspondiente.</p>
+<p>Todo lo que se va a hacer en este manual está probado en <strong>Raspbian Stretch (rev. junio 2018)</strong> y en <strong>Debian GNU/Linux 9 Stretch</strong>. No obstante, es muy probable que funcione en versiones más antiguas de ambos, e incluso en derivados como Ubuntu, pero no está garantizado.</p>
+<h3 id="1a-configuración-previa-red-doméstica">1a. Configuración previa (red doméstica)</h3>
+<p>Hay dos partes que tendremos que configurar: la propia Raspberry y el router. Partiremos de la base de que tenemos <strong>una Raspberry con una tarjeta SD vacía</strong>, así como <strong>un router doméstico con un firmware de</strong> <a href="https://openwrt.org/" target="_blank" rel="nofollow noreferrer"><strong>OpenWRT</strong></a> cuyos datos de acceso conocemos. Además, si queremos conectarnos de forma inalámbrica, necesitaremos que la Raspberry sea al menos una <em>Model 3</em> o añadirle un <a href="https://www.amazon.es/Edimax-EW-7811UN-Adaptador-Interfaz-negro/dp/B003MTTJOY/" target="_blank" rel="nofollow noreferrer">dongle WiFI por USB</a>.</p>
+<p>Sin embargo, instalar OpenWRT en el router es opcional. Antes de hacerlo, deberíamos <strong>estar seguros de la compatibilidad del modelo exacto que tenemos e informarnos de si nuestro ISP necesita aguna configuración específica</strong>. Podemos seguir adelante con el firmware propietario. La interfaz será algo distinta, aunque casi con total seguridad se podrá configurar igualmente.</p>
+<h4 id="raspberry">Raspberry</h4>
+<p>Tendremos que instalar y configurar <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="nofollow noreferrer"><strong>Raspbian</strong></a>, que es una versión adaptada de Debian GNU/Linux para arquitecturas ARM y optimizada para la Raspberry.</p>
+<p>Empezamos <strong>flasheando la imagen de Raspbian en nuestra tarjeta SD</strong> con <a href="https://etcher.io/" target="_blank" rel="nofollow noreferrer">Etcher</a> o cualquier otra aplicación similar. Como vamos a acceder únicamente mediante línea de comandos, es más que suficiente con la versión <em>lite</em>.</p>
+<p>Tras el flasheo, se habrán creado <strong>dos particiones en nuestra SD: <em>boot</em> y <em>rootfs</em></strong>. Extraemos la SD y la volvemos a introducir en nuestro ordenador para que ambas se monten automáticamente. Ahora vamos a editar algunos ficheros.</p>
+<p>Por defecto no podremos <a href="https://www.raspberrypi.org/documentation/remote-access/ssh/" target="_blank" rel="nofollow noreferrer">acceder a Raspbian por SSH</a>, pero este servicio quedará habilitado si <strong>creamos un archivo vacío llamado <em>ssh</em></strong> en la raíz de la partición <em>boot</em>. Este fichero se eliminará tras el primer arranque, pero la configuración se copiará y SSH ya quedará habilitado permanentemente.</p>
+<p>Otro archivo que debemos <strong>crear en la raíz de <em>boot</em> es <em>wpa_supplicant.conf</em></strong>, en el cual indicaremos la configuración de nuestra red WiFi, sustituyendo <code>MY_SSID</code> y <code>MY_PASSWORD</code> por nuestras credenciales. Este archivo también se borrará una vez que se lleve a cabo la conexión, ya que la configuración se copiará al sistema durante el primer arranque y ya no hará falta posteriormente. Si quisiéramos conectarnos más adelante a otra red diferente, tendríamos que crearlo de nuevo con una configuración actualizada.</p>
+<pre><code># wpa_supplicant.conf (boot)
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=es
+
+network={
+ ssid=&quot;MY_SSID&quot;
+ psk=&quot;MY_PASSWORD&quot;
+ key_mgmt=WPA-PSK
+}
+</code></pre><p>Si en lugar de conectar la Raspberry por WiFi preferimos hacerlo mediante Ethernet, nos saltamos este paso.</p>
+<p>Para poder conectarnos a la Raspberry dentro de nuestra red local vamos a tener que identificarla. Por defecto lo habitual será que <strong>el DHCP del router sea el encargado de asignarle una IP dinámica,</strong> que puede ser diferente en cada conexión. Pero necesitamos que sea <strong>estática</strong>, tanto para poder conectarnos a ella localmente como para que el router sepa a dónde apuntar el tráfico cuando accedamos desde fuera, como veremos más adelante.</p>
+<p><strong>Editamos el archivo <em>/etc/dhcpcd.conf</em> de la partición <em>rootfs</em></strong>. Como ejemplo, vamos a suponer que la conexión se hace por WiFi, que nuestra red local es la 192.168.1.0, que nuestra máscara de red es 255.255.255.0 y que nuestro router tiene la primera IP del rango, esto es, 192.168.1.1. Además, usaremos los <a href="https://cloudflare-dns.com/es-ES/" target="_blank" rel="nofollow noreferrer">DNS de Cloudfare</a>, aunque podemos usar también los de nuestro ISP.</p>
+<pre><code># /etc/dhcpcd.conf (rootfs)
+
+interface wlan0
+static ip_address=192.168.1.100/24
+static routers=192.168.1.1
+static domain_name_servers=1.1.1.1 1.0.0.1
+</code></pre><p>Si nos conectamos por Ethernet, la interfaz de red a configurar se llamará <code>eth0</code> en lugar de <code>wlan0</code>.</p>
+<p>Ahora extraemos la tarjeta SD del ordenador, la introducimos en la Raspberry y la arrancamos. Si todo ha ido bien, <strong>en un par de minutos estará arrancada y conectada a nuestra red local y podremos acceder a su línea de comandos</strong> haciendo un SSH a la IP estática que le hemos asignado.</p>
+<h4 id="router">Router</h4>
+<p>Normalmente vamos a tener un router en casa, el cual tendrá <strong>una única dirección IP pública y una red privada a la cual se conectan nuestros dispositivos**. Tendremos que habilitar el </strong><em>port forwarding</em>**<a href="https://es.wikipedia.org/wiki/Redirecci%C3%B3n_de_puertos" target="_blank" rel="nofollow noreferrer"></a>, de modo que cuando apuntemos desde fuera a un determinado puerto de nuestra IP pública, este tráfico en realidad sea redirigido a la Raspberry.</p>
+<p>En nuestro caso mapearemos el puerto <strong>UDP/1194</strong>, que es el que usará OpenVPN de forma predeterminada, y opcionalmente el puerto <strong>TCP/22</strong> si queremos acceder a nuestra Raspberry desde el exterior mediante SSH.</p>
+<p>Podemos establecer esta configuración mediante la interfaz web o accediendo por SSH y <a href="https://wiki.openwrt.org/doc/howto/port.forwarding" target="_blank" rel="nofollow noreferrer">editando un archivo</a>.</p>
+<figure>
+<p><img src="https://blog.virgulilla.com/2018/luisddm-pivpn/openwrt-port-forwards.png">
+</p>
+<figcaption>Esta configuración se encuentra en Network > Firewall > Port Forwards si usamos OpenWRT.</figcaption>
+</figure>
+<p>Por último hay que configurar el acceso externo. En una conexión doméstica es muy probable que <strong>nuestro ISP haya otorgado al router una IP pública dinámica</strong> que cambie cuando lo reiniciamos o de forma periódica. En este caso tendremos que hacer uso de algún <strong>servicio de DDNS (Dynamic DNS).</strong> En nuestro caso voy a recomendar <a href="https://freemyip.com" target="_blank" rel="nofollow noreferrer">freemyip.com,</a> tanto por facilidad de uso como por su privacidad (se hace en dos pasos y no requiere crear una cuenta de usuario).</p>
+<p>Para que funcione, <strong>deberemos</strong> <a href="https://freemyip.com/help" target="_blank" rel="nofollow noreferrer"><strong>informarle de forma periódica y automática</strong></a> <strong>de cuál es nuestra IP pública</strong>, normalmente mediante una petición HTTP GET. De este modo podremos seguir accediendo desde el exterior mediante un dominio de forma transparente, sin importarnos los posibles cambios. Este <em>polling</em> lo podremos hacer desde la Raspberry, añadiendo el comando al <em>cron</em> mediante <code>crontab -e</code>. Otra opción es que lo haga el propio router. Los que funcionan con OpenWRT permiten hacer esto mismo también desde la interfaz web.</p>
+<figure>
+<p><img src="https://blog.virgulilla.com/2018/luisddm-pivpn/openwrt-scheduled-tasks.png">
+</p>
+<figcaption>Configuración del crontab en System > Scheduled Tasks</figcaption>
+</figure>
+<p>Si tuviéramos un dominio propio, o un subdominio, podemos usarlo redirigiéndolo al dominio que hemos obtenido en el DDNS mediante un <a href="https://en.wikipedia.org/wiki/CNAME_record" target="_blank" rel="nofollow noreferrer">registro de tipo CNAME</a>.</p>
+<p>En cambio, <strong>si sabemos que nuestro ISP asigna al router una IP pública estática</strong>, no haría falta usar un DDNS. Directamente apuntamos nuestro dominio personal a dicha IP, o usamos la IP sin más.</p>
+<h3 id="1b-configuración-previa-vps">1b. Configuración previa (VPS)</h3>
+<p>Si no queremos tener una Raspberry permanentemente encendida en casa, podemos optar por un <strong>VPS (<em>Virtual Private Server</em>)</strong>, que es básicamente una máquina en la nube. Si elegimos esta opción, no vamos a tener que llevar a cabo toda la configuración de la Raspberry, ya que lo único que tendremos que hacer es <strong>instalar Debian GNU/Linux.</strong> Tampoco habrá que hacer nada de lo que hemos hecho con el router, ya que normalmente la IP de la máquina será pública y estática, podremos asignarle un DNS que no necesitaremos actualizar, y el puerto 22 estará seguramente abierto por defecto.</p>
+<p>La contrapartida es que el VPS no es gratuito, y ya <strong>no será una máquina que esté totalmente bajo nuestro control</strong>. Tendremos que informarnos de las particularidades del servicio contratado. Es decir, puede haber limitaciones de tráfico u otras restricciones de uso.</p>
+<p>Una opción barata, sencilla y que funciona bien para un uso personal es <a href="https://www.ovh.es/vps/" target="_blank" rel="nofollow noreferrer">OVH</a>.</p>
+<h3 id="2-instalación-de-pivpn">2. Instalación de PiVPN</h3>
+<p>Una vez establecida la conexión SSH con nuestra Raspberry o VPS, procedemos a <strong>instalar</strong> <a href="http://www.pivpn.io/" target="_blank" rel="nofollow noreferrer"><strong>PiVPN</strong></a>. Lo único que tendremos que hacer para empezar es ejecutar en línea de comandos:</p>
+<pre><code>$ curl -L https://install.pivpn.io | bash
+</code></pre><p>Y seguir los pasos:</p>
+<ul>
+<li>El asistente nos avisará de que necesitamos <strong>una IP estática</strong>, y nos ofrecerá establecerla si estamos en Raspbian. Como ya la hemos configurado, seguimos adelante con las opciones predeterminadas. También pedirá permiso para actualizar el sistema automáticamente y que seleccionemos el <strong>usuario que almacenará los perfiles</strong> que generaremos.</li>
+<li>Al llegar a la sección de protocolos, <strong>elegimos el UDP/1194</strong>, que es el que está establecido por defecto y que redirigimos previamente en el router.</li>
+<li>El siguiente paso es <strong>elegir la fortaleza del cifrado</strong>. La opción por defecto (2048-bit) es adecuada y suficiente. Hay que tener cuidado con la de 4096-bit, porque puede tardar muchísimo tiempo en generar las claves, especialmente en la Raspberry. De hecho, la de 2048-bit puede llegar tardar 10 o 15 minutos, así que hay que tener paciencia.</li>
+<li>Una vez generadas las claves, nos preguntará por el <strong>nombre de nuestro dominio o subdominio</strong> (que ya configuramos antes), y por los <strong>DNS</strong> que queremos usar.</li>
+</ul>
+<p>Con esto ya casi hemos terminado. Ahora solo queda <strong>generar perfiles de conexión</strong>, es decir, credenciales de acceso. Ejecutamos <code>pivpn add</code> e introducimos un nombre de usuario y una contraseña. Y ya tendremos nuestro primer fichero <em>ovpn</em> en el directorio personal del usuario que especificamos antes. Este archivo contiene todos los datos que necesitaremos para usar la VPN.</p>
+<h3 id="3-uso-de-la-vpn">3. Uso de la VPN</h3>
+<p>El primer paso será <strong>obtener el achivo <em>opvn</em> generado</strong>, cosa que podremos hacer conectándonos por SFTP a la Raspberry o el VPS. Después, establecer la conexión con la VPN es casi inmediato.</p>
+<h4 id="en-una-máquina-linux">En una máquina Linux</h4>
+<p>Instalamos OpenVPN mediante nuestro gestor de paquetes, tras lo cual introducimos en la línea de comandos:</p>
+<pre><code>sudo openvpn mi_archivo_de_config.ovpn
+</code></pre><p>Nos pedirá la contraseña con la que lo generamos y se conectará. Mientras esté en ejecución, estaremos saliendo a internet a través de nuestra VPN.</p>
+<p>También podemos efectuar la configuración importando el archivo desde la interfaz gráfica, pero esto depende del entorno que usemos (<a href="https://help.gnome.org/users/gnome-help/stable/net-vpn-connect.html.es" target="_blank" rel="nofollow noreferrer">GNOME</a>, <a href="https://askubuntu.com/questions/816641/kubuntu-16-04-plasma-5-connect-to-vpn#816824" target="_blank" rel="nofollow noreferrer">KDE</a>, <a href="https://www.my-private-network.co.uk/ubuntu-ssl-setup/" target="_blank" rel="nofollow noreferrer">Unity</a>…). En el panel de configuración de cada entorno suele haber un apartado de red donde se puede hacer esto.</p>
+<h4 id="en-un-móvil-android">En un móvil Android</h4>
+<p>Instalamos la aplicación <a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn" target="_blank" rel="nofollow noreferrer">OpenVPN Connect</a>. Importamos el archivo <em>ovpn</em> desde la app, introducimos la contraseña con la que lo generamos anteriormente, y nuestro móvil pasará a estar conectado a través de la VPN. Podemos verificarlo si aparece un icono de llave en la barra superior.</p>
+<figure>
+<p><img src="https://blog.virgulilla.com/2018/luisddm-pivpn/whats-my-ip.jpg">
+</p>
+<figcaption>Desde Android, saliendo a internet por algún punto de Francia (usando la VPN en el VPS)</figcaption>
+</figure>
+<hr />
+<h4 id="actualización-1">Actualización 1</h4>
+<p>Si en lugar de utilizar el puerto UDP/1194 usáramos el TCP/443, la VPN será más difícil de censurar, ya que el tráfico se podría confundir con el del protocolo HTTPS. En realidad <a href="https://www.bestvpn.com/guides/how-to-hide-openvpn-traffic-an-introduction/" target="_blank" rel="nofollow noreferrer">se pueden usar técnicas avanzadas para discernir estos dos tipos de tráfico</a>, pero censurar indiscriminadamente el TCP/443 supondría dejar sin acceso al usuario a una enorme parte de la web, que además crece día a día.</p>
+<hr />
+<h4 id="actualización-2">Actualización 2</h4>
+<p>Aunque en Android se ha recomendado usar la aplicación OpenVPN Connect, existe una alternativa llamada OpenVPN for Android (<a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn" target="_blank" rel="nofollow noreferrer">Google Play</a> y <a href="https://f-droid.org/packages/de.blinkt.openvpn/" target="_blank" rel="nofollow noreferrer">F-Droid</a> que es de código abierto, al contrario que la primera.</p>
+
+  </div>
+
+</main>
+
+  </div>
+
+  <div class="site-layout--footer">
+    <footer class="site-footer">
+  <div class="site-links">
+        <a
+  href="https://gitlab.com/Roboe"
+  class="site-links--item icon-gitlab"
+  target="_blank"
+  rel="me noopener noreferrer"
+><img src="/images/gitlab.svg"></a>
+
+        <a
+  href="https://github.com/Roboe"
+  class="site-links--item icon-github"
+  target="_blank"
+  rel="me noopener noreferrer"
+><img src="/images/github.svg"></a>
+
+        <a
+  href="https://mastodon.social/@RoboePi"
+  class="site-links--item icon-mastodon"
+  target="_blank"
+  rel="me noopener noreferrer"
+><img src="/images/mastodon.svg"></a>
+
+      <a
+  href="https://blog.virgulilla.com/feed.xml"
+  class="site-links--item icon-feed"
+  target="_blank"
+  rel="me noopener noreferrer"
+><img src="/images/feed.svg"></a>
+
+  </div>
+  <div class="site-info">
+    <p>Creado con <a href="https://gohugo.io/">Hugo</a>, desplegado con <a href="https://about.gitlab.com/features/gitlab-ci-cd/">GitLab CI</a> y alojado en una <a href="https://es.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi</a>.</p>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>

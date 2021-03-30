@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Cómo evitar que WhatsApp lea nuestros contactos en Lineage OS &middot; El blog de la ~virgulilla</title>
+
+  <!-- start SEO -->
+  <meta name="generator" content="Hugo 0.82.0" />
+
+  <!-- Schema.org -->
+  <meta itemprop="name" content="Cómo evitar que WhatsApp lea nuestros contactos en Lineage OS">
+<meta itemprop="description" content="El efecto red nos impide escapar de usar ciertas aplicaciones opacas, pero no tenemos por qué ceder ante sus inocentes prescripciones. Traduzco una guía aquí originada tras una pregunta que me dirigieron en el foro de Fairphone.
+">
+
+
+<meta itemprop="datePublished" content="2018-08-20T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-08-20T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1334">
+<meta itemprop="image" content="https://blog.virgulilla.com/images/logo.png">
+
+
+<meta itemprop="keywords" content="" />
+
+
+  <!-- OpenGraph -->
+  <meta property="og:title" content="Cómo evitar que WhatsApp lea nuestros contactos en Lineage OS" />
+<meta property="og:description" content="El efecto red nos impide escapar de usar ciertas aplicaciones opacas, pero no tenemos por qué ceder ante sus inocentes prescripciones. Traduzco una guía aquí originada tras una pregunta que me dirigieron en el foro de Fairphone.
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.virgulilla.com/2018/whatsapp-sin-contactos/" />
+<meta property="og:image" content="https://blog.virgulilla.com/images/logo.png" />
+<meta property="article:published_time" content="2018-08-20T00:00:00&#43;00:00"/>
+  <meta property="article:modified_time" content="2018-08-20T00:00:00&#43;00:00"/>
+
+
+<meta property="og:locale" content="es" />
+<meta property="og:site_name" content="El blog de la ~virgulilla" />
+
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://blog.virgulilla.com/images/logo.png"/>
+
+<meta name="twitter:title" content="Cómo evitar que WhatsApp lea nuestros contactos en Lineage OS"/>
+<meta name="twitter:description" content="El efecto red nos impide escapar de usar ciertas aplicaciones opacas, pero no tenemos por qué ceder ante sus inocentes prescripciones. Traduzco una guía aquí originada tras una pregunta que me dirigieron en el foro de Fairphone.
+"/>
+
+  <!-- end SEO -->
+
+  <link rel="stylesheet" href="/main.css">
+  <link rel="shortcut icon" href="/favicon.png" type="image/png">
+  
+  <link rel="alternate" type="application/atom&#43;xml" title="El blog de la ~virgulilla" href="https://blog.virgulilla.com/feed.xml">
+</head>
+
+
+<body class="site-layout">
+  <a class="skip-link screen-reader-text" href="#content">Saltar al contenido</a>
+
+  <div class="site-layout--header">
+    <header class="site-header">
+  <div class="site-header--branding site-branding">
+    
+      <p class="site-branding--title">
+        <a href="https://blog.virgulilla.com/" rel="home">El blog de la ~virgulilla</a>
+      </p>
+
+    <p class="site-branding--description">Crítica, filosofía y alfabetización digitales. La tecnología al servicio de la humanidad.</p>
+  </div>
+
+  
+</header>
+
+  </div>
+
+  <div id="content" class="site-layout--content">
+    
+<main class="content" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="content-header">
+    <h1 class="content-title" itemprop="name headline">
+  Cómo evitar que WhatsApp lea nuestros contactos en Lineage OS
+</h1>
+
+    <p class="content-meta">
+      Publicado el <time datetime="2018-08-20T00:00:00&#43;00:00" itemprop="datePublished">
+  20 de agosto de 2018
+</time>
+ por <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <span itemprop="name">Roboe</span>
+</span>
+
+      
+    </p>
+  </header>
+
+  <div class="content-body" itemprop="articleBody">
+    <p>Ayer me pidieron en el <a href="https://forum.fairphone.com/t/los-15-1-trust-privacy-guard-grant-contacts-permission-but-pass-empty-contacts-list/42339" target="_blank" rel="nofollow noreferrer">foro de Fairphone</a> que desarrollase un comentario que hice sobre cómo utilizo algunas aplicaciones privativas, cerradas y, normalmente, <a href="https://en.wikipedia.org/wiki/Surveillance_capitalism" target="_blank" rel="nofollow noreferrer">glotonas</a> con respecto a tu información personal. Afortunadamente solo utilizo un puñado de ellas, pero <a href="/2018/nl18-tinfoil/">cualquier protección es poca</a>.</p>
+<h2 id="introducción-a-los-permisos-de-android">Introducción a los permisos de Android</h2>
+<p>Primero, una pequeña introducción para entender esta característica y tener el modelo mental para poder utilizarla en nuestro beneficio.</p>
+<p>La <em>Protección de la privacidad</em> (<em>Privacy Guard</em>) data de los tiempos de CyanogenMod 4.4 Kitkat. Antes de Android 6 Marshmallow no se solicitaban permisos individuales por aplicación. El usuario concedía todos los permisos que una aplicación pedía en el momento de la instalación, o no la instalaba. Así que a la inteligente gente de CyanogenMod se le ocurrió que podía interceptar las peticiones que las aplicaciones dirigían al sistema y devolver datos falsos en lugar de los datos reales. Así, en vez de la lista de tus contactos, las aplicaciones recibirían una lista de contactos válida pero vacía, o en lugar de acceso a las cámaras del dispositivo, un mensaje de estado indicando que las cámaras estaban ocupadas por otra aplicación. De esa manera, las aplicaciones no fallarían, pero tampoco conseguirían información que el usuario no quiere que tengan.</p>
+<p>A partir de Android 6, los permisos de nivel «peligroso» ya no se conceden en el momento de la instalación, sino en tiempo de ejecución, pidiéndole permiso directamente al usuario. Las aplicaciones ahora deben pedirlos individualmente <em>en el momento en que los necesiten</em>, y el usuario tiene la opción de concederlos o denegarlos. Pero las aplicaciones pueden reaccionar a la denegación, y entonces actuar de distinta manera. Algunas aplicaciones se niegan a funcionar cuando les deniegas alguno de los permisos que piden —una mala práctica que se ha ido mitigando desde entonces—, mientras que otras consideran algunos permisos indispensables para su funcionamiento —obviamente, una aplicación de cámara necesita acceso a la cámara, pero una aplicación cliente de correo electrónico puede funcionar sin acceso a tus contactos, mientras el usuario esté dispuesto a escribir manualmente las direcciones de sus recipientes.</p>
+<p>Lineage OS es el sucesor de CyanogenMod, un sistema operativo Android alternativo y de código abierto para teléfonos móviles y tabletas. <em>Hereda</em> la funcionalidad de <em>Protección de la privacidad</em> de CyanogenMod.</p>
+<p><strong>Resumen:</strong> Antes de Marshmallow, no se podían conceder permisos granularmente en Android. A partir de Android 6 Marshmallow, la aplicación decide qué permisos son esenciales para su funcionamiento. Pueden, sin embargo, forzar al usuario a compartir datos que no son estrictamente necesarios.</p>
+<h2 id="el-caso-whatsapp">El caso: WhatsApp</h2>
+<p>WhatsApp, una aplicación de mensajería centralizada, de código cerrado, comprada por Facebook que incluso los defensores de la privacidad nos vemos obligados a utilizar en muchos casos (<em>gracias</em>, <a href="https://es.wikipedia.org/wiki/Efecto_de_red" target="_blank" rel="nofollow noreferrer">efecto red</a>, 😒). Como muchos de vosotros sabéis, esta aplicación utiliza los números de teléfono como identificadores de usuario, así que no tienes que compartir tu dirección <code>privacidadeslibertad@servicio.com</code> con alguien, <em>solamente</em> tu número, y la aplicación construye la dirección <code>&lt;prefijo_nacional&gt;&lt;número_teléfono&gt;@s.whatsapp.net</code> de forma transparente (yo diría opaca).</p>
+<p>El tema: la aplicación lee periódicamente <strong>tu lista de contactos</strong> y la guarda en sus servidores (la mal llamada «nube») para construir la sublista de personas que puedes contactar mediante su servicio. Naturalmente, pide el permiso de «leer contactos», y si se lo deniegas, se niega a funcionar. Pero el truco aquí es que <strong>puedes recibir perfectamente mensajes de otras personas</strong> sin ningún problema (la gente cuyo número no tienes guardado puede mensajearte si tienen el tuyo). ¡Privacy Guard al rescate!</p>
+<p><strong>Resumen:</strong> WhatsApp se niega a funcionar si le deniegas el permiso de «leer contactos». Nada impide a la aplicación recibir mensajes de otras personas ni a ti interactuar con la conversación cuando eso pasa, solo la propia reacción de la aplicación, enfurruñada, cuando le deniegas el permiso.</p>
+<h2 id="engañando-a-whatsapp-con-privacy-guard">Engañando a WhatsApp con Privacy Guard</h2>
+<p>El plan: darle el permiso de «leer contactos» a WhatsApp para que nos deje en paz, pero darle una lista de contactos vacía con Privacy Guard.</p>
+<p>Primero, asegúrate de tener la aplicación instalada. Después, activa Privacy Guard para la aplicación: ve a <code>Ajustes</code> → <code>Trust</code> → <code>Protección de la privacidad</code> → busca la aplicación en la lista y asegúrate de que el icono a la derecha está coloreado:</p>
+<p><img src="https://blog.virgulilla.com/2018/whatsapp-sin-contactos/privacy-guard-lista-whatsapp.jpg" alt="WhatsApp con Protección de la privacidad activada">
+</p>
+<p>Después, mantén pulsado la entrada de WhatsApp en la lista. Te llevará a las opciones de Protección de la privacidad para la aplicación. Después busca la opción «Leer contactos», tócala y selecciona «ignorar». A partir de ahora, el sistema mandará una lista vacía de contactos a la aplicación cuando pida contactos.</p>
+<p><img src="https://blog.virgulilla.com/2018/whatsapp-sin-contactos/privacy-guard-opciones-para-whatsapp.jpg" alt="Opciones de Protección de la privacidad para WhatsApp">
+</p>
+<p>La próxima vez que la aplicación pida leer tus contactos, concédele el permiso. No te preocupes, la Protección de la privacidad te cubre las espaldas. Este es el truco: la aplicación pensará que has compartido tu lista de contactos. Pero no lo habrás hecho, en realidad, 😏:</p>
+<p><img src="https://blog.virgulilla.com/2018/whatsapp-sin-contactos/whatsapp-lista-de-contactos-vacia.jpg" alt="WhatsApp enseñando la lista vacía de contactos">
+</p>
+<h2 id="desventajas">Desventajas</h2>
+<p>A partir de ahora, no verás los nombres de las personas en las conversaciones tal y como los tienes guardados en la agenda, sino solo sus números. Evita exponer tu lista de chats o una conversación abierta a cámaras u ojos ajenos para respetar la privacidad de tus contactos. <strong>La privacidad se construye sobre la confianza</strong>, y como cualquier otro enlace humano, es una <strong>responsabilidad compartida</strong>. Yo suelo utilizar <a href="https://f-droid.org/app/org.witness.sscphase1" target="_blank" rel="nofollow noreferrer">ObscuraCam</a> del Guardian Project cuando tengo que compartir algún pantallazo con datos personales (como mi lista de aplicaciones en los pantallazos de arriba).</p>
+<p>WhatsApp no listará tus contactos, por lo que no podrás abrir nuevas conversaciones. Si sigues leyendo, abajo encontrarás varias maneras de hacerlo.</p>
+<p>Por la misma razón, la pestaña de «Estados» no mostrará nada. Para mí es algo positivo porque considero que esa característica es intrusiva, molesta y absorbe tu atención contra tu voluntad.</p>
+<h3 id="advertencia-lo-que-descubrí-gracias-a-la-rgpd">Advertencia: lo que descubrí gracias a la RGPD</h3>
+<p>La Regulación General de Protección de Datos de la Unión Europea introdujo la obligación a las empresas de dar a los usuarios de un servicio que lo soliciten un informe con los datos personales que tengan sobre él. El primer día de aplicación, solicité a WhatsApp este informe y, aunque ya llevaba meses engañando a WhatsApp, <strong>no habían eliminado</strong> (lo que creo que era) <strong>la última lista de contactos</strong> que compartí con ellos.</p>
+<p>Así que, si ya has compartido tu lista de contactos con WhatsApp aunque sea una sola vez, solo conseguirás que no la <strong>actualicen</strong> (con nuevos contactos, números, nombres, etc.).</p>
+<p><strong>Tarea pendiente:</strong> solicitar a WhatsApp que eliminen permanentemente mi lista de contactos de sus servidores. Deberían hacerlo cumpliendo con la RGPD.</p>
+<h2 id="truco-pro-abrir-conversaciones-con-nuevos-números-de-teléfono">Truco pro: abrir conversaciones con nuevos números de teléfono</h2>
+<p>Como se ha explicado arriba, una vez que impides que WhatsApp lea tu agenda de contactos, puedes recibir mensajes de otras personas e interactuar con las conversaciones ya abiertas, pero no puedes abrir nuevas desde la propia aplicación. Esta sección describe una solución que descubrí para abrir nuevas conversaciones por número (bueno, podrías simplemente utilizar <a href="https://f-droid.org/app/me.shrimadhavuk.numselapp" target="_blank" rel="nofollow noreferrer">NoWhatOpen</a>, pero ¿qué diversión hay en eso?).</p>
+<p>Las aplicaciones pueden reaccionar a ciertos enlaces (<a href="https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme" target="_blank" rel="nofollow noreferrer">URL</a>) cuando interactúas con ellos. WhatsApp usa esto para muchas cosas; una de ellas es para esos enlaces &ldquo;Compartir mediante WhatsApp&rdquo; que habrás encontrado en noticias o artículos por la Web. Pero también pueden usarse para abrir una conversación con un número concreto. Cuando abres un enlace de la forma <code>https://api.whatsapp.com/send?phone=&lt;prefijo_nacional&gt;&lt;número_de_teléfono&gt;</code>, WhatsApp comprobará si ese número está registrado en su servicio y <strong>abrirá su conversación</strong>. Sencillo.</p>
+<p>La manera en que yo lo uso es con el <a href="https://f-droid.org/app/fr.neamar.kiss" target="_blank" rel="nofollow noreferrer">lanzador de aplicaciones KISS launcher</a>. KISS tiene una barra de búsqueda para contactos, aplicaciones, ajustes y para <strong>buscar directamente en la Web</strong>. Como hack, en <code>Ajustes de KISS</code> → <code>Selección de proveedores</code> → <code>Añadir proveedor de búsqueda</code>, puedes introducir <code>https://api.whatsapp.com/send?phone={q}</code> en el cuadro para la URL que buscaría en la Web, pero que provocará que WhatsApp abra esos enlaces. Una vez hecho esto, puedes escribir un teléfono en la barra de búsqueda (¡con el prefijo nacional!) para abrir directamente la conversación.</p>
+<p>Normalmente busco el nombre de mi contacto, mantengo pulsado para copiar su número, y lo pego de nuevo en la barra para «buscar en WhatsApp». 😉</p>
+<p>~Roboe
+</p>
+
+  </div>
+
+</main>
+
+  </div>
+
+  <div class="site-layout--footer">
+    <footer class="site-footer">
+  <div class="site-links">
+        <a
+  href="https://gitlab.com/Roboe"
+  class="site-links--item icon-gitlab"
+  target="_blank"
+  rel="me noopener noreferrer"
+><img src="/images/gitlab.svg"></a>
+
+        <a
+  href="https://github.com/Roboe"
+  class="site-links--item icon-github"
+  target="_blank"
+  rel="me noopener noreferrer"
+><img src="/images/github.svg"></a>
+
+        <a
+  href="https://mastodon.social/@RoboePi"
+  class="site-links--item icon-mastodon"
+  target="_blank"
+  rel="me noopener noreferrer"
+><img src="/images/mastodon.svg"></a>
+
+      <a
+  href="https://blog.virgulilla.com/feed.xml"
+  class="site-links--item icon-feed"
+  target="_blank"
+  rel="me noopener noreferrer"
+><img src="/images/feed.svg"></a>
+
+  </div>
+  <div class="site-info">
+    <p>Creado con <a href="https://gohugo.io/">Hugo</a>, desplegado con <a href="https://about.gitlab.com/features/gitlab-ci-cd/">GitLab CI</a> y alojado en una <a href="https://es.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi</a>.</p>
+  </div>
+</footer>
+
+  </div>
+</body>
+
+</html>

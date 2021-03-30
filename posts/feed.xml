@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">Entradas del blog - El blog de la ~virgulilla</title>
+  <subtitle type="html">Crítica, filosofía y alfabetización digitales. La tecnología al servicio de la humanidad.</subtitle>
+  <updated>2021-03-30T00:00:00+00:00</updated>
+  <id>https://blog.virgulilla.com/posts/</id>
+  <link rel="self" type="application/atom+xml" href="https://blog.virgulilla.com/posts/feed.xml" />
+  <link rel="alternate" type="text/html" hreflang="es" href="https://blog.virgulilla.com/posts/" />
+  <author>
+    <name>Roboe</name>
+    <uri>https://blog.virgulilla.com</uri>
+    <email>web@virgulilla.com</email>
+  </author>
+  <generator uri="https://gohugo.io/" version="0.82.0">Hugo</generator>
+  <entry>
+    <title>Instrucciones para interrumpirse durante una videollamada sin perder la compostura</title>
+    <link rel="alternate" type="text/html" href="https://blog.virgulilla.com/2021/cort%C3%A1zar-videollamadas/" />
+    <id>https://blog.virgulilla.com/2021/cort%C3%A1zar-videollamadas/</id>
+    <updated>2021-03-30T00:00:00+00:00</updated>
+    <published>2021-03-30T00:00:00+00:00</published>
+    <author>
+      <name>Roboe</name>
+      <uri>https://blog.virgulilla.com</uri>
+      <email>web@virgulilla.com</email>
+    </author>
+    <content type="html" xml:lang="es" xml:base="https://blog.virgulilla.com/2021/cort%C3%A1zar-videollamadas/"><![CDATA[<p>Hace aproximadamente un mes, mi compañera de trabajo Nora me dio a conocer unos <a href="https://theobjective.com/further/instrucciones-de-cortazar-para-recordar-llorar-y-cantar-sin-perder-la-compostura" title="Instrucciones de Cortázar para recordar, llorar y cantar sin perder la compostura | Further" target="_blank" rel="nofollow noreferrer">escritos de Julio Cortázar en forma de instrucciones</a> que describen e ilustran cómo realizar algunos actos cotidianos y automatizados sin perder la compostura. La idea tan sencilla y surrealista, unido a la excelente mano de Cortázar, me apasionó. Recomiendo leer <a href="https://theobjective.com/further/instrucciones-de-cortazar-para-recordar-llorar-y-cantar-sin-perder-la-compostura" title="Instrucciones de Cortázar para recordar, llorar y cantar sin perder la compostura | Further" target="_blank" rel="nofollow noreferrer">estos textos</a>, especialmente las instrucciones para dar cuerda a un reloj y las correspondientes para subir una escalera.</p>
+<p>Junto a esto, mi compañera tramaba una actividad entre los compañeros que quisieran apuntarse, a la que terminamos de dar forma. Consistía en exponer un par de temas, actos cotidianos de nuestro día a día, sobre los que escribir instrucciones que pondríamos en común durante una tarde en un pequeño coloquio. Decidimos proponer dos temas para esta primera sesión:</p>
+<ol>
+<li>Instrucciones para interrumpirse durante una videollamada y no perder la compostura.</li>
+<li>Instrucciones para encontrar la ventana del ordenador deseada (o pestaña del navegador) sin perder la compostura.</li>
+</ol>
+<p>Ese día fue el viernes pasado. Reconociendo su idea como la más original, me decidí a escribir sobre cómo interrumpirse durante una videollamada. Ella hizo lo contrario y escribió sobre la mía, «el baile de las ventanas», como yo lo denomino. La verdad es que fue una jornada muy entretenida y el coloquio versó sobre temas muy presentes en el día a día pero poco discutidos en general.</p>
+<p>Finalizaré esta entrada con las instrucciones que escribí:</p>
+<h2 id="instrucciones-para-interrumpirse-durante-una-videollamada-y-no-perder-la-compostura">Instrucciones para interrumpirse durante una videollamada y no perder la compostura</h2>
+<p>«Le están observando, pero no se alarme. Alce la vista y verá unos bustos encuadrados flotando. Si olvida por un momento la contradicción de que el espacio no lo es, descubrirá que los ojos de los bustos se dirigen debajo de su mentón o se mueven de un lado para otro. Evitan su mirada directa: le tienen miedo a usted. Sea caballeroso e impóngase.</p>
+<p>Inspire y quede atento a la vibración del aire. Cuando la voz que lo tañe encuentre un escalón, desplácela como un muchacho que aparta a otro para recoger una moneda del suelo. Acto seguido, titubee con el mayor rigor posible. Las voces se perseguirán unos instantes en la senda numérica. Si ha sido preciso en el titubeo, su voz enseñoreará el aire.</p>
+<p>Continúe hasta que encuentre un escalón.»</p>
+<p>~Roboe
+</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Dónde adquirir libros electrónicos sin DRM</title>
+    <link rel="alternate" type="text/html" href="https://blog.virgulilla.com/2020/libros-sin-drm/" />
+    <id>https://blog.virgulilla.com/2020/libros-sin-drm/</id>
+    <updated>2020-12-05T00:00:00+00:00</updated>
+    <published>2020-12-05T00:00:00+00:00</published>
+    <author>
+      <name>Roboe</name>
+      <uri>https://blog.virgulilla.com</uri>
+      <email>web@virgulilla.com</email>
+    </author>
+    <content type="html" xml:lang="es" xml:base="https://blog.virgulilla.com/2020/libros-sin-drm/"><![CDATA[<p>Ayer fue el <a href="https://www.defectivebydesign.org/dayagainstdrm" target="_blank" rel="nofollow noreferrer">Día internacional contra el DRM</a>, esa medida abusiva y defectuosa por diseño que limita nuestros bienes digitales a ser meros alquileres efímeros y es responsable de <a href="/2018/desmitificando-el-drm/">otras infamias que ya desarrollé en este mismo blog</a> hace dos años. Este año la campaña se centró en los servicios de televisión de pago como Netflix y el resto de plataformas del ramo.</p>
+<p>Sin embargo, no soy consumidor de ese tipo de contenido, así que no sabría qué aportar. Lo que sí soy es un amante de la lectura, así que quiero compartir, aunque sea un día más tarde, mi lista de tiendas o repositorios donde <strong>adquirir libros electrónicos en español</strong>, principalmente en el formato <code>ePub</code>. Para otros contenidos, hay varios recursos disponibles.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>También intercalaré alguna recomendación personal de lecturas, <strong>sin ningún tipo de enlace de afiliación</strong>.</p>
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#comprar-libros-sin-drm">Comprar libros sin DRM</a>
+      <ul>
+        <li><a href="#lektu">Lektu</a></li>
+        <li><a href="#ediciones-babylon">Ediciones Babylon</a></li>
+        <li><a href="#triskel-ediciones">Triskel Ediciones</a></li>
+        <li><a href="#leanpub">Leanpub</a></li>
+        <li><a href="#ediciones-tagus-casa-del-libro">Ediciones Tagus (Casa del libro)</a></li>
+      </ul>
+    </li>
+    <li><a href="#libros-gratis-sin-drm">Libros gratis sin DRM</a>
+      <ul>
+        <li><a href="#ganso-y-pulpo">Ganso y Pulpo</a></li>
+        <li><a href="#boe">BOE</a></li>
+        <li><a href="#openlibra">OpenLibra</a></li>
+        <li><a href="#elejandría">Elejandría</a></li>
+        <li><a href="#proyecto-gutenberg">Proyecto Gutenberg</a></li>
+        <li><a href="#editorial-csic-csic">Editorial CSIC (CSIC)</a></li>
+      </ul>
+    </li>
+    <li><a href="#en-otros-idiomas-y-otros-recursos">En otros idiomas y otros recursos</a></li>
+    <li><a href="#menciones-especiales">Menciones especiales</a></li>
+  </ul>
+</nav>
+
+<h2 id="comprar-libros-sin-drm">Comprar libros sin DRM</h2>
+<p>Es importante <strong>apoyar económicamente a los autores</strong>, por motivos obvios, y también a aquellos actores de mercado que mantienen una posición contra el dañino capitalismo cognitivo que representa el DRM.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<h3 id="lektu">Lektu</h3>
+<p><a href="https://lektu.com" target="_blank" rel="nofollow noreferrer">Lektu</a> es una librería digital cuyo <a href="https://lektu.com/ebooks-sin-drm" target="_blank" rel="nofollow noreferrer">principio irrenunciable</a> es vender libros sin DRM. Dispone de un <strong>fondo abrumador</strong> de títulos, puesto que sus fundadores son parte de la industria editorial:</p>
+<figure>
+<blockquote>
+<p>Un equipo formado por internautas, autores, editores y libreros. Aunque podemos destacar unos cuantos nombres: Farid Fleifel, antiguo CTO de Amazon BuyVIP; Alejo Cuervo, responsable de Gigamesh (editorial española de ciencia ficción); David Fernández, fundador y gestor de la librería online Cyberdark.net, y Cristina Macía, con gran experiencia en traducción y coordinación de ediciones.</p>
+</blockquote>
+<footer>
+<p>(Fuente: <a href="https://www.genbeta.com/multimedia/nace-lektu-plataforma-de-venta-de-ebooks-sin-drm" target="_blank" rel="nofollow noreferrer">Genbeta</a>)</p>
+</footer>
+</figure>
+<p>En Lektu encontré todos los títulos de una de mis sagas preferidas de ciencia ficción, la saga de Ender, que empieza por <a href="https://lektu.com/l/b-de-books/el-juego-de-ender-edicion-30-aniversario/6932" target="_blank" rel="nofollow noreferrer"><em>El juego de Ender</em></a>. Si ya has leído el primer libro o la saga entera, recomiendo la saga paralela narrada desde los ojos de Bean, que empieza por <a href="https://lektu.com/l/b-de-books/la-sombra-de-ender/5399" target="_blank" rel="nofollow noreferrer"><em>La sombra de Ender</em></a>. Y si eres fan de Jane, la inteligencia artificial distribuída con consciencia plena, te interesará <a href="https://lektu.com/l/b-de-books/primeros-encuentros/3157" target="_blank" rel="nofollow noreferrer"><em>Primeros encuentros</em></a>.</p>
+<h3 id="ediciones-babylon">Ediciones Babylon</h3>
+<p>La valenciana <a href="https://tienda.edicionesbabylon.es/" target="_blank" rel="nofollow noreferrer">Ediciones Babylon</a> apuesta por <strong>obras originales</strong> en diversos estilos y formatos. En su tienda en línea puedes encontrar libros electrónicos sin protección DRM, puesto que <a href="https://tienda.edicionesbabylon.es/es/content/10-publicaciones-electronicas" target="_blank" rel="nofollow noreferrer">mantienen la opinión</a> de que «la mejor manera de llegar al lector es por medio de libros electrónicos de calidad, fáciles de usar y a bajo coste, sin impedimentos adicionales».</p>
+<h3 id="triskel-ediciones">Triskel Ediciones</h3>
+<p><a href="http://triskelediciones.es/" target="_blank" rel="nofollow noreferrer">Triskel Ediciones</a> es una refrescante editorial independiente sevillana que presume de <a href="http://triskelediciones.es/quienes-somos.html" target="_blank" rel="nofollow noreferrer">respetar tanto al lector como al escritor</a> y ofrece <strong>nuevos títulos</strong> sin DRM de ciencia ficción y fantasía (colección Átropos), narrativa (colección Cloto) y escritos de índole social (colección Láquesis), además de una interesante labor de recuperación de <strong>obras ya descatalogadas</strong>. Los precios de los libros electrónicos no superan los 4 €.</p>
+<h3 id="leanpub">Leanpub</h3>
+<p><a href="https://leanpub.com/" target="_blank" rel="nofollow noreferrer">Leanpub</a> es una plataforma de autopublicación que adapta la tradición de <a href="http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/ar01s04.html" target="_blank" rel="nofollow noreferrer">«publica precozmente, publica frecuentemente y escucha a tus clientes»</a> del <em>software</em> abierto a la publicación de manuales de programación y desarrollo informático, a lo que llaman <a href="https://leanpub.com/lean/read" target="_blank" rel="nofollow noreferrer"><em>lean publishing</em></a>. Su catálogo reluce con los títulos en inglés, pero tienen <a href="https://leanpub.com/bookstore?type=book&amp;language=spa" target="_blank" rel="nofollow noreferrer">gran variedad en español</a>, también. Los precios cuentan con cierta flexibilidad acorde a su modelo iterativo: es ajustable por el cliente, con precio recomendado y un precio mínimo (a veces, gratis).</p>
+<h3 id="ediciones-tagus-casa-del-libro">Ediciones Tagus (Casa del libro)</h3>
+<p>Aunque la tienda en línea de la Casa del libro y sus lectores electrónicos fomentan los libros con DRM, su editorial para autores noveles Ediciones Tagus cuenta con un <a href="https://www.casadellibro.com/selloEditorial" target="_blank" rel="nofollow noreferrer">sello editorial</a> con <strong>algunos</strong> libros en ePub sin DRM. Ten cautela y comprueba siempre antes de adquirir un ejemplar que el texto «EPUB sin DRM» figura en alguna parte de la ficha.</p>
+<h2 id="libros-gratis-sin-drm">Libros gratis sin DRM</h2>
+<p>Por la naturaleza de Internet y gracias también al dominio público —la <a href="/copyleft-parte-1/#duraci%c3%b3n-y-dominio-p%c3%balico">forma jurídica del procomún</a>—, también contamos con un gran número de recursos donde encontrar libros electrónicos gratuítos legalmente.</p>
+<h3 id="ganso-y-pulpo">Ganso y Pulpo</h3>
+<p><a href="http://gansoypulpo.com/" target="_blank" rel="nofollow noreferrer">Ganso y Pulpo</a> es un precioso y pulcro proyecto editorial barcelonés, independiente y sin ánimo de lucro, que <strong>da esplendor al dominio público</strong> español y reedita en <code>ePub</code> literatura difícil de encontrar (por descatalogación, olvido o poca difusión). La mayoría de sus títulos son relatos y folletines recogidos de la hemeroteca española.</p>
+<p>Recomiendo uno de los fantásticos relatos cortos, <a href="https://gansoypulpo.com/autor/ortega-munilla/nb0107-el-guardagujas/" target="_blank" rel="nofollow noreferrer"><em>El guardagujas</em></a>, de José Ortega Munilla, padre de José Ortega y Gasset. Me absorbió desde los primeros párrafos y la historia me resultó sobrecogedora. Dejo una cita imperecedera, de esas aplicables a muchos asuntos, también al que nos atañe en esta entrada de hoy:</p>
+<figure>
+<blockquote>
+<p>También tiene la civilización sus esclavos. A las servidumbres de la tiranía han sucedido las servidumbres de la libertad.</p>
+</blockquote>
+</figure>
+<h3 id="boe">BOE</h3>
+<p>La <a href="https://www.boe.es/" target="_blank" rel="nofollow noreferrer">Agencia Estatal Boletín Oficial del Estado</a> español publica todas las leyes, normas, códigos y otros documentos oficiales en <code>ePub</code> sin DRM en su web, además de en <code>PDF</code>. Es una diferencia con respecto a su hermano mayor europeo, <a href="https://eur-lex.europa.eu/" target="_blank" rel="nofollow noreferrer">EUR-Lex</a>, donde solo se publica en <code>PDF</code> y <code>HTML</code> (aunque también sin DRM).</p>
+<p>Una enriquecedora lectura, por todo el trasfondo histórico, son las siete páginas del preámbulo de la <a href="https://www.boe.es/eli/es/lo/2018/12/05/3/con" target="_blank" rel="nofollow noreferrer">Ley orgánica de protección de datos personales y garantía de derechos digitales (LOPD-gdd)</a>.</p>
+<h3 id="openlibra">OpenLibra</h3>
+<p><a href="https://openlibra.com/es/" target="_blank" rel="nofollow noreferrer">OpenLibra</a> es un proyecto personal de Carlos Benítez. Se trata de un catálogo de libros, novelas, ensayos y manuales <strong>de difusión libre</strong>, todos bajo licencias de cultura libre. La mayoría, si no todos, están en formato <code>PDF</code>, pero he considerado relevante incluírlos en esta lista por el tipo de contenido. Especializado en programación e informática, también tiene un interesante fondo de filosofía, novelas, cómics, música y educación, por ejemplo.</p>
+<p>Aunque puedes descargar todos los títulos de manera gratuíta, si te lo puedes permitir, dona para mantener la infraestructura nada barata y su firme compromiso de no publicidad.</p>
+<h3 id="elejandría">Elejandría</h3>
+<p><a href="https://www.elejandria.com/" target="_blank" rel="nofollow noreferrer">Elejandría</a> es un portal para descargar libros del domino público español o con licencias abiertas. Con el nombre inspirado en la prestigiosa <a href="https://es.wikipedia.org/wiki/Biblioteca_de_Alejandr%c3%ada" target="_blank" rel="nofollow noreferrer">Biblioteca de Alejandría</a>, la información sobre el proyecto es escueta y sus autores se presentan bajo el seudónimo de personajes clásicos.</p>
+<p>En Elejandría cuentan, por ejemplo, con la primera novela de Sherlock Holmes, <a href="https://www.elejandria.com/libro/estudio-en-escarlata/conan-doyle-arthur/112" target="_blank" rel="nofollow noreferrer"><em>Estudio en escarlata</em></a>, o una de las novelas más célebres de Hermann Hesse, <a href="https://www.elejandria.com/libro/el-lobo-estepario/hesse-herman/72" target="_blank" rel="nofollow noreferrer"><em>El lobo estepario</em></a>.</p>
+<h3 id="proyecto-gutenberg">Proyecto Gutenberg</h3>
+<p>El <a href="https://www.gutenberg.org/" target="_blank" rel="nofollow noreferrer">proyecto Gutenberg</a> se dedica a digitalizar libros de <strong>dominio público</strong> en varios lenguajes. La fundación del proyecto data de antes de la creación de Internet, y quizá es un proyecto visionario que supo que la tecnología digital sería la próxima revolución editorial después de la imprenta de Gutenberg. La página no está en español, pero cuenta con un amplio <a href="https://www.gutenberg.org/browse/languages/es" target="_blank" rel="nofollow noreferrer">catálogo de obras en castellano</a>.</p>
+<p>No se trata de una lectura en español, pero una de mis últimas lecturas del proyecto Gutenberg ha sido el relato <a href="http://www.gutenberg.org/ebooks/19362" target="_blank" rel="nofollow noreferrer"><em>In the Year 2889</em></a>, aparentemente escrito por Michel Verne sobre ideas de su padre Jules Verne. Se trata de una ristra de previsiones de inventos, muchos de los cuales ya se han conseguido (¿te suena el <em>telefoto</em>? ¿Has tenido algún encuentro <em>fonotelefótico</em>? Suena a tiempos de la COVID) y otros que, afortunadamente, solo se han conseguido mediante <a href="https://maldita.es/malditatecnologia/2020/03/23/que-es-la-nube/" target="_blank" rel="nofollow noreferrer">metáforas del <em>marketing</em></a>, como los anuncios proyectados en las nubes.</p>
+<h3 id="editorial-csic-csic">Editorial CSIC (CSIC)</h3>
+<p>La editorial del Consejo Superior de Investigaciones Científicas, el mayor <strong>organismo público de investigación</strong> en España, tiene una <a href="http://libros.csic.es/freebooks.php" target="_blank" rel="nofollow noreferrer">sección en su web con libros electrónicos gratuítos</a>. La mayoría, si no todos, están en formato <code>PDF</code>, pero he considerado relevante incluírlos en esta lista por el tipo de contenido. Son materiales divulgativos, partituras musicales y otras publicaciones científicas con alto rigor. Los últimos títulos disponibles han sido publicados este mismo año 2020.</p>
+<p>Aunque la editorial tiene libros electrónicos de pago, los distribuyen mediante terceros y la disponibilidad sin DRM no figura explícita.</p>
+<p>Revisando este recurso, me ha atrapado la lectura de <a href="http://libros.csic.es/product_info.php?products_id=1308" target="_blank" rel="nofollow noreferrer"><em>La mano invisible: confesiones de un corrector iconoclasta</em></a> y casi me lo leo entero. Seguramente no sea la lectura más popular, pero esta recomendación es —esta también— personal. Y, de paso, para redmirme por incluír <code>PDF</code> en esta lista, el tamaño de página escogido se lee bastante bien en un lector electrónico de seis pulgadas, aunque no sea un <code>ePub</code>.</p>
+<h2 id="en-otros-idiomas-y-otros-recursos">En otros idiomas y otros recursos</h2>
+<p><a href="https://www.libreture.com/" target="_blank" rel="nofollow noreferrer">Libreture</a> es una interesante plataforma y comunidad donde puedes alojar tus libros sin DRM. Además, mantiene una <a href="https://www.libreture.com/bookshops/" target="_blank" rel="nofollow noreferrer">lista actualizada de librerías, editoriales y autores</a> que venden libros electrónicos sin DRM. Aunque la mayoría son en inglés y en otros idiomas, merece la pena echarle un vistazo cada vez que quieras adquirir un nuevo libro, porque es completísima. Gracias a esta lista, supe que la editorial de <a href="https://www.mhpbooks.com/books/how-to-do-nothing/" target="_blank" rel="nofollow noreferrer"><em>How to Do Nothing: Resisting the Attention Economy</em></a> publica sin DRM, aunque no lo explicite en su web, así que lo adquirí.</p>
+<p><a href="https://www.smashwords.com/" target="_blank" rel="nofollow noreferrer">Smashwords</a> es una plataforma de autopublicación con títulos en una gran variedad de idiomas, también en español. Lo apunto aquí y no en su sección propia porque su página no tiene la capacidad de filtrar por idioma.</p>
+<p><a href="https://www.humblebundle.com/books/" target="_blank" rel="nofollow noreferrer">Humble Book Bundle</a> es una serie de paquetes de libros de Humble Bundle, una tienda peculiar con un modelo parcialmente benéfico. Cuentan con al menos dos <em>bundles</em> o lotes de libros activos por los que puedes pagar lo que quieras (mínimo 1 €) y ajustar qué porcentaje de ese monto se dona a la ONG seleccionada para el caso. Los libros son solo en inglés y centrados en diversas temáticas: desde manuales técnicos de seguridad informática, pasando por libros de juegos de rol o RPG, finanzas hasta activismo feminista o LGTB.</p>
+<p>La guía de la campaña <em>Defective by Design</em> de la <em>Free Software Foundation</em> también tiene un <a href="https://www.defectivebydesign.org/guide/ebooks" target="_blank" rel="nofollow noreferrer">apartado dedicado a la literatura sin DRM</a> donde, además, incluye plataformas de autopublicación, cómics y novelas gráficas.</p>
+<h2 id="menciones-especiales">Menciones especiales</h2>
+<p>El mundo editorial es difícil y no todos los proyectos salen adelante. Aunque estas editoriales que apostaron por libros sin DRM ya no existen, su honrosa decisión tecnológica fue fundamental para salvar los libros que sus clientes compraron, así que aquí va un pequeño homenaje:</p>
+<ul>
+<li>A <a href="https://web.archive.org/web/20150214044211/http://www.librosinlibro.es/lsl_quienes.php" target="_blank" rel="nofollow noreferrer">Librosinlibro</a>, que aparentemente fue la primera agrupación de editoriales que tomó la decisión de vender libros sin DRM. Lleva sin actividad desde mayo de 2015, según las capturas web de The Wayback Machine.</li>
+<li>A la madrileña Fata Libelli, editorial de literatura fantástica y ciencia ficción y blog sobre literatura de género. <a href="https://web.archive.org/web/20180826220711/http://fatalibelli.com/blog/2017/12/01/fata-libelli-ahora-o-nunca/" target="_blank" rel="nofollow noreferrer">Cerró a finales de 2017</a>.</li>
+<li>A Sinerrata, editorial exclusivamente digital con enfoque en la novela negra. También <a href="https://sinerrata.blogspot.com/2017/12/sinerrata-se-despide.html" target="_blank" rel="nofollow noreferrer">cerró a finales de 2017</a>.</li>
+</ul>
+<p>¡Por la preservación eterna de la lectura!</p>
+<p>~Roboe
+</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Para otros contenidos sin DRM, como videojuegos, música y vídeo, puedes consultar guías como <a href="https://fckdrm.es/" target="_blank" rel="nofollow noreferrer">FCK DRM</a> (en español, catalán, euskera y gallego), <a href="https://www.defectivebydesign.org/guide" target="_blank" rel="nofollow noreferrer">la guía de Defective by Design</a> (en inglés) o <a href="https://switching.software/" target="_blank" rel="nofollow noreferrer">switching.software</a> (en inglés; consulta <a href="https://switching.software/replace/steam/" target="_blank" rel="nofollow noreferrer">alternativas a Steam</a> para videojuegos). Por ejemplo, yo tengo una decena de videojuegos de GOG.com e Itch.io que sé que siempre podré volver a disfrutar como quiera. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Puedes leer sobre el origen honesto de los derechos de autor <a href="/copyleft-parte-1/#derechos-de-autor">en la serie de artículos previa a mi trabajo de fin de carrera</a> y ver una rápida comparativa con la propiedad intelectual <a href="/slides/preservation-digital-culture/#slide=7">en esta charla que di sobre preservación de la cultura digital</a>. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <title>K4mpKrusty 2020: Ⅴ edición, online</title>
+    <link rel="alternate" type="text/html" href="https://blog.virgulilla.com/2020/k4mpkrusty-v/" />
+    <id>https://blog.virgulilla.com/2020/k4mpkrusty-v/</id>
+    <updated>2020-10-23T00:00:00+00:00</updated>
+    <published>2020-10-25T00:00:00+00:00</published>
+    <author>
+      <name>Roboe</name>
+      <uri>https://blog.virgulilla.com</uri>
+      <email>web@virgulilla.com</email>
+    </author>
+    <content type="html" xml:lang="es" xml:base="https://blog.virgulilla.com/2020/k4mpkrusty-v/"><![CDATA[<p>¡Lo volvimos a hacer! Pese a las vicisitudes sanitarias que atraviesa el mundo en estos momentos, el fin de semana pasado, la comunidad de <a href="http://h4ckademy.com" target="_blank" rel="nofollow noreferrer">h4ckademy</a> nos volvimos a reunir en <a href="/2019/k4mpkrusty-iv/">nuestro particular y aproximadamente anual K4mpamento Krusty</a>, una conferencia privada e informal para compartir conocimiento y experiencias personales. Solo que con la <em>pequeña</em> diferencia de que, esta vez, no compartimos el espacio físico.</p>
+<div style="text-align: center">
+<p><img src="https://blog.virgulilla.com/2020/k4mpkrusty-v/k4mpkrusty-logo.png" alt="Logo del K4mpamento Krusty">
+</p>
+</div>
+<h2 id="el-k4mpamento-edición-virtual">El k4mpamento, edición virtual</h2>
+<p>Originalmente planeado para el tercer fin de semana de septiembre de este año de crisis sanitaria mundial, lo cancelamos tácitamente, por corresponsabilidad, según se aproximó la fecha.</p>
+<p>Pero eso no nos quitaba las ganas de nuestro encuentro anual: como muchos otros simposios públicos, aunque a nuestra humilde escala, decidimos cambiar el formato a la videoconferencia. <strong>Isra</strong> puso una propuesta encima de la mesa: sesión de charlas reducidas a 10 minutos + 5 extra de preguntas y un rato de juego compartido; en total, cuatro horas con descansos.</p>
+<p>Él mismo se encargó de buscar la herramienta de videoconferencia, acordar una nueva fecha y coordinarnos (¡gracias mil, crack!). Y, listos y con los participantes enrolados, empezamos a adaptar las charlas que teníamos previstas o a preparar nuevos temas conformes a la limitación de tiempo.</p>
+<h2 id="las-charlas">Las charlas</h2>
+<p>A las 10h de la mañana, y no sin los problemas ocasionales de conexión,<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> empezamos la sesión de charlas:</p>
+<ol>
+<li>
+<p><a href="https://twitter.com/jameshedaweng" target="_blank" rel="nofollow noreferrer"><strong>James Heda Weng</strong></a> arrancó con algo que quizá solo él puede hacer: hablar de comida a primera hora de la mañana; en concreto, de comida china. Nos introdujo a la gastronomía casera tradicional del tercer país más extenso del planeta y nos desveló el ingrediente para que cualquier comida huela a china: el aceite de sésamo.</p>
+</li>
+<li>
+<p><a href="https://www.israelgutierrez.es" target="_blank" rel="nofollow noreferrer"><strong>Israel Gutiérrez</strong></a>, en su charla «Diferencias culturales», trató la comunicación efectiva en ambientes laborales interculturales. Siguiendo lo expuesto en <a href="https://erinmeyer.com/books/the-culture-map/" target="_blank" rel="nofollow noreferrer"><em>The Culture Map</em></a>, situó diferentes culturas actuales en varios ejes de la comunicación: el contexto —explícito o implícito—, las valoraciones negativas —directas o indirectas— y la toma de decisiones —concluyentes o flexibles—. Terminó con una pregunta abierta: ¿hasta qué punto son estereotipos?</p>
+</li>
+<li>
+<p>En mi charla «El tiempo de otros tiempos: un incompleto paseo por el paso temporal», hablé de la concepción histórico-filosófica del tiempo, un tema multidisciplinar y apasionante. Partí de los orígenes de la horología en la prehistoria y pasé por la rica Antigüedad clásica y por la concepción física del tiempo de Newton hasta llegar al frenetismo occidental iniciado con la Revolución Industrial. Para finalizar, un canto a la <em>temperantia</em> —o templanza— en estos tiempos de la Economía de la atención.</p>
+</li>
+<li>
+<p><a href="https://github.com/Afsoon" target="_blank" rel="nofollow noreferrer"><strong>Said Atrahouch</strong></a> nos ilustró con su «Rantchain», una sucesión de comentarios y críticas sociales vagamente conectadas sobre los prejuicios raciales y culturales, la ignorancia generalizada con respecto a temas de identidad de género y sexual, algunos mitos de salud sexual y la falacia de considerarse clase media cuando se es, en realidad, clase obrera.</p>
+</li>
+</ol>
+<p>Tras un descanso de 15 minutos para airearnos de la inmersión de la telepresencia audiovisual e ir al baño, volvimos con más:</p>
+<ol start="5">
+<li>
+<p><a href="https://twitter.com/dani_baena" target="_blank" rel="nofollow noreferrer"><strong>Daniel Baena</strong></a> nos habló en su charla <a href="daniel-baena_mc-escher-intuitivamente-racional_2020.odp">«M. C. Escher: intuitivamente racional»</a> de la vida y la estética del arte de <a href="https://es.wikipedia.org/wiki/M._C._Escher" target="_blank" rel="nofollow noreferrer">M. C. Escher</a>. Genio de intuición matemática —su inconclusa obra <em>Print Gallery</em> fue acabada por un matemático en 2003—, sintió verdadera fascinación por las teselas de la Alhambra de Granada, y sus conocidos <a href="https://en.wikipedia.org/wiki/Relativity_%28M._C._Escher%29" target="_blank" rel="nofollow noreferrer">espacios paradójicos</a> se referencian con abundancia en cine o series de TV y sirven de inspiración a videojuegos. Para saber más, nos dejó esta joya de libro: <a href="https://es.wikipedia.org/wiki/G%c3%b6del,_Escher,_Bach:_un_Eterno_y_Gr%c3%a1cil_Bucle" target="_blank" rel="nofollow noreferrer"><em>Gödel, Escher, Bach</em></a>.</p>
+</li>
+<li>
+<p><a href="http://soyguijarro.com" target="_blank" rel="nofollow noreferrer"><strong>Ramón Guijarro</strong></a>, nuestro ponente internacional, nos relató la extenuante experiencia que tienen los extranjeros residentes en España a la hora de pedir citas a la Administración. En su charla «Cita as a Service», comprueba de primera mano si la automatización de los procesos burocráticos oficiales —largos, incómodos y absurdamente informatizados— pudiera ser una solución para salvar del <em>banóptico</em> tecnológico.</p>
+</li>
+<li>
+<p><a href="https://github.com/alvarocaste" target="_blank" rel="nofollow noreferrer"><strong>Álvaro Castellanos</strong></a> finalizó la sesión de charlas mostrándonos el proceso de decisión, adquisición y ensamblado de su <a href="https://www.ergodox.io/" target="_blank" rel="nofollow noreferrer">teclado ErgoDox programable y <em>open source</em></a>. Nos aconsejó sobre cómo conseguir componentes más económicos o reemplazos equivalentes para manualidades electrónicas y apostilló una necesaria reflexión sobre la ergonomía en los trabajos con ordenadores.</p>
+</li>
+</ol>
+<p>La charla de Álvaro dio paso de manera orgánica a una muy <strong>agradable cháchara</strong> y profundización sobre los temas que habíamos tratado desde la mañana y otros tangenciales que surgieron a partir de ellos, además de algunas actualizaciones personales, como en cualquier reunión de amigos. Debido a esto, decidimos aplazar la sesión lúdica planeada a otro día.</p>
+<p>Mención especial a Agus y Luis, que se enrolaron al principio pero finalmente no pudieron unirse por diversas circunstancias.</p>
+<p>El formato reducido de charlas resultó muy gratificante. De hecho, convenimos en proponer acortar el tiempo de las charlas de las próximas ediciones para hacerlas más dinámicas y favorecer la conversación. Aunque con el anuncio de un nuevo estado de alarma en España esta misma mañana, es posible que el próximo también tenga que ser virtual.</p>
+<p>En cualquier caso, esta experiencia nos demuestra que podremos hacerlo en cualquiera de las condiciones que se presenten, ;)</p>
+<p>¡El año que viene más!</p>
+<p>~Roboe
+</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Si los errores en los códices de los escribas los introducía el duendecillo <a href="https://es.wikipedia.org/wiki/Titivillus" target="_blank" rel="nofollow noreferrer">Titivillus</a> y los aviones durante la Segunda Guerra Mundial los saboteaban los folclóricos <a href="https://es.wikipedia.org/wiki/Gremlin" target="_blank" rel="nofollow noreferrer">gremlins</a> (que no son las horrendas criaturas de la película homónima), ¿cuál es la criatura que se mete en las videoconferencias y hace fallar la conexión, la cámara o el micrófono? 🤔 <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Dos semanas después de mi salida de WhatsApp</title>
+    <link rel="alternate" type="text/html" href="https://blog.virgulilla.com/2020/dos-semanas-sin-whatsapp/" />
+    <id>https://blog.virgulilla.com/2020/dos-semanas-sin-whatsapp/</id>
+    <updated>2020-09-14T00:00:00+00:00</updated>
+    <published>2020-09-14T00:00:00+00:00</published>
+    <author>
+      <name>Roboe</name>
+      <uri>https://blog.virgulilla.com</uri>
+      <email>web@virgulilla.com</email>
+    </author>
+    <content type="html" xml:lang="es" xml:base="https://blog.virgulilla.com/2020/dos-semanas-sin-whatsapp/"><![CDATA[<p>Hoy se cumplen dos semanas de mi <a href="/2020/%C3%BAltimo-whatsapp/">salida de WhatsApp</a>. El mensaje que mandé a mis contactos tuvo que tener la extensión justa, para no parecer un arrebato irreflexivo ni tampoco una disertación insolícita. Aprovecho esta entrada para ahondar un poco más en los precedentes y las ideas del último mensaje y relatar mi experiencia personal desde la desconexión.</p>
+<h2 id="los-hombros-de-mis-gigantes">Los hombros de mis gigantes</h2>
+<p>No hubiera podido tomar esta decisión vital si no hubiera tenido referentes de personas que, de una manera u otra, han combatido los problemas de WhatsApp durante sus vidas.</p>
+<p>Por una parte, están las personas que directamente decidieron borrarse de esta red:</p>
+<ul>
+<li>Mi íntima amiga E. decidió salir hace unos seis años, poco antes de entrar en la universidad y en contacto con muchos distintos grupos de personas. Su experiencia fue más leve, aunque igualmente liberadora.</li>
+<li><a href="https://nico.dorfbrunnen.eu" target="_blank" rel="nofollow noreferrer">Nico Alt</a> lo hizo hace cinco años; sin embargo, sintió un fuerte <a href="https://es.wikipedia.org/wiki/S%c3%adndrome_FOMO" target="_blank" rel="nofollow noreferrer">síndrome FOMO</a> que hoy siente orgullo de haber superado. Nico optó por mensajería descentralizada como XMPP, Matrix y Briar. Ahora <a href="https://nico.dorfbrunnen.eu/tags/briar/" target="_blank" rel="nofollow noreferrer">es desarrollador oficial</a> de la maravillosa aplicación <a href="https://briarproject.org/" target="_blank" rel="nofollow noreferrer">Briar</a>.</li>
+<li>El o la desarrolladora de aplicaciones Webierta, que en su página expone cómo envió su último mensaje y sus razones de soberanía tecnológica. Recomiendo leerlo, porque en un corto texto hace una comparación certera entre las redes de mensajería y la red de móvil y expone un modelo de comunicación similar al correo-e: <a href="https://webierta.github.io/">https://webierta.github.io/</a></li>
+</ul>
+<p>Por otra parte, están aquellas personas que han utilizado WhatsApp bajo sus propias premisas, intentando controlar la tecnología para que no sea al revés:</p>
+<ul>
+<li>Una persona de mi familia utiliza un segundo número de teléfono móvil exclusivamente para la mensajería instantánea. Así, revierte el consentimiento tácito de que cualquiera pueda contactarla u obtener datos de actividad o su foto de perfil y, por contra, ofrece su número solo a las personas que decide.</li>
+<li>Mi íntima amiga L. utilizó, mientras le fue posible, una herramienta para deshabilitar la aplicación temporalmente. Es decir, ejercía la desconexión voluntaria complementando un botón de cerrar sesión que los diseñadores decidieron no incluír. Yo mismo, durante una temporada, <em>congelaba</em> de vez en cuando la aplicación de Android para conseguir el mismo efecto. Curioso, por cierto, que me comentase espontáneamente esto pocos días antes de mi desconexión, sin saber nada de lo que yo tramaba.</li>
+<li>P. utilizó durante una temporada un segundo número para poder comunicarse desde dos dispositivos distintos y constató las trabas y zancadillas de la deliberada falta de elección de las plataformas de mensajería cerradas.</li>
+</ul>
+<p>Por último, la lectura del último libro de la artista Jenny Odell ha sido reveladora (¡gracias por la recomendación, <a href="https://deregil.es/" target="_blank" rel="nofollow noreferrer">Borja</a>!). En los primeros capítulos de <strong><em>Cómo no hacer nada: resistiendo la economía de la atención</em></strong>,<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> Jenny observa y expone temas delicados y fundamentales de la humanidad en una <a href="/2018/alfabetizaci%C3%B3n-digital/">sociedad tecnológica hipertrofiada</a> como son el del coste o la imposibilidad de la elección voluntaria, la constante ansiedad y apropiación de la atención, la importancia de los espacios públicos (y los que lo parecen pero no lo son), la exacerbación de la opinión irreflexiva y vacua y la degradación de la percepción y la creatividad. Todo lo anterior, a través de una sensibilidad artística con la que me siento identificado, una perspectiva histórico-sociológica documentada y con unas palabras tan claras y contundentes que considero que ha sido el último impulso que necesitaba para echar a volar como alguno de sus queridos cuervos.</p>
+<h2 id="el-resultado-de-la-desconexión">El resultado de la desconexión</h2>
+<p>En pocas palabras, <strong>todo ha sido positivo</strong>. Inmediatamente después de mi desconexión, un par de docenas de personas se pusieron en contacto conmigo mediante correos-e, llamadas, SMS (!) o dándose de alta en Signal (afortunadamente, solo unos pocos). Esos mensajes llenos de aprobación, de cariño, de comprensión y de respeto por mi decisión me hicieron sentir muy dichoso y orgulloso del paso que había conseguido dar y de tener personas así tan cerca. Dejaré aquí un par de citas:</p>
+<figure>
+<blockquote>
+<p>No deja de maravillarme tu claridad y honestidad [en el mensaje] sin dejar de lado el cariño.</p>
+</blockquote>
+<figcaption style="margin-top: -1em">A.</figcaption>
+</figure>
+<figure>
+<blockquote>
+<p>Hasta qué punto hemos llegado si dejar de usar una app resulta algo súper épico y dramático cuando realmente es algo banal.</p>
+</blockquote>
+<figcaption style="margin-top: -1em">R.</figcaption>
+</figure>
+<figure>
+<blockquote>
+<p>Enhorabuena, Roboe. Es inspirador.</p>
+</blockquote>
+<figcaption style="margin-top: -1em">J.</figcaption>
+</figure>
+<p>No recibí <strong>ningún reproche</strong> por parte de nadie; supongo que si alguien no se sintió a gusto con mi decisión, tampoco hizo el esfuerzo de contactarme. Por contra, sí que lo hicieron varias personas que no esperaba, ya fuera por no tener una relación directa consolidada o porque esa relación sucediera siempre como parte de un grupo. Esto confirmó la expectativa de que mi decisión también reforzaría algunas relaciones.</p>
+<p>Como esperaba también, quitar un canal de comunicación tan acaparador me ha reportado una disminución de la carga mental porque, aunque no la utilizaba asiduamente, eso estaba ahí. También descubrí que tenía un gesto automatizado, del que no era plenamente consciente, para abrir la aplicación en el móvil. Desapareció antes de 48 horas.</p>
+<h2 id="un-fantasma-en-whatsapp">Un fantasma en WhatsApp</h2>
+<p>La única anécdota negativa, en el fondo, fortalece mi decisión. WhatsApp (es decir, Facebook) sigue manteniendo las conversaciones ya abiertas en los dispositivos de mis contactos como si nada hubiera ocurrido: mi foto de perfil se sigue mostrando, conservada en la memoria caché, y se me puede seguir escribiendo con normalidad. No hay ningún mensaje o detalle que advierta que <strong>esos mensajes no llegarán jamás</strong>, lo que puede desincentivar que el emisor se ponga en contacto efectivamente conmigo.</p>
+<p>Me afecta poco porque mi salida fue <em>activa</em>, en el sentido de que distribuí un mensaje a toda mi red de contactos antes. Sin embargo, quiero dejarlo escrito, tanto para avisar a futuras personas que tomen esta decisión, como para evidenciar por qué <strong>la comunicación humana no puede estar atrapada en un <a href="https://es.wikipedia.org/wiki/Jard%c3%adn_vallado_%28inform%c3%a1tica%29" target="_blank" rel="nofollow noreferrer">feudo digital</a></strong> donde manda exclusivamente el equipo directivo de una gran empresa tecnológica privada.</p>
+<p>Cuando sales de un grupo de WhatsApp sin borrar el historial de conversación, en el lugar del cuadro de respuesta aparece un corto mensaje explicativo de por qué no puedes escribir (ya no formas parte del grupo). Puesto que no hay ningún motivo para no aplicar el mismo diseño a mi caso, entiendo que es o una <a href="https://maldita.es/malditatecnologia/2020/06/25/patrones-oscuros-tecnica-actuar-contra-voluntad-internet/" target="_blank" rel="nofollow noreferrer">decisión deliberada</a> o sencillamente irrelevante para su negocio, puesto que hay <strong>exactamente cero</strong> usuarios a los que les importa; esto es, los que ya no son usuarios porque se han ido.</p>
+<h2 id="el-funcionamiento-automático-de-las-relaciones-sociales">El funcionamiento automático de las relaciones sociales</h2>
+<p>Mi mensaje de despedida fue uno de los textos que más he corregido en toda mi vida (y soy de <em>esos</em>). Eliminé y reescribí muchas partes múltiples veces, tratando de alcanzar un equilibrio de longitud. Durante una de esas reescrituras, surgió el concepto del «funcionamiento automático de las relaciones sociales» que reflejé en el texto final porque combina en una pequeña frase varias ideas que, de otra manera, hubiera explicado en un párrafo entero.</p>
+<p>Como varias personas han mostrado interés, voy a tratar de definirlo preliminarmente así: es la sensación personal de que las relaciones sociales en las que se sustenta tu participación en la sociedad son funcionales y están sanas simplemente por el hecho de tener un canal de comunicación directo y constantemente abierto, incluso cuando ese canal no se utiliza, y no necesitan de un <em>mantenimiento activo</em>. Es decir, creer que puedes contar con gente (y viceversa) cuando hace mucho que no te preocupas honestamente por saber cómo están, o cuando ya ningún contexto social te une a ellos.</p>
+<p>Puede que un problema de la sociedad de la información sea pensar que la comunicación es un recurso inagotable, siempre disponible, o que tiene que ser eficiente de algún modo. O quizá esta falta de empatía surja de la uniformidad de las interfaces de conversaciones escrita, que nos alejan todavía más de <a href="https://www.eldiario.es/contrapoder/defensa-conversacion_132_1002767.html" target="_blank" rel="nofollow noreferrer">la conversación espontánea y plena</a>.</p>
+<p>Sea como fuere, no creo que la sociedad pueda aguantar mucho tiempo más esta vacuidad personal y sobreexcitación informativa (interesada y tremendamente lucrativa). A ver cuánto tardamos en ver campañas cívicas contra la apropiación de la atención como las de seguridad vial o las contrarias al alcohol, tabaco y otras drogas.</p>
+<p>Si te enteras de alguna, llámame. Te prometo una buena conversación.</p>
+<p>~Roboe
+</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://www.jennyodell.com/about-news.html" target="_blank" rel="nofollow noreferrer">Odell, Jenny</a>. <a href="https://www.mhpbooks.com/books/how-to-do-nothing/" target="_blank" rel="nofollow noreferrer"><em>How to Do Nothing: Resisting the Attention Economy</em></a>. Melville House, 2019. ISBN: 9781612197494. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Mi último mensaje de WhatsApp</title>
+    <link rel="alternate" type="text/html" href="https://blog.virgulilla.com/2020/%C3%BAltimo-whatsapp/" />
+    <id>https://blog.virgulilla.com/2020/%C3%BAltimo-whatsapp/</id>
+    <updated>2020-08-31T00:00:00+00:00</updated>
+    <published>2020-08-31T00:00:00+00:00</published>
+    <author>
+      <name>Roboe</name>
+      <uri>https://blog.virgulilla.com</uri>
+      <email>web@virgulilla.com</email>
+    </author>
+    <content type="html" xml:lang="es" xml:base="https://blog.virgulilla.com/2020/%C3%BAltimo-whatsapp/"><![CDATA[<figure>
+<blockquote>
+<p>Este es mi último mensaje de WhatsApp. Permitidme que sea algo más extenso de lo habitual.</p>
+<p>Lo primordial de este mensaje es explicaros <strong>qué significa para vosotros</strong> que yo tome esta decisión, al margen de que no podréis contactarme por esta plataforma. Me podréis seguir llamando normalmente a mi teléfono móvil (<code>XXXXXXXXX</code>) y contactarme por correo-e a la dirección <code>xxx@xxx.xxx</code>. ¡Me encantará recibir una llamada o correo vuestro! La única plataforma de mensajería en la que seguiré intermitentemente activo será Signal, por si queréis descargarla.</p>
+<p>Lo segundo que quiero exponeros es <strong>por qué tomo esta decisión</strong>. Quizá suene repentina, pero tras dos años de silenciar toda notificación en mi Fairphone y después de reducir al mínimo mi presencia en «redes sociales», es sencillamente el siguiente paso. ¿Cuándo fue la última vez que rechazasteis unos términos y condiciones? Yo ya no acepto los de WhatsApp ni su matriz, Facebook. Al margen de los argumentos de soberanía tecnológica que no corresponde explicar aquí, no es aceptable que empresas comerciales, entrevistadores, profesores poco serios o cualquier otra persona que consiga mi número irrumpa sin permiso en un contexto informal que considero personal y privado. También estoy hastiado de que el diseño deliberadamente invasivo de las aplicaciones móviles os lleve a muchos a disculparos sin motivo alguno cuando tardáis 5 minutos o dos días en contestar porque estáis <em>viviendo</em>.</p>
+<p>Por último, si habéis llegado hasta aquí, os voy a contar qué implica para mí. No es una decisión caprichosa, entre otras cosas porque no me sale gratis ni ha sido repentina. WhatsApp decidió no poner un botón para cerrar sesión, así que he tenido que pensar cuándo y cómo pulsar el botón rojo. Hacerlo no es una autocondena al ostracismo, como se suele pensar; por ejemplo, una de las personas que más admiro no tiene WhatsApp y me considero afortunado de tenerla muy cerca. Con esta decisión que tomo abro caminos poco transitados, y en una era en la que cada vez se reduce más nuestra ventana de elección tecnológica, la posibilidad de ejercerla se convierte en un privilegio, y la simple voluntad de ejercerla, en un acto fortuíto de reivindicación, con todas sus consecuencias. A pesar de proponer otros canales, no soy ingenuo y sé que una de ellas será que algunas personas pierdan el contacto conmigo. Por contra, espero que mi relación con otras se refuerce. Son las dos consecuencias de pasar de un «funcionamiento automático de las relaciones sociales» a uno más consciente e implicado. Tampoco será posible reconstruír la mayoría de chats de grupo, así que lo compensaré estando más presente en físico. Para cumplir esto y para volver a contactar con otras, dependeré de personas con las que sí esté en contacto directo. También espero que reducir los canales de comunicación en los que estoy activo tenga un impacto positivo en mi atención, mi carga mental y mi presente.</p>
+<p>¡Gracias y nos vemos! 🕴️</p>
+</blockquote>
+</figure>
+<p>~Roboe
+</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Aplicaciones reproducibles en F-Droid</title>
+    <link rel="alternate" type="text/html" href="https://blog.virgulilla.com/2020/nicoalt-reproducible-f-droid/" />
+    <id>https://blog.virgulilla.com/2020/nicoalt-reproducible-f-droid/</id>
+    <updated>2020-03-15T00:00:00+00:00</updated>
+    <published>2020-03-15T00:00:00+00:00</published>
+    <author>
+      <name>Nico Alt</name>
+      <uri>https://nico.dorfbrunnen.eu/</uri>
+    </author>
+    <content type="html" xml:lang="es" xml:base="https://blog.virgulilla.com/2020/nicoalt-reproducible-f-droid/"><![CDATA[<p><em>La transparencia inherente al software libre permite a los usuarios verificar cómo está hecha una aplicación mediante el estudio de su código fuente. Pero no es suficiente para garantizar que la aplicación haga lo que dice salvo que la compiles tú mismo desde el código fuente. Nico Alt nos explica en este artículo los entresijos de las compilaciones reproducibles y los esfuerzos para llevarlas a F-Droid.</em></p>
+<p><em><a href="https://nico.dorfbrunnen.eu/
+"><strong>Nico</strong></a>, colaborador habitual del proyecto F-Droid, es un apasionado del software libre al que conocí por una confusión de sobrenombres en el fediverso. Habla español tras vivir en Nicaragua, donde construyó la primera aplicación de transporte público del país, y me pidió ayuda para mejorar la traducción de este artículo como corrector de estilo que soy. Siempre es una delicia ayudar a gente amigable y con tan buena disposición.</em></p>
+<p><em>¡Gracias por traducirlo y compartirlo, Nico! ~Roboe
+</em></p>
+<h2 id="confiar-está-bien-pero-controlar-es-mejor-aplicaciones-reproducibles-en-f-droid">Confiar está bien, pero controlar es mejor: aplicaciones reproducibles en F-Droid</h2>
+<p>Por Nico Alt, licencia CC BY-NC-SA 4.0
+. Artículos originales: <a href="https://nico.dorfbrunnen.eu/es/posts/2019/reproducir-fdroid/" target="_blank" rel="nofollow noreferrer">en español</a>, <a href="https://nico.dorfbrunnen.eu/posts/2019/reproducibility-fdroid/" target="_blank" rel="nofollow noreferrer">en inglés</a> y <a href="https://nico.dorfbrunnen.eu/de/posts/2019/reproduzierbarkeit-fdroid/" target="_blank" rel="nofollow noreferrer">en alemán</a>.</p>
+<p>Gracias al software libre, los usuarios pueden verificar si una aplicación hace lo que dice. Pero solo algunas personas compilan software desde el código fuente. Por el contrario, la mayoría de las personas usan aplicaciones que obtienen de Google Play o la App Store de Apple, donde cada aplicación la compila su desarrollador, o de F-Droid, donde todas las aplicaciones las compila el propio proyecto. En los tres casos, hay que confiar en que las aplicaciones solo tienen lo que está accesible en el código público. Pero no es muy difícil modificar una aplicación antes de compilarla sin que nadie se dé cuenta. Es este el problema que resuelven las <a href="https://reproducible-builds.org" target="_blank" rel="nofollow noreferrer">compilaciones reproducibles</a>. Si una aplicación se compila reproduciblemente, se puede saber si alguien la modificó o si se compiló directamente desde un código fuente determinado. De esta manera, los usuarios ya no tienen que confiar plenamente en los desarrolladores o en F-Droid. Cualquiera que tenga interés puede intentar reproducir la aplicación por sí mismo.</p>
+<p>La meta de las compilaciones reproducibles es crear un método para verificar la conexión entre el código fuente y el archivo binario, o sea, el archivo final (la aplicación) que el usuario instala en su dispositivo. Contra toda lógica, compilar una aplicación varias veces desde el mismo código fuente no resulta en los mismos archivos binarios la mayoría de las veces. En cada compilación, surgen diferencias en los binarios que no cambian el funcionamiento de la aplicación, pero que hacen imposible verificarla. Con suerte, es suficiente anotar las versiones de las herramientas de compilación (<em>build tools</em>). Pero hay casos que no se resuelven tan fácilmente.</p>
+<p>Las compilaciones reproducibles no eran tan relevantes en el desarrollo de software hasta que, en los últimos años, varios proyectos de software libre han trabajado en ellas. Cuando se puede compilar software de una manera reproducible, se abren muchas posibilidades. Es por ejemplo mucho más fácil aceptar donaciones de potencia de cálculo o de infraestructura porque ya no hay que confiar totalmente en el hardware usado para compilar el software. F-Droid es un buen ejemplo: el repositorio de F-Droid <a href="https://f-droid.org/docs/Inclusion_Policy" target="_blank" rel="nofollow noreferrer">solo tiene aplicaciones que son software libre</a>. Para evitar que los desarrolladores puedan modificar las aplicaciones antes de compilarlas, F-Droid compila todas las aplicaciones por sí mismo. Eso es, al mismo tiempo, su mejor punto fuerte y su punto más frágil: porque F-Droid realmente compila cada una aplicación ofrecida, el servidor de compilación tiene restricciones de seguridad muy altas y solo Ciaran Gultnieks –que fundó el proyecto hace nueve años– tiene acceso a este servidor. Este punto tan importante en la infraestructura de F-Droid también es su cuello de botella más grande y a menudo ocurre que las actualizaciones se atrasan.</p>
+<p><img src="https://blog.virgulilla.com/2020/nicoalt-reproducible-f-droid/diffoscope.png" alt="Ver descripción abajo">
+</p>
+<p><em>En esta imagen se puede ver cómo un pequeño texto (<em>hash</em>) hizo imposible reproducir la aplicación OsmAnd~. La imagen muestra los resultados de <a href="https://diffoscope.org/" target="_blank" rel="nofollow noreferrer">diffoscope</a>, un software para comparar archivos binarios. A la derecha se puede ver que se añadió información sobre las herramientas de compilación usadas, que es muy importante para poder reproducir una aplicación.</em></p>
+<p>Hay planes para mejorar la situación de F-Droid y todos se basan en la idea de las compilaciones reproducibles. Una posibilidad que se podría realizar inmediatamente fue la que <a href="https://github.com/TeamNewPipe/NewPipe/issues/1981" target="_blank" rel="nofollow noreferrer">el autor de este texto recomendó a NewPipe</a>, una aplicación alternativa para YouTube. Consiste en lo siguiente: si se puede reproducir una aplicación, F-Droid puede incluir el archivo binario original del desarrollador. Cuando el proceso de actualizaciones de F-Droid se atrase por cualquier motivo, los desarrolladores de la aplicación pueden enviar una notificación a los usuarios para que actualicen a una nueva versión sin tener que esperar a F-Droid. Esto es posible porque el usuario no instaló la versión firmada de F-Droid, sino la del desarrollador, así que se puede descargar e instalar la actualización del desarrollador sin esperar a que F-Droid compile, firme y publique la nueva versión. El equipo de NewPipe quiere implementar este mecanismo en los próximos meses. Otro plan de medio a largo plazo es descentralizar la infraestructura de F-Droid completamente. Cuando la mayoría de las aplicaciones se compile de una manera reproducible, más contribuidores de F-Droid podrán usar su propia potencia de cálculo para intentar reproducir aplicaciones. Después de compilar una aplicación, ellos podrán anotar si pudieron reproducir la aplicación o no. En el caso de que una cantidad suficiente de servidores oficiales estén de acuerdo en que una aplicación fue compilada indiscutiblemente desde el código fuente oficial, se puede incluir la aplicación en el repositorio de F-Droid sin necesidad de esperar al actualmente único servidor.</p>
+<p>Con todos estos avances, los usuarios podrían instalar pronto una aplicación desde F-Droid que <a href="https://forum.f-droid.org/t/signal-discussion-about-google-play-alternative/95" target="_blank" rel="nofollow noreferrer">muchos ya están usando</a> y que, por restricciones del desarrollador, hasta ahora no se podía incluir en el repositorio: Signal. Aunque hubo varios intentos, la aplicación de mensajería instantánea no está disponible en F-Droid. Desde que cambió su nombre anterior, TextSecure, la organización detrás de Signal no permite distribuir archivos binarios firmados por otras personas. Por esta razón, los usuarios tienen que confiar en que nadie modificó la aplicación. Si se pudiera reproducir la aplicación de Signal, cualquiera –incluyendo F-Droid– podría chequear que la aplicación no contiene software malicioso. F-Droid ofrece la infraestructura necesaria para hacerlo. Ahora es el turno de Signal de hacer posible reproducir la aplicación.</p>
+<p><img src="https://blog.virgulilla.com/2020/nicoalt-reproducible-f-droid/checkey.png" alt="Ver descripción abajo">
+</p>
+<p><em>La aplicación Checkey muestra detalles sobre las firmas de las aplicaciones instaladas. En esta imagen se puede ver que F-Droid firmó la aplicación Transportr (CN=FDroid), mientras que los desarrolladores oficiales fueron quienes firmaron la aplicación Briar (O=briarproject.org).</em></p>
+<p>Como usuario es difícil saber si una aplicación fue compilada de una manera reproducible o no. El principio de compilaciones reproducibles se popularizó en los últimos años y por esto aún no hay una opinión común sobre cómo se muestra que una aplicación es reproducible o no. Cuando se escribió este texto, solo había unas pocas aplicaciones reproducibles en el repositorio de F-Droid. Si se hubiera mostrado un aviso a los usuarios en estos días, muchos tendrían que ignorarlo para poder seguir usando F-Droid. Para no «quemar» este tema, por lo menos al inicio, F-Droid decidió no mostrar ninguna información sobre el estatus de reproducibilidad. F-Droid va a reconsiderarlo cuando las compilaciones reproducibles sean más populares y los diseñadores de experiencia de usuario (UX) hayan ultimado unas «buenas prácticas». Para cualquiera que aún esté interesado, hay dos opciones para encontrar más información. Una es la aplicación <a href="https://guardianproject.info/apps/info.guardianproject.checkey/" target="_blank" rel="nofollow noreferrer">Checkey</a>, que muestra informaciones sobre las firmas de las aplicaciones instaladas. En estos días, la mayoría de las aplicaciones están firmadas con el certificado de F-Droid. Estas aplicaciones tienen el texto <code>CN=FDroid [...]</code> en la columna <code>Issuer</code> («expedidor»). Aplicaciones como Briar, que están en F-Droid con las firmas oficiales de sus desarrolladores, tienen otros textos, como por ejemplo <code>O=briarproject.org</code>. Otra opción para saber más es visitar la pagina web <a href="https://verification.f-droid.org/" target="_blank" rel="nofollow noreferrer">verification.f-droid.org</a>. Todas las aplicaciones de F-Droid se compilan otra vez por este servidor y después se publica la información de si la aplicación fue reproducida con éxito o no. Desafortunadamente, no significa que si se pueda reproducir una aplicación se incluyan inmediatamente los archivos binarios de los desarrolladores. Para esto, los desarrolladores de las aplicaciones tienen que trabajar conjuntamente con F-Droid.</p>
+<p>Las compilaciones reproducibles también son importantes en otras áreas aparte de en el software libre. Al igual que los desarrolladores de software libre, las empresas que crean software propietario pueden ser victimas de ciberataques (<a href="https://thehackernews.com/2015/12/hacking-juniper-firewall-security.html" target="_blank" rel="nofollow noreferrer">[1]</a>, <a href="https://ianduffy.ie/blog/2016/11/26/azure-bug-bounty-pwning-red-hat-enterprise-linux/" target="_blank" rel="nofollow noreferrer">[2]</a>, <a href="https://www.rsa.com/en-us/blog/2017-02/kingslayer-a-supply-chain-attack" target="_blank" rel="nofollow noreferrer">[3]</a>). Ya pasó varias veces que algún software malicioso infectó la infraestructura de las empresas de manera que se produjeron modificaciones de su software comercial durante el proceso de compilación. Para poder detectar y reducir el riesgo de ser elegido como objetivo de estos ataques, vale la pena dedicar tiempo a hacer reproducible el software. Cuando se tienen compilaciones reproducibles, varios servidores independientes puedan compilar un software y compararlo al final. Si todos tienen exactamente el mismo archivo binario, se puede estar muy seguro de que el software producido no tiene código malicioso. Por supuesto, solo es verdad si el código fuente tampoco tiene software malicioso. Por esto, el principio de las compilaciones reproducibles no reemplaza, sino que completa otros principios como pruebas de penetración (<em>pentesting</em>) o las auditorías de código. Una mejora totalmente diferente tiene lugar en el área de las actualizaciones diferenciales (<em>delta updates</em>). Con este tipo de actualizaciones, los usuarios solo descargan las partes diferentes entre distintas versiones de archivos binarios. Esto tiene el beneficio de que no se descarga todo el archivo y así se ahorran datos. Android usa actualizaciones diferenciales desde hace mucho tiempo y Microsoft las usa también. Desde Windows XP se llaman «archivos de instalación rápida». Cuando no es posible reproducir un software, ocurren modificaciones pequeñas con cada compilación que dan lugar a actualizaciones más grandes. Esta es una de las razones por las que Google también está interesado en hacer posible reproducir aplicaciones y la razón de que arreglase un problema persistente que impedía reproducir aplicaciones en Android.</p>
+<hr>
+<p>No fue muy difícil reproducir aplicaciones en Android hasta que vino la versión 3.0.1 del plugin de Gradle. A partir de las siguientes versiones, ya no fue posible reproducir una aplicación en diferentes computadoras, porque el archivo <code>resources.arsc</code> se generaba diferente de una computadora a la otra. Uno de los desarrolladores de Briar, Torsten Grote, <a href="https://issuetracker.google.com/issues/110237303" target="_blank" rel="nofollow noreferrer">reportó este problema a Google en junio de 2018</a>. Él estaba trabajando en reproducir la <a href="https://briarproject.org" target="_blank" rel="nofollow noreferrer">aplicación de mensajería <em>peer-to-peer</em></a> para convertirla en la primera aplicación reproducible en F-Droid. No logró hacerlo porque la aplicación de transporte público <a href="https://f-droid.org/en/2018/08/16/twif-17-the-reproducible-builds-and-encrypted-e-mail-edition.html" target="_blank" rel="nofollow noreferrer">Öffi se le adelantó</a>. Esto fue posible porque Öffi usó una versión antigua de Gradle que no tenía problemas a la hora de reproducir aplicaciones. Tres meses después, <a href="https://f-droid.org/en/2018/11/23/twif-31-a-look-at-app-rankings-and-briar-arrives.html" target="_blank" rel="nofollow noreferrer">Briar también entró a F-Droid</a> porque Grote encontró una solución alternativa usando un sistema de archivos que se llama <a href="https://salsa.debian.org/reproducible-builds/disorderfs" target="_blank" rel="nofollow noreferrer">disorderfs</a>. Finalmente, en febrero de este año 2019, los desarrolladores de Google anunciaron que arreglaron el problema y que reproducir aplicaciones será posible con las próximas versiones 3.4 y 3.5 del plugin de Gradle. Ojalá que así más aplicaciones reproducibles entren a F-Droid.</p>
+<hr>
+<p>En estos días, <a href="https://reproducible-builds.org/who/" target="_blank" rel="nofollow noreferrer">varios proyectos diferentes</a> trabajan en compilaciones reproducibles. Algunos de ellos son la <a href="https://github.com/bitcoin-core/docs/blob/master/gitian-building.md" target="_blank" rel="nofollow noreferrer">criptomoneda Bitcoin</a> y el <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorBrowser/Hacking#BuildingOfficialTorBrowserReleaseBinaries" target="_blank" rel="nofollow noreferrer">proyecto Tor</a>. Ambos proyectos han trabajado en hacer posible reproducir los archivos binarios que distribuyen. Con Bitcoin, varios desarrolladores independientes compilan una nueva versión y comparan si tienen el mismo resultado que otros desarrolladores. Solo si todos tienen el mismo resultado, ellos todos juntos firman el archivo binario. Cualquiera que tenga interés puede encontrar instrucciones con más detalles en las paginas web de los proyectos.</p>
+<p>En Debian se anunciarion noticias tristes. En teoría, la versión más nueva (Buster) del sistema GNU tiene una cantidad muy grande de paquetes de software compilados reproduciblemente, con más del 90%. No obstante, uno de los desarrolladores de Debian, Holger Levsen, <a href="https://lists.debian.org/debian-devel/2019/03/msg00017.html" target="_blank" rel="nofollow noreferrer">reportó en un correo electrónico</a> que solo el 54% de los archivos binarios oficiales serán compilados de una manera reproducible. Esto es porque una gran cantidad de los programas fueron compilados antes de que se solucionasen problemas con la reproducibilidad en las herramientas de compilación. Ahora están pensando en <a href="https://lists.reproducible-builds.org/pipermail/rb-general/2019-April/001549.html" target="_blank" rel="nofollow noreferrer">compilar todos los programas de nuevo</a> para aumentar esta cantidad.</p>
+<hr>
+<p>Reproducir una aplicación no siempre es fácil. A veces hace falta mucho trabajo para que se pueda compilar una aplicación de una manera reproducible. En cualquier caso, vale la pena. Hasta que se pueda reproducir e incluir las versiones originales de la mayoría de las aplicaciones de F-Droid, puede pasar algún tiempo más. Pero los fundamentos ya existen y ahora, en general, solo hay que resolver unos pequeños problemas y hablar con los desarrolladores de las aplicaciones para incluir los archivos binarios que ellos generan de su aplicación.</p>
+<p><em>Muchísimas gracias a <a href="https://virgulilla.com" target="_blank" rel="nofollow noreferrer">Roboe</a>, que me ayudó bastante a mejorar mi traducción.</em></p>
+<h3 id="enlaces">Enlaces</h3>
+<ul>
+<li><a href="https://f-droid.org/es/docs/Verification_Server/" target="_blank" rel="nofollow noreferrer">Documentación de F-Droid sobre servidores de verificación</a>. Interesante si quieres reproducir aplicaciones tú mismo.</li>
+<li><a href="https://f-droid.org/es/docs/Reproducible_Builds/" target="_blank" rel="nofollow noreferrer">Documentación de F-Droid sobre aplicaciones reproducibles</a>. Más detalles sobre este tema.</li>
+<li><a href="https://f-droid.org/es/2019/05/05/trust-privacy-and-free-software.html" target="_blank" rel="nofollow noreferrer">Confianza, privacidad y software libre - F-Droid.org</a>. Artículo de <a href="https://forum.f-droid.org/u/hans" target="_blank" rel="nofollow noreferrer">eighthave</a>, colaborador de F-Droid y de Guardian Project, que también trata sobre aplicaciones reproducibles.</li>
+</ul>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Incompatibilidad (microrrelato)</title>
+    <link rel="alternate" type="text/html" href="https://blog.virgulilla.com/2020/incompatibilidad-microrrelato-tecnodistop%C3%ADa/" />
+    <id>https://blog.virgulilla.com/2020/incompatibilidad-microrrelato-tecnodistop%C3%ADa/</id>
+    <updated>2020-03-12T00:00:00+00:00</updated>
+    <published>2020-03-12T00:00:00+00:00</published>
+    <author>
+      <name>Roboe</name>
+      <uri>https://blog.virgulilla.com</uri>
+      <email>web@virgulilla.com</email>
+    </author>
+    <content type="html" xml:lang="es" xml:base="https://blog.virgulilla.com/2020/incompatibilidad-microrrelato-tecnodistop%C3%ADa/"><![CDATA[<p>Ayer me peleé con mi hermana.</p>
+<p>Nos mandamos mensajes sin cifrar,<br>
+nos pusimos caras de emojis de Unicode 23,<br>
+nos criticamos a las espaldas con nuestros asistentes de ideas,<br>
+nos retiramos megustas de las recreativas sociales de masas.</p>
+<p>Después fuimos a la Google Persona Store y actualizamos nuestro firmware HeartCore™ para volver a ser intercompatibles por un rato.</p>
+<hr>
+<p>~Roboe
+ (CC-BY 4.0
+)</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Contextualiza en la era de la vertiginosidad</title>
+    <link rel="alternate" type="text/html" href="https://blog.virgulilla.com/2020/contexto-enlaces/" />
+    <id>https://blog.virgulilla.com/2020/contexto-enlaces/</id>
+    <updated>2020-01-18T00:00:00+00:00</updated>
+    <published>2020-01-18T00:00:00+00:00</published>
+    <author>
+      <name>Roboe</name>
+      <uri>https://blog.virgulilla.com</uri>
+      <email>web@virgulilla.com</email>
+    </author>
+    <content type="html" xml:lang="es" xml:base="https://blog.virgulilla.com/2020/contexto-enlaces/"><![CDATA[<p>Hoy en día utilizamos herramientas de mensajería instantánea a todas horas. En la llamada era de la información, somos consumidores habituales —constantes, diría— de fragmentos de información que llegan a nosotros sin que lo solicitemos.</p>
+<p>Es bueno recordar que las herramientas de comunicación móviles se inventaron para la urgencia, pero que las utilizamos para <a href="/2018/alfabetizaci%C3%B3n-digital/">lo más mundano y corriente</a>. Y la urgencia no es la mejor compañera ni del razonamiento ni de la memoria, como el visionario Michael Ende resume en estas maravillosas frases:</p>
+<figure>
+<blockquote>
+<p>Aquella historia fue devorada con la misma urgencia que todas las otras y olvidada con la misma rapidez.</p>
+<p>[…]</p>
+<p>Llevado por el miedo de que el éxito pudiera abandonarlo, empezó a contar de nuevo todos sus cuentos, sólo que con otros nombres y algunos cambios. Lo sorprendente fue que nadie pareció darse cuenta. Por lo menos no influyó en la demanda.</p>
+</blockquote>
+<footer>
+  <cite>Momo (1973)</cite>, Michael Ende.
+</footer>
+</figure>
+<p>Sin embargo, poder compartir enlaces a lo loco no conlleva necesariamente que tengamos que hacerlo así ni que sea mejor. No por un tema de responsabilidad, sino por <strong>calidad comunicativa</strong>.</p>
+<p>En esta era vertiginosa, en la que nos vemos forzados a evaluar con ligereza todo fragmento de información y <em>jugamos al Tinder</em> con los titulares de las noticias, no es raro que nos cuelen infinitos <a href="https://es.wikipedia.org/wiki/Clickbait" target="_blank" rel="nofollow noreferrer">ciberanzuelos</a> y <a href="https://es.wikipedia.org/wiki/Posverdad" target="_blank" rel="nofollow noreferrer">noticias falsas</a>, se nos acumule cada vez más <a href="https://es.wikipedia.org/wiki/S%c3%adndrome_FOMO" target="_blank" rel="nofollow noreferrer">estrés</a> y <a href="https://es.wikipedia.org/wiki/Sesgo_de_confirmaci%c3%b3n" target="_blank" rel="nofollow noreferrer">nuestras ideas se radicalicen</a>. Recurrimos a nuestros propios sesgos y prejuicios debido a una falta de tiempo para procesar toda esa información. Y no hablemos ya del dolor de cabeza de tanto cambio de contexto cuando leemos apresuradamente un centenar de mensajes apelotonados en un grupo de chat.</p>
+<h2 id="una-solución-sencilla-contexto">Una solución sencilla: contexto</h2>
+<p>¿Para qué compartimos? Creo no equivocarme al afirmar que la mayoría de veces no queda nada claro. Quizá algo nos resulta interesante, otras veces nos enfada, otras simplemente no sabemos qué pensar y pedimos una opinión. Otras veces nos acordamos de alguien, porque la comunicación también es <strong>emocional</strong>, en tanto humana. Toda esa profundidad —tan rica— se pierde en la simplificación de la inmediatez.</p>
+<p><strong>Añadir un pequeño contexto</strong> al enlace o contenido que compartimos puede parecer una tontería, pero funciona porque respondemos a la pregunta tácita del lector: <q>¿y esto?</q>. Puede ser sencillamente el extracto que te ha llamado la atención. Pero, en definitiva, <strong>debe revelar el motivo</strong> que nos lleva a compartir, y será mejor si está escrito para la ocasión y es personal. Al acotar y procesar la información, la hacemos más accesible y abordable tanto para el lector como para nosotros mismos.</p>
+<p>La idea ni es mía ni es nueva. La he recordado de <a href="https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/" target="_blank" rel="nofollow noreferrer"><em>The Garden and the Stream: A Technopastoral</em></a>, un ensayo del que todavía hoy sigo aprendiendo. Mike Caulfield ha trabajado con el inventor del concepto de <a href="https://es.wikipedia.org/wiki/Wiki" target="_blank" rel="nofollow noreferrer">wiki</a> en el desarrollo de la wiki personal como un elemento para el discurso colectivo. El contexto se utiliza como la extracción reutilizable de un recurso, que sirve para conectar con otras ideas y para volver a encontrar el contenido en el futuro.</p>
+<h2 id="la-cortesía-de-la-red">La cortesía de la red</h2>
+<p>Llevo escribiendo el contexto de los enlaces que comparto unos meses en mis comunicaciones personales. También creo que <a href="https://es.wikipedia.org/wiki/Netiqueta" target="_blank" rel="nofollow noreferrer">era parte</a> de aquella antigua, asíncrona, tranquila e idealizada Web que algunos conocimos participando en foros y que quizá quieren continuar, de cierta manera, plataformas centralizadas y privativas como Menéame y Reddit, o plataformas libres y descentralizadas como <a href="https://joinmastodon.org/" target="_blank" rel="nofollow noreferrer">Mastodon</a> y <a href="https://pleroma.social/" target="_blank" rel="nofollow noreferrer">Pleroma</a>.</p>
+<p>Además de todo lo dicho arriba, creo que escribir contextos es un buen ejercicio de síntesis para la mente. En ese sentido, me recuerda a la extracción de ideas de los comentarios de texto de la asignatura de Filosofía en Bachillerato. Pero también me hace consciente de por qué comparto y llego a otras personas.</p>
+<p>Inicié este blog con varios propósitos, como asentar mis propias ideas y solidificar cierto conocimiento, opiniones y vivencias, y para entrenar mis habilidades comunicativas. Escribir contextos es una magnífica manera de preparar el terreno antes de sentarme a un ordenador.</p>
+<p>~Roboe
+</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <title>K4mpKrusty 2019: Ⅳ edición, Pedrezuela</title>
+    <link rel="alternate" type="text/html" href="https://blog.virgulilla.com/2019/k4mpkrusty-iv/" />
+    <id>https://blog.virgulilla.com/2019/k4mpkrusty-iv/</id>
+    <updated>2019-07-31T00:00:00+00:00</updated>
+    <published>2019-07-31T00:00:00+00:00</published>
+    <author>
+      <name>Roboe</name>
+      <uri>https://blog.virgulilla.com</uri>
+      <email>web@virgulilla.com</email>
+    </author>
+    <content type="html" xml:lang="es" xml:base="https://blog.virgulilla.com/2019/k4mpkrusty-iv/"><![CDATA[<p>El fin de semana pasado, la comunidad de <a href="http://h4ckademy.com" target="_blank" rel="nofollow noreferrer">h4ckademy</a> nos reunimos en una casa rural en Pedrezuela, Madrid. ¿La premisa? Compartir conocimiento y experiencias personales en forma de una <strong>conferencia privada e informal</strong> en la que todos participamos con una intervención de 25 minutos.</p>
+<div style="text-align: center">
+<p><img src="https://blog.virgulilla.com/2019/k4mpkrusty-iv/k4mpkrusty-logo.png" alt="Logo del K4mpamento Krusty">
+</p>
+</div>
+<h2 id="el-k4mpamento">El k4mpamento</h2>
+<p>Como ya adelanta el título, esta no es la primera vez que nos reunimos. El año pasado concurrimos en Villanueva de la Vera, Cáceres, donde hablé de <a href="/slides/unicode-emoji/">Unicode a través de los emoji</a>; el anterior, en Samboal, Segovia, donde defendí la <a href="/slides/do-not-feed-the-gobble/">privacidad digital</a> (<a href="/do-not-feed-the-gobble/">artículo</a>); y la primera vez se organizó en La Cabrera, Madrid (esta me la perdí).</p>
+<p>Pero en esta edición creo que <strong>hemos conseguido un objetivo</strong> que nos planteamos hace tiempo: que el grueso de las charlas no fueran charlas específicamente sobre el desarrollo o la informática. Y creo que estamos todos orgullosos porque hemos conseguido alcanzar una gran variedad de temas.</p>
+<h2 id="las-charlas">Las charlas</h2>
+<p>Así pues, el sábado, como ya viene siendo costumbre, arrancamos con las charlas, que describo reducidamente a continuación:</p>
+<ol>
+<li><strong>Jesús</strong> nos presentó una breve <a href="http://techno.org/electronic-music-guide/" target="_blank" rel="nofollow noreferrer">historia de la música electrónica</a> para introducirnos de lleno en los distintos géneros de la música <em>techno</em>.</li>
+<li><a href="https://github.com/Afsoon" target="_blank" rel="nofollow noreferrer"><strong>Said Atrahouch</strong></a> nos hizo una introducción a la lengua árabe, con todas sus —para nosotros— extravagantes reglas de concordancia y su rico mundo de dialectos.</li>
+<li><a href="https://twitter.com/dani_baena" target="_blank" rel="nofollow noreferrer"><strong>Daniel Baena</strong></a> nos dijo que <a href="daniel-baena_you-re-all-crazy_2019.pptx">estamos todos locos</a> —sin excluírse— y nos instruyó en lo que significa la salud mental. Según la <abbr title="Organización Mundial de la Salud">OMS</abbr>, el 9% de los adultos en España sufre alguna enfermedad mental y un 15% los sufrirá en su vida.</li>
+<li><strong>Fernando</strong> nos trajo la charla más singular, sobre cómo crear un estilo de peinado personalizado según la morfología de nuestro rostro, y nos presentó la técnica psicomorfológica del visagismo. Acurrucado a sus pies, su fiel perro Sultán.</li>
+<li><strong>Elena</strong> inauguró los temas <a href="/2018/nl18-tinfoil/">tinfoilistas</a> describiendo cómo está diseñado el sistema operativo <a href="https://www.qubes-os.org/" target="_blank" rel="nofollow noreferrer">QubesOS</a> y enseñándonos a usar sus <a href="https://www.qubes-os.org/doc/disposablevm/" target="_blank" rel="nofollow noreferrer"><em>qubos</em></a> con cabeza.</li>
+<li><strong>Paula</strong> volcó todos los mitos existentes sobre las <abbr title="Organización No Gubernamental">ONG</abbr> y los fue rebatiendo uno a uno. Es peligroso, contraproducente e injusto <a href="https://falacias.escepticos.es/index.php/generalizacion-apresurada/" target="_blank" rel="nofollow noreferrer">juzgar por sus ovejas negras</a> a todas estas organizaciones.</li>
+<li>Y <a href="https://twitter.com/jameshedaweng" target="_blank" rel="nofollow noreferrer"><strong>James Heda Weng</strong></a> nos habló del muy tinfoilista diseño de cárceles panópticas, de por qué le da tanto mal rollo la Comisaría General de Extranjería y Fronteras de Aluche y de cómo encontramos estos principios de diseño en las redes sociales.</li>
+</ol>
+<p>Tras el descanso de mediodía para disfrutar de la estupenda paella de Fernando, continuamos con el resto de intervenciones:</p>
+<ol start="8">
+<li><a href="https://surreal.asturnazari.com" target="_blank" rel="nofollow noreferrer"><strong>Carlos Padial</strong></a> nos habló de <a href="carlos-padial_telepresencia.txt">telepresencia por radiocontrol</a>, nos enseñó a distinguir drones de multicópteros y, durante todo el fin de semana, nos dio viajes aéreos con sus cuadricópteros y unos cascos de telepresencia.</li>
+<li><a href="https://ergl.github.io/" target="_blank" rel="nofollow noreferrer"><strong>Borja de Régil</strong></a> —en su charla titulada como <a href="https://es.wikipedia.org/wiki/El_medio_es_el_mensaje" target="_blank" rel="nofollow noreferrer">la frase de Marshall McLuhan</a>— nos habló de la influencia de los medios en la sociedad y también de <a href="https://jasonlefkowitz.net/2013/02/i-kind-of-hate-twitter/" target="_blank" rel="nofollow noreferrer">por qué odiamos (en) Twitter</a>.</li>
+<li><strong>Francisco</strong> nos explotó la cabeza con su charla-taller de memoria, en el que nos demostró prácticamente que éramos capaces de memorizar una lista de quince palabras si lo hacíamos <em>engañando</em> correctamente al cerebro.</li>
+<li><strong>Luis</strong> nos habló del arte de la improvisación, de cómo se aprende y ensaya la espontaneidad y de los fundamentos universales de la narrativa.</li>
+<li><a href="http://soyguijarro.com" target="_blank" rel="nofollow noreferrer"><strong>Ramón Guijarro</strong></a> mandó al carajo la pirámide alimentaria de los 80 para presentarnos el <a href="https://www.hsph.harvard.edu/nutritionsource/healthy-eating-plate/translations/spanish/" target="_blank" rel="nofollow noreferrer">plato de Harvard</a> y nos informó sobre la importancia del descanso, de disfrutar la luz natural del día y del movimiento y el ejercicio cotidiano para la salud física y mental.</li>
+<li>En mi turno, hablé de <a href="/slides/preservation-digital-culture/">la preservación de la cultura, los derechos de autor y los videojuegos</a> para terminar con la historia real de cómo se preservó la voz artificial de un afamado físico gracias a un emulador de <em>software</em> libre.</li>
+<li><a href="https://www.israelgutierrez.es" target="_blank" rel="nofollow noreferrer"><strong>Israel Gutiérrez</strong></a> condenó a los programadores informáticos a una pronta extinción por los avances de las interfaces para usuarios legos y, con ello, refutó la necesidad de los «ingenieros 10x».</li>
+<li>Y, por último, <strong>Álex</strong> cerró el día compartiendo el aprendizaje personal y laboral que ha adquirido de su experiencia arrancando y trabajando en un estudio de diseño durante los dos últimos años.</li>
+</ol>
+<p>Por supuesto, no ha habido solo charlas en este fin de semana. Pero la barbacoa, los chapuzones, las partidas al <a href="https://www.secrethitler.com/" target="_blank" rel="nofollow noreferrer">Secret Hitler</a> y las serenatas de ocarina no se pueden describir, ;)</p>
+<p>¡El año que viene más!</p>
+<p>~Roboe
+</p>]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Charla «Del copyright al copyleft: música y cultura libre»</title>
+    <link rel="alternate" type="text/html" href="https://blog.virgulilla.com/2019/charla-cultura-libre/" />
+    <id>https://blog.virgulilla.com/2019/charla-cultura-libre/</id>
+    <updated>2019-03-18T00:00:00+00:00</updated>
+    <published>2019-03-18T00:00:00+00:00</published>
+    <author>
+      <name>Roboe</name>
+      <uri>https://blog.virgulilla.com</uri>
+      <email>web@virgulilla.com</email>
+    </author>
+    <content type="html" xml:lang="es" xml:base="https://blog.virgulilla.com/2019/charla-cultura-libre/"><![CDATA[<p>El lunes pasado tuve la oportunidad de participar como ponente en el <a href="https://web.archive.org/web/20190311211504/https://i-ciclo-de-conferencias-de-estudiantes-del-rcsmm4.webnode.es/proyectos/" target="_blank" rel="nofollow noreferrer">I Ciclo de Conferencias para Estudiantes de Música</a> en el Real Conservatorio Superior de Música de Madrid, que organizan los propios alumnos de Pedagogía y que estaba abierto a todas las especialidades musicales.</p>
+<p>El objetivo de la charla, de 20 minutos de duración, era contextualizar el movimiento de la cultura libre y ver sus aplicaciones en la disciplina artística de la música. La estructuré en cuatro partes:</p>
+<ul>
+<li>Introducción a los <strong>derechos de autor</strong> y a la legislación vigente española</li>
+<li>Exposición de la <strong>ética de la cultura libre</strong> y los cambios respecto del modelo de <em>propiedad</em> intelectual</li>
+<li>Cómo <strong>practicar la música libre</strong></li>
+<li>Proyectos y <strong>ejemplos de música libre</strong></li>
+</ul>
+<p>Debido a la amplitud de los temas y la limitación del tiempo, la charla solo pudo dar unas pocas pinceladas de cada uno.</p>
+<p>Voy a publicar una serie de <strong>tres artículos</strong> a partir de este con los que ampliaré aquellos contenidos con explicaciones, fuentes y enlaces. De momento, aquí abajo dejo las <a href="/slides/copyright-copyleft_musica-y-cultura-libre/">diapositivas de la charla</a>.</p>
+<h2 id="del-copyright-al-copyleft-música-y-cultura-libre">Del copyright al copyleft: música y cultura libre</h2>
+<iframe
+  src='/slides/copyright-copyleft_musica-y-cultura-libre//copyright-copyleft_musica-y-cultura-libre.pdf'
+  title="Presentación en PDF de la charla «Del copyright al copyleft: música y cultura libre»"
+  allowfullscreen
+  style="display: block; width: 100%; min-height: 22em; border: 0"
+></iframe>
+<noscript>
+<p><a href="/slides/copyright-copyleft_musica-y-cultura-libre//copyright-copyleft_musica-y-cultura-libre.pdf">Descargar las diapositivas en PDF</a>.</p>
+</noscript>
+<p>~Roboe
+</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Desmitificando la antipiratería del DRM</title>
+    <link rel="alternate" type="text/html" href="https://blog.virgulilla.com/2018/desmitificando-el-drm/" />
+    <id>https://blog.virgulilla.com/2018/desmitificando-el-drm/</id>
+    <updated>2018-09-18T00:00:00+00:00</updated>
+    <published>2018-09-18T00:00:00+00:00</published>
+    <author>
+      <name>Roboe</name>
+      <uri>https://blog.virgulilla.com</uri>
+      <email>web@virgulilla.com</email>
+    </author>
+    <content type="html" xml:lang="es" xml:base="https://blog.virgulilla.com/2018/desmitificando-el-drm/"><![CDATA[<p>Hoy es el <a href="https://www.defectivebydesign.org/dayagainstdrm" target="_blank" rel="nofollow noreferrer">día mundial contra el DRM</a>, siglas de «Digital Rights Management» (en español, <a href="https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_derechos_digitales" target="_blank" rel="nofollow noreferrer">«gestión de derechos digitales»</a>), en referencia a la propiedad intelectual. El DRM es una <strong>medida limitante y constrictiva para productos y bienes digitales</strong>, y como tal, levanta muchas controversias y contradicciones. Intentaré aquí hacer un resumen sobre qué es, cuáles son sus ventajas, desventajas y mitos.</p>
+<h2 id="qué-es-el-drm">Qué es el DRM</h2>
+<p>El discurso que rodea a esta medida tecnológica se apoya en que, con ella, es posible la protección de los tradicionales derechos de autor y, más concretamente, evitar la piratería. La idea subyacente que quieren hacer calar al público es que comprar un producto o bien digital sea comparable a adquirir un producto o bien físico. Esto no es tan sencillo, y desde luego no es algo que los consumidores quieran, por normal general. Se trata de un sistema que pervierte el <em>dato</em> digital y limita su propia naturaleza, que conlleva el poder manipularse y replicarse (copiarse) sin límite y a coste mínimo, lo que además es una de las razones que nos ha llevado a orientarnos a un mundo digital.</p>
+<p>El DRM es una medida <a href="https://www.defectivebydesign.org/" target="_blank" rel="nofollow noreferrer">defectuosa por diseño</a> que limita artificialmente el concepto de <strong>propiedad</strong> y, por si fuera poco, también tiene como <a href="https://es.wikipedia.org/wiki/Gesti%C3%B3n_de_derechos_digitales#%C2%BFQu%C3%A9_derechos_se_ven_afectados" target="_blank" rel="nofollow noreferrer">víctimas <em>colaterales</em> derechos</a> o prácticas que teníamos asumidas, ya sea tecnológicamente o con sus inseparables compañeras legales. El DRM rompe el concepto de transacción y compra de propiedad de un producto digital. Aunque lo <em>compras</em>, <strong>nunca será tuyo</strong>, porque no podrás hacer lo que quieras con él. Cuando compras un producto con DRM, <strong>en realidad no estás adquiriendo el producto</strong>, sino una licencia exclusiva para utilizarlo de la manera en que el vendedor —y solo él— quiera que lo uses:</p>
+<figure>
+<blockquote>
+<p>A este respecto, Javier Jiménez dejó la comparación más divertida del Simposio: nos recordó la obra de Umberto Eco <em>El nombre de la rosa</em>, y dijo que el veneno con el que el venerable monje untaba las páginas del libro de Aristóteles que no quería que fuese leído por nadie, era la versión medieval del DRM.</p>
+</blockquote>
+<figcaption>
+<p><a href="http://librodenotas.com/textosdelcuervo/17200/apuntes-sobre-el-libro-digital" target="_blank" rel="nofollow noreferrer">Apuntes sobre el libro digital</a>, en Libro de Notas</p>
+</figcaption>
+</figure>
+<p>En algunos aspectos se parece a otras medidas como el <a href="https://es.wikipedia.org/wiki/Canon_digital" target="_blank" rel="nofollow noreferrer"><strong>canon digital</strong></a>, ese impuesto que se graba en soportes digitales (CD, DVD, etc.) solo <em>por si acaso</em> se te ocurre usarlo para copiar otro disco. Las compañías se empeñan (y se empeñarán siempre) en que <a href="https://www.eff.org/deeplinks/2016/04/save-itunes" target="_blank" rel="nofollow noreferrer">«cualquier cosa que le permita al cliente hacer más con sus productos <em>debe</em> ser ilegal»</a>. Así que, al igual que en el pasado ripear un CD original y pasar las pistas a tu reproductor MP3 no les cabía en la cabeza, hoy por hoy, comprar un libro electrónico en un Amazon Kindle y traspasarlo a otro lector electrónico de otra marca como Kobo en el futuro, tampoco les cabe. <em>No vaya a ser</em> que lo piratees.</p>
+<h2 id="prohibe-usos-legales">Prohibe usos legales</h2>
+<p>Existen multitud de prácticas habituales y legales que se ilegalizan con el DRM o, cuando no, suponen una degradación del producto. El algunos países es <strong>ilegal</strong> quitarle el DRM a un libro que has comprado para resolver alguna de estas prácticas comunes y no tan comunes:</p>
+<ul>
+<li>El ya comentado caso de traspasar un libro con DRM de un lector a otro. La mayoría de libros comprados en Amazon con un Kindle tienen su propio formato y el DRM de Kindle. <em>No vaya a ser</em> que lo vuelvas a leer sin pagar.</li>
+<li>Lo mismo con prestar un libro o un disco con DRM a un tercero. <em>No vaya a ser</em> que aquel nunca compre ese en concreto cuando se compre más del mismo autor.</li>
+<li>Reproducir una película con DRM en alta resolución por la que has pagado en tu dispositivo o televisión mediante un cable HDMI. La mayoría de películas de plataformas como Amazon Prime Video, Netflix, iTunes o Google Play Movies reducen su calidad si detectan que está siendo transmitida por cable, o arbitrariamente si resulta que <a href="https://www.xda-developers.com/android-netflix-hd-amazon-prime-video-hd-drm/" target="_blank" rel="nofollow noreferrer">el fabricante de tu teléfono ha decidido no pasar un proceso de certificación</a>. <em>No vaya a ser</em> que quieras verla en una pantalla más grande sin pagar más o ve tú a saber por qué unos teléfonos cualifican y otros no.</li>
+<li>Jugar un juego con DRM sin conexión activa y permanente a internet. La mayoría de juegos de Steam no se pueden lanzar o jugar sin una conexión activa a internet (o sin acceder a tu cuenta cada dos semanas) sin ninguna razón de jugabilidad de fondo. <em>No vaya a ser</em> que quieras jugar sin que el vendedor del juego controle todas tus conexiones, años más tarde cuando la infraestructura de ese vendedor ya no exista, o cuando los <a href="https://blackshellmedia.com/2017/06/28/steam-employs-drm-means-game/" target="_blank" rel="nofollow noreferrer">servidores de Steam se caigan masivamente</a>.</li>
+<li>Jugar un juego con DRM en una plataforma no oficialmente soportada, como GNU/Linux. <em>No vaya a ser</em> que puedas elegir el sistema operativo que te dé la gana.</li>
+<li>Inspeccionar las conexiones que hace un dispositivo con DRM que graba voz o vídeo. <em>No vaya a ser</em> que todas las conversaciones o escenas grabadas se transmitan <a href="https://es.gizmodo.com/esta-web-piratea-la-senal-de-73-000-camaras-sin-la-cont-1655747398" target="_blank" rel="nofollow noreferrer">sin ningún tipo de protección por internet</a>, exponiendo tu intimidad a atacantes ubicuos.</li>
+</ul>
+<p>Cartuchos de impresoras que solo puede proveerte el mismo fabricante, aplicaciones de pago de iTunes o Google Play que necesitan volver a descargarse en un nuevo dispositivo y que no son intercompatibles, la imposibilidad de <strong>arreglar</strong> la radio del sistema empotrado con DRM de tu coche… la lista es interminable.</p>
+<h3 id="la-accesibilidad-marginada">La accesibilidad, marginada</h3>
+<p>Además de esto, el DRM crea barreras de <a href="https://es.wikipedia.org/wiki/Accesibilidad" target="_blank" rel="nofollow noreferrer">accesibilidad</a> completamente artificiales y absurdas. Cabe destacar que las soluciones de accesibilidad también sirven a usuarios corrientes para aprovechar mejor sus productos o bienes. Algunos de estos ejemplos flagrantes son:</p>
+<ul>
+<li>Usar un conversor texto-voz con un libro con DRM. <em>No vaya a ser…</em> que seas <strong>ciego</strong>, tengas problemas de visión o simplemente quieras conducir a la vez.</li>
+<li>Modificar un libro o juego con DRM para cambiarle la tipografía. <em>No vaya a ser…</em> que tengas algún grado de <strong>dislexia</strong> y quieras utilizar <a href="https://www.opendyslexic.org/" target="_blank" rel="nofollow noreferrer">OpenDyslexic</a>.</li>
+<li>Traducir un libro o partes de un libro con un software automatizado. <em>No vaya a ser…</em> que estés <strong>aprendiendo una lengua</strong> y no entiendas partes o quieras leer el siguiente libro de una serie antes de que se traduzca.</li>
+<li>Añadir subtítulos creados comunitariamente a películas, series o vídeos en general. <em>No vaya a ser…</em> que seas <strong>sordo</strong> o prefieras escuchar vídeos en versión original subtitulada.</li>
+</ul>
+<p>¿Y si un agricultor quiere <a href="https://www.wired.com/2015/04/dmca-ownership-john-deere/" target="_blank" rel="nofollow noreferrer">arreglar su caro tractor él mismo</a>, y el software con DRM se pone en su camino porque el fabricante quiere ser el único reparador autorizado?</p>
+<h3 id="la-creatividad-ahogada">La creatividad, ahogada</h3>
+<p>La Electronic Frontier Foundation mantiene una lista de cosas que pudieron ser, pero no pueden existir por culpa del DRM: <a href="https://www.eff.org/missing-devices">https://www.eff.org/missing-devices</a></p>
+<h2 id="crackers-gonna-crack">Crackers gonna crack</h2>
+<p><strong>Quien quiera piratear, va a piratear igualmente</strong>. Siempre existirán personas que le quiten el DRM a productos y los redistribuyan ilegalmente, a pesar de que les pongan cien mil leyes en el proceso. La piratería nunca se soluciona con este tipo de tecnologías incoherentes con su medio, sino comprendiendo el medio y aprovechando sus potencialidades. El coste mínimo de copia y la venta directa son dos ejemplos de propiedades de lo digital que pueden bajar los precios drásticamente para que comprar cultura <strong>no sea solo un lujo para unos pocos</strong>, y nadie se plantee piratear. Los únicos damnificados de estas medidas serán siempre los clientes, los usuarios legales. ¿Es el DRM, entonces, una medida antipiratería, o es una medida de <strong>imparable avaricia y abuso de poder</strong>?</p>
+<figure>
+<blockquote>
+<p>Si resulta posible licenciar todo aspecto de uso (a través de sistemas infalibles creados con código), ningún aspecto de uso tendrá la protección del <a href="https://es.wikipedia.org/wiki/Fair_use" target="_blank" rel="nofollow noreferrer">uso legítimo</a>.</p>
+</blockquote>
+<figcaption>
+<p>Lawrence Lessig en <a href="https://es.wikipedia.org/wiki/El_c%C3%B3digo_y_otras_leyes_del_ciberespacio" target="_blank" rel="nofollow noreferrer">El código y otras leyes del ciberespacio</a></p>
+</figcaption>
+</figure>
+<p>¡Feliz día internacional contra el DRM!</p>
+<p>~Roboe
+</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Instala tu propia VPN en una Raspberry Pi o en un VPS mediante PiVPN</title>
+    <link rel="alternate" type="text/html" href="https://blog.virgulilla.com/2018/luisddm-pivpn/" />
+    <id>https://blog.virgulilla.com/2018/luisddm-pivpn/</id>
+    <updated>2018-09-04T00:00:00+00:00</updated>
+    <published>2018-09-04T00:00:00+00:00</published>
+    <author>
+      <name>LuisDDM</name>
+      <uri>https://medium.com/@luisddm/</uri>
+    </author>
+    <content type="html" xml:lang="es" xml:base="https://blog.virgulilla.com/2018/luisddm-pivpn/"><![CDATA[<p><em>Utilizar una VPN (red virtual privada) es una buena idea para asegurar tus conexiones a internet y, en algunos casos, proteger con ello la privacidad. Pero la verdad es que puede ser algo imponente instalar una. <a href="https://twitter.com/luisddm_" title="luisδμ (@luisddm_) en Twitter" target="_blank" rel="nofollow noreferrer"><strong>Luis de Dios</strong></a> se ha currado una completa guía de instalación con PiVPN en <a href="https://medium.com/@luisddm/" title="luisδμ - Medium" target="_blank" rel="nofollow noreferrer">su blog</a> que resolverá todas las dudas posibles en el proceso. Luis, a quien también conocí en <a href="https://www.h4ckademy.com/" target="_blank" rel="nofollow noreferrer">h4ckademy</a>, es un desarrollador frontend y coorganizador del <a href="https://frontfest.es/" target="_blank" rel="nofollow noreferrer">FrontFest</a>. También se le puede encontrar por los <a href="https://osweekends.com/" target="_blank" rel="nofollow noreferrer">Open Source Weekends</a>. Desde hace un par de años uso la misma configuración de VPN que él describe cuando me conecto a redes en las que no confío, lo que me permitió hacer <a href="https://twitter.com/luisddm_/status/1034729455552483330" target="_blank" rel="nofollow noreferrer">un par de mejoras</a> a la guía. Puedes encontrar la guía <a href="https://medium.com/@luisddm/instala-tu-propia-vpn-en-una-raspberry-pi-o-en-un-vps-mediante-pivpn-e27bfd6ccf8a" title="Instala tu propia VPN en una Raspberry Pi o en un VPS mediante PiVPN" target="_blank" rel="nofollow noreferrer">aquí</a> o leerla a continuación. ¡Gracias por compartirla, Luis! ~Roboe
+</em></p>
+<h2 id="hahahugoshortcode-s1-hbhb">Instala tu propia VPN en una Raspberry Pi o en un VPS mediante PiVPN
+</h2>
+<p>Si has llegado hasta aquí, probablemente sepas <a href="https://www.bestvpn.com/guides/what-is-vpn-beginners-guide/" target="_blank" rel="nofollow noreferrer">qué es una VPN</a> y para qué la necesitas. Pero si no, no te preocupes: vamos a empezar con una pequeña introducción explicando qué es esto, para qué la queremos y qué herramientas utilizaremos. Posteriormente explicaremos cómo configurar nuestra <a href="https://www.raspberrypi.org/" target="_blank" rel="nofollow noreferrer">Raspberry</a> y nuestro router (o en su defecto un VPS), instalaremos PiVPN, y finalmente configuraremos un par de dispositivos para hacer uso de nuestra nueva VPN.</p>
+<figure>
+<p><img src="https://blog.virgulilla.com/2018/luisddm-pivpn/raspberry-pi.jpg" alt="Modelo de Raspberry Pi con cuatro puertos USB">
+</p>
+</figure>
+<h4 id="qué-es-una-vpn">¿Qué es una VPN?</h4>
+<p>Básicamente <strong>es un túnel cifrado a través del cual podemos conectarnos a otra máquina, que a su vez será la salga a internet</strong> de forma convencional y lleve a cabo nuestras peticiones de red. Es una forma de acceder a internet <strong>ocultando el tráfico</strong> a los nodos intermedios a través de los que se establece el túnel. Solamente podrán ver un flujo de bits cifrado.</p>
+<p>Algunos de los casos de uso más habituales son:</p>
+<ul>
+<li><strong>Acceder a internet libremente</strong> desde lugares del mundo donde haya censura. Aunque ojo, porque algunos ISPs son capaces de identificar y bloquear VPNs aunque no puedan leer los datos que se están intercambiando.</li>
+<li><strong>Ocultar la información de navegación</strong> a los nodos intermedios, incluidos los del ISP. Pero cuidado, porque aunque todos los nodos por los que pase el túnel no puedan acceder al tráfico, el nodo por el que salimos a internet sí que va a poder verlo. <strong>Una VPN provee privacidad, pero no anonimato</strong>.</li>
+<li><strong>Ocultar nuestros datos en redes potencialmente inseguras</strong>, como por ejemplo redes inalámbricas abiertas al público, en las que de otro modo se puede esnifar fácilmente nuestro tráfico de red.</li>
+<li><strong>Conectarnos a una red local privada remota</strong> (por ejemplo, de nuestra empresa o nuestra casa) a la que no podemos acceder físicamente. Con una VPN podríamos acceder a los recursos de esa red de forma segura y salir a internet desde allí.</li>
+</ul>
+<p>Hay decenas de <a href="https://www.bestvpn.com/best-vpn-services/" target="_blank" rel="nofollow noreferrer"><strong>servicios que ofrecen VPNs por unos pocos euros</strong></a> al mes, o incluso de forma gratuita con ciertas limitaciones. Contratándolos podemos salir a internet por casi cualquier parte del mundo, pero tendremos que confiar en ellos (es decir, asumir que su infraestructura es realmente segura, que no actúan de mala fe y que no se aprovechan de los datos a los que tienen acceso) y además acatar sus restricciones.</p>
+<p>Si tenemos una conexión a internet doméstica en la que confiamos, podemos instalar nuestra VPN local. De este modo podremos salir a internet desde nuestra casa aunque estemos en cualquier otra parte del mundo.</p>
+<h4 id="qué-es-openvpn">¿Qué es OpenVPN?</h4>
+<p>Es una herramienta de software libre que <strong>habilita conexiones cifradas punto a punto</strong>, es decir, el túnel del que hemos hablado previamente. También soporta validación de usuarios remotos, de modo que sea necesario tener una cuenta con unas credenciales de acceso y no pueda usarla cualquiera.</p>
+<h4 id="qué-es-pivpn">¿Qué es PiVPN?</h4>
+<div style="float: right">
+<p><img src="https://blog.virgulilla.com/2018/luisddm-pivpn/pivpn_logo.png">
+</p>
+</div>
+<p>Es un asistente que nos permite <strong>instalar y configurar rápida y fácilmente una VPN usando <a href="https://openvpn.net/" target="_blank" rel="nofollow noreferrer">OpenVPN</a></strong>. Provee una interfaz basada en <a href="https://en.wikipedia.org/wiki/Ncurses" target="_blank" rel="nofollow noreferrer"><em>ncurses</em></a> que nos facilitará enormemente la vida y nos permitirá configurar todo en remoto mediante una sesión SSH.</p>
+<p><a href="http://www.pivpn.io/" target="_blank" rel="nofollow noreferrer"><strong>PiVPN</strong></a> <strong>está diseñado para sistemas operativos</strong> <a href="https://www.debian.org/" target="_blank" rel="nofollow noreferrer"><strong>Debian GNU/Linux</strong></a><strong>, y particularmente para</strong> <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="nofollow noreferrer"><strong>Raspbian</strong></a><strong>.</strong> Lo cual no significa que no sea posible instalar una VPN en otro tipo de sistemas, por ejemplo de tipo Arch, Slackware, RPM, etc., pero no lo podremos hacer con la facilidad que nos da PiVPN, porque deberíamos o bien modificar su código, o bien usar otras alternativas menos amigables, como configurar OpenVPN a mano tras instalarlo con el gestor de paquetes correspondiente.</p>
+<p>Todo lo que se va a hacer en este manual está probado en <strong>Raspbian Stretch (rev. junio 2018)</strong> y en <strong>Debian GNU/Linux 9 Stretch</strong>. No obstante, es muy probable que funcione en versiones más antiguas de ambos, e incluso en derivados como Ubuntu, pero no está garantizado.</p>
+<h3 id="1a-configuración-previa-red-doméstica">1a. Configuración previa (red doméstica)</h3>
+<p>Hay dos partes que tendremos que configurar: la propia Raspberry y el router. Partiremos de la base de que tenemos <strong>una Raspberry con una tarjeta SD vacía</strong>, así como <strong>un router doméstico con un firmware de</strong> <a href="https://openwrt.org/" target="_blank" rel="nofollow noreferrer"><strong>OpenWRT</strong></a> cuyos datos de acceso conocemos. Además, si queremos conectarnos de forma inalámbrica, necesitaremos que la Raspberry sea al menos una <em>Model 3</em> o añadirle un <a href="https://www.amazon.es/Edimax-EW-7811UN-Adaptador-Interfaz-negro/dp/B003MTTJOY/" target="_blank" rel="nofollow noreferrer">dongle WiFI por USB</a>.</p>
+<p>Sin embargo, instalar OpenWRT en el router es opcional. Antes de hacerlo, deberíamos <strong>estar seguros de la compatibilidad del modelo exacto que tenemos e informarnos de si nuestro ISP necesita aguna configuración específica</strong>. Podemos seguir adelante con el firmware propietario. La interfaz será algo distinta, aunque casi con total seguridad se podrá configurar igualmente.</p>
+<h4 id="raspberry">Raspberry</h4>
+<p>Tendremos que instalar y configurar <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="nofollow noreferrer"><strong>Raspbian</strong></a>, que es una versión adaptada de Debian GNU/Linux para arquitecturas ARM y optimizada para la Raspberry.</p>
+<p>Empezamos <strong>flasheando la imagen de Raspbian en nuestra tarjeta SD</strong> con <a href="https://etcher.io/" target="_blank" rel="nofollow noreferrer">Etcher</a> o cualquier otra aplicación similar. Como vamos a acceder únicamente mediante línea de comandos, es más que suficiente con la versión <em>lite</em>.</p>
+<p>Tras el flasheo, se habrán creado <strong>dos particiones en nuestra SD: <em>boot</em> y <em>rootfs</em></strong>. Extraemos la SD y la volvemos a introducir en nuestro ordenador para que ambas se monten automáticamente. Ahora vamos a editar algunos ficheros.</p>
+<p>Por defecto no podremos <a href="https://www.raspberrypi.org/documentation/remote-access/ssh/" target="_blank" rel="nofollow noreferrer">acceder a Raspbian por SSH</a>, pero este servicio quedará habilitado si <strong>creamos un archivo vacío llamado <em>ssh</em></strong> en la raíz de la partición <em>boot</em>. Este fichero se eliminará tras el primer arranque, pero la configuración se copiará y SSH ya quedará habilitado permanentemente.</p>
+<p>Otro archivo que debemos <strong>crear en la raíz de <em>boot</em> es <em>wpa_supplicant.conf</em></strong>, en el cual indicaremos la configuración de nuestra red WiFi, sustituyendo <code>MY_SSID</code> y <code>MY_PASSWORD</code> por nuestras credenciales. Este archivo también se borrará una vez que se lleve a cabo la conexión, ya que la configuración se copiará al sistema durante el primer arranque y ya no hará falta posteriormente. Si quisiéramos conectarnos más adelante a otra red diferente, tendríamos que crearlo de nuevo con una configuración actualizada.</p>
+<pre><code># wpa_supplicant.conf (boot)
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=es
+
+network={
+ ssid=&quot;MY_SSID&quot;
+ psk=&quot;MY_PASSWORD&quot;
+ key_mgmt=WPA-PSK
+}
+</code></pre><p>Si en lugar de conectar la Raspberry por WiFi preferimos hacerlo mediante Ethernet, nos saltamos este paso.</p>
+<p>Para poder conectarnos a la Raspberry dentro de nuestra red local vamos a tener que identificarla. Por defecto lo habitual será que <strong>el DHCP del router sea el encargado de asignarle una IP dinámica,</strong> que puede ser diferente en cada conexión. Pero necesitamos que sea <strong>estática</strong>, tanto para poder conectarnos a ella localmente como para que el router sepa a dónde apuntar el tráfico cuando accedamos desde fuera, como veremos más adelante.</p>
+<p><strong>Editamos el archivo <em>/etc/dhcpcd.conf</em> de la partición <em>rootfs</em></strong>. Como ejemplo, vamos a suponer que la conexión se hace por WiFi, que nuestra red local es la 192.168.1.0, que nuestra máscara de red es 255.255.255.0 y que nuestro router tiene la primera IP del rango, esto es, 192.168.1.1. Además, usaremos los <a href="https://cloudflare-dns.com/es-ES/" target="_blank" rel="nofollow noreferrer">DNS de Cloudfare</a>, aunque podemos usar también los de nuestro ISP.</p>
+<pre><code># /etc/dhcpcd.conf (rootfs)
+
+interface wlan0
+static ip_address=192.168.1.100/24
+static routers=192.168.1.1
+static domain_name_servers=1.1.1.1 1.0.0.1
+</code></pre><p>Si nos conectamos por Ethernet, la interfaz de red a configurar se llamará <code>eth0</code> en lugar de <code>wlan0</code>.</p>
+<p>Ahora extraemos la tarjeta SD del ordenador, la introducimos en la Raspberry y la arrancamos. Si todo ha ido bien, <strong>en un par de minutos estará arrancada y conectada a nuestra red local y podremos acceder a su línea de comandos</strong> haciendo un SSH a la IP estática que le hemos asignado.</p>
+<h4 id="router">Router</h4>
+<p>Normalmente vamos a tener un router en casa, el cual tendrá <strong>una única dirección IP pública y una red privada a la cual se conectan nuestros dispositivos**. Tendremos que habilitar el </strong><em>port forwarding</em>**<a href="https://es.wikipedia.org/wiki/Redirecci%C3%B3n_de_puertos" target="_blank" rel="nofollow noreferrer"></a>, de modo que cuando apuntemos desde fuera a un determinado puerto de nuestra IP pública, este tráfico en realidad sea redirigido a la Raspberry.</p>
+<p>En nuestro caso mapearemos el puerto <strong>UDP/1194</strong>, que es el que usará OpenVPN de forma predeterminada, y opcionalmente el puerto <strong>TCP/22</strong> si queremos acceder a nuestra Raspberry desde el exterior mediante SSH.</p>
+<p>Podemos establecer esta configuración mediante la interfaz web o accediendo por SSH y <a href="https://wiki.openwrt.org/doc/howto/port.forwarding" target="_blank" rel="nofollow noreferrer">editando un archivo</a>.</p>
+<figure>
+<p><img src="https://blog.virgulilla.com/2018/luisddm-pivpn/openwrt-port-forwards.png">
+</p>
+<figcaption>Esta configuración se encuentra en Network > Firewall > Port Forwards si usamos OpenWRT.</figcaption>
+</figure>
+<p>Por último hay que configurar el acceso externo. En una conexión doméstica es muy probable que <strong>nuestro ISP haya otorgado al router una IP pública dinámica</strong> que cambie cuando lo reiniciamos o de forma periódica. En este caso tendremos que hacer uso de algún <strong>servicio de DDNS (Dynamic DNS).</strong> En nuestro caso voy a recomendar <a href="https://freemyip.com" target="_blank" rel="nofollow noreferrer">freemyip.com,</a> tanto por facilidad de uso como por su privacidad (se hace en dos pasos y no requiere crear una cuenta de usuario).</p>
+<p>Para que funcione, <strong>deberemos</strong> <a href="https://freemyip.com/help" target="_blank" rel="nofollow noreferrer"><strong>informarle de forma periódica y automática</strong></a> <strong>de cuál es nuestra IP pública</strong>, normalmente mediante una petición HTTP GET. De este modo podremos seguir accediendo desde el exterior mediante un dominio de forma transparente, sin importarnos los posibles cambios. Este <em>polling</em> lo podremos hacer desde la Raspberry, añadiendo el comando al <em>cron</em> mediante <code>crontab -e</code>. Otra opción es que lo haga el propio router. Los que funcionan con OpenWRT permiten hacer esto mismo también desde la interfaz web.</p>
+<figure>
+<p><img src="https://blog.virgulilla.com/2018/luisddm-pivpn/openwrt-scheduled-tasks.png">
+</p>
+<figcaption>Configuración del crontab en System > Scheduled Tasks</figcaption>
+</figure>
+<p>Si tuviéramos un dominio propio, o un subdominio, podemos usarlo redirigiéndolo al dominio que hemos obtenido en el DDNS mediante un <a href="https://en.wikipedia.org/wiki/CNAME_record" target="_blank" rel="nofollow noreferrer">registro de tipo CNAME</a>.</p>
+<p>En cambio, <strong>si sabemos que nuestro ISP asigna al router una IP pública estática</strong>, no haría falta usar un DDNS. Directamente apuntamos nuestro dominio personal a dicha IP, o usamos la IP sin más.</p>
+<h3 id="1b-configuración-previa-vps">1b. Configuración previa (VPS)</h3>
+<p>Si no queremos tener una Raspberry permanentemente encendida en casa, podemos optar por un <strong>VPS (<em>Virtual Private Server</em>)</strong>, que es básicamente una máquina en la nube. Si elegimos esta opción, no vamos a tener que llevar a cabo toda la configuración de la Raspberry, ya que lo único que tendremos que hacer es <strong>instalar Debian GNU/Linux.</strong> Tampoco habrá que hacer nada de lo que hemos hecho con el router, ya que normalmente la IP de la máquina será pública y estática, podremos asignarle un DNS que no necesitaremos actualizar, y el puerto 22 estará seguramente abierto por defecto.</p>
+<p>La contrapartida es que el VPS no es gratuito, y ya <strong>no será una máquina que esté totalmente bajo nuestro control</strong>. Tendremos que informarnos de las particularidades del servicio contratado. Es decir, puede haber limitaciones de tráfico u otras restricciones de uso.</p>
+<p>Una opción barata, sencilla y que funciona bien para un uso personal es <a href="https://www.ovh.es/vps/" target="_blank" rel="nofollow noreferrer">OVH</a>.</p>
+<h3 id="2-instalación-de-pivpn">2. Instalación de PiVPN</h3>
+<p>Una vez establecida la conexión SSH con nuestra Raspberry o VPS, procedemos a <strong>instalar</strong> <a href="http://www.pivpn.io/" target="_blank" rel="nofollow noreferrer"><strong>PiVPN</strong></a>. Lo único que tendremos que hacer para empezar es ejecutar en línea de comandos:</p>
+<pre><code>$ curl -L https://install.pivpn.io | bash
+</code></pre><p>Y seguir los pasos:</p>
+<ul>
+<li>El asistente nos avisará de que necesitamos <strong>una IP estática</strong>, y nos ofrecerá establecerla si estamos en Raspbian. Como ya la hemos configurado, seguimos adelante con las opciones predeterminadas. También pedirá permiso para actualizar el sistema automáticamente y que seleccionemos el <strong>usuario que almacenará los perfiles</strong> que generaremos.</li>
+<li>Al llegar a la sección de protocolos, <strong>elegimos el UDP/1194</strong>, que es el que está establecido por defecto y que redirigimos previamente en el router.</li>
+<li>El siguiente paso es <strong>elegir la fortaleza del cifrado</strong>. La opción por defecto (2048-bit) es adecuada y suficiente. Hay que tener cuidado con la de 4096-bit, porque puede tardar muchísimo tiempo en generar las claves, especialmente en la Raspberry. De hecho, la de 2048-bit puede llegar tardar 10 o 15 minutos, así que hay que tener paciencia.</li>
+<li>Una vez generadas las claves, nos preguntará por el <strong>nombre de nuestro dominio o subdominio</strong> (que ya configuramos antes), y por los <strong>DNS</strong> que queremos usar.</li>
+</ul>
+<p>Con esto ya casi hemos terminado. Ahora solo queda <strong>generar perfiles de conexión</strong>, es decir, credenciales de acceso. Ejecutamos <code>pivpn add</code> e introducimos un nombre de usuario y una contraseña. Y ya tendremos nuestro primer fichero <em>ovpn</em> en el directorio personal del usuario que especificamos antes. Este archivo contiene todos los datos que necesitaremos para usar la VPN.</p>
+<h3 id="3-uso-de-la-vpn">3. Uso de la VPN</h3>
+<p>El primer paso será <strong>obtener el achivo <em>opvn</em> generado</strong>, cosa que podremos hacer conectándonos por SFTP a la Raspberry o el VPS. Después, establecer la conexión con la VPN es casi inmediato.</p>
+<h4 id="en-una-máquina-linux">En una máquina Linux</h4>
+<p>Instalamos OpenVPN mediante nuestro gestor de paquetes, tras lo cual introducimos en la línea de comandos:</p>
+<pre><code>sudo openvpn mi_archivo_de_config.ovpn
+</code></pre><p>Nos pedirá la contraseña con la que lo generamos y se conectará. Mientras esté en ejecución, estaremos saliendo a internet a través de nuestra VPN.</p>
+<p>También podemos efectuar la configuración importando el archivo desde la interfaz gráfica, pero esto depende del entorno que usemos (<a href="https://help.gnome.org/users/gnome-help/stable/net-vpn-connect.html.es" target="_blank" rel="nofollow noreferrer">GNOME</a>, <a href="https://askubuntu.com/questions/816641/kubuntu-16-04-plasma-5-connect-to-vpn#816824" target="_blank" rel="nofollow noreferrer">KDE</a>, <a href="https://www.my-private-network.co.uk/ubuntu-ssl-setup/" target="_blank" rel="nofollow noreferrer">Unity</a>…). En el panel de configuración de cada entorno suele haber un apartado de red donde se puede hacer esto.</p>
+<h4 id="en-un-móvil-android">En un móvil Android</h4>
+<p>Instalamos la aplicación <a href="https://play.google.com/store/apps/details?id=net.openvpn.openvpn" target="_blank" rel="nofollow noreferrer">OpenVPN Connect</a>. Importamos el archivo <em>ovpn</em> desde la app, introducimos la contraseña con la que lo generamos anteriormente, y nuestro móvil pasará a estar conectado a través de la VPN. Podemos verificarlo si aparece un icono de llave en la barra superior.</p>
+<figure>
+<p><img src="https://blog.virgulilla.com/2018/luisddm-pivpn/whats-my-ip.jpg">
+</p>
+<figcaption>Desde Android, saliendo a internet por algún punto de Francia (usando la VPN en el VPS)</figcaption>
+</figure>
+<hr />
+<h4 id="actualización-1">Actualización 1</h4>
+<p>Si en lugar de utilizar el puerto UDP/1194 usáramos el TCP/443, la VPN será más difícil de censurar, ya que el tráfico se podría confundir con el del protocolo HTTPS. En realidad <a href="https://www.bestvpn.com/guides/how-to-hide-openvpn-traffic-an-introduction/" target="_blank" rel="nofollow noreferrer">se pueden usar técnicas avanzadas para discernir estos dos tipos de tráfico</a>, pero censurar indiscriminadamente el TCP/443 supondría dejar sin acceso al usuario a una enorme parte de la web, que además crece día a día.</p>
+<hr />
+<h4 id="actualización-2">Actualización 2</h4>
+<p>Aunque en Android se ha recomendado usar la aplicación OpenVPN Connect, existe una alternativa llamada OpenVPN for Android (<a href="https://play.google.com/store/apps/details?id=de.blinkt.openvpn" target="_blank" rel="nofollow noreferrer">Google Play</a> y <a href="https://f-droid.org/packages/de.blinkt.openvpn/" target="_blank" rel="nofollow noreferrer">F-Droid</a> que es de código abierto, al contrario que la primera.</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Cómo evitar que WhatsApp lea nuestros contactos en Lineage OS</title>
+    <link rel="alternate" type="text/html" href="https://blog.virgulilla.com/2018/whatsapp-sin-contactos/" />
+    <id>https://blog.virgulilla.com/2018/whatsapp-sin-contactos/</id>
+    <updated>2018-08-20T00:00:00+00:00</updated>
+    <published>2018-08-20T00:00:00+00:00</published>
+    <author>
+      <name>Roboe</name>
+      <uri>https://blog.virgulilla.com</uri>
+      <email>web@virgulilla.com</email>
+    </author>
+    <content type="html" xml:lang="es" xml:base="https://blog.virgulilla.com/2018/whatsapp-sin-contactos/"><![CDATA[<p>Ayer me pidieron en el <a href="https://forum.fairphone.com/t/los-15-1-trust-privacy-guard-grant-contacts-permission-but-pass-empty-contacts-list/42339" target="_blank" rel="nofollow noreferrer">foro de Fairphone</a> que desarrollase un comentario que hice sobre cómo utilizo algunas aplicaciones privativas, cerradas y, normalmente, <a href="https://en.wikipedia.org/wiki/Surveillance_capitalism" target="_blank" rel="nofollow noreferrer">glotonas</a> con respecto a tu información personal. Afortunadamente solo utilizo un puñado de ellas, pero <a href="/2018/nl18-tinfoil/">cualquier protección es poca</a>.</p>
+<h2 id="introducción-a-los-permisos-de-android">Introducción a los permisos de Android</h2>
+<p>Primero, una pequeña introducción para entender esta característica y tener el modelo mental para poder utilizarla en nuestro beneficio.</p>
+<p>La <em>Protección de la privacidad</em> (<em>Privacy Guard</em>) data de los tiempos de CyanogenMod 4.4 Kitkat. Antes de Android 6 Marshmallow no se solicitaban permisos individuales por aplicación. El usuario concedía todos los permisos que una aplicación pedía en el momento de la instalación, o no la instalaba. Así que a la inteligente gente de CyanogenMod se le ocurrió que podía interceptar las peticiones que las aplicaciones dirigían al sistema y devolver datos falsos en lugar de los datos reales. Así, en vez de la lista de tus contactos, las aplicaciones recibirían una lista de contactos válida pero vacía, o en lugar de acceso a las cámaras del dispositivo, un mensaje de estado indicando que las cámaras estaban ocupadas por otra aplicación. De esa manera, las aplicaciones no fallarían, pero tampoco conseguirían información que el usuario no quiere que tengan.</p>
+<p>A partir de Android 6, los permisos de nivel «peligroso» ya no se conceden en el momento de la instalación, sino en tiempo de ejecución, pidiéndole permiso directamente al usuario. Las aplicaciones ahora deben pedirlos individualmente <em>en el momento en que los necesiten</em>, y el usuario tiene la opción de concederlos o denegarlos. Pero las aplicaciones pueden reaccionar a la denegación, y entonces actuar de distinta manera. Algunas aplicaciones se niegan a funcionar cuando les deniegas alguno de los permisos que piden —una mala práctica que se ha ido mitigando desde entonces—, mientras que otras consideran algunos permisos indispensables para su funcionamiento —obviamente, una aplicación de cámara necesita acceso a la cámara, pero una aplicación cliente de correo electrónico puede funcionar sin acceso a tus contactos, mientras el usuario esté dispuesto a escribir manualmente las direcciones de sus recipientes.</p>
+<p>Lineage OS es el sucesor de CyanogenMod, un sistema operativo Android alternativo y de código abierto para teléfonos móviles y tabletas. <em>Hereda</em> la funcionalidad de <em>Protección de la privacidad</em> de CyanogenMod.</p>
+<p><strong>Resumen:</strong> Antes de Marshmallow, no se podían conceder permisos granularmente en Android. A partir de Android 6 Marshmallow, la aplicación decide qué permisos son esenciales para su funcionamiento. Pueden, sin embargo, forzar al usuario a compartir datos que no son estrictamente necesarios.</p>
+<h2 id="el-caso-whatsapp">El caso: WhatsApp</h2>
+<p>WhatsApp, una aplicación de mensajería centralizada, de código cerrado, comprada por Facebook que incluso los defensores de la privacidad nos vemos obligados a utilizar en muchos casos (<em>gracias</em>, <a href="https://es.wikipedia.org/wiki/Efecto_de_red" target="_blank" rel="nofollow noreferrer">efecto red</a>, 😒). Como muchos de vosotros sabéis, esta aplicación utiliza los números de teléfono como identificadores de usuario, así que no tienes que compartir tu dirección <code>privacidadeslibertad@servicio.com</code> con alguien, <em>solamente</em> tu número, y la aplicación construye la dirección <code>&lt;prefijo_nacional&gt;&lt;número_teléfono&gt;@s.whatsapp.net</code> de forma transparente (yo diría opaca).</p>
+<p>El tema: la aplicación lee periódicamente <strong>tu lista de contactos</strong> y la guarda en sus servidores (la mal llamada «nube») para construir la sublista de personas que puedes contactar mediante su servicio. Naturalmente, pide el permiso de «leer contactos», y si se lo deniegas, se niega a funcionar. Pero el truco aquí es que <strong>puedes recibir perfectamente mensajes de otras personas</strong> sin ningún problema (la gente cuyo número no tienes guardado puede mensajearte si tienen el tuyo). ¡Privacy Guard al rescate!</p>
+<p><strong>Resumen:</strong> WhatsApp se niega a funcionar si le deniegas el permiso de «leer contactos». Nada impide a la aplicación recibir mensajes de otras personas ni a ti interactuar con la conversación cuando eso pasa, solo la propia reacción de la aplicación, enfurruñada, cuando le deniegas el permiso.</p>
+<h2 id="engañando-a-whatsapp-con-privacy-guard">Engañando a WhatsApp con Privacy Guard</h2>
+<p>El plan: darle el permiso de «leer contactos» a WhatsApp para que nos deje en paz, pero darle una lista de contactos vacía con Privacy Guard.</p>
+<p>Primero, asegúrate de tener la aplicación instalada. Después, activa Privacy Guard para la aplicación: ve a <code>Ajustes</code> → <code>Trust</code> → <code>Protección de la privacidad</code> → busca la aplicación en la lista y asegúrate de que el icono a la derecha está coloreado:</p>
+<p><img src="https://blog.virgulilla.com/2018/whatsapp-sin-contactos/privacy-guard-lista-whatsapp.jpg" alt="WhatsApp con Protección de la privacidad activada">
+</p>
+<p>Después, mantén pulsado la entrada de WhatsApp en la lista. Te llevará a las opciones de Protección de la privacidad para la aplicación. Después busca la opción «Leer contactos», tócala y selecciona «ignorar». A partir de ahora, el sistema mandará una lista vacía de contactos a la aplicación cuando pida contactos.</p>
+<p><img src="https://blog.virgulilla.com/2018/whatsapp-sin-contactos/privacy-guard-opciones-para-whatsapp.jpg" alt="Opciones de Protección de la privacidad para WhatsApp">
+</p>
+<p>La próxima vez que la aplicación pida leer tus contactos, concédele el permiso. No te preocupes, la Protección de la privacidad te cubre las espaldas. Este es el truco: la aplicación pensará que has compartido tu lista de contactos. Pero no lo habrás hecho, en realidad, 😏:</p>
+<p><img src="https://blog.virgulilla.com/2018/whatsapp-sin-contactos/whatsapp-lista-de-contactos-vacia.jpg" alt="WhatsApp enseñando la lista vacía de contactos">
+</p>
+<h2 id="desventajas">Desventajas</h2>
+<p>A partir de ahora, no verás los nombres de las personas en las conversaciones tal y como los tienes guardados en la agenda, sino solo sus números. Evita exponer tu lista de chats o una conversación abierta a cámaras u ojos ajenos para respetar la privacidad de tus contactos. <strong>La privacidad se construye sobre la confianza</strong>, y como cualquier otro enlace humano, es una <strong>responsabilidad compartida</strong>. Yo suelo utilizar <a href="https://f-droid.org/app/org.witness.sscphase1" target="_blank" rel="nofollow noreferrer">ObscuraCam</a> del Guardian Project cuando tengo que compartir algún pantallazo con datos personales (como mi lista de aplicaciones en los pantallazos de arriba).</p>
+<p>WhatsApp no listará tus contactos, por lo que no podrás abrir nuevas conversaciones. Si sigues leyendo, abajo encontrarás varias maneras de hacerlo.</p>
+<p>Por la misma razón, la pestaña de «Estados» no mostrará nada. Para mí es algo positivo porque considero que esa característica es intrusiva, molesta y absorbe tu atención contra tu voluntad.</p>
+<h3 id="advertencia-lo-que-descubrí-gracias-a-la-rgpd">Advertencia: lo que descubrí gracias a la RGPD</h3>
+<p>La Regulación General de Protección de Datos de la Unión Europea introdujo la obligación a las empresas de dar a los usuarios de un servicio que lo soliciten un informe con los datos personales que tengan sobre él. El primer día de aplicación, solicité a WhatsApp este informe y, aunque ya llevaba meses engañando a WhatsApp, <strong>no habían eliminado</strong> (lo que creo que era) <strong>la última lista de contactos</strong> que compartí con ellos.</p>
+<p>Así que, si ya has compartido tu lista de contactos con WhatsApp aunque sea una sola vez, solo conseguirás que no la <strong>actualicen</strong> (con nuevos contactos, números, nombres, etc.).</p>
+<p><strong>Tarea pendiente:</strong> solicitar a WhatsApp que eliminen permanentemente mi lista de contactos de sus servidores. Deberían hacerlo cumpliendo con la RGPD.</p>
+<h2 id="truco-pro-abrir-conversaciones-con-nuevos-números-de-teléfono">Truco pro: abrir conversaciones con nuevos números de teléfono</h2>
+<p>Como se ha explicado arriba, una vez que impides que WhatsApp lea tu agenda de contactos, puedes recibir mensajes de otras personas e interactuar con las conversaciones ya abiertas, pero no puedes abrir nuevas desde la propia aplicación. Esta sección describe una solución que descubrí para abrir nuevas conversaciones por número (bueno, podrías simplemente utilizar <a href="https://f-droid.org/app/me.shrimadhavuk.numselapp" target="_blank" rel="nofollow noreferrer">NoWhatOpen</a>, pero ¿qué diversión hay en eso?).</p>
+<p>Las aplicaciones pueden reaccionar a ciertos enlaces (<a href="https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme" target="_blank" rel="nofollow noreferrer">URL</a>) cuando interactúas con ellos. WhatsApp usa esto para muchas cosas; una de ellas es para esos enlaces &ldquo;Compartir mediante WhatsApp&rdquo; que habrás encontrado en noticias o artículos por la Web. Pero también pueden usarse para abrir una conversación con un número concreto. Cuando abres un enlace de la forma <code>https://api.whatsapp.com/send?phone=&lt;prefijo_nacional&gt;&lt;número_de_teléfono&gt;</code>, WhatsApp comprobará si ese número está registrado en su servicio y <strong>abrirá su conversación</strong>. Sencillo.</p>
+<p>La manera en que yo lo uso es con el <a href="https://f-droid.org/app/fr.neamar.kiss" target="_blank" rel="nofollow noreferrer">lanzador de aplicaciones KISS launcher</a>. KISS tiene una barra de búsqueda para contactos, aplicaciones, ajustes y para <strong>buscar directamente en la Web</strong>. Como hack, en <code>Ajustes de KISS</code> → <code>Selección de proveedores</code> → <code>Añadir proveedor de búsqueda</code>, puedes introducir <code>https://api.whatsapp.com/send?phone={q}</code> en el cuadro para la URL que buscaría en la Web, pero que provocará que WhatsApp abra esos enlaces. Una vez hecho esto, puedes escribir un teléfono en la barra de búsqueda (¡con el prefijo nacional!) para abrir directamente la conversación.</p>
+<p>Normalmente busco el nombre de mi contacto, mantengo pulsado para copiar su número, y lo pego de nuevo en la barra para «buscar en WhatsApp». 😉</p>
+<p>~Roboe
+</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Nación Lumpen #18</title>
+    <link rel="alternate" type="text/html" href="https://blog.virgulilla.com/2018/nl18-tinfoil/" />
+    <id>https://blog.virgulilla.com/2018/nl18-tinfoil/</id>
+    <updated>2018-07-28T00:00:00+00:00</updated>
+    <published>2018-07-28T00:00:00+00:00</published>
+    <author>
+      <name>Roboe</name>
+      <uri>https://blog.virgulilla.com</uri>
+      <email>web@virgulilla.com</email>
+    </author>
+    <content type="html" xml:lang="es" xml:base="https://blog.virgulilla.com/2018/nl18-tinfoil/"><![CDATA[<p>Hace unos días tuve la oportunidad de participar en un episodio de <a href="http://nacionlumpen.com" target="_blank" rel="nofollow noreferrer">Nación Lumpen</a>, el podcast que hacen <a href="https://sortega.github.io/about/" target="_blank" rel="nofollow noreferrer">Sebastián Ortega</a> y <a href="https://github.com/alvarocaste" target="_blank" rel="nofollow noreferrer">Álvaro Castellanos</a>. Estos dos «irreductibles programadores» se reúnen virtualmente cada tanto para charlar sobre temas que van desde lo técnico hasta lo humano, la mayoría de veces de las dos cosas a la vez.</p>
+<p>Álvaro siempre ha mostrado curiosidad por mi visión y mis prácticas de privacidad digital y me invitó a participar en el podcast. Conocí a Álvaro Castellanos durante mi paso por <a href="https://www.h4ckademy.com/" target="_blank" rel="nofollow noreferrer">h4ckademy</a>, una experiencia inmersiva de formación para programadores (obra de Israel Gutiérrez, ahora tras <a href="http://adalab.es/" target="_blank" rel="nofollow noreferrer">AdaLab</a>). Aunque el proyecto terminó, la comunidad siguió en contacto compartiendo consejos, experiencias, charlas y, por supuesto, cañas y <em>refrigerios</em>. Una delicia.</p>
+<p>En este capítulo, junto a <a href="https://cfenollosa.com/about.html" target="_blank" rel="nofollow noreferrer">Carlos Fenollosa</a>, hablamos de temas tan variados como:</p>
+<ul>
+<li>La recopilación masiva de datos personales, las redes sociales (televisión 2.0) y la inteligencia artificial</li>
+<li>La legislación (antigua ley de <em>cookies</em> y la <a href="https://es.wikipedia.org/wiki/RGPD" target="_blank" rel="nofollow noreferrer">RGPD europea</a>)</li>
+<li>Cómo se explotan nuestros <a href="https://es.wikipedia.org/wiki/Sesgo_cognitivo" target="_blank" rel="nofollow noreferrer">sesgos psicológicos</a> mediante la <a href="https://es.wikipedia.org/wiki/Burbuja_de_filtro" target="_blank" rel="nofollow noreferrer">burbuja de filtros</a>, los <a href="https://en.wikipedia.org/wiki/Dark_pattern" target="_blank" rel="nofollow noreferrer">patrones opacos de diseño</a> (<em>dark patterns</em>) y la publicidad personalizada (hipersegmentación)</li>
+<li>Las amenazas al pensamiento crítico, la política y la democracia en nuestros días (<a href="https://es.wikipedia.org/wiki/Cambridge_Analytica#Esc%C3%A1ndalo_de_Facebook" target="_blank" rel="nofollow noreferrer">Cambridge Analytica</a> y las campañas electorales actuales)</li>
+<li>Recomendaciones generales de protección de la privacidad: <a href="https://es.wikipedia.org/wiki/Buscador_web" target="_blank" rel="nofollow noreferrer">buscadores web</a>, servicios de correo respetuosos con la privacidad y el <a href="https://en.wikipedia.org/wiki/Tor_%28anonymity_network%29#Tor_Browser" target="_blank" rel="nofollow noreferrer">navegador de Tor</a></li>
+<li><a href="https://es.wikipedia.org/wiki/Fairphone" target="_blank" rel="nofollow noreferrer">Fairphone</a>: la empresa que promueve un cambio en la industria del teléfono</li>
+</ul>
+<figure>
+<h2 id="naciónnbsplumpen-18-tinfoil">Nación Lumpen #18: tinfoil</h2>
+<br>
+<audio preload="metadata" controls style="width: 100%;">
+  <source type="audio/mpeg" src="https://api.spreaker.com/download/episode/15346691/nl18_tinfoil_exported.mp3
+" />
+</audio>
+<p>No te pierdas las <a href="http://www.nacionlumpen.com/podcast/2018/07/28/NL18_tinfoil.html
+">notas al programa</a>.</p>
+<p>También puedes escucharlo en <a href="https://www.spreaker.com/user/nacionlumpen/nl18-tinfoil
+">Spreaker</a> o en <a href="https://itunes.apple.com/es/podcast/nacion-lumpen/id1023465004?l=en&amp;mt=2
+">iTunes</a>.</p>
+</figure>
+<p>~Roboe
+</p>
+]]>
+    </content>
+  </entry>
+  <entry>
+    <title>Necesitamos alfabetización digital</title>
+    <link rel="alternate" type="text/html" href="https://blog.virgulilla.com/2018/alfabetizaci%C3%B3n-digital/" />
+    <id>https://blog.virgulilla.com/2018/alfabetizaci%C3%B3n-digital/</id>
+    <updated>2018-07-24T00:00:00+00:00</updated>
+    <published>2018-07-24T00:00:00+00:00</published>
+    <author>
+      <name>Roboe</name>
+      <uri>https://blog.virgulilla.com</uri>
+      <email>web@virgulilla.com</email>
+    </author>
+    <content type="html" xml:lang="es" xml:base="https://blog.virgulilla.com/2018/alfabetizaci%C3%B3n-digital/"><![CDATA[<figure>
+<p>En un festival de arte en Brooklyn, la artista Risa Puno, en su instalación interactiva, vendió galletas de una manera un tanto diferente. Los clientes las obtuvieron <a href="https://www.risapuno.com/s/PEC_form2.pdf" title="Formulario que los clientes rellenaron en el experimento de Risa Puno (en inglés)" target="_blank" rel="nofollow noreferrer">a cambio de datos privados</a> como su dirección y lugar de nacimiento, el nombre de su primera mascota o su mejor amigo de la infancia, los últimos dígitos de su número de la seguridad social, una fotografía sacada en el momento o sus huellas dactilares. Algunos participantes preguntaron por el uso que se haría de sus datos, a lo que la artista respondió dirigiéndoles a las condiciones del servicio, la letra pequeña de la cara trasera del formulario. <strong>¿Aceptamos usar nuestra privacidad como moneda de cambio?</strong>, viene a preguntarse la artista <a href="https://www.risapuno.com/please-enable-cookies/" title="Resumen del experimento Please Enable Cookies de Risa Puno (en inglés)" target="_blank" rel="nofollow noreferrer">con su experimento</a>.
+(Copublicación entre <a href="https://www.propublica.org/article/how-much-of-your-data-would-you-trade-for-a-free-cookie" title="Artículo en Propublica sobre el experimento de Risa Puno (en inglés)" target="_blank" rel="nofollow noreferrer">Propublica</a> y <a href="https://mashable.com/2014/10/01/data-for-cookies/" title="Artículo en Mashable sobre el experimento de Risa Puno (en inglés)" target="_blank" rel="nofollow noreferrer">Mashable</a>)</p>
+</figure>
+<figure>
+<p>Shawn Buckles, un estudiante holandés, puso en marcha una web con un sistema de apuestas para organizar una subasta un tanto diferente. Los postores pagaban por <a href="http://shawnbuckles.nl/dataforsale/" title="SE VENDEN datos personales, subasta de Shawn Buckles (en inglés)" target="_blank" rel="nofollow noreferrer">el <em>pack</em> completo de sus datos</a>, que incluían sus viajes en tren, su calendario personal, «sus pensamientos», sus conversaciones en línea y por correo electrónico, sus preferencias comerciales y su historial de internet. The Next Web compró los datos por 350 €. Algunos de sus amigos amenazaron con no volver a mandarle correos, por violar su privacidad al compartirlos.
+<strong>¿Puedo retomar el control de mis datos y explotarlos yo mismo?</strong>, viene a preguntarse Shawn <a href="http://shawnbuckles.nl/dataforsale/" title="SE VENDEN datos personales, subasta de Shawn Buckles (en inglés)" target="_blank" rel="nofollow noreferrer">con su experimento</a>. (Artículo en <a href="https://www.wired.co.uk/article/shawn-buckles-is-worth-350-euros" title="Artículo en Wired sobre el experimento de Shawn Buckles (en inglés)" target="_blank" rel="nofollow noreferrer">Wired</a>)</p>
+</figure>
+<p>Estos dos episodios evidencian una de las transformaciones sociales que la popularización y comercialización de internet ha traído consigo. Una de las muchas caras ocultas de internet es que <strong>no tenemos el control</strong> de la ingente cantidad de datos que generamos diariamente. Infravaloramos lo que eso supone cada vez que firmamos descuidadamente términos y condiciones de webs o aplicaciones móviles de inocente aspecto. Concedemos así el permiso para recolectar datos y el <strong>derecho de explotarlos</strong>, como si de una materia prima se tratase. Sin embargo, la mayoría de gente se siente incómoda al echar un vistazo a la información de su <a href="https://www.facebook.com/help/131112897028467" title="Descarga de tu información en Facebook" target="_blank" rel="nofollow noreferrer">cuenta de Facebook</a> o de <a href="https://myaccount.google.com/intro/dashboard?hl=es-ES" title="Panel de datos de tu cuenta de Google" target="_blank" rel="nofollow noreferrer">Google</a>.</p>
+<p>Sabemos qué nos permite internet: buscamos la cafetería donde vamos a desayunar; mensajeamos a nuestro amigo: <em>«llego tarde»</em>, <em>«al bus le quedan exactamente siete minutos»</em>; echamos la declaración de la Renta; nos formamos y satisfacemos curiosidades mediante vídeos; nos mandamos chistes y comentamos en las fotos del viaje de nuestros familiares lejanos, entre otras muchas cosas. Pero tras <strong>diez años de teléfonos táctiles</strong>, quizá sea hora de ir dejando la infancia digital atrás. Planteémonos para qué <strong>no nos sirve</strong>: cómo afecta nuestra ferviente vida virtual a nuestras <a href="https://elpais.com/cultura/2015/12/30/babelia/1451504427_675885.html" title="Entrevista en El País a Zygmunt Bauman: “Las redes sociales son una trampa”" target="_blank" rel="nofollow noreferrer">relaciones personales</a> y la <a href="https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles/transcript?language=es" title="Charla en TED de Eli Pariser: Cuidado con la burbuja de filtros" target="_blank" rel="nofollow noreferrer">valoración que hacemos de las cosas</a>, a nuestra <a href="https://elpais.com/cultura/2018/02/07/actualidad/1517989873_086219.html" title="Artículo en El País: “Ahora uno se explota a sí mismo y cree que está realizándose” (Byung-Chul Han)" target="_blank" rel="nofollow noreferrer">visión de nosotros mismos</a>, nuestras propias ideas o nuestras expectativas vitales y emocionales. ¿Cómo afecta a las posibilidades que tenemos de ganarnos la vida, a nuestro trabajo, a nuestras organizaciones sociales, a <a href="http://www.elmundo.es/cronica/2016/07/03/57779fc0ca4741301d8b4609.html" title="Artículo en El Mundo sobre el papel de lo digital en la victoria electoral del Partido Popular en la elecciones generales de 2015" target="_blank" rel="nofollow noreferrer">nuestra política</a>? ¿De qué manera <strong>nos ha cambiado</strong> la masificación de internet?</p>
+<p>Debe existir un <strong>balance justo</strong> entre lo que recibimos y entregamos a cambio de usar una tecnología. Necesitamos una reflexión seria en cuanto a si los actuales intercambios lo son y cuáles deberían ser <strong>los límites y líneas rojas</strong>. Necesitamos educar a las generaciones siguientes en la parte mala de lo digital.</p>
+<p>Necesitamos <strong>alfabetización digital</strong>.</p>
+<p>~Roboe
+</p>
+]]>
+    </content>
+  </entry>
+</feed>
