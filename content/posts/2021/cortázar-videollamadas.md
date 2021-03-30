@@ -5,6 +5,8 @@ categories:
   - reseñas
 description: >
   Reseña de una tarde inspirada por Julio Cortázar y un pequeño escrito mitad poético, mitad costumbrista y mitad crítica a la proceduralización de cualquier aspecto de la vida (lo que efectivamente hace de él escrito y medio).
+reposts:
+  mastodon: https://mastodon.social/@RoboePi/105980757081840974
 ---
 
 [further-cortázar]: https://theobjective.com/further/instrucciones-de-cortazar-para-recordar-llorar-y-cantar-sin-perder-la-compostura "Instrucciones de Cortázar para recordar, llorar y cantar sin perder la compostura | Further"
